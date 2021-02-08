@@ -1,0 +1,26 @@
+.question-wrapper {
+    padding:16px;
+    font-size: 24px;
+}
+
+.answers {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color:green; 
+}
+
+.incorrect {
+    background-color:red; 
+}
+
+.nextbtn {
+    padding: 8px 16px;
+    background-color:cornflowerblue;
+    position: absolute;
+    bottom: 116px;
+    right: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<div>
+  <div class="question-wrapper">
+    <p>{{question.question}}</p>
+    <p *ngFor="let answer of answers; let i = index" (click)="answerSelected(i)" class="answers">{{answer}}</p>
+    <p *ngIf="isCorrect" class="correct">Correct!!</p>
+    <p *ngIf="isCorrect===false" class="incorrect">Incorrect!! Correct answer was: {{question.answers[correct]}}</p>
+    <p>{{percentCorrect}}%</p>
+  </div>
+  <a (click)="next()" class="nextbtn">next</a>
+  
+</div>
