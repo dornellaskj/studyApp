@@ -52,7 +52,7 @@ export class AppComponent {
   }
 
   calcPercent() {
-    this.percentCorrect = (this.correctCount / this.wrongCount) * 100;
+    this.percentCorrect = (this.correctCount / this.index) * 100;
   }
 
   answerSelected(index:number) {
