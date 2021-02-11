@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Data } from '@angular/router';
-import { DataService } from './services/data.service';
+import { SecureSoftwareDesignService } from './services/secure-software-design.service';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +21,7 @@ export class AppComponent {
   questions:any;
   
   constructor(
-    private dataService: DataService
+    private dataService: SecureSoftwareDesignService
   ) {}
 
   ngOnInit() {
