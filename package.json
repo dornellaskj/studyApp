@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start-pwa": "ng build --prod && http-server -p 8080 -c-1 dist/studyApp"
+    "start-pwa": "ng build --prod && cd ./dist/studyApp && copy C:\\repos\\studyApp\\key.pem . && http-server -S -C ../../cert.pem",
+    "start-pwaa": "http-server -p 8080 -c-1 dist/studyApp"
   },
   "private": true,
   "dependencies": {
