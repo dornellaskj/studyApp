@@ -19,6 +19,7 @@ export class AppComponent {
   correctCount: number = 0;
   wrongCount: number = 1;
   questions:any;
+  wrongQuestions = [];
   
   constructor(
     private dataService: SecureSoftwareDesignService
@@ -36,6 +37,10 @@ export class AppComponent {
       this.index = this.index + 1;
       this.calcPercent();
       if(this.index < this.questions.length) {
+        this.setQuestion(this.index);
+      } else if(this.wrongQuestions.length > 0) {
+        this.questions = this.wrongQuestions;
+        this.index = 0;
         this.setQuestion(this.index);
       } else {
         alert("all out of questions!");
@@ -61,6 +66,7 @@ export class AppComponent {
         this.isCorrect = true;
         this.correctCount = this.correctCount + 1;
       } else {
+        this.wrongQuestions.push(this.question);
         this.isCorrect = false;
         this.wrongCount = this.wrongCount + 1;
       }
