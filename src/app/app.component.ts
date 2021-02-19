@@ -40,6 +40,7 @@ export class AppComponent {
         this.setQuestion(this.index);
       } else if(this.wrongQuestions.length > 0) {
         this.questions = this.wrongQuestions;
+        this.wrongQuestions = [];
         this.index = 0;
         this.setQuestion(this.index);
       } else {
