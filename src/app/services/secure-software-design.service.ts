@@ -18,6 +18,423 @@ export class SecureSoftwareDesignService {
   getQuestions() {
     return [
       {
+        question:"A disadvantage of using third-party software is inflexibility.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 0
+      },
+      {
+        question:"Which term is used for software in government systems?",
+        answers: [
+          "COTS",
+          "LOTS", 
+          "GOTS", 
+          "NOTS"
+        ],
+        correct: 2
+      },
+      {
+        question:"What is one disadvantage to outsourcing software development to a third party?",
+        answers: [
+          "Ownership of code",
+          "Available skilled resources", 
+          "Tailored to business needs", 
+          "Experience with technology"
+        ],
+        correct: 0
+      },
+      {
+        question:"What is a challenge of using proprietary software?",
+        answers: [
+          "Decreased license fees",
+          "No End of Support", 
+          "Proprietary format", 
+          "Open source nature"
+        ],
+        correct: 2
+      },
+      {
+        question:"Outsourcing risks include ensuring that the staff of the supplier has the requisite knowledge and experience.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 0
+      },
+      {
+        question:"What is a concern of security in third-party software?",
+        answers: [
+          "Security implanted during development",
+          "Secure development environment", 
+          "Untrusted distributions of software", 
+          "Digital 'aluminum foil'"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which of the following is important criteria in choosing a vendor to purchase a product?",
+        answers: [
+          "Cost",
+          "Repudiation", 
+          "Lateralization", 
+          "Unqualified staff"
+        ],
+        correct: 0
+      },
+      {
+        question:"Which of the following is a consideration when evaluating vendors?",
+        answers: [
+          "Accreditation",
+          "Certification", 
+          "Social Media Policy", 
+          "Priority Awareness"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which of the following is an additional consideration when evaluating vendors?",
+        answers: [
+          "Resource Gathering",
+          "Ability to work with other vendors", 
+          "Compliance Methodology and Maturity", 
+          "Security Engineering Processes"
+        ],
+        correct: 3
+      },
+      {
+        question:"Cost and warranty are not considerations when comparing outsourced or in-house vendor support.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"Question 5 :In evaluation of third party vendors, one method may include reviewing social media comments.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 0
+      },
+      {
+        question:"The role of the audit function in acquisition process is to provide assurance to management of the incompliance with regulations.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which of the following represents an example of a vendor customization?",
+        answers: [
+          "Access control inadherence",
+          "Privacy regulation avoidance", 
+          "Reporting components", 
+          "Incompatibility with other systems"
+        ],
+        correct: 2
+      },
+      {
+        question:"Which of the following four basic steps is considered part of the new defense concepts to combat cyber-attacks as defined by the U.S. Department of Defense?",
+        answers: [
+          "Deter and mitigate insider threats",
+          "Utilize current cyber best practices to improve its cyber security", 
+          "Employ a passive cyber defense capability to prevent intrusions", 
+          "Implement industry-standard defense operating concepts and computing architectures"
+        ],
+        correct: 0
+      },
+      {
+        question:"Strategic software attacks are highly repeatable and use general targeting such as against a broad industry or groups of individuals, and must have long-term staying power.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 0
+      },
+      {
+        question:"Post-release support (PRSA1-5) is typically conducted by your internal organization.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"A centralized group comprised of __________ seasoned software security architect per main software product group and __________ for each software product within that group in your software engineering development organization will be sufficient to scale.",
+        answers: [
+          "one, one",
+          "two, two", 
+          "one, two", 
+          "two, one"
+        ],
+        correct: 0
+      },
+      {
+        question:"There is a single path to appropriate coverage; a virtual team cannot be coalesced and led by a far smaller central team.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"The __________ standard defines application security as a process that an organization can perform for applying controls and measurements to its applications in order to manage the risk of using them.",
+        answers: [
+          "ISO 13485",
+          "ISO 9001", 
+          "ISO 27034", 
+          "ISO 31000"
+        ],
+        correct: 0
+      },
+      {
+        question:"The price to fix vulnerabilities later in the cycle is low. The level of effort that is required to tune and maintain current product security tools can be less expensive than buying the tool.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"Cyber espionage is non-strategic and involves obtaining secrets with the consent of the holder of the information.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What illustrates the flow of activities through the SDL?",
+        answers: [
+          "Architect → Design → Code → Test",
+          "Architect → Test → Code → Design", 
+          "Code → Design → Architect → Test", 
+          "Design → Architect → Code → Test"
+        ],
+        correct: 0
+      },
+      {
+        question:"What is one of most well-known sets of security design principles as defined by OWASP?",
+        answers: [
+          "Keep security complex",
+          "Trust infrastructure", 
+          "Fail securely", 
+          "Trust services"
+        ],
+        correct: 2
+      },
+      {
+        question:"What is the first step in the architecture task flow for when a project is new or a redesign?",
+        answers: [
+          "Design Review",
+          "Architecture Assessment", 
+          "Threat Model", 
+          "Test Plan"
+        ],
+        correct: 1
+      },
+      {
+        question:"Regardless of architectural change, architectural analysis and threat modeling should never be bypassed.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is one principle that should be used during the development of software as defined by software security expert Gary McGraw?",
+        answers: [
+          "Share mechanisms",
+          "Make security invisible", 
+          "Assume your secrets are safe", 
+          "Grant least privilege"
+        ],
+        correct: 3
+      },
+      {
+        question:"Because of the standard nature of non-web inputs, finding a single type of tool that is good for each input method is practical.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is an advantage of dynamic analysis?",
+        answers: [
+          "Permits validating static code analysis findings",
+          "Requires the analysis of applications for which you have access to the actual code", 
+          "Restricts the collection of temporal information", 
+          "Can only be conducted on a custom application"
+        ],
+        correct: 0
+      },
+      {
+        question:"Requirements and architecture as a front-end process to Agile cycles is also known as __________.",
+        answers: [
+          "Dashes",
+          "Rushes", 
+          "Pushes", 
+          "Sprints"
+        ],
+        correct: 3
+      },
+      {
+        question:"SDL __________ covers all projects that have meaningful security and privacy risks, and is analyzed in each phase and updated to cover new threats and practices.",
+        answers: [
+          "policy compliance",
+          "best practice", 
+          "standards adherence", 
+          "process improvement"
+        ],
+        correct: 0
+      },
+      {
+        question:"Automated tools can be adequate substitutes for source-code review by a human.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"You should use as few vulnerability scanners as possible across the stack; web application scanning alone will be sufficient.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"__________ is a white-box security analysis of a software system to simulate the actions of a hacker, with the objective of uncovering potential vulnerabilities resulting from coding errors, system configuration faults, or other operational deployment weaknesses.",
+        answers: [
+          "Vulnerability scanning",
+          "Penetration testing", 
+          "Fuzzing", 
+          "Code analysis"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is the first in the four-phase process to achieve the minimum requirements for penetration testing?",
+        answers: [
+          "Identify",
+          "Evaluate and Plan", 
+          "Assess", 
+          "Deploy"
+        ],
+        correct: 2
+      },
+      {
+        question:"Open-source software is free and it increases innovation, efficiency, and competitiveness for software product development.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is the first in the four-step process for the final product security review?",
+        answers: [
+          "Identify feature eligibility",
+          "Assess resource availability", 
+          "Evaluate and plan for remediation", 
+          "Release and ship"
+        ],
+        correct: 1
+      },
+      {
+        question:`The metrics to be collected during the Ship (A5) phase of the SDL are limited to:
+        Number, type, and severity of security issues found through vulnerability scanning and penetration testing.
+        Number of security findings remediated.
+        Number, types, and severity of findings outstanding.`,
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is described as an evangelist for the overall software product security program promulgated policy, enforcing policy, and evangelizing the overall SDL process?",
+        answers: [
+          "SSC",
+          "SSD", 
+          "SSE", 
+          "SES"
+        ],
+        correct: 2
+      },
+      {
+        question:"Which two International Standards Organization (ISO) standards relate to the proper functioning of a vendor PSIRT?",
+        answers: [
+          "9000 & 9001",
+          "14000 & 14001", 
+          "9001 & 14001", 
+          "29147 & 30111"
+        ],
+        correct: 3
+      },
+      {
+        question:"In relation to software security, a __________ is responsible for responding to software product security incidents involving external discoveries of post-release software product security vulnerabilities.",
+        answers: [
+          "PSIRT",
+          "CIRT", 
+          "CERT", 
+          "GCIH"
+        ],
+        correct: 0
+      },
+      {
+        question:"Third-party testing should include testing just your product, not the entire stack.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which security or privacy certification or standard applies to healthcare?",
+        answers: [
+          "HIPAA",
+          "FISMA", 
+          "FIPS", 
+          "DIACAP"
+        ],
+        correct: 0
+      },
+      {
+        question:"Once software has been through an SDL, you can re-use the software code any way you want.",
+        answers: [
+          "True",
+          "False"
+        ],
+        correct: 1
+      },
+      {
+        question:"What requires a communication cadence with customers that should be formalized and published so that everyone in the company is aware of it and can invoke it if needed?",
+        answers: [
+          "Post-Release Certifications",
+          "Third-Party Security Reviews", 
+          "Security Strategy for Legacy Code, M&A, and EOL Plans", 
+          "External Vulnerability Disclosure Response Process"
+        ],
+        correct: 3
+      },
+      {
+        question:"Question 8 :What consists of multiple security assessments from independent parties?",
+        answers: [
+          "Third-Party Security Reviews",
+          "External Vulnerability Disclosure Response Process", 
+          "Post-Release Certifications", 
+          "Security Strategy for Legacy Code, M&A, and EOL Plans"
+        ],
+        correct: 0
+      },
+      {
         question:"Which due diligence activity for supply chain security should occur in the initiation phase of the software acquisition life cycle?",
         answers: [
           "Facilitating knowledge transfer between suppliers",
