@@ -189,7 +189,7 @@ export class SecureSoftwareDesignService {
           "ISO 27034", 
           "ISO 31000"
         ],
-        correct: 0
+        correct: 2
       },
       {
         question:"The price to fix vulnerabilities later in the cycle is low. The level of effort that is required to tune and maintain current product security tools can be less expensive than buying the tool.",
@@ -291,7 +291,7 @@ export class SecureSoftwareDesignService {
           "standards adherence", 
           "process improvement"
         ],
-        correct: 0
+        correct: 3
       },
       {
         question:"Automated tools can be adequate substitutes for source-code review by a human.",
@@ -335,7 +335,7 @@ export class SecureSoftwareDesignService {
           "True",
           "False"
         ],
-        correct: 1
+        correct: 0
       },
       {
         question:"What is the first in the four-step process for the final product security review?",
@@ -1194,7 +1194,7 @@ export class SecureSoftwareDesignService {
           "Authentication", 
           "Confidentiality"
         ],
-        correct: 0
+        correct: 1
       },
       {
         question:"A database has a table called “orders_table” which has columns: order_no, last_name, first_name, ship_city, credit_card. A hacker wants to perform the following SQL injection code to attack this table. SELECT * FROM orders_table WHERE order_no= ' ' OR '1'='1';   Which software testing technique is the most effective approach to identify this attack?",
