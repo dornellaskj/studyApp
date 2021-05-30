@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SecureSoftwareDesignService } from './services/secure-software-design.service';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -22,12 +23,26 @@ export class AppComponent {
   wrongQuestions = [];
   
   constructor(
-    private dataService: SecureSoftwareDesignService
+    private dataService: SecureSoftwareDesignService,
+    private ogDataService: DataService
   ) {}
 
   ngOnInit() {
-    this.questions = this.dataService.getQuestions();
-    this.setQuestion(this.index);
+
+  }
+
+  setQuestions(input) {
+    switch(input) {
+      case 0:
+        this.questions = this.ogDataService.getQuestions();
+        this.setQuestion(this.index);
+        break;
+      case 1:
+        this.questions = this.dataService.getQuestions();
+        this.setQuestion(this.index);
+        break;
+    }
+    
   }
 
   next() {
