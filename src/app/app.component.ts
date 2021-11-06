@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SecureSoftwareDesignService } from './services/secure-software-design.service';
 import { DataService } from './services/data.service';
+import {CyberSecurityManagementService} from './services/cyber-security-management.service';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,8 @@ export class AppComponent {
   
   constructor(
     private dataService: SecureSoftwareDesignService,
-    private ogDataService: DataService
+    private ogDataService: DataService,
+    private cyberMgmtService: CyberSecurityManagementService
   ) {}
 
   ngOnInit() {
@@ -41,6 +43,11 @@ export class AppComponent {
         this.questions = this.dataService.getQuestions();
         this.setQuestion(this.index);
         break;
+      case 2:
+        this.questions = this.cyberMgmtService.getQuestions();
+        this.setQuestion(this.index);
+        break;
+        
     }
     
   }

@@ -10,7 +10,7 @@
   
 </div>
 
-<div>
+<div *ngIf="!questions">
   <p>Whatcha studying?</p>
   <p class="pointer" (click)="setQuestions(0)">Info Sec</p>
   <p class="pointer" (click)="setQuestions(1)">Secure Software Design</p>
