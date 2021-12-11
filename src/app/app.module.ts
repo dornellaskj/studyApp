@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { StudyComponent } from './study/study.component';
+import { ResumeComponent } from './resume/resume.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StudyComponent,
+    ResumeComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

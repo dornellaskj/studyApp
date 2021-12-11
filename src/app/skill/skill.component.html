@@ -1,0 +1,12 @@
+<div class="skill-container" (click)="this.typeMessage(skill.message)">
+    <label>{{this.skill.label}}</label>
+    <div class="meter-container" title={{this.skill.power}} >
+        <div class="meter-bg"></div>
+        <div class="meter-power" [style.width.%]="this.skill.power">
+            <span>{{this.skill.tooltip}}</span>
+        </div>
+    </div>
+    <div class="message-container">
+        {{this.displayMessage}}
+    </div>
+</div>

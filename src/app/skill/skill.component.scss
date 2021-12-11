@@ -1,0 +1,89 @@
+@import '../mixins.scss';
+
+.skill-container {
+    margin: 4px auto;
+    width: 80%;
+    .meter-container {
+        width:100%;
+        height: 20px;
+        position: relative;
+        .meter-bg {
+            width: 100%;
+            height: 22px;
+            background-color: #b1b1b1;
+            border-radius: 25px;
+        }
+        .meter-power {
+            height:22px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: #26948f;
+            border-radius: 25px;
+            text-align: right;
+            span {
+                padding-right: 16px;
+                font-weight: 1000;
+                font-size:18px;
+            }
+        }
+    }
+    label {
+        font-size:1.2em;
+        color:#ccc;
+        @include tablet {
+            font-size: 24px;
+        }
+    }
+}
+.message-container {
+    color:#ccc;
+    padding: 8px 8px 0 8px;
+    span {
+        overflow-wrap: break-word;
+        display: block;
+        font-size: 18px;
+        @include tablet {
+            font-size:22px;
+        }
+    }
+}
+.skill-header {
+    @include tablet {
+        font-size: 22px;
+    }
+    font-size: 1.4em;
+    color: #ccc;
+    background-color: #333;
+    display:inline-block;
+    padding: 0 4px;
+}
+.skill-group {
+    border: 2px solid #8e1515;
+    margin: -44px 8px 0px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    @include tablet {
+        margin: -44px 14px 0px;
+    }
+}
+.skill-header-container {
+    z-index: 7;
+    position: relative;
+    width: max-content;
+    margin-left:26px;
+}
+.skill-instructions-header {
+    font-size: 1.2em;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: -.8em;
+    @include tablet {
+        font-size: 22px;
+    }
+}
+.efaGep {
+    display:none !important;
+}

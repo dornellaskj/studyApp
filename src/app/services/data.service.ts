@@ -26,16 +26,6 @@ export class DataService {
         correct: 0
       },
       {
-        question:"aaa",
-        answers: [
-          "aaa",
-          "aaa", 
-          "aaa", 
-          "aaa"
-        ],
-        correct: 0
-      },
-      {
         question:"The growing demand for InfoSec specialists is occurring predominantly in which of the following types of organizations?",
         answers: [
           "Government",

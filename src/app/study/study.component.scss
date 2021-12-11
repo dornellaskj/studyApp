@@ -1,0 +1,33 @@
+.study-wrapper {
+    padding:8px;
+}
+.question-wrapper {
+    padding:16px;
+    font-size: 24px;
+}
+
+.answers {
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color:green; 
+}
+
+.incorrect {
+    background-color:red; 
+}
+
+.nextbtn {
+    padding: 8px 16px;
+    background-color:cornflowerblue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
