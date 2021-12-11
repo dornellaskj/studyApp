@@ -13,7 +13,7 @@ export class StudyComponent implements OnInit {
   wasAnswered: boolean = false;
   dun: boolean;
   percentCorrect: number;
-  title = 'studyApp';
+  title = 'Kevin Dornellas';
   index = 0;
   question:any;
   answers: any;

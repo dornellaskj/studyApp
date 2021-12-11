@@ -9,7 +9,7 @@ const routes: Routes = [
     component: StudyComponent,
   },
   {
-    path: 'resume',
+    path: '',
     component: ResumeComponent,
   },
    
