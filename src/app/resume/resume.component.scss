@@ -5,10 +5,17 @@
     margin: 8px;
     padding: 8px;
     font-size: 18px;
+    @include mobile {
+        font-size: 1.2em;
+    }
     @include tablet {
+        font-size: 1.2em;
         margin: 16px;
         padding: 16px;
-    }    
+    } 
+    @include desktop {
+        font-size: 1.6em;
+    }       
     .section-header {
         margin-top: 18px;
     }
