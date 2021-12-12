@@ -2,12 +2,12 @@
 <header class="header">
     <h1>Kevin Dornellas</h1>
     <nav>
-    <input type="checkbox" id="checkbox_toggle"/>
+    <input type="checkbox" id="checkbox_toggle" [checked]="menuOpen"/>
       <div class="nav-container">
         <a href="/">Home</a>
         <a href="/study/">Study</a>
       </div>
-      <label htmlFor="checkbox_toggle" class="hamburger">
+      <label htmlFor="checkbox_toggle" class="hamburger" (click)="toggleMenu()" >
           <span class="line line-1"></span>
           <span class="line line-2"></span>
           <span class="line line-3"></span>

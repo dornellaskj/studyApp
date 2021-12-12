@@ -47,15 +47,15 @@ export class SkillsService {
                 },
                 {
                     "label": "Auth",
-                    "power": 60,
-                    "message": "I have been working with AWS for about 3 years now. I have build full server setups with load balancers, I know how to keep costs low.",
-                    "tooltip": "Intermediate"
+                    "power": 90,
+                    "message": "I have been working with others to build out an authN application base on the NGAC standard.",
+                    "tooltip": "Expert"
                 },
                 {
                     "label": "Cloud Security",
-                    "power": 60,
+                    "power": 80,
                     "message": "I have been working with AWS for about 3 years now. I have build full server setups with load balancers, I know how to keep costs low.",
-                    "tooltip": "Intermediate"
+                    "tooltip": "Advanced"
                 }
             ]
         },
@@ -106,6 +106,12 @@ export class SkillsService {
                     "label": "Kubernetes",
                     "power": 60,
                     "message": "I have experience deploying and managing clusters.",
+                    "tooltip": "Intermediate"
+                },
+                {
+                    "label": "Confluent Kafka",
+                    "power": 50,
+                    "message": "I have trained in Kafka, and srchitected microservice architectures utilizing Kafka.",
                     "tooltip": "Intermediate"
                 }
             ]
