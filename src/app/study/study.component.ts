@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { SecureSoftwareDesignService } from '../services/secure-software-design.service';
 import { DataService } from '../services/data.service';
 import {CyberSecurityManagementService} from '../services/cyber-security-management.service';
+import { AwsSecurityService } from '../services/aws-security.service';
+
 
 @Component({
   selector: 'app-study',
@@ -26,7 +28,8 @@ export class StudyComponent implements OnInit {
   constructor(
     private dataService: SecureSoftwareDesignService,
     private ogDataService: DataService,
-    private cyberMgmtService: CyberSecurityManagementService
+    private cyberMgmtService: CyberSecurityManagementService,
+    private awsSecurityService: AwsSecurityService
   ) {}
 
   ngOnInit() {
@@ -45,6 +48,10 @@ export class StudyComponent implements OnInit {
         break;
       case 2:
         this.questions = this.cyberMgmtService.getQuestions();
+        this.setQuestion(this.index);
+        break;
+      case 3:
+        this.questions = this.awsSecurityService.getQuestions();
         this.setQuestion(this.index);
         break;
         
