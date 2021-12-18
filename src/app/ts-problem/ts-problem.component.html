@@ -1,1 +1,19 @@
-<p>ts-problem works!</p>
+<div class="page-wrapper">
+    <h1>The Travelling Salesman</h1>
+
+    <p>add your points:</p>
+    <div class="point-container" (click)="addDestination($event)">
+        <span class="salesman"></span>
+        <span class="destination" *ngFor="let destination of destinationsView" [style.top.px]="destination.top" [style.right.px]="destination.right"></span>
+        <svg class="line" *ngFor="let travel of travels" width="250" height="250"><line [attr.x1]="travel.x1" [attr.y1]="travel.y1" [attr.x2]="travel.x2" [attr.y2]="travel.y2" stroke="red"/></svg>
+    </div>
+    <p>Total combinations: {{combinations | number}}</p>
+
+    <span class="button" (click)="bruteCalc()">Brute Force Calc</span>
+    <span class="button" (click)="kevinCalc()">KevinCalc</span>
+
+    <div class="results" *ngIf="done">
+        Total Distance: {{totalDistance}}
+    </div>
+</div>
+

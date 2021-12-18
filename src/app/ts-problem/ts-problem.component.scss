@@ -1,0 +1,48 @@
+@import '../mixins.scss';
+.page-wrapper{
+    padding:8px;
+}
+
+.point-container {
+    position: relative;
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+}
+
+.salesman {
+    height: 8px;
+    width: 8px;
+    background-color: #8e1515;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+}
+
+.destination {
+    height: 8px;
+    width: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.line {
+    transform: rotateX(180deg);
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.button {
+    padding: 8px;
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid #26948f;
+    &:hover{
+        background-color: #333;
+    }
+}

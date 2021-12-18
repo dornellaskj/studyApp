@@ -22,4 +22,8 @@ describe('TsProblemComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have a calc Distance method', () => {
+    expect(component.calcDistance(100, 100, 400, 300)).toEqual(360.5551275463989);
+  });
 });
