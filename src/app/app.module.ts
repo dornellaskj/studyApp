@@ -8,13 +8,15 @@ import { environment } from '../environments/environment';
 import { StudyComponent } from './study/study.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SkillComponent } from './skill/skill.component';
+import { TsProblemComponent } from './ts-problem/ts-problem.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudyComponent,
     ResumeComponent,
-    SkillComponent
+    SkillComponent,
+    TsProblemComponent
   ],
   imports: [
     BrowserModule,
