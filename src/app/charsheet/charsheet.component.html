@@ -40,6 +40,7 @@
 <div class="skills-area">
     <p class="section-label">Skills</p>
     <div class="input-wrapper" *ngFor="let control of characterModel.skills; let i = index;" [ngClass]="control.width">
+        <label *ngIf="control.label" class="skills-label">{{control.label}}</label>
         <mat-form-field class="full-width"   appearance="fill">
             <mat-label>{{control.name}}</mat-label>
             <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.skills[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
