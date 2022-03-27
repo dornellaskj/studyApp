@@ -9,6 +9,44 @@
 .hidden {
     visibility:hidden;
 }
+.radio {
+    padding: 4px;
+    
+}
+.condition-area {
+    padding-top:8px;
+    background-color:rgba(20, 102, 64, 0.2);
+    padding-bottom: 8px;
+}
+.species-area {
+    padding-top:8px;
+    background-color:rgba(224, 30, 198, 0.2);
+}
+.equipment-area {
+    padding-top:8px;
+    background-color:rgba(19, 75, 42, 0.2);
+}
+.force-area{
+    padding-top:8px;
+    background-color:rgba(25, 193, 223, 0.2);
+    margin-bottom: 355px;
+}
+.feats-area {
+    padding-top:8px;
+    background-color:rgba(136, 153, 38, 0.2);
+}
+.talents-area {
+    padding-top:8px;
+    background-color:rgba(10, 228, 57, 0.2);
+}
+.weapons-area{
+    padding-top:8px;
+    background-color:rgba(228, 97, 10, 0.2);
+}
+.armor-area{
+    padding-top:8px;
+    background-color:rgba(223, 25, 85, 0.2);
+}
 .header-area {
     padding-top :8px;
     background-color:rgba(255,255,255,.2);
@@ -128,4 +166,11 @@
     @include tablet {
         width: calc(99.98% - 8px);
     }
+}
+
+.section-label {
+    color: #ccc;
+    font-size: 1.8em;
+    padding-top:4px;
+    padding-left: 4px;
 }

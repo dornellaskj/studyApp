@@ -1,5 +1,6 @@
 
 <div class="header-area">
+    <p class="section-label">Header</p>
     <div class="input-wrapper" *ngFor="let control of characterModel.headers; let i = index;" [ngClass]="control.width">
         <mat-form-field class="full-width"   appearance="fill">
             <mat-label>{{control.name}}</mat-label>
@@ -8,18 +9,129 @@
     </div>
 </div>
 <div class="stats-area">
+    <p class="section-label">Stats</p>
     <div class="input-wrapper" *ngFor="let control of characterModel.stats; let i = index;" [ngClass]="control.width">
         <mat-form-field class="full-width"   appearance="fill">
             <mat-label>{{control.name}}</mat-label>
-            <input name="{{control.name + i}}" matInput (change)="change(i, $this)" [(ngModel)]="characterModel.stats[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.stats[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
         </mat-form-field>
     </div>
 </div>
+<div class="condition-area">
+    <p class="section-label">Condition</p>
+    <mat-radio-group name="condition" class="radio" (change)="change()" [(ngModel)]="characterModel.condition">
+        <mat-radio-button value="1" class="width-1">-</mat-radio-button>
+        <mat-radio-button value="2" class="width-1">-1</mat-radio-button>
+        <mat-radio-button value="3" class="width-1">-2</mat-radio-button>
+        <mat-radio-button value="4" class="width-1">-5</mat-radio-button>
+        <mat-radio-button value="5" class="width-1">-10</mat-radio-button>
+        <mat-radio-button value="6" class="width-1">Out</mat-radio-button>
+    </mat-radio-group>
+</div>
 <div class="def-area">
+    <p class="section-label">Defense</p>
     <div class="input-wrapper" *ngFor="let control of characterModel.defense; let i = index;" [ngClass]="control.width">
         <mat-form-field class="full-width"   appearance="fill">
             <mat-label>{{control.name}}</mat-label>
-            <input name="{{control.name + i}}" matInput (change)="change(i, $this)" [(ngModel)]="characterModel.defense[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.defense[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="skills-area">
+    <p class="section-label">Skills</p>
+    <div class="input-wrapper" *ngFor="let control of characterModel.skills; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.skills[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="armor-area">
+    <p class="section-label">Armor</p>
+    <div class="input-wrapper" *ngFor="let control of characterModel.armor; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.armor[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="weapons-area">
+    <p class="section-label">Weapons</p>
+    <div><button (click)="addWeapon()">Add Weapon</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.weapons; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.weapons[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="Actions-area">
+    <p class="section-label">Special Actions</p>
+    <div><button (click)="addAction()">Add Action</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.actions; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.actions[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="talents-area">
+    <p class="section-label">Talents</p>
+    <div><button (click)="addTalents()">Add Talent</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.talents; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.talents[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="feats-area">
+    <p class="section-label">Feats</p>
+    <div><button (click)="addFeats()">Add Feat</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.feats; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.feats[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="language-area">
+    <p class="section-label">Languages</p>
+    <div><button (click)="addLanguages()">Add Language</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.languages; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.languages[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="species-area">
+    <p class="section-label">Species Info</p>
+    <div><button (click)="addSpecies()">Add Species Info</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.species; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.species[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="equipment-area">
+    <p class="section-label">Equipment</p>
+    <div><button (click)="addEquipment()">Add Equipment</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.equipment; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.equipment[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
+        </mat-form-field>
+    </div>
+</div>
+<div class="force-area">
+    <p class="section-label">Force Powers</p>
+    <div><button (click)="addForce()">Add Force Powers</button></div>
+    <div class="input-wrapper" *ngFor="let control of characterModel.force; let i = index;" [ngClass]="control.width">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>{{control.name}}</mat-label>
+            <input name="{{control.name + i}}" matInput (change)="change()" [(ngModel)]="characterModel.force[i].value" [ngClass]="control.width" [readonly]="control.readOnly">
         </mat-form-field>
     </div>
 </div>
