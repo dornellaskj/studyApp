@@ -9,6 +9,11 @@ import { StudyComponent } from './study/study.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SkillComponent } from './skill/skill.component';
 import { TsProblemComponent } from './ts-problem/ts-problem.component';
+import { CharsheetComponent } from './charsheet/charsheet.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,12 +21,17 @@ import { TsProblemComponent } from './ts-problem/ts-problem.component';
     StudyComponent,
     ResumeComponent,
     SkillComponent,
-    TsProblemComponent
+    TsProblemComponent,
+    CharsheetComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    MatFormFieldModule,
+    MatInputModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
