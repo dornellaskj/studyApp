@@ -15,6 +15,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
+import { DndComponent } from './dnd/dnd.component';
+import { BattleComponent } from './battle/battle.component';
+import {MatListModule} from '@angular/material/list';
+import {HttpClientModule} from '@angular/common/http';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -23,9 +28,14 @@ import {MatRadioModule} from '@angular/material/radio';
     ResumeComponent,
     SkillComponent,
     TsProblemComponent,
-    CharsheetComponent
+    CharsheetComponent,
+    DndComponent,
+    BattleComponent
   ],
   imports: [
+    MatIconModule,
+    HttpClientModule,
+    MatListModule,
     MatRadioModule,
     FormsModule,
     BrowserModule,

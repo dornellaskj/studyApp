@@ -4,6 +4,8 @@ import { StudyComponent } from './study/study.component';
 import { ResumeComponent } from './resume/resume.component';
 import { TsProblemComponent } from './ts-problem/ts-problem.component';
 import { CharsheetComponent } from './charsheet/charsheet.component';
+import { DndComponent } from './dnd/dnd.component';
+import { BattleComponent } from './battle/battle.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'tsprob',
     component: TsProblemComponent
+  },
+  {
+    path: 'dnd',
+    component: DndComponent
+  },
+  {
+    path: 'battle',
+    component: BattleComponent
   },
   {
     path: '',
