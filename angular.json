@@ -120,5 +120,8 @@
         }
       }
     }},
-  "defaultProject": "studyApp"
+  "defaultProject": "studyApp",
+  "cli": {
+    "analytics": "0da665db-ff13-4d2c-8b1d-edfe2d11cbf1"
+  }
 }

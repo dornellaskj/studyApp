@@ -3,6 +3,7 @@ import { SecureSoftwareDesignService } from '../services/secure-software-design.
 import { DataService } from '../services/data.service';
 import {CyberSecurityManagementService} from '../services/cyber-security-management.service';
 import { AwsSecurityService } from '../services/aws-security.service';
+import { CcspServiceService} from '../services/ccsp-service.service';
 
 
 @Component({
@@ -29,7 +30,8 @@ export class StudyComponent implements OnInit {
     private dataService: SecureSoftwareDesignService,
     private ogDataService: DataService,
     private cyberMgmtService: CyberSecurityManagementService,
-    private awsSecurityService: AwsSecurityService
+    private awsSecurityService: AwsSecurityService,
+    private ccspService: CcspServiceService
   ) {}
 
   ngOnInit() {
@@ -52,6 +54,10 @@ export class StudyComponent implements OnInit {
         break;
       case 3:
         this.questions = this.awsSecurityService.getQuestions();
+        this.setQuestion(this.index);
+        break;
+      case 4:
+        this.questions = this.ccspService.getQuestions();
         this.setQuestion(this.index);
         break;
         
