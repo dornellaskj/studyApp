@@ -160,15 +160,165 @@ export class CcspServiceService {
         correct: 1
       },
       {
-        question:"AAAA",
+        question:"Which of the following  best describes risk?",
         answers: [
-          "AAA",
-          "aaa", 
-          "aaa", 
-          "aaa"
+          "Preventable",
+          "Everlasting", 
+          "The likelyhood that a threat will exploit a vulnerability", 
+          "Transient"
+        ],
+        correct: 2
+      },
+      {
+        question:"Risk appetite for an organization is determined by which of the following?",
+        answers: [
+          "Reclusion evaluation",
+          "Senior Management", 
+          "Legislative mandates", 
+          "Contractual agreement"
+        ],
+        correct: 1
+      },
+      {
+        question:"The BIA can be used to provide information about which of the following elements?",
+        answers: [
+          "Demilitarized zone",
+          "Secure acquisition", 
+          "BC/DR planning", 
+          "Selection of cloud models"
+        ],
+        correct: 2
+      },
+      {
+        question:"Gathering business requirements can aid the organization in determining all of these facets of organizational assets except ___________________.",
+        answers: [
+          "full inventory",
+          "usefulness", 
+          "value", 
+          "criticality"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is the risk leftover after controls and countermeasures are put in place?",
+        answers: [
+          "Null",
+          "High", 
+          "Residual", 
+          "Pertinent"
+        ],
+        correct: 2
+      },
+      {
+        question:"The cloud customer and provider negotiate their respective responsibilities and rights regarding the capabilities and data of the cloud service. Where is the eventual agreement codified?",
+        answers: [
+          "RMF",
+          "Contract", 
+          "MOU", 
+          "BIA"
+        ],
+        correct: 1
+      },
+      {
+        question:"In which cloud service model is the customer required to maintain and update only the applications?",
+        answers: [
+          "CaaS",
+          "SaaS", 
+          "PaaS", 
+          "IaaS"
+        ],
+        correct: 2
+      },
+      {
+        question:"In which cloud service model is the customer required to maintain the OS?",
+        answers: [
+          "CaaS",
+          "SaaS", 
+          "PaaS", 
+          "IaaS"
+        ],
+        correct: 3
+      },
+      {
+        question:"Devices in the cloud data center should be secure against attack. Which of the following are not a means of hardening devices?",
+        answers: [
+          "Using a strong password policy",
+          "Removing default passwords", 
+          "Strictly limiting physical access", 
+          "Removing all admin accounts"
+        ],
+        correct: 3
+      },
+      {
+        question:"What is an experimental technology that is intended to create the possibility of processing encrypted data without having to decrypt it first?",
+        answers: [
+          "Homorphic",
+          "Polyinstantiation", 
+          "Quantum-state", 
+          "Gastronomic"
         ],
         correct: 0
       },
+      {
+        question:"The process of hardening a device should include which of the following?",
+        answers: [
+          "Encrypting the OS",
+          "Updating and patching the sytstem", 
+          "Using video cameras", 
+          "Performing thorough personnel background checks"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which of the following is the best example of a physical control?",
+        answers: [
+          "Carpets",
+          "Ceilings", 
+          "Doors", 
+          "Fences"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following is considered a technological control?",
+        answers: [
+          "Installing firewall software",
+          "Using a fireproof safe", 
+          "Using a fire extinguisher", 
+          "Firing personnel"
+        ],
+        correct: 0
+      },
+      {
+        question:"Which of the following is considered an administrative control?",
+        answers: [
+          "Access control process",
+          "Keystroke logging", 
+          "Door locks", 
+          "Biometric authentication"
+        ],
+        correct: 0
+      },
+      {
+        question:"In attempting to provide a layered defense, the security practitioner should convince senior management to include security controls of which type?",
+        answers: [
+          "Technological",
+          "Physical", 
+          "Administrative", 
+          "All of these"
+        ],
+        correct: 3
+      },
+      // {
+      //   question:"AAAA",
+      //   answers: [
+      //     "AAA",
+      //     "aaa", 
+      //     "aaa", 
+      //     "aaa"
+      //   ],
+      //   correct: 0
+      // },
       
     ]
   }
