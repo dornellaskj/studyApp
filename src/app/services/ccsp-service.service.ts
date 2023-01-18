@@ -309,6 +309,156 @@ export class CcspServiceService {
         ],
         correct: 3
       },
+      {
+        question:"In the cloud, the data processor is usually referred to which of the following?",
+        answers: [
+          "The cloud provider",
+          "The cloud access security broker", 
+          "The party that assigns access rights", 
+          "The cloud customer"
+        ],
+        correct: 0
+      },
+      {
+        question:"What is the US federal agency that accepts applications for new patents?",
+        answers: [
+          "OSHA",
+          "SEC", 
+          "USDA", 
+          "USPTO"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following is the most pragmatic option for data disposal in the cloud?",
+        answers: [
+          "Melting",
+          "Overwritting", 
+          "Cold fusion", 
+          "Cryptoshredding"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following does not have a personal privacy law that limits the way all citizens and entities can share personal data?",
+        answers: [
+          "Japan",
+          "Belguim", 
+          "Argentina", 
+          "USA"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following can only remove the logical pointers to the data for processing purposes in terms of data sanitization?",
+        answers: [
+          "Deletion",
+          "Industrial shredding", 
+          "Drilling", 
+          "Burning"
+        ],
+        correct: 0
+      },
+      {
+        question:"What is intellectual property protection for the tangible expression of a creative idea?",
+        answers: [
+          "Copyright",
+          "Patent", 
+          "Trademark", 
+          "Trade secret"
+        ],
+        correct: 0
+      },
+      {
+        question:"All the following are data analytics modes except ____________.",
+        answers: [
+          "refactory iterations",
+          "real-time analytics", 
+          "datamining", 
+          "agile business intelligence"
+        ],
+        correct: 0
+      },
+      {
+        question:"The data owner is usually considered the ___________ in a cloud configuration.",
+        answers: [
+          "cloud customer",
+          "cloud provider", 
+          "Cloud access security broker", 
+          "None of these"
+        ],
+        correct: 0
+      },
+      {
+        question:"IRM solutions should generally include all the following functions except _______________.",
+        answers: [
+          "automatice expiration",
+          "dynamic policy control", 
+          "persistency", 
+          "automatic self-destruct"
+        ],
+        correct: 3
+      },
+      {
+        question:"What is the intellectual property protection for a confidential recipe for muffins?",
+        answers: [
+          "Copyright",
+          "PAtent", 
+          "Trademark", 
+          "Trade secret"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following includes confidentiality level, distribution limitations, and access restrictions?",
+        answers: [
+          "Data value",
+          "Data source", 
+          "Data label", 
+          "Data level"
+        ],
+        correct: 2
+      },
+      {
+        question:"IRM tools use a variety of methods for enforcement of intellectual property rights and do not include which of the following options?",
+        answers: [
+          "Media-present checks",
+          "Dip switch validity", 
+          "Local agent enforcement", 
+          "Support-based licensing"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is intellectual property protection for a useful manufacturing innovation?",
+        answers: [
+          "Copyright",
+          "Patent", 
+          "Trademark", 
+          "Trade secret"
+        ],
+        correct: 1
+      },
+      {
+        question:"Which of the following is not a method of data discovery?",
+        answers: [
+          "Label-based",
+          "User-based", 
+          "Content-based", 
+          "Metadata-based"
+        ],
+        correct: 1
+      },
+      {
+        question:"What is the aspect of the DMCA that has often been abused and places the burden of proof on the accused?",
+        answers: [
+          "Takedown notice",
+          "Decryption program prohibition", 
+          "Toll exemption", 
+          "Puppet plasticity"
+        ],
+        correct: 0
+      },
       // {
       //   question:"AAAA",
       //   answers: [
