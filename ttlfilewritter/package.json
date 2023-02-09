@@ -1,0 +1,11 @@
+{
+    "name": "ttl-file-writter",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "write": "node ./src/"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security"
+    }
+}

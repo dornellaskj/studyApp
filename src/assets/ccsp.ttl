@@ -1,0 +1,863 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix core: <http://www.kevindornellas.me/core#> . 
+@prefix question: <http://www.kevindornellas.me/question#> . 
+@prefix answer: <http://www.kevindornellas.me/answer#> . 
+core:ccsp a rdfs:list; 
+        rdfs:label "CCSP Quiz Questions" . 
+
+ 
+core:ccsp core:hasQuestion question:q1 . 
+question:q1 
+rdfs:label "Which of the following is used to determine the critical paths, process, and assets of an organization"; 
+core:hasAnswers answer:q1a0 , 
+answer:q1a1 , 
+answer:q1a2 , 
+answer:q1a3 ; 
+core:hasCorrectAnswer answer:q1a0 . 
+
+answer:q1a0 a core:answer; 
+rdfs:label "Business Impact analyssis" . 
+answer:q1a1 a core:answer; 
+rdfs:label "Risk Management framework" . 
+answer:q1a2 a core:answer; 
+rdfs:label "Confidentiality, integrity, and availability triad" . 
+answer:q1a3 a core:answer; 
+rdfs:label "Business requirements" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q2 . 
+question:q2 
+rdfs:label "If a cloud customer cannot get access to the cloud provider, this affects what portion of the CIA triad"; 
+core:hasAnswers answer:q2a0 , 
+answer:q2a1 , 
+answer:q2a2 , 
+answer:q2a3 ; 
+core:hasCorrectAnswer answer:q2a3 . 
+
+answer:q2a0 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q2a1 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q2a2 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q2a3 a core:answer; 
+rdfs:label "Availability" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q3 . 
+question:q3 
+rdfs:label "If a cloud customer wants a fully operational environment with very little maintenance or administration necessary, which cloud service model would probably be best?"; 
+core:hasAnswers answer:q3a0 , 
+answer:q3a1 , 
+answer:q3a2 , 
+answer:q3a3 ; 
+core:hasCorrectAnswer answer:q3a3 . 
+
+answer:q3a0 a core:answer; 
+rdfs:label "Hybrid" . 
+answer:q3a1 a core:answer; 
+rdfs:label "Iaas" . 
+answer:q3a2 a core:answer; 
+rdfs:label "PaaS" . 
+answer:q3a3 a core:answer; 
+rdfs:label "SaaS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q4 . 
+question:q4 
+rdfs:label "What reason is responsible that an organization may want to consider cloud migration?"; 
+core:hasAnswers answer:q4a0 , 
+answer:q4a1 , 
+answer:q4a2 , 
+answer:q4a3 ; 
+core:hasCorrectAnswer answer:q4a0 . 
+
+answer:q4a0 a core:answer; 
+rdfs:label "Reduced operational expenses" . 
+answer:q4a1 a core:answer; 
+rdfs:label "Reduced efficiency" . 
+answer:q4a2 a core:answer; 
+rdfs:label "Increased personnel costs" . 
+answer:q4a3 a core:answer; 
+rdfs:label "Elimination of risks" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q5 . 
+question:q5 
+rdfs:label "The cloud deployment model that features joint ownership of assets among an affinity group is known as a ______________ cloud model."; 
+core:hasAnswers answer:q5a0 , 
+answer:q5a1 , 
+answer:q5a2 , 
+answer:q5a3 ; 
+core:hasCorrectAnswer answer:q5a1 . 
+
+answer:q5a0 a core:answer; 
+rdfs:label "hybrid" . 
+answer:q5a1 a core:answer; 
+rdfs:label "community" . 
+answer:q5a2 a core:answer; 
+rdfs:label "private" . 
+answer:q5a3 a core:answer; 
+rdfs:label "public" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q6 . 
+question:q6 
+rdfs:label "Cloud vendors are held to contractual obligations with specified metrics by ___________________."; 
+core:hasAnswers answer:q6a0 , 
+answer:q6a1 , 
+answer:q6a2 , 
+answer:q6a3 ; 
+core:hasCorrectAnswer answer:q6a3 . 
+
+answer:q6a0 a core:answer; 
+rdfs:label "discipline" . 
+answer:q6a1 a core:answer; 
+rdfs:label "law" . 
+answer:q6a2 a core:answer; 
+rdfs:label "regulations" . 
+answer:q6a3 a core:answer; 
+rdfs:label "service-level-agreements" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q7 . 
+question:q7 
+rdfs:label "___________________ drive(s) security decisions."; 
+core:hasAnswers answer:q7a0 , 
+answer:q7a1 , 
+answer:q7a2 , 
+answer:q7a3 ; 
+core:hasCorrectAnswer answer:q7a1 . 
+
+answer:q7a0 a core:answer; 
+rdfs:label "Public opinion" . 
+answer:q7a1 a core:answer; 
+rdfs:label "Business requirements" . 
+answer:q7a2 a core:answer; 
+rdfs:label "Surveys" . 
+answer:q7a3 a core:answer; 
+rdfs:label "Customer service responses" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q8 . 
+question:q8 
+rdfs:label "The cloud deployment model that features ownership by a cloud provider, with services offered to anyone who wants to subscribe, is known as a _____________ cloud model."; 
+core:hasAnswers answer:q8a0 , 
+answer:q8a1 , 
+answer:q8a2 , 
+answer:q8a3 ; 
+core:hasCorrectAnswer answer:q8a3 . 
+
+answer:q8a0 a core:answer; 
+rdfs:label "hybrid" . 
+answer:q8a1 a core:answer; 
+rdfs:label "latent" . 
+answer:q8a2 a core:answer; 
+rdfs:label "private" . 
+answer:q8a3 a core:answer; 
+rdfs:label "public" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q9 . 
+question:q9 
+rdfs:label "The risk that a cloud provider might go into bankruptcy or otherwise leave the market, and the cloud customer might not be able to recover data is known as ___________________."; 
+core:hasAnswers answer:q9a0 , 
+answer:q9a1 , 
+answer:q9a2 , 
+answer:q9a3 ; 
+core:hasCorrectAnswer answer:q9a3 . 
+
+answer:q9a0 a core:answer; 
+rdfs:label "Vendor closure" . 
+answer:q9a1 a core:answer; 
+rdfs:label "Vending route" . 
+answer:q9a2 a core:answer; 
+rdfs:label "Vendor lock-in" . 
+answer:q9a3 a core:answer; 
+rdfs:label "Vendor lock-out" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q10 . 
+question:q10 
+rdfs:label "If an organization owns all of the hardware and infrastructure of a cloud data center that is used only by members of that organization, which cloud model would this be?"; 
+core:hasAnswers answer:q10a0 , 
+answer:q10a1 , 
+answer:q10a2 , 
+answer:q10a3 ; 
+core:hasCorrectAnswer answer:q10a0 . 
+
+answer:q10a0 a core:answer; 
+rdfs:label "Private" . 
+answer:q10a1 a core:answer; 
+rdfs:label "Public" . 
+answer:q10a2 a core:answer; 
+rdfs:label "Hybrid" . 
+answer:q10a3 a core:answer; 
+rdfs:label "Motive" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q11 . 
+question:q11 
+rdfs:label "As encryption can be used in various aspects of cloud computing, which of the following will always be a risk of interception of data?"; 
+core:hasAnswers answer:q11a0 , 
+answer:q11a1 , 
+answer:q11a2 , 
+answer:q11a3 ; 
+core:hasCorrectAnswer answer:q11a3 . 
+
+answer:q11a0 a core:answer; 
+rdfs:label "Infrared devices" . 
+answer:q11a1 a core:answer; 
+rdfs:label "Magnetic swipe cards" . 
+answer:q11a2 a core:answer; 
+rdfs:label "EMV cards" . 
+answer:q11a3 a core:answer; 
+rdfs:label "Remote access" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q12 . 
+question:q12 
+rdfs:label "If a cloud customer wants a bare-bones environment in which to replicate his own enterprise for business continuity/disaster recovery (BC/DR) purposes, which cloud service model would probably be best?"; 
+core:hasAnswers answer:q12a0 , 
+answer:q12a1 , 
+answer:q12a2 , 
+answer:q12a3 ; 
+core:hasCorrectAnswer answer:q12a3 . 
+
+answer:q12a0 a core:answer; 
+rdfs:label "Hybrid" . 
+answer:q12a1 a core:answer; 
+rdfs:label "SaaS" . 
+answer:q12a2 a core:answer; 
+rdfs:label "PaaS" . 
+answer:q12a3 a core:answer; 
+rdfs:label "IaaS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q13 . 
+question:q13 
+rdfs:label "Which of the following are not the features of cloud computing?"; 
+core:hasAnswers answer:q13a0 , 
+answer:q13a1 , 
+answer:q13a2 , 
+answer:q13a3 ; 
+core:hasCorrectAnswer answer:q13a2 . 
+
+answer:q13a0 a core:answer; 
+rdfs:label "On-demand self-service" . 
+answer:q13a1 a core:answer; 
+rdfs:label "Broad network access" . 
+answer:q13a2 a core:answer; 
+rdfs:label "Reversed charging configuration" . 
+answer:q13a3 a core:answer; 
+rdfs:label "Rapid elasticity" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q14 . 
+question:q14 
+rdfs:label "If a cloud customer wants a secure, isolated environment in order to conduct software development and testing, which cloud service model would probably be best?"; 
+core:hasAnswers answer:q14a0 , 
+answer:q14a1 , 
+answer:q14a2 , 
+answer:q14a3 ; 
+core:hasCorrectAnswer answer:q14a3 . 
+
+answer:q14a0 a core:answer; 
+rdfs:label "IaaS" . 
+answer:q14a1 a core:answer; 
+rdfs:label "Hybrid" . 
+answer:q14a2 a core:answer; 
+rdfs:label "SaaS" . 
+answer:q14a3 a core:answer; 
+rdfs:label "PaaS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q15 . 
+question:q15 
+rdfs:label "When a cloud customer uploads personally identifiable information (PII) to a cloud provider, who is ultimately responsible for the security of that PII?"; 
+core:hasAnswers answer:q15a0 , 
+answer:q15a1 , 
+answer:q15a2 , 
+answer:q15a3 ; 
+core:hasCorrectAnswer answer:q15a1 . 
+
+answer:q15a0 a core:answer; 
+rdfs:label "The individuals who are the subjects of PII" . 
+answer:q15a1 a core:answer; 
+rdfs:label "Cloud customer" . 
+answer:q15a2 a core:answer; 
+rdfs:label "Cloud vendor" . 
+answer:q15a3 a core:answer; 
+rdfs:label "Cloud provider" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q16 . 
+question:q16 
+rdfs:label "Which of the following  best describes risk?"; 
+core:hasAnswers answer:q16a0 , 
+answer:q16a1 , 
+answer:q16a2 , 
+answer:q16a3 ; 
+core:hasCorrectAnswer answer:q16a2 . 
+
+answer:q16a0 a core:answer; 
+rdfs:label "Preventable" . 
+answer:q16a1 a core:answer; 
+rdfs:label "Everlasting" . 
+answer:q16a2 a core:answer; 
+rdfs:label "The likelyhood that a threat will exploit a vulnerability" . 
+answer:q16a3 a core:answer; 
+rdfs:label "Transient" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q17 . 
+question:q17 
+rdfs:label "Risk appetite for an organization is determined by which of the following?"; 
+core:hasAnswers answer:q17a0 , 
+answer:q17a1 , 
+answer:q17a2 , 
+answer:q17a3 ; 
+core:hasCorrectAnswer answer:q17a1 . 
+
+answer:q17a0 a core:answer; 
+rdfs:label "Reclusion evaluation" . 
+answer:q17a1 a core:answer; 
+rdfs:label "Senior Management" . 
+answer:q17a2 a core:answer; 
+rdfs:label "Legislative mandates" . 
+answer:q17a3 a core:answer; 
+rdfs:label "Contractual agreement" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q18 . 
+question:q18 
+rdfs:label "The BIA can be used to provide information about which of the following elements?"; 
+core:hasAnswers answer:q18a0 , 
+answer:q18a1 , 
+answer:q18a2 , 
+answer:q18a3 ; 
+core:hasCorrectAnswer answer:q18a2 . 
+
+answer:q18a0 a core:answer; 
+rdfs:label "Demilitarized zone" . 
+answer:q18a1 a core:answer; 
+rdfs:label "Secure acquisition" . 
+answer:q18a2 a core:answer; 
+rdfs:label "BC/DR planning" . 
+answer:q18a3 a core:answer; 
+rdfs:label "Selection of cloud models" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q19 . 
+question:q19 
+rdfs:label "Gathering business requirements can aid the organization in determining all of these facets of organizational assets except ___________________."; 
+core:hasAnswers answer:q19a0 , 
+answer:q19a1 , 
+answer:q19a2 , 
+answer:q19a3 ; 
+core:hasCorrectAnswer answer:q19a1 . 
+
+answer:q19a0 a core:answer; 
+rdfs:label "full inventory" . 
+answer:q19a1 a core:answer; 
+rdfs:label "usefulness" . 
+answer:q19a2 a core:answer; 
+rdfs:label "value" . 
+answer:q19a3 a core:answer; 
+rdfs:label "criticality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q20 . 
+question:q20 
+rdfs:label "What is the risk leftover after controls and countermeasures are put in place?"; 
+core:hasAnswers answer:q20a0 , 
+answer:q20a1 , 
+answer:q20a2 , 
+answer:q20a3 ; 
+core:hasCorrectAnswer answer:q20a2 . 
+
+answer:q20a0 a core:answer; 
+rdfs:label "Null" . 
+answer:q20a1 a core:answer; 
+rdfs:label "High" . 
+answer:q20a2 a core:answer; 
+rdfs:label "Residual" . 
+answer:q20a3 a core:answer; 
+rdfs:label "Pertinent" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q21 . 
+question:q21 
+rdfs:label "The cloud customer and provider negotiate their respective responsibilities and rights regarding the capabilities and data of the cloud service. Where is the eventual agreement codified?"; 
+core:hasAnswers answer:q21a0 , 
+answer:q21a1 , 
+answer:q21a2 , 
+answer:q21a3 ; 
+core:hasCorrectAnswer answer:q21a1 . 
+
+answer:q21a0 a core:answer; 
+rdfs:label "RMF" . 
+answer:q21a1 a core:answer; 
+rdfs:label "Contract" . 
+answer:q21a2 a core:answer; 
+rdfs:label "MOU" . 
+answer:q21a3 a core:answer; 
+rdfs:label "BIA" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q22 . 
+question:q22 
+rdfs:label "In which cloud service model is the customer required to maintain and update only the applications?"; 
+core:hasAnswers answer:q22a0 , 
+answer:q22a1 , 
+answer:q22a2 , 
+answer:q22a3 ; 
+core:hasCorrectAnswer answer:q22a2 . 
+
+answer:q22a0 a core:answer; 
+rdfs:label "CaaS" . 
+answer:q22a1 a core:answer; 
+rdfs:label "SaaS" . 
+answer:q22a2 a core:answer; 
+rdfs:label "PaaS" . 
+answer:q22a3 a core:answer; 
+rdfs:label "IaaS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q23 . 
+question:q23 
+rdfs:label "In which cloud service model is the customer required to maintain the OS?"; 
+core:hasAnswers answer:q23a0 , 
+answer:q23a1 , 
+answer:q23a2 , 
+answer:q23a3 ; 
+core:hasCorrectAnswer answer:q23a3 . 
+
+answer:q23a0 a core:answer; 
+rdfs:label "CaaS" . 
+answer:q23a1 a core:answer; 
+rdfs:label "SaaS" . 
+answer:q23a2 a core:answer; 
+rdfs:label "PaaS" . 
+answer:q23a3 a core:answer; 
+rdfs:label "IaaS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q24 . 
+question:q24 
+rdfs:label "Devices in the cloud data center should be secure against attack. Which of the following are not a means of hardening devices?"; 
+core:hasAnswers answer:q24a0 , 
+answer:q24a1 , 
+answer:q24a2 , 
+answer:q24a3 ; 
+core:hasCorrectAnswer answer:q24a3 . 
+
+answer:q24a0 a core:answer; 
+rdfs:label "Using a strong password policy" . 
+answer:q24a1 a core:answer; 
+rdfs:label "Removing default passwords" . 
+answer:q24a2 a core:answer; 
+rdfs:label "Strictly limiting physical access" . 
+answer:q24a3 a core:answer; 
+rdfs:label "Removing all admin accounts" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q25 . 
+question:q25 
+rdfs:label "What is an experimental technology that is intended to create the possibility of processing encrypted data without having to decrypt it first?"; 
+core:hasAnswers answer:q25a0 , 
+answer:q25a1 , 
+answer:q25a2 , 
+answer:q25a3 ; 
+core:hasCorrectAnswer answer:q25a0 . 
+
+answer:q25a0 a core:answer; 
+rdfs:label "Homorphic" . 
+answer:q25a1 a core:answer; 
+rdfs:label "Polyinstantiation" . 
+answer:q25a2 a core:answer; 
+rdfs:label "Quantum-state" . 
+answer:q25a3 a core:answer; 
+rdfs:label "Gastronomic" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q26 . 
+question:q26 
+rdfs:label "The process of hardening a device should include which of the following?"; 
+core:hasAnswers answer:q26a0 , 
+answer:q26a1 , 
+answer:q26a2 , 
+answer:q26a3 ; 
+core:hasCorrectAnswer answer:q26a1 . 
+
+answer:q26a0 a core:answer; 
+rdfs:label "Encrypting the OS" . 
+answer:q26a1 a core:answer; 
+rdfs:label "Updating and patching the sytstem" . 
+answer:q26a2 a core:answer; 
+rdfs:label "Using video cameras" . 
+answer:q26a3 a core:answer; 
+rdfs:label "Performing thorough personnel background checks" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q27 . 
+question:q27 
+rdfs:label "Which of the following is the best example of a physical control?"; 
+core:hasAnswers answer:q27a0 , 
+answer:q27a1 , 
+answer:q27a2 , 
+answer:q27a3 ; 
+core:hasCorrectAnswer answer:q27a3 . 
+
+answer:q27a0 a core:answer; 
+rdfs:label "Carpets" . 
+answer:q27a1 a core:answer; 
+rdfs:label "Ceilings" . 
+answer:q27a2 a core:answer; 
+rdfs:label "Doors" . 
+answer:q27a3 a core:answer; 
+rdfs:label "Fences" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q28 . 
+question:q28 
+rdfs:label "Which of the following is considered a technological control?"; 
+core:hasAnswers answer:q28a0 , 
+answer:q28a1 , 
+answer:q28a2 , 
+answer:q28a3 ; 
+core:hasCorrectAnswer answer:q28a0 . 
+
+answer:q28a0 a core:answer; 
+rdfs:label "Installing firewall software" . 
+answer:q28a1 a core:answer; 
+rdfs:label "Using a fireproof safe" . 
+answer:q28a2 a core:answer; 
+rdfs:label "Using a fire extinguisher" . 
+answer:q28a3 a core:answer; 
+rdfs:label "Firing personnel" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q29 . 
+question:q29 
+rdfs:label "Which of the following is considered an administrative control?"; 
+core:hasAnswers answer:q29a0 , 
+answer:q29a1 , 
+answer:q29a2 , 
+answer:q29a3 ; 
+core:hasCorrectAnswer answer:q29a0 . 
+
+answer:q29a0 a core:answer; 
+rdfs:label "Access control process" . 
+answer:q29a1 a core:answer; 
+rdfs:label "Keystroke logging" . 
+answer:q29a2 a core:answer; 
+rdfs:label "Door locks" . 
+answer:q29a3 a core:answer; 
+rdfs:label "Biometric authentication" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q30 . 
+question:q30 
+rdfs:label "In attempting to provide a layered defense, the security practitioner should convince senior management to include security controls of which type?"; 
+core:hasAnswers answer:q30a0 , 
+answer:q30a1 , 
+answer:q30a2 , 
+answer:q30a3 ; 
+core:hasCorrectAnswer answer:q30a3 . 
+
+answer:q30a0 a core:answer; 
+rdfs:label "Technological" . 
+answer:q30a1 a core:answer; 
+rdfs:label "Physical" . 
+answer:q30a2 a core:answer; 
+rdfs:label "Administrative" . 
+answer:q30a3 a core:answer; 
+rdfs:label "All of these" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q31 . 
+question:q31 
+rdfs:label "In the cloud, the data processor is usually referred to which of the following?"; 
+core:hasAnswers answer:q31a0 , 
+answer:q31a1 , 
+answer:q31a2 , 
+answer:q31a3 ; 
+core:hasCorrectAnswer answer:q31a0 . 
+
+answer:q31a0 a core:answer; 
+rdfs:label "The cloud provider" . 
+answer:q31a1 a core:answer; 
+rdfs:label "The cloud access security broker" . 
+answer:q31a2 a core:answer; 
+rdfs:label "The party that assigns access rights" . 
+answer:q31a3 a core:answer; 
+rdfs:label "The cloud customer" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q32 . 
+question:q32 
+rdfs:label "What is the US federal agency that accepts applications for new patents?"; 
+core:hasAnswers answer:q32a0 , 
+answer:q32a1 , 
+answer:q32a2 , 
+answer:q32a3 ; 
+core:hasCorrectAnswer answer:q32a3 . 
+
+answer:q32a0 a core:answer; 
+rdfs:label "OSHA" . 
+answer:q32a1 a core:answer; 
+rdfs:label "SEC" . 
+answer:q32a2 a core:answer; 
+rdfs:label "USDA" . 
+answer:q32a3 a core:answer; 
+rdfs:label "USPTO" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q33 . 
+question:q33 
+rdfs:label "Which of the following is the most pragmatic option for data disposal in the cloud?"; 
+core:hasAnswers answer:q33a0 , 
+answer:q33a1 , 
+answer:q33a2 , 
+answer:q33a3 ; 
+core:hasCorrectAnswer answer:q33a3 . 
+
+answer:q33a0 a core:answer; 
+rdfs:label "Melting" . 
+answer:q33a1 a core:answer; 
+rdfs:label "Overwritting" . 
+answer:q33a2 a core:answer; 
+rdfs:label "Cold fusion" . 
+answer:q33a3 a core:answer; 
+rdfs:label "Cryptoshredding" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q34 . 
+question:q34 
+rdfs:label "Which of the following does not have a personal privacy law that limits the way all citizens and entities can share personal data?"; 
+core:hasAnswers answer:q34a0 , 
+answer:q34a1 , 
+answer:q34a2 , 
+answer:q34a3 ; 
+core:hasCorrectAnswer answer:q34a3 . 
+
+answer:q34a0 a core:answer; 
+rdfs:label "Japan" . 
+answer:q34a1 a core:answer; 
+rdfs:label "Belguim" . 
+answer:q34a2 a core:answer; 
+rdfs:label "Argentina" . 
+answer:q34a3 a core:answer; 
+rdfs:label "USA" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q35 . 
+question:q35 
+rdfs:label "Which of the following can only remove the logical pointers to the data for processing purposes in terms of data sanitization?"; 
+core:hasAnswers answer:q35a0 , 
+answer:q35a1 , 
+answer:q35a2 , 
+answer:q35a3 ; 
+core:hasCorrectAnswer answer:q35a0 . 
+
+answer:q35a0 a core:answer; 
+rdfs:label "Deletion" . 
+answer:q35a1 a core:answer; 
+rdfs:label "Industrial shredding" . 
+answer:q35a2 a core:answer; 
+rdfs:label "Drilling" . 
+answer:q35a3 a core:answer; 
+rdfs:label "Burning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q36 . 
+question:q36 
+rdfs:label "What is intellectual property protection for the tangible expression of a creative idea?"; 
+core:hasAnswers answer:q36a0 , 
+answer:q36a1 , 
+answer:q36a2 , 
+answer:q36a3 ; 
+core:hasCorrectAnswer answer:q36a0 . 
+
+answer:q36a0 a core:answer; 
+rdfs:label "Copyright" . 
+answer:q36a1 a core:answer; 
+rdfs:label "Patent" . 
+answer:q36a2 a core:answer; 
+rdfs:label "Trademark" . 
+answer:q36a3 a core:answer; 
+rdfs:label "Trade secret" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q37 . 
+question:q37 
+rdfs:label "All the following are data analytics modes except ____________."; 
+core:hasAnswers answer:q37a0 , 
+answer:q37a1 , 
+answer:q37a2 , 
+answer:q37a3 ; 
+core:hasCorrectAnswer answer:q37a0 . 
+
+answer:q37a0 a core:answer; 
+rdfs:label "refactory iterations" . 
+answer:q37a1 a core:answer; 
+rdfs:label "real-time analytics" . 
+answer:q37a2 a core:answer; 
+rdfs:label "datamining" . 
+answer:q37a3 a core:answer; 
+rdfs:label "agile business intelligence" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q38 . 
+question:q38 
+rdfs:label "The data owner is usually considered the ___________ in a cloud configuration."; 
+core:hasAnswers answer:q38a0 , 
+answer:q38a1 , 
+answer:q38a2 , 
+answer:q38a3 ; 
+core:hasCorrectAnswer answer:q38a0 . 
+
+answer:q38a0 a core:answer; 
+rdfs:label "cloud customer" . 
+answer:q38a1 a core:answer; 
+rdfs:label "cloud provider" . 
+answer:q38a2 a core:answer; 
+rdfs:label "Cloud access security broker" . 
+answer:q38a3 a core:answer; 
+rdfs:label "None of these" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q39 . 
+question:q39 
+rdfs:label "IRM solutions should generally include all the following functions except _______________."; 
+core:hasAnswers answer:q39a0 , 
+answer:q39a1 , 
+answer:q39a2 , 
+answer:q39a3 ; 
+core:hasCorrectAnswer answer:q39a3 . 
+
+answer:q39a0 a core:answer; 
+rdfs:label "automatice expiration" . 
+answer:q39a1 a core:answer; 
+rdfs:label "dynamic policy control" . 
+answer:q39a2 a core:answer; 
+rdfs:label "persistency" . 
+answer:q39a3 a core:answer; 
+rdfs:label "automatic self-destruct" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q40 . 
+question:q40 
+rdfs:label "What is the intellectual property protection for a confidential recipe for muffins?"; 
+core:hasAnswers answer:q40a0 , 
+answer:q40a1 , 
+answer:q40a2 , 
+answer:q40a3 ; 
+core:hasCorrectAnswer answer:q40a3 . 
+
+answer:q40a0 a core:answer; 
+rdfs:label "Copyright" . 
+answer:q40a1 a core:answer; 
+rdfs:label "PAtent" . 
+answer:q40a2 a core:answer; 
+rdfs:label "Trademark" . 
+answer:q40a3 a core:answer; 
+rdfs:label "Trade secret" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q41 . 
+question:q41 
+rdfs:label "Which of the following includes confidentiality level, distribution limitations, and access restrictions?"; 
+core:hasAnswers answer:q41a0 , 
+answer:q41a1 , 
+answer:q41a2 , 
+answer:q41a3 ; 
+core:hasCorrectAnswer answer:q41a2 . 
+
+answer:q41a0 a core:answer; 
+rdfs:label "Data value" . 
+answer:q41a1 a core:answer; 
+rdfs:label "Data source" . 
+answer:q41a2 a core:answer; 
+rdfs:label "Data label" . 
+answer:q41a3 a core:answer; 
+rdfs:label "Data level" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q42 . 
+question:q42 
+rdfs:label "IRM tools use a variety of methods for enforcement of intellectual property rights and do not include which of the following options?"; 
+core:hasAnswers answer:q42a0 , 
+answer:q42a1 , 
+answer:q42a2 , 
+answer:q42a3 ; 
+core:hasCorrectAnswer answer:q42a1 . 
+
+answer:q42a0 a core:answer; 
+rdfs:label "Media-present checks" . 
+answer:q42a1 a core:answer; 
+rdfs:label "Dip switch validity" . 
+answer:q42a2 a core:answer; 
+rdfs:label "Local agent enforcement" . 
+answer:q42a3 a core:answer; 
+rdfs:label "Support-based licensing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q43 . 
+question:q43 
+rdfs:label "What is intellectual property protection for a useful manufacturing innovation?"; 
+core:hasAnswers answer:q43a0 , 
+answer:q43a1 , 
+answer:q43a2 , 
+answer:q43a3 ; 
+core:hasCorrectAnswer answer:q43a1 . 
+
+answer:q43a0 a core:answer; 
+rdfs:label "Copyright" . 
+answer:q43a1 a core:answer; 
+rdfs:label "Patent" . 
+answer:q43a2 a core:answer; 
+rdfs:label "Trademark" . 
+answer:q43a3 a core:answer; 
+rdfs:label "Trade secret" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q44 . 
+question:q44 
+rdfs:label "Which of the following is not a method of data discovery?"; 
+core:hasAnswers answer:q44a0 , 
+answer:q44a1 , 
+answer:q44a2 , 
+answer:q44a3 ; 
+core:hasCorrectAnswer answer:q44a1 . 
+
+answer:q44a0 a core:answer; 
+rdfs:label "Label-based" . 
+answer:q44a1 a core:answer; 
+rdfs:label "User-based" . 
+answer:q44a2 a core:answer; 
+rdfs:label "Content-based" . 
+answer:q44a3 a core:answer; 
+rdfs:label "Metadata-based" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q45 . 
+question:q45 
+rdfs:label "What is the aspect of the DMCA that has often been abused and places the burden of proof on the accused?"; 
+core:hasAnswers answer:q45a0 , 
+answer:q45a1 , 
+answer:q45a2 , 
+answer:q45a3 ; 
+core:hasCorrectAnswer answer:q45a0 . 
+
+answer:q45a0 a core:answer; 
+rdfs:label "Takedown notice" . 
+answer:q45a1 a core:answer; 
+rdfs:label "Decryption program prohibition" . 
+answer:q45a2 a core:answer; 
+rdfs:label "Toll exemption" . 
+answer:q45a3 a core:answer; 
+rdfs:label "Puppet plasticity" . 
+ 
+ 
