@@ -5,9 +5,9 @@ const data = require("../data/ccsp.json");
 const fs = require('fs');
 
 console.log(data[0]);
-
-fs.writeFile('data/ccsp.ttl', "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n", {}, err => {});
-const writer = fs.createWriteStream('data/ccsp.ttl', {
+const destinationFile = 'data/secure-software-design.ttl';
+fs.writeFile(destinationFile, "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n", {}, err => {});
+const writer = fs.createWriteStream(destinationFile, {
     flags: 'a'
 });
 writer.write("@prefix core: <http://www.kevindornellas.me/core#> . \n");

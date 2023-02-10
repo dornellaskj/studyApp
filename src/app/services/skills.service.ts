@@ -25,13 +25,13 @@ export class SkillsService {
                 {
                     "label": "Mentoring",
                     "power": 90,
-                    "message": "I have been mentoring and growing developer's careers for over 7 years, I help them engineer their career path and their education. Constant learning is extremely important to me.",
+                    "message": "I have been mentoring and growing developer's careers for over 10 years, I help them engineer their career path and their education. Constant learning is extremely important to me.",
                     "tooltip": "Expert"
                 },
                 {
                     "label": "Hiring/Recruiting",
                     "power": 90,
-                    "message": "I have successfully interviewed 100+ developers from Associate to Principal level.",
+                    "message": "I have successfully interviewed 100+ developers from Associate to Director level.",
                     "tooltip": "Expert"
                 }
             ]
@@ -176,6 +176,12 @@ export class SkillsService {
                     "power": 95,
                     "message": "I have 5 years profesional experience. I have experience builidng stored proceedures, views, and complicated querys.",
                     "tooltip": "Expert"
+                },
+                {
+                    "label": "Property Graph",
+                    "power": 60,
+                    "message": "I have 3 years profesional experience. I have experience with ttl files, importing graph data into databases and querying it.",
+                    "tooltip": "Intermediate"
                 }
             ]
         },
