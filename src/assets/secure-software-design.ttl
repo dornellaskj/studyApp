@@ -1,0 +1,2669 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix core: <http://www.kevindornellas.me/core#> . 
+@prefix question: <http://www.kevindornellas.me/question#> . 
+@prefix answer: <http://www.kevindornellas.me/answer#> . 
+core:ccsp a rdfs:list; 
+        rdfs:label "CCSP Quiz Questions" . 
+
+ 
+core:ccsp core:hasQuestion question:q1 . 
+question:q1 
+rdfs:label "A disadvantage of using third-party software is inflexibility."; 
+core:hasAnswers answer:q1a0 , 
+answer:q1a1 ; 
+core:hasCorrectAnswer answer:q1a0 . 
+
+answer:q1a0 a core:answer; 
+rdfs:label "True" . 
+answer:q1a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q2 . 
+question:q2 
+rdfs:label "Which term is used for software in government systems?"; 
+core:hasAnswers answer:q2a0 , 
+answer:q2a1 , 
+answer:q2a2 , 
+answer:q2a3 ; 
+core:hasCorrectAnswer answer:q2a2 . 
+
+answer:q2a0 a core:answer; 
+rdfs:label "COTS" . 
+answer:q2a1 a core:answer; 
+rdfs:label "LOTS" . 
+answer:q2a2 a core:answer; 
+rdfs:label "GOTS" . 
+answer:q2a3 a core:answer; 
+rdfs:label "NOTS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q3 . 
+question:q3 
+rdfs:label "What is one disadvantage to outsourcing software development to a third party?"; 
+core:hasAnswers answer:q3a0 , 
+answer:q3a1 , 
+answer:q3a2 , 
+answer:q3a3 ; 
+core:hasCorrectAnswer answer:q3a0 . 
+
+answer:q3a0 a core:answer; 
+rdfs:label "Ownership of code" . 
+answer:q3a1 a core:answer; 
+rdfs:label "Available skilled resources" . 
+answer:q3a2 a core:answer; 
+rdfs:label "Tailored to business needs" . 
+answer:q3a3 a core:answer; 
+rdfs:label "Experience with technology" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q4 . 
+question:q4 
+rdfs:label "What is a challenge of using proprietary software?"; 
+core:hasAnswers answer:q4a0 , 
+answer:q4a1 , 
+answer:q4a2 , 
+answer:q4a3 ; 
+core:hasCorrectAnswer answer:q4a2 . 
+
+answer:q4a0 a core:answer; 
+rdfs:label "Decreased license fees" . 
+answer:q4a1 a core:answer; 
+rdfs:label "No End of Support" . 
+answer:q4a2 a core:answer; 
+rdfs:label "Proprietary format" . 
+answer:q4a3 a core:answer; 
+rdfs:label "Open source nature" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q5 . 
+question:q5 
+rdfs:label "Outsourcing risks include ensuring that the staff of the supplier has the requisite knowledge and experience."; 
+core:hasAnswers answer:q5a0 , 
+answer:q5a1 ; 
+core:hasCorrectAnswer answer:q5a0 . 
+
+answer:q5a0 a core:answer; 
+rdfs:label "True" . 
+answer:q5a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q6 . 
+question:q6 
+rdfs:label "What is a concern of security in third-party software?"; 
+core:hasAnswers answer:q6a0 , 
+answer:q6a1 , 
+answer:q6a2 , 
+answer:q6a3 ; 
+core:hasCorrectAnswer answer:q6a1 . 
+
+answer:q6a0 a core:answer; 
+rdfs:label "Security implanted during development" . 
+answer:q6a1 a core:answer; 
+rdfs:label "Secure development environment" . 
+answer:q6a2 a core:answer; 
+rdfs:label "Untrusted distributions of software" . 
+answer:q6a3 a core:answer; 
+rdfs:label "Digital 'aluminum foil'" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q7 . 
+question:q7 
+rdfs:label "Which of the following is important criteria in choosing a vendor to purchase a product?"; 
+core:hasAnswers answer:q7a0 , 
+answer:q7a1 , 
+answer:q7a2 , 
+answer:q7a3 ; 
+core:hasCorrectAnswer answer:q7a0 . 
+
+answer:q7a0 a core:answer; 
+rdfs:label "Cost" . 
+answer:q7a1 a core:answer; 
+rdfs:label "Repudiation" . 
+answer:q7a2 a core:answer; 
+rdfs:label "Lateralization" . 
+answer:q7a3 a core:answer; 
+rdfs:label "Unqualified staff" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q8 . 
+question:q8 
+rdfs:label "Which of the following is a consideration when evaluating vendors?"; 
+core:hasAnswers answer:q8a0 , 
+answer:q8a1 , 
+answer:q8a2 , 
+answer:q8a3 ; 
+core:hasCorrectAnswer answer:q8a1 . 
+
+answer:q8a0 a core:answer; 
+rdfs:label "Accreditation" . 
+answer:q8a1 a core:answer; 
+rdfs:label "Certification" . 
+answer:q8a2 a core:answer; 
+rdfs:label "Social Media Policy" . 
+answer:q8a3 a core:answer; 
+rdfs:label "Priority Awareness" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q9 . 
+question:q9 
+rdfs:label "Which of the following is an additional consideration when evaluating vendors?"; 
+core:hasAnswers answer:q9a0 , 
+answer:q9a1 , 
+answer:q9a2 , 
+answer:q9a3 ; 
+core:hasCorrectAnswer answer:q9a3 . 
+
+answer:q9a0 a core:answer; 
+rdfs:label "Resource Gathering" . 
+answer:q9a1 a core:answer; 
+rdfs:label "Ability to work with other vendors" . 
+answer:q9a2 a core:answer; 
+rdfs:label "Compliance Methodology and Maturity" . 
+answer:q9a3 a core:answer; 
+rdfs:label "Security Engineering Processes" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q10 . 
+question:q10 
+rdfs:label "Cost and warranty are not considerations when comparing outsourced or in-house vendor support."; 
+core:hasAnswers answer:q10a0 , 
+answer:q10a1 ; 
+core:hasCorrectAnswer answer:q10a1 . 
+
+answer:q10a0 a core:answer; 
+rdfs:label "True" . 
+answer:q10a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q11 . 
+question:q11 
+rdfs:label "Question 5 :In evaluation of third party vendors, one method may include reviewing social media comments."; 
+core:hasAnswers answer:q11a0 , 
+answer:q11a1 ; 
+core:hasCorrectAnswer answer:q11a0 . 
+
+answer:q11a0 a core:answer; 
+rdfs:label "True" . 
+answer:q11a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q12 . 
+question:q12 
+rdfs:label "The role of the audit function in acquisition process is to provide assurance to management of the incompliance with regulations."; 
+core:hasAnswers answer:q12a0 , 
+answer:q12a1 ; 
+core:hasCorrectAnswer answer:q12a1 . 
+
+answer:q12a0 a core:answer; 
+rdfs:label "True" . 
+answer:q12a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q13 . 
+question:q13 
+rdfs:label "Which of the following represents an example of a vendor customization?"; 
+core:hasAnswers answer:q13a0 , 
+answer:q13a1 , 
+answer:q13a2 , 
+answer:q13a3 ; 
+core:hasCorrectAnswer answer:q13a2 . 
+
+answer:q13a0 a core:answer; 
+rdfs:label "Access control inadherence" . 
+answer:q13a1 a core:answer; 
+rdfs:label "Privacy regulation avoidance" . 
+answer:q13a2 a core:answer; 
+rdfs:label "Reporting components" . 
+answer:q13a3 a core:answer; 
+rdfs:label "Incompatibility with other systems" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q14 . 
+question:q14 
+rdfs:label "Which of the following four basic steps is considered part of the new defense concepts to combat cyber-attacks as defined by the U.S. Department of Defense?"; 
+core:hasAnswers answer:q14a0 , 
+answer:q14a1 , 
+answer:q14a2 , 
+answer:q14a3 ; 
+core:hasCorrectAnswer answer:q14a0 . 
+
+answer:q14a0 a core:answer; 
+rdfs:label "Deter and mitigate insider threats" . 
+answer:q14a1 a core:answer; 
+rdfs:label "Utilize current cyber best practices to improve its cyber security" . 
+answer:q14a2 a core:answer; 
+rdfs:label "Employ a passive cyber defense capability to prevent intrusions" . 
+answer:q14a3 a core:answer; 
+rdfs:label "Implement industry-standard defense operating concepts and computing architectures" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q15 . 
+question:q15 
+rdfs:label "Strategic software attacks are highly repeatable and use general targeting such as against a broad industry or groups of individuals, and must have long-term staying power."; 
+core:hasAnswers answer:q15a0 , 
+answer:q15a1 ; 
+core:hasCorrectAnswer answer:q15a0 . 
+
+answer:q15a0 a core:answer; 
+rdfs:label "True" . 
+answer:q15a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q16 . 
+question:q16 
+rdfs:label "Post-release support (PRSA1-5) is typically conducted by your internal organization."; 
+core:hasAnswers answer:q16a0 , 
+answer:q16a1 ; 
+core:hasCorrectAnswer answer:q16a1 . 
+
+answer:q16a0 a core:answer; 
+rdfs:label "True" . 
+answer:q16a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q17 . 
+question:q17 
+rdfs:label "A centralized group comprised of __________ seasoned software security architect per main software product group and __________ for each software product within that group in your software engineering development organization will be sufficient to scale."; 
+core:hasAnswers answer:q17a0 , 
+answer:q17a1 , 
+answer:q17a2 , 
+answer:q17a3 ; 
+core:hasCorrectAnswer answer:q17a0 . 
+
+answer:q17a0 a core:answer; 
+rdfs:label "one, one" . 
+answer:q17a1 a core:answer; 
+rdfs:label "two, two" . 
+answer:q17a2 a core:answer; 
+rdfs:label "one, two" . 
+answer:q17a3 a core:answer; 
+rdfs:label "two, one" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q18 . 
+question:q18 
+rdfs:label "There is a single path to appropriate coverage; a virtual team cannot be coalesced and led by a far smaller central team."; 
+core:hasAnswers answer:q18a0 , 
+answer:q18a1 ; 
+core:hasCorrectAnswer answer:q18a1 . 
+
+answer:q18a0 a core:answer; 
+rdfs:label "True" . 
+answer:q18a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q19 . 
+question:q19 
+rdfs:label "The __________ standard defines application security as a process that an organization can perform for applying controls and measurements to its applications in order to manage the risk of using them."; 
+core:hasAnswers answer:q19a0 , 
+answer:q19a1 , 
+answer:q19a2 , 
+answer:q19a3 ; 
+core:hasCorrectAnswer answer:q19a2 . 
+
+answer:q19a0 a core:answer; 
+rdfs:label "ISO 13485" . 
+answer:q19a1 a core:answer; 
+rdfs:label "ISO 9001" . 
+answer:q19a2 a core:answer; 
+rdfs:label "ISO 27034" . 
+answer:q19a3 a core:answer; 
+rdfs:label "ISO 31000" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q20 . 
+question:q20 
+rdfs:label "The price to fix vulnerabilities later in the cycle is low. The level of effort that is required to tune and maintain current product security tools can be less expensive than buying the tool."; 
+core:hasAnswers answer:q20a0 , 
+answer:q20a1 ; 
+core:hasCorrectAnswer answer:q20a1 . 
+
+answer:q20a0 a core:answer; 
+rdfs:label "True" . 
+answer:q20a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q21 . 
+question:q21 
+rdfs:label "Cyber espionage is non-strategic and involves obtaining secrets with the consent of the holder of the information."; 
+core:hasAnswers answer:q21a0 , 
+answer:q21a1 ; 
+core:hasCorrectAnswer answer:q21a1 . 
+
+answer:q21a0 a core:answer; 
+rdfs:label "True" . 
+answer:q21a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q22 . 
+question:q22 
+rdfs:label "What illustrates the flow of activities through the SDL?"; 
+core:hasAnswers answer:q22a0 , 
+answer:q22a1 , 
+answer:q22a2 , 
+answer:q22a3 ; 
+core:hasCorrectAnswer answer:q22a0 . 
+
+answer:q22a0 a core:answer; 
+rdfs:label "Architect → Design → Code → Test" . 
+answer:q22a1 a core:answer; 
+rdfs:label "Architect → Test → Code → Design" . 
+answer:q22a2 a core:answer; 
+rdfs:label "Code → Design → Architect → Test" . 
+answer:q22a3 a core:answer; 
+rdfs:label "Design → Architect → Code → Test" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q23 . 
+question:q23 
+rdfs:label "What is one of most well-known sets of security design principles as defined by OWASP?"; 
+core:hasAnswers answer:q23a0 , 
+answer:q23a1 , 
+answer:q23a2 , 
+answer:q23a3 ; 
+core:hasCorrectAnswer answer:q23a2 . 
+
+answer:q23a0 a core:answer; 
+rdfs:label "Keep security complex" . 
+answer:q23a1 a core:answer; 
+rdfs:label "Trust infrastructure" . 
+answer:q23a2 a core:answer; 
+rdfs:label "Fail securely" . 
+answer:q23a3 a core:answer; 
+rdfs:label "Trust services" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q24 . 
+question:q24 
+rdfs:label "What is the first step in the architecture task flow for when a project is new or a redesign?"; 
+core:hasAnswers answer:q24a0 , 
+answer:q24a1 , 
+answer:q24a2 , 
+answer:q24a3 ; 
+core:hasCorrectAnswer answer:q24a1 . 
+
+answer:q24a0 a core:answer; 
+rdfs:label "Design Review" . 
+answer:q24a1 a core:answer; 
+rdfs:label "Architecture Assessment" . 
+answer:q24a2 a core:answer; 
+rdfs:label "Threat Model" . 
+answer:q24a3 a core:answer; 
+rdfs:label "Test Plan" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q25 . 
+question:q25 
+rdfs:label "Regardless of architectural change, architectural analysis and threat modeling should never be bypassed."; 
+core:hasAnswers answer:q25a0 , 
+answer:q25a1 ; 
+core:hasCorrectAnswer answer:q25a1 . 
+
+answer:q25a0 a core:answer; 
+rdfs:label "True" . 
+answer:q25a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q26 . 
+question:q26 
+rdfs:label "What is one principle that should be used during the development of software as defined by software security expert Gary McGraw?"; 
+core:hasAnswers answer:q26a0 , 
+answer:q26a1 , 
+answer:q26a2 , 
+answer:q26a3 ; 
+core:hasCorrectAnswer answer:q26a3 . 
+
+answer:q26a0 a core:answer; 
+rdfs:label "Share mechanisms" . 
+answer:q26a1 a core:answer; 
+rdfs:label "Make security invisible" . 
+answer:q26a2 a core:answer; 
+rdfs:label "Assume your secrets are safe" . 
+answer:q26a3 a core:answer; 
+rdfs:label "Grant least privilege" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q27 . 
+question:q27 
+rdfs:label "Because of the standard nature of non-web inputs, finding a single type of tool that is good for each input method is practical."; 
+core:hasAnswers answer:q27a0 , 
+answer:q27a1 ; 
+core:hasCorrectAnswer answer:q27a1 . 
+
+answer:q27a0 a core:answer; 
+rdfs:label "True" . 
+answer:q27a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q28 . 
+question:q28 
+rdfs:label "What is an advantage of dynamic analysis?"; 
+core:hasAnswers answer:q28a0 , 
+answer:q28a1 , 
+answer:q28a2 , 
+answer:q28a3 ; 
+core:hasCorrectAnswer answer:q28a0 . 
+
+answer:q28a0 a core:answer; 
+rdfs:label "Permits validating static code analysis findings" . 
+answer:q28a1 a core:answer; 
+rdfs:label "Requires the analysis of applications for which you have access to the actual code" . 
+answer:q28a2 a core:answer; 
+rdfs:label "Restricts the collection of temporal information" . 
+answer:q28a3 a core:answer; 
+rdfs:label "Can only be conducted on a custom application" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q29 . 
+question:q29 
+rdfs:label "Requirements and architecture as a front-end process to Agile cycles is also known as __________."; 
+core:hasAnswers answer:q29a0 , 
+answer:q29a1 , 
+answer:q29a2 , 
+answer:q29a3 ; 
+core:hasCorrectAnswer answer:q29a3 . 
+
+answer:q29a0 a core:answer; 
+rdfs:label "Dashes" . 
+answer:q29a1 a core:answer; 
+rdfs:label "Rushes" . 
+answer:q29a2 a core:answer; 
+rdfs:label "Pushes" . 
+answer:q29a3 a core:answer; 
+rdfs:label "Sprints" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q30 . 
+question:q30 
+rdfs:label "SDL __________ covers all projects that have meaningful security and privacy risks, and is analyzed in each phase and updated to cover new threats and practices."; 
+core:hasAnswers answer:q30a0 , 
+answer:q30a1 , 
+answer:q30a2 , 
+answer:q30a3 ; 
+core:hasCorrectAnswer answer:q30a3 . 
+
+answer:q30a0 a core:answer; 
+rdfs:label "policy compliance" . 
+answer:q30a1 a core:answer; 
+rdfs:label "best practice" . 
+answer:q30a2 a core:answer; 
+rdfs:label "standards adherence" . 
+answer:q30a3 a core:answer; 
+rdfs:label "process improvement" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q31 . 
+question:q31 
+rdfs:label "Automated tools can be adequate substitutes for source-code review by a human."; 
+core:hasAnswers answer:q31a0 , 
+answer:q31a1 ; 
+core:hasCorrectAnswer answer:q31a1 . 
+
+answer:q31a0 a core:answer; 
+rdfs:label "True" . 
+answer:q31a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q32 . 
+question:q32 
+rdfs:label "You should use as few vulnerability scanners as possible across the stack; web application scanning alone will be sufficient."; 
+core:hasAnswers answer:q32a0 , 
+answer:q32a1 ; 
+core:hasCorrectAnswer answer:q32a1 . 
+
+answer:q32a0 a core:answer; 
+rdfs:label "True" . 
+answer:q32a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q33 . 
+question:q33 
+rdfs:label "__________ is a white-box security analysis of a software system to simulate the actions of a hacker, with the objective of uncovering potential vulnerabilities resulting from coding errors, system configuration faults, or other operational deployment weaknesses."; 
+core:hasAnswers answer:q33a0 , 
+answer:q33a1 , 
+answer:q33a2 , 
+answer:q33a3 ; 
+core:hasCorrectAnswer answer:q33a1 . 
+
+answer:q33a0 a core:answer; 
+rdfs:label "Vulnerability scanning" . 
+answer:q33a1 a core:answer; 
+rdfs:label "Penetration testing" . 
+answer:q33a2 a core:answer; 
+rdfs:label "Fuzzing" . 
+answer:q33a3 a core:answer; 
+rdfs:label "Code analysis" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q34 . 
+question:q34 
+rdfs:label "What is the first in the four-phase process to achieve the minimum requirements for penetration testing?"; 
+core:hasAnswers answer:q34a0 , 
+answer:q34a1 , 
+answer:q34a2 , 
+answer:q34a3 ; 
+core:hasCorrectAnswer answer:q34a2 . 
+
+answer:q34a0 a core:answer; 
+rdfs:label "Identify" . 
+answer:q34a1 a core:answer; 
+rdfs:label "Evaluate and Plan" . 
+answer:q34a2 a core:answer; 
+rdfs:label "Assess" . 
+answer:q34a3 a core:answer; 
+rdfs:label "Deploy" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q35 . 
+question:q35 
+rdfs:label "Open-source software is free and it increases innovation, efficiency, and competitiveness for software product development."; 
+core:hasAnswers answer:q35a0 , 
+answer:q35a1 ; 
+core:hasCorrectAnswer answer:q35a0 . 
+
+answer:q35a0 a core:answer; 
+rdfs:label "True" . 
+answer:q35a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q36 . 
+question:q36 
+rdfs:label "What is the first in the four-step process for the final product security review?"; 
+core:hasAnswers answer:q36a0 , 
+answer:q36a1 , 
+answer:q36a2 , 
+answer:q36a3 ; 
+core:hasCorrectAnswer answer:q36a1 . 
+
+answer:q36a0 a core:answer; 
+rdfs:label "Identify feature eligibility" . 
+answer:q36a1 a core:answer; 
+rdfs:label "Assess resource availability" . 
+answer:q36a2 a core:answer; 
+rdfs:label "Evaluate and plan for remediation" . 
+answer:q36a3 a core:answer; 
+rdfs:label "Release and ship" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q37 . 
+question:q37 
+rdfs:label "The metrics to be collected during the Ship (A5) phase of the SDL are limited to: Number, type, and severity of security issues found through vulnerability scanning and penetration testing. Number of security findings remediated. Number, types, and severity of findings outstanding."; 
+core:hasAnswers answer:q37a0 , 
+answer:q37a1 ; 
+core:hasCorrectAnswer answer:q37a1 . 
+
+answer:q37a0 a core:answer; 
+rdfs:label "True" . 
+answer:q37a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q38 . 
+question:q38 
+rdfs:label "What is described as an evangelist for the overall software product security program promulgated policy, enforcing policy, and evangelizing the overall SDL process?"; 
+core:hasAnswers answer:q38a0 , 
+answer:q38a1 , 
+answer:q38a2 , 
+answer:q38a3 ; 
+core:hasCorrectAnswer answer:q38a2 . 
+
+answer:q38a0 a core:answer; 
+rdfs:label "SSC" . 
+answer:q38a1 a core:answer; 
+rdfs:label "SSD" . 
+answer:q38a2 a core:answer; 
+rdfs:label "SSE" . 
+answer:q38a3 a core:answer; 
+rdfs:label "SES" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q39 . 
+question:q39 
+rdfs:label "Which two International Standards Organization (ISO) standards relate to the proper functioning of a vendor PSIRT?"; 
+core:hasAnswers answer:q39a0 , 
+answer:q39a1 , 
+answer:q39a2 , 
+answer:q39a3 ; 
+core:hasCorrectAnswer answer:q39a3 . 
+
+answer:q39a0 a core:answer; 
+rdfs:label "9000 & 9001" . 
+answer:q39a1 a core:answer; 
+rdfs:label "14000 & 14001" . 
+answer:q39a2 a core:answer; 
+rdfs:label "9001 & 14001" . 
+answer:q39a3 a core:answer; 
+rdfs:label "29147 & 30111" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q40 . 
+question:q40 
+rdfs:label "In relation to software security, a __________ is responsible for responding to software product security incidents involving external discoveries of post-release software product security vulnerabilities."; 
+core:hasAnswers answer:q40a0 , 
+answer:q40a1 , 
+answer:q40a2 , 
+answer:q40a3 ; 
+core:hasCorrectAnswer answer:q40a0 . 
+
+answer:q40a0 a core:answer; 
+rdfs:label "PSIRT" . 
+answer:q40a1 a core:answer; 
+rdfs:label "CIRT" . 
+answer:q40a2 a core:answer; 
+rdfs:label "CERT" . 
+answer:q40a3 a core:answer; 
+rdfs:label "GCIH" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q41 . 
+question:q41 
+rdfs:label "Third-party testing should include testing just your product, not the entire stack."; 
+core:hasAnswers answer:q41a0 , 
+answer:q41a1 ; 
+core:hasCorrectAnswer answer:q41a1 . 
+
+answer:q41a0 a core:answer; 
+rdfs:label "True" . 
+answer:q41a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q42 . 
+question:q42 
+rdfs:label "Which security or privacy certification or standard applies to healthcare?"; 
+core:hasAnswers answer:q42a0 , 
+answer:q42a1 , 
+answer:q42a2 , 
+answer:q42a3 ; 
+core:hasCorrectAnswer answer:q42a0 . 
+
+answer:q42a0 a core:answer; 
+rdfs:label "HIPAA" . 
+answer:q42a1 a core:answer; 
+rdfs:label "FISMA" . 
+answer:q42a2 a core:answer; 
+rdfs:label "FIPS" . 
+answer:q42a3 a core:answer; 
+rdfs:label "DIACAP" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q43 . 
+question:q43 
+rdfs:label "Once software has been through an SDL, you can re-use the software code any way you want."; 
+core:hasAnswers answer:q43a0 , 
+answer:q43a1 ; 
+core:hasCorrectAnswer answer:q43a1 . 
+
+answer:q43a0 a core:answer; 
+rdfs:label "True" . 
+answer:q43a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q44 . 
+question:q44 
+rdfs:label "What requires a communication cadence with customers that should be formalized and published so that everyone in the company is aware of it and can invoke it if needed?"; 
+core:hasAnswers answer:q44a0 , 
+answer:q44a1 , 
+answer:q44a2 , 
+answer:q44a3 ; 
+core:hasCorrectAnswer answer:q44a3 . 
+
+answer:q44a0 a core:answer; 
+rdfs:label "Post-Release Certifications" . 
+answer:q44a1 a core:answer; 
+rdfs:label "Third-Party Security Reviews" . 
+answer:q44a2 a core:answer; 
+rdfs:label "Security Strategy for Legacy Code, M&A, and EOL Plans" . 
+answer:q44a3 a core:answer; 
+rdfs:label "External Vulnerability Disclosure Response Process" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q45 . 
+question:q45 
+rdfs:label "Question 8 :What consists of multiple security assessments from independent parties?"; 
+core:hasAnswers answer:q45a0 , 
+answer:q45a1 , 
+answer:q45a2 , 
+answer:q45a3 ; 
+core:hasCorrectAnswer answer:q45a0 . 
+
+answer:q45a0 a core:answer; 
+rdfs:label "Third-Party Security Reviews" . 
+answer:q45a1 a core:answer; 
+rdfs:label "External Vulnerability Disclosure Response Process" . 
+answer:q45a2 a core:answer; 
+rdfs:label "Post-Release Certifications" . 
+answer:q45a3 a core:answer; 
+rdfs:label "Security Strategy for Legacy Code, M&A, and EOL Plans" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q46 . 
+question:q46 
+rdfs:label "Which due diligence activity for supply chain security should occur in the initiation phase of the software acquisition life cycle?"; 
+core:hasAnswers answer:q46a0 , 
+answer:q46a1 , 
+answer:q46a2 , 
+answer:q46a3 ; 
+core:hasCorrectAnswer answer:q46a3 . 
+
+answer:q46a0 a core:answer; 
+rdfs:label "Facilitating knowledge transfer between suppliers" . 
+answer:q46a1 a core:answer; 
+rdfs:label "Lessening the risk of disseminating information during disposal" . 
+answer:q46a2 a core:answer; 
+rdfs:label "Mitigating supply chain security risk by providing user guidance" . 
+answer:q46a3 a core:answer; 
+rdfs:label "Developing a request for proposal (RFP) that includes supply chain security risk management" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q47 . 
+question:q47 
+rdfs:label "Which due diligence activity for supply chain security investigates the means by which data sets are shared and assessed?"; 
+core:hasAnswers answer:q47a0 , 
+answer:q47a1 , 
+answer:q47a2 , 
+answer:q47a3 ; 
+core:hasCorrectAnswer answer:q47a3 . 
+
+answer:q47a0 a core:answer; 
+rdfs:label "An on-site assessment" . 
+answer:q47a1 a core:answer; 
+rdfs:label "A process policy review" . 
+answer:q47a2 a core:answer; 
+rdfs:label "A third-party assessment" . 
+answer:q47a3 a core:answer; 
+rdfs:label "A document exchange and review" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q48 . 
+question:q48 
+rdfs:label "Consider these characteristics:<br>Identification of the entity making the access request <br>Verification that the request has not changed since its initiation Application of the appropriate authorization procedures Reexamination of previously authorized requests by the same entity Which security design analysis is being described?"; 
+core:hasAnswers answer:q48a0 , 
+answer:q48a1 , 
+answer:q48a2 , 
+answer:q48a3 ; 
+core:hasCorrectAnswer answer:q48a1 . 
+
+answer:q48a0 a core:answer; 
+rdfs:label "Open design" . 
+answer:q48a1 a core:answer; 
+rdfs:label "Complete mediation" . 
+answer:q48a2 a core:answer; 
+rdfs:label "Economy of mechanism" . 
+answer:q48a3 a core:answer; 
+rdfs:label "Least common mechanism" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q49 . 
+question:q49 
+rdfs:label "Which software security principle guards against the improper modification or destruction of information and ensures the nonrepudiation and authenticity of information?"; 
+core:hasAnswers answer:q49a0 , 
+answer:q49a1 , 
+answer:q49a2 , 
+answer:q49a3 ; 
+core:hasCorrectAnswer answer:q49a1 . 
+
+answer:q49a0 a core:answer; 
+rdfs:label "Quality" . 
+answer:q49a1 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q49a2 a core:answer; 
+rdfs:label "Availability" . 
+answer:q49a3 a core:answer; 
+rdfs:label "Confidentiality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q50 . 
+question:q50 
+rdfs:label "What type of functional security requirement involves receiving, processing, storing, transmitting, and delivering in report form?"; 
+core:hasAnswers answer:q50a0 , 
+answer:q50a1 , 
+answer:q50a2 , 
+answer:q50a3 ; 
+core:hasCorrectAnswer answer:q50a2 . 
+
+answer:q50a0 a core:answer; 
+rdfs:label "Logging" . 
+answer:q50a1 a core:answer; 
+rdfs:label "Error handling" . 
+answer:q50a2 a core:answer; 
+rdfs:label "Primary dataflow" . 
+answer:q50a3 a core:answer; 
+rdfs:label "Access control flow" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q51 . 
+question:q51 
+rdfs:label "Which nonfunctional security requirement  provides a way to capture information correctly and a way to store that information to help support later audits?"; 
+core:hasAnswers answer:q51a0 , 
+answer:q51a1 , 
+answer:q51a2 , 
+answer:q51a3 ; 
+core:hasCorrectAnswer answer:q51a0 . 
+
+answer:q51a0 a core:answer; 
+rdfs:label "Logging" . 
+answer:q51a1 a core:answer; 
+rdfs:label "Error handling" . 
+answer:q51a2 a core:answer; 
+rdfs:label "Primary dataflow" . 
+answer:q51a3 a core:answer; 
+rdfs:label "Access control flow" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q52 . 
+question:q52 
+rdfs:label "Which security concept refers to the quality of information that could cause harm or damage if disclosed?"; 
+core:hasAnswers answer:q52a0 , 
+answer:q52a1 , 
+answer:q52a2 , 
+answer:q52a3 ; 
+core:hasCorrectAnswer answer:q52a3 . 
+
+answer:q52a0 a core:answer; 
+rdfs:label "Isolation" . 
+answer:q52a1 a core:answer; 
+rdfs:label "Discretion" . 
+answer:q52a2 a core:answer; 
+rdfs:label "Seclusion" . 
+answer:q52a3 a core:answer; 
+rdfs:label "Sensitivity" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q53 . 
+question:q53 
+rdfs:label "Which technology would be an example of an injection flaw, according to the OWASP Top 10?"; 
+core:hasAnswers answer:q53a0 , 
+answer:q53a1 , 
+answer:q53a2 , 
+answer:q53a3 ; 
+core:hasCorrectAnswer answer:q53a0 . 
+
+answer:q53a0 a core:answer; 
+rdfs:label "SQL" . 
+answer:q53a1 a core:answer; 
+rdfs:label "API" . 
+answer:q53a2 a core:answer; 
+rdfs:label "XML" . 
+answer:q53a3 a core:answer; 
+rdfs:label "XSS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q54 . 
+question:q54 
+rdfs:label "A company is creating a new software to track customer balance and wants to design a secure application. Which best practice should be applied?"; 
+core:hasAnswers answer:q54a0 , 
+answer:q54a1 , 
+answer:q54a2 , 
+answer:q54a3 ; 
+core:hasCorrectAnswer answer:q54a3 . 
+
+answer:q54a0 a core:answer; 
+rdfs:label "Develop a secure authentication method that has a closed design" . 
+answer:q54a1 a core:answer; 
+rdfs:label "Allow mediation bypass or suspension for software testing and emergency planning" . 
+answer:q54a2 a core:answer; 
+rdfs:label "Ensure there is physical acceptability to ensure software is intuitive for the users to do their jobs" . 
+answer:q54a3 a core:answer; 
+rdfs:label "Create multiple layers of protection so that a subsequent layer provides protection if a layer is breached" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q55 . 
+question:q55 
+rdfs:label "A company is developing a secure software that has to be evaluated and tested by a large number of experts. Which security principle should be applied?"; 
+core:hasAnswers answer:q55a0 , 
+answer:q55a1 , 
+answer:q55a2 , 
+answer:q55a3 ; 
+core:hasCorrectAnswer answer:q55a1 . 
+
+answer:q55a0 a core:answer; 
+rdfs:label "Fail safe" . 
+answer:q55a1 a core:answer; 
+rdfs:label "Open design" . 
+answer:q55a2 a core:answer; 
+rdfs:label "Defense in depth" . 
+answer:q55a3 a core:answer; 
+rdfs:label "Complete mediation" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q56 . 
+question:q56 
+rdfs:label "Which type of TCP scanning indicates that a system is moving to the second phase in a three-way TCP handshake?"; 
+core:hasAnswers answer:q56a0 , 
+answer:q56a1 , 
+answer:q56a2 , 
+answer:q56a3 ; 
+core:hasCorrectAnswer answer:q56a0 . 
+
+answer:q56a0 a core:answer; 
+rdfs:label "TCP SYN scanning" . 
+answer:q56a1 a core:answer; 
+rdfs:label "TCP ACK scanning" . 
+answer:q56a2 a core:answer; 
+rdfs:label "TCP XMAS scanning" . 
+answer:q56a3 a core:answer; 
+rdfs:label "TCP Connect scanning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q57 . 
+question:q57 
+rdfs:label "Which evaluation technique provides invalid, unexpected, or random data to the inputs of a computer software program?"; 
+core:hasAnswers answer:q57a0 , 
+answer:q57a1 , 
+answer:q57a2 , 
+answer:q57a3 ; 
+core:hasCorrectAnswer answer:q57a0 . 
+
+answer:q57a0 a core:answer; 
+rdfs:label "Fuzz testing" . 
+answer:q57a1 a core:answer; 
+rdfs:label "Static analysis" . 
+answer:q57a2 a core:answer; 
+rdfs:label "Dynamic analysis" . 
+answer:q57a3 a core:answer; 
+rdfs:label "Regression testing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q58 . 
+question:q58 
+rdfs:label "Which approach provides an opportunity to improve the software development life cycle by tailoring the process to the specific risks facing the organization?"; 
+core:hasAnswers answer:q58a0 , 
+answer:q58a1 , 
+answer:q58a2 , 
+answer:q58a3 ; 
+core:hasCorrectAnswer answer:q58a3 . 
+
+answer:q58a0 a core:answer; 
+rdfs:label "Agile methodology" . 
+answer:q58a1 a core:answer; 
+rdfs:label "Waterfall methodology" . 
+answer:q58a2 a core:answer; 
+rdfs:label "Building security in maturity model (BSIMM)" . 
+answer:q58a3 a core:answer; 
+rdfs:label "Software assurance maturity model (SAMM)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q59 . 
+question:q59 
+rdfs:label "Which phase contains sophisticated software development processes that ensure that feedback from one phase reaches to the previous phase to improve future results?"; 
+core:hasAnswers answer:q59a0 , 
+answer:q59a1 , 
+answer:q59a2 , 
+answer:q59a3 ; 
+core:hasCorrectAnswer answer:q59a3 . 
+
+answer:q59a0 a core:answer; 
+rdfs:label "Initial" . 
+answer:q59a1 a core:answer; 
+rdfs:label "Managed" . 
+answer:q59a2 a core:answer; 
+rdfs:label "Optimizing" . 
+answer:q59a3 a core:answer; 
+rdfs:label "Repeatable" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q60 . 
+question:q60 
+rdfs:label "The purpose of a policy compliance analysis is to define what needs to be protected and how it will be protected, including reviewing and incorporating policies from outside the SDL that may impact the development process."; 
+core:hasAnswers answer:q60a0 , 
+answer:q60a1 ; 
+core:hasCorrectAnswer answer:q60a1 . 
+
+answer:q60a0 a core:answer; 
+rdfs:label "True" . 
+answer:q60a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q61 . 
+question:q61 
+rdfs:label "Unless the senior leadership of the development organization and the management team support the SDL, it will likely fail. It must be driven by a policy that is signed off, promulgated, and provides support by the software development management team and, ideally, by the CEO."; 
+core:hasAnswers answer:q61a0 , 
+answer:q61a1 ; 
+core:hasCorrectAnswer answer:q61a0 . 
+
+answer:q61a0 a core:answer; 
+rdfs:label "True" . 
+answer:q61a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q62 . 
+question:q62 
+rdfs:label "Which exercise requires a special set of skills, experience, and mindset, and requires the team to think like an adversary?"; 
+core:hasAnswers answer:q62a0 , 
+answer:q62a1 , 
+answer:q62a2 , 
+answer:q62a3 ; 
+core:hasCorrectAnswer answer:q62a0 . 
+
+answer:q62a0 a core:answer; 
+rdfs:label "Threat modeling" . 
+answer:q62a1 a core:answer; 
+rdfs:label "Vulnerability modeling" . 
+answer:q62a2 a core:answer; 
+rdfs:label "Exploit modeling" . 
+answer:q62a3 a core:answer; 
+rdfs:label "Security modeling" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q63 . 
+question:q63 
+rdfs:label "The diagram produced in this stage of the threat modeling process is called a __________. Its focus is to show how data moves through the software solution and what happens to the data as it moves."; 
+core:hasAnswers answer:q63a0 , 
+answer:q63a1 , 
+answer:q63a2 , 
+answer:q63a3 ; 
+core:hasCorrectAnswer answer:q63a2 . 
+
+answer:q63a0 a core:answer; 
+rdfs:label "TFT" . 
+answer:q63a1 a core:answer; 
+rdfs:label "STRIDE" . 
+answer:q63a2 a core:answer; 
+rdfs:label "DFD" . 
+answer:q63a3 a core:answer; 
+rdfs:label "MITM" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q64 . 
+question:q64 
+rdfs:label "What is the increasing trend in the software industry to draw on the strengths of various types of software to deliver the highest value at the lowest cost?"; 
+core:hasAnswers answer:q64a0 , 
+answer:q64a1 , 
+answer:q64a2 , 
+answer:q64a3 ; 
+core:hasCorrectAnswer answer:q64a1 . 
+
+answer:q64a0 a core:answer; 
+rdfs:label "Open source" . 
+answer:q64a1 a core:answer; 
+rdfs:label "Mixed source" . 
+answer:q64a2 a core:answer; 
+rdfs:label "Proprietary" . 
+answer:q64a3 a core:answer; 
+rdfs:label "Shareware" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q65 . 
+question:q65 
+rdfs:label "Which assessment requires an extensive review that will be conducted by your software security architect, a third party, or a combination of both?"; 
+core:hasAnswers answer:q65a0 , 
+answer:q65a1 , 
+answer:q65a2 , 
+answer:q65a3 ; 
+core:hasCorrectAnswer answer:q65a3 . 
+
+answer:q65a0 a core:answer; 
+rdfs:label "Quality assessment" . 
+answer:q65a1 a core:answer; 
+rdfs:label "Policy assessment" . 
+answer:q65a2 a core:answer; 
+rdfs:label "Compliance assessment" . 
+answer:q65a3 a core:answer; 
+rdfs:label "Security assessment" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q66 . 
+question:q66 
+rdfs:label "The __________ phase determines how PII will be handled to ensure that it conforms to applicable legal, regulatory, and policy requirements regarding privacy."; 
+core:hasAnswers answer:q66a0 , 
+answer:q66a1 , 
+answer:q66a2 , 
+answer:q66a3 ; 
+core:hasCorrectAnswer answer:q66a0 . 
+
+answer:q66a0 a core:answer; 
+rdfs:label "analysis" . 
+answer:q66a1 a core:answer; 
+rdfs:label "selection" . 
+answer:q66a2 a core:answer; 
+rdfs:label "threat" . 
+answer:q66a3 a core:answer; 
+rdfs:label "compliance" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q67 . 
+question:q67 
+rdfs:label "Which artifact lists software requirements and business risks mapped to the three pillars of information security?"; 
+core:hasAnswers answer:q67a0 , 
+answer:q67a1 , 
+answer:q67a2 , 
+answer:q67a3 ; 
+core:hasCorrectAnswer answer:q67a1 . 
+
+answer:q67a0 a core:answer; 
+rdfs:label "Informal business requirement" . 
+answer:q67a1 a core:answer; 
+rdfs:label "Formal business requirement" . 
+answer:q67a2 a core:answer; 
+rdfs:label "Informal security requirement" . 
+answer:q67a3 a core:answer; 
+rdfs:label "Formal compliance requirement" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q68 . 
+question:q68 
+rdfs:label "It is important in __________ meetings, when the software security team is included, to ensure that security is a key element of the SDLC and is built into the process."; 
+core:hasAnswers answer:q68a0 , 
+answer:q68a1 , 
+answer:q68a2 , 
+answer:q68a3 ; 
+core:hasCorrectAnswer answer:q68a0 . 
+
+answer:q68a0 a core:answer; 
+rdfs:label "kick-off" . 
+answer:q68a1 a core:answer; 
+rdfs:label "discovery" . 
+answer:q68a2 a core:answer; 
+rdfs:label "hot wash" . 
+answer:q68a3 a core:answer; 
+rdfs:label "planning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q69 . 
+question:q69 
+rdfs:label "Bringing the security team into the development process early is the most expensive way to enable risk identification, planning, and mitigation."; 
+core:hasAnswers answer:q69a0 , 
+answer:q69a1 ; 
+core:hasCorrectAnswer answer:q69a1 . 
+
+answer:q69a0 a core:answer; 
+rdfs:label "True" . 
+answer:q69a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q70 . 
+question:q70 
+rdfs:label "Which requirements describe what an application must do to serve a business need?"; 
+core:hasAnswers answer:q70a0 , 
+answer:q70a1 , 
+answer:q70a2 , 
+answer:q70a3 ; 
+core:hasCorrectAnswer answer:q70a2 . 
+
+answer:q70a0 a core:answer; 
+rdfs:label "Nonfunctional requirements" . 
+answer:q70a1 a core:answer; 
+rdfs:label "Fictional requirements" . 
+answer:q70a2 a core:answer; 
+rdfs:label "Functional requirements" . 
+answer:q70a3 a core:answer; 
+rdfs:label "Nonfictional requirements" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q71 . 
+question:q71 
+rdfs:label "Question 4 :Which requirements address how well the requirements are met or constrain the requirements to specified operating ranges?"; 
+core:hasAnswers answer:q71a0 , 
+answer:q71a1 , 
+answer:q71a2 , 
+answer:q71a3 ; 
+core:hasCorrectAnswer answer:q71a1 . 
+
+answer:q71a0 a core:answer; 
+rdfs:label "Functional requirements" . 
+answer:q71a1 a core:answer; 
+rdfs:label "Nonfunctional requirements" . 
+answer:q71a2 a core:answer; 
+rdfs:label "Fictional requirements" . 
+answer:q71a3 a core:answer; 
+rdfs:label "Nonfictional requirements" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q72 . 
+question:q72 
+rdfs:label "The __________ meeting is essentially an SDL kick-off meeting where the key SDLC stakeholders get on the same page at the beginning of the process so that security is built in rather than bolted on post-release."; 
+core:hasAnswers answer:q72a0 , 
+answer:q72a1 , 
+answer:q72a2 , 
+answer:q72a3 ; 
+core:hasCorrectAnswer answer:q72a1 . 
+
+answer:q72a0 a core:answer; 
+rdfs:label "kickoff" . 
+answer:q72a1 a core:answer; 
+rdfs:label "discovery" . 
+answer:q72a2 a core:answer; 
+rdfs:label "hot wash" . 
+answer:q72a3 a core:answer; 
+rdfs:label "planning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q73 . 
+question:q73 
+rdfs:label "The SDL __________ should outline security milestones based on the information gained during the previous phase and integrate them into the overall SDLC schedule to allow proper preparation as changes occur."; 
+core:hasAnswers answer:q73a0 , 
+answer:q73a1 , 
+answer:q73a2 , 
+answer:q73a3 ; 
+core:hasCorrectAnswer answer:q73a2 . 
+
+answer:q73a0 a core:answer; 
+rdfs:label "discovery meeting" . 
+answer:q73a1 a core:answer; 
+rdfs:label "impact assessment" . 
+answer:q73a2 a core:answer; 
+rdfs:label "project plan" . 
+answer:q73a3 a core:answer; 
+rdfs:label "metrics" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q74 . 
+question:q74 
+rdfs:label "Before you can begin developing a Privacy Impact Assessment (PIA), you will need to evaluate what regulatory legislation or policies are applicable to the software you are developing."; 
+core:hasAnswers answer:q74a0 , 
+answer:q74a1 ; 
+core:hasCorrectAnswer answer:q74a0 . 
+
+answer:q74a0 a core:answer; 
+rdfs:label "True" . 
+answer:q74a1 a core:answer; 
+rdfs:label "False" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q75 . 
+question:q75 
+rdfs:label "The setting of the __________ for any SDL phase will make it more effective and will help in performing post-mortem afterwards to understand what worked and what did not."; 
+core:hasAnswers answer:q75a0 , 
+answer:q75a1 , 
+answer:q75a2 , 
+answer:q75a3 ; 
+core:hasCorrectAnswer answer:q75a0 . 
+
+answer:q75a0 a core:answer; 
+rdfs:label "key success factors" . 
+answer:q75a1 a core:answer; 
+rdfs:label "project plan" . 
+answer:q75a2 a core:answer; 
+rdfs:label "discovery meeting" . 
+answer:q75a3 a core:answer; 
+rdfs:label "impact assessment" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q76 . 
+question:q76 
+rdfs:label "The most well-known SDL model is the __________, a process that Microsoft has adopted for the development of software that needs to withstand malicious attack and is considered the most mature of the top three models."; 
+core:hasAnswers answer:q76a0 , 
+answer:q76a1 , 
+answer:q76a2 , 
+answer:q76a3 ; 
+core:hasCorrectAnswer answer:q76a3 . 
+
+answer:q76a0 a core:answer; 
+rdfs:label "Cigital Software Security Touchpoints model" . 
+answer:q76a1 a core:answer; 
+rdfs:label "OWASP Security Development Lifecycle" . 
+answer:q76a2 a core:answer; 
+rdfs:label "Cisco Secure Development Lifecycle" . 
+answer:q76a3 a core:answer; 
+rdfs:label "Trustworthy Computing Security Development Lifecycle" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q77 . 
+question:q77 
+rdfs:label "The ISO/IEC __________ standard provides guidance to help organizations embed security within their processes that help secure applications running in the environment, including application life cycle processes."; 
+core:hasAnswers answer:q77a0 , 
+answer:q77a1 , 
+answer:q77a2 , 
+answer:q77a3 ; 
+core:hasCorrectAnswer answer:q77a1 . 
+
+answer:q77a0 a core:answer; 
+rdfs:label "17799" . 
+answer:q77a1 a core:answer; 
+rdfs:label "27034" . 
+answer:q77a2 a core:answer; 
+rdfs:label "27001" . 
+answer:q77a3 a core:answer; 
+rdfs:label "SDLC" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q78 . 
+question:q78 
+rdfs:label "__________ is a global, industry-led effort to identify and promote best practices for developing and delivering more secure and reliable software, hardware, and services."; 
+core:hasAnswers answer:q78a0 , 
+answer:q78a1 , 
+answer:q78a2 , 
+answer:q78a3 ; 
+core:hasCorrectAnswer answer:q78a2 . 
+
+answer:q78a0 a core:answer; 
+rdfs:label "NCSD" . 
+answer:q78a1 a core:answer; 
+rdfs:label "BSI" . 
+answer:q78a2 a core:answer; 
+rdfs:label "SAFECode" . 
+answer:q78a3 a core:answer; 
+rdfs:label "SDLC" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q79 . 
+question:q79 
+rdfs:label "The __________ is a list of information security vulnerabilities and exposures that aims to provide common names for publicly known problems."; 
+core:hasAnswers answer:q79a0 , 
+answer:q79a1 , 
+answer:q79a2 , 
+answer:q79a3 ; 
+core:hasCorrectAnswer answer:q79a0 . 
+
+answer:q79a0 a core:answer; 
+rdfs:label "CVE" . 
+answer:q79a1 a core:answer; 
+rdfs:label "SAMATE" . 
+answer:q79a2 a core:answer; 
+rdfs:label "NCSD" . 
+answer:q79a3 a core:answer; 
+rdfs:label "SDLC" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q80 . 
+question:q80 
+rdfs:label "__________ is the analysis of computer software that is performed by executing programs on a real or virtual processor in real time."; 
+core:hasAnswers answer:q80a0 , 
+answer:q80a1 , 
+answer:q80a2 , 
+answer:q80a3 ; 
+core:hasCorrectAnswer answer:q80a1 . 
+
+answer:q80a0 a core:answer; 
+rdfs:label "Fuzzing" . 
+answer:q80a1 a core:answer; 
+rdfs:label "Dynamic program analysis" . 
+answer:q80a2 a core:answer; 
+rdfs:label "Static program analysis" . 
+answer:q80a3 a core:answer; 
+rdfs:label "Scratching" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q81 . 
+question:q81 
+rdfs:label "__________ is a black-box software testing technique that can be automated and provides invalid, unexpected, or random data to the inputs of a computer software program."; 
+core:hasAnswers answer:q81a0 , 
+answer:q81a1 , 
+answer:q81a2 , 
+answer:q81a3 ; 
+core:hasCorrectAnswer answer:q81a0 . 
+
+answer:q81a0 a core:answer; 
+rdfs:label "Fuzzing" . 
+answer:q81a1 a core:answer; 
+rdfs:label "Dynamic program analysis" . 
+answer:q81a2 a core:answer; 
+rdfs:label "Static program analysis" . 
+answer:q81a3 a core:answer; 
+rdfs:label "Scratching" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q82 . 
+question:q82 
+rdfs:label "__________ is the analysis of computer software that is performed without actually executing programs."; 
+core:hasAnswers answer:q82a0 , 
+answer:q82a1 , 
+answer:q82a2 , 
+answer:q82a3 ; 
+core:hasCorrectAnswer answer:q82a2 . 
+
+answer:q82a0 a core:answer; 
+rdfs:label "Fuzzing" . 
+answer:q82a1 a core:answer; 
+rdfs:label "Dynamic program analysis" . 
+answer:q82a2 a core:answer; 
+rdfs:label "Static program analysis" . 
+answer:q82a3 a core:answer; 
+rdfs:label "Scratching" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q83 . 
+question:q83 
+rdfs:label "The __________ requires that in a particular abstraction layer of a computing environment, every module must be able to access only the information and resources that are necessary for its legitimate purpose."; 
+core:hasAnswers answer:q83a0 , 
+answer:q83a1 , 
+answer:q83a2 , 
+answer:q83a3 ; 
+core:hasCorrectAnswer answer:q83a0 . 
+
+answer:q83a0 a core:answer; 
+rdfs:label "principle of least privilege" . 
+answer:q83a1 a core:answer; 
+rdfs:label "software security maturity model" . 
+answer:q83a2 a core:answer; 
+rdfs:label "secure development life cycle" . 
+answer:q83a3 a core:answer; 
+rdfs:label "software assurance forum" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q84 . 
+question:q84 
+rdfs:label "Developers must take the time to code __________, and eradicate __________ security flaw before the code goes into production."; 
+core:hasAnswers answer:q84a0 , 
+answer:q84a1 , 
+answer:q84a2 , 
+answer:q84a3 ; 
+core:hasCorrectAnswer answer:q84a0 . 
+
+answer:q84a0 a core:answer; 
+rdfs:label "cleanly, every possible" . 
+answer:q84a1 a core:answer; 
+rdfs:label "quickly, the least possible" . 
+answer:q84a2 a core:answer; 
+rdfs:label "efficiently, the most common" . 
+answer:q84a3 a core:answer; 
+rdfs:label "slowly, the most prevalent" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q85 . 
+question:q85 
+rdfs:label "What are two attributes which complement each other and enhance overall software product integrity and market value?"; 
+core:hasAnswers answer:q85a0 , 
+answer:q85a1 , 
+answer:q85a2 , 
+answer:q85a3 ; 
+core:hasCorrectAnswer answer:q85a3 . 
+
+answer:q85a0 a core:answer; 
+rdfs:label "Proprietary, shared" . 
+answer:q85a1 a core:answer; 
+rdfs:label "Open source, closed source" . 
+answer:q85a2 a core:answer; 
+rdfs:label "Reliability, usability" . 
+answer:q85a3 a core:answer; 
+rdfs:label "Quality, security" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q86 . 
+question:q86 
+rdfs:label "__________ and __________ are the two properties that support confidentiality as one ensures users have the appropriate role and privilege to view data, and the other ensures users are who they claim to be and that the data come from the appropriate place."; 
+core:hasAnswers answer:q86a0 , 
+answer:q86a1 , 
+answer:q86a2 , 
+answer:q86a3 ; 
+core:hasCorrectAnswer answer:q86a2 . 
+
+answer:q86a0 a core:answer; 
+rdfs:label "Availability, authenticity" . 
+answer:q86a1 a core:answer; 
+rdfs:label "Access, authorization" . 
+answer:q86a2 a core:answer; 
+rdfs:label "Authorization, authentication" . 
+answer:q86a3 a core:answer; 
+rdfs:label "Asymmetry, access" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q87 . 
+question:q87 
+rdfs:label "What is responsible for preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information?"; 
+core:hasAnswers answer:q87a0 , 
+answer:q87a1 , 
+answer:q87a2 , 
+answer:q87a3 ; 
+core:hasCorrectAnswer answer:q87a1 . 
+
+answer:q87a0 a core:answer; 
+rdfs:label "Availability" . 
+answer:q87a1 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q87a2 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q87a3 a core:answer; 
+rdfs:label "Integrity" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q88 . 
+question:q88 
+rdfs:label "What is responsible for guarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity?"; 
+core:hasAnswers answer:q88a0 , 
+answer:q88a1 , 
+answer:q88a2 , 
+answer:q88a3 ; 
+core:hasCorrectAnswer answer:q88a1 . 
+
+answer:q88a0 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q88a1 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q88a2 a core:answer; 
+rdfs:label "Availability" . 
+answer:q88a3 a core:answer; 
+rdfs:label "Authorization" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q89 . 
+question:q89 
+rdfs:label "What is responsible for ensuring timely and reliable access to and use of information?"; 
+core:hasAnswers answer:q89a0 , 
+answer:q89a1 , 
+answer:q89a2 , 
+answer:q89a3 ; 
+core:hasCorrectAnswer answer:q89a2 . 
+
+answer:q89a0 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q89a1 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q89a2 a core:answer; 
+rdfs:label "Availability" . 
+answer:q89a3 a core:answer; 
+rdfs:label "Authorization" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q90 . 
+question:q90 
+rdfs:label "Which concept in the software life cycle understands the potential security threats to the system, determines risk, and establishes appropriate mitigations?"; 
+core:hasAnswers answer:q90a0 , 
+answer:q90a1 , 
+answer:q90a2 , 
+answer:q90a3 ; 
+core:hasCorrectAnswer answer:q90a3 . 
+
+answer:q90a0 a core:answer; 
+rdfs:label "Penetration testing" . 
+answer:q90a1 a core:answer; 
+rdfs:label "Vulnerability assessment" . 
+answer:q90a2 a core:answer; 
+rdfs:label "Attack surface validation" . 
+answer:q90a3 a core:answer; 
+rdfs:label "Threat modeling" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q91 . 
+question:q91 
+rdfs:label "The majority of __________ against software __________ some vulnerability or weakness in that software; these terms are often used interchangeably."; 
+core:hasAnswers answer:q91a0 , 
+answer:q91a1 , 
+answer:q91a2 , 
+answer:q91a3 ; 
+core:hasCorrectAnswer answer:q91a2 . 
+
+answer:q91a0 a core:answer; 
+rdfs:label "threats, hack" . 
+answer:q91a1 a core:answer; 
+rdfs:label "malware, flaw" . 
+answer:q91a2 a core:answer; 
+rdfs:label "attacks, exploit" . 
+answer:q91a3 a core:answer; 
+rdfs:label "mitigations, remediate" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q92 . 
+question:q92 
+rdfs:label "The activities for compliance include ensuring collected information is only used for intended purposes, information is timely and accurate, and the public is aware of the information collected and how it is used. Which well-accepted secure development standard is addressed by these activities?"; 
+core:hasAnswers answer:q92a0 , 
+answer:q92a1 , 
+answer:q92a2 , 
+answer:q92a3 ; 
+core:hasCorrectAnswer answer:q92a0 . 
+
+answer:q92a0 a core:answer; 
+rdfs:label "PIA" . 
+answer:q92a1 a core:answer; 
+rdfs:label "PA-DSS" . 
+answer:q92a2 a core:answer; 
+rdfs:label "PCI-DSS" . 
+answer:q92a3 a core:answer; 
+rdfs:label "PTS-DSS" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q93 . 
+question:q93 
+rdfs:label "An organization is in the process of building an application for its banking software. Which security coding practice must the organization follow?"; 
+core:hasAnswers answer:q93a0 , 
+answer:q93a1 , 
+answer:q93a2 , 
+answer:q93a3 ; 
+core:hasCorrectAnswer answer:q93a1 . 
+
+answer:q93a0 a core:answer; 
+rdfs:label "Run a data analysis" . 
+answer:q93a1 a core:answer; 
+rdfs:label "Conduct data validation " . 
+answer:q93a2 a core:answer; 
+rdfs:label "Validate the data source " . 
+answer:q93a3 a core:answer; 
+rdfs:label "Align business goals " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q94 . 
+question:q94 
+rdfs:label "What is included in a typical job description of a software security champion (SSC)?"; 
+core:hasAnswers answer:q94a0 , 
+answer:q94a1 , 
+answer:q94a2 , 
+answer:q94a3 ; 
+core:hasCorrectAnswer answer:q94a3 . 
+
+answer:q94a0 a core:answer; 
+rdfs:label "Identify software update source and sink" . 
+answer:q94a1 a core:answer; 
+rdfs:label "Review code to identify skill-related bugs" . 
+answer:q94a2 a core:answer; 
+rdfs:label "Develop and manage the after-SDLC stage" . 
+answer:q94a3 a core:answer; 
+rdfs:label "Consider all possible paths of attack or exploits" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q95 . 
+question:q95 
+rdfs:label "Which role is a training champion of software security, an advocate for the overall SDL process, and a proponent for promulgating and enforcing the overall software product security program?"; 
+core:hasAnswers answer:q95a0 , 
+answer:q95a1 , 
+answer:q95a2 , 
+answer:q95a3 ; 
+core:hasCorrectAnswer answer:q95a2 . 
+
+answer:q95a0 a core:answer; 
+rdfs:label "Software security user (SSU)" . 
+answer:q95a1 a core:answer; 
+rdfs:label "Software security architect (SSA)" . 
+answer:q95a2 a core:answer; 
+rdfs:label "Software security evangelist (SSE)" . 
+answer:q95a3 a core:answer; 
+rdfs:label "Software security stakeholder (SSS)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q96 . 
+question:q96 
+rdfs:label "Which role requires the technical capability to be trained as a software security architect who then assists the centralized software security group with architecture security analysis and threat modeling?"; 
+core:hasAnswers answer:q96a0 , 
+answer:q96a1 , 
+answer:q96a2 , 
+answer:q96a3 ; 
+core:hasCorrectAnswer answer:q96a0 . 
+
+answer:q96a0 a core:answer; 
+rdfs:label "Software champion" . 
+answer:q96a1 a core:answer; 
+rdfs:label "Software evangelist" . 
+answer:q96a2 a core:answer; 
+rdfs:label "Junior software developer" . 
+answer:q96a3 a core:answer; 
+rdfs:label "Senior software programmer" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q97 . 
+question:q97 
+rdfs:label "An application development team is designing and building an application that interfaces with a back-end database. Which activity should be included when constructing a threat model for the application?"; 
+core:hasAnswers answer:q97a0 , 
+answer:q97a1 , 
+answer:q97a2 , 
+answer:q97a3 ; 
+core:hasCorrectAnswer answer:q97a1 . 
+
+answer:q97a0 a core:answer; 
+rdfs:label "Designate one or more primary keys for each database table in the database " . 
+answer:q97a1 a core:answer; 
+rdfs:label "Decompose the application to understand how it interacts with external entities " . 
+answer:q97a2 a core:answer; 
+rdfs:label "Review the relationships among the attributes to be included in the database tables " . 
+answer:q97a3 a core:answer; 
+rdfs:label "Create a set of performance metrics to assess the functionality of the developed application " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q98 . 
+question:q98 
+rdfs:label "What is the third step for constructing a threat model for identifying a spoofing threat?"; 
+core:hasAnswers answer:q98a0 , 
+answer:q98a1 , 
+answer:q98a2 , 
+answer:q98a3 ; 
+core:hasCorrectAnswer answer:q98a0 . 
+
+answer:q98a0 a core:answer; 
+rdfs:label "Decompose threats" . 
+answer:q98a1 a core:answer; 
+rdfs:label "Identify threats" . 
+answer:q98a2 a core:answer; 
+rdfs:label "Identify vulnerabilities" . 
+answer:q98a3 a core:answer; 
+rdfs:label "Survey the application" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q99 . 
+question:q99 
+rdfs:label "What is a step for constructing a threat model for a project when using practical risk analysis?"; 
+core:hasAnswers answer:q99a0 , 
+answer:q99a1 , 
+answer:q99a2 , 
+answer:q99a3 ; 
+core:hasCorrectAnswer answer:q99a3 . 
+
+answer:q99a0 a core:answer; 
+rdfs:label "Align your business goals" . 
+answer:q99a1 a core:answer; 
+rdfs:label "Apply engineering methods" . 
+answer:q99a2 a core:answer; 
+rdfs:label "Estimate probability of project time" . 
+answer:q99a3 a core:answer; 
+rdfs:label "Make a list of what you are trying to protect" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q100 . 
+question:q100 
+rdfs:label "Which cyber threats are typically surgical by nature, have highly specific targeting, and are technologically sophisticated?"; 
+core:hasAnswers answer:q100a0 , 
+answer:q100a1 , 
+answer:q100a2 , 
+answer:q100a3 ; 
+core:hasCorrectAnswer answer:q100a0 . 
+
+answer:q100a0 a core:answer; 
+rdfs:label "Tactical attacks" . 
+answer:q100a1 a core:answer; 
+rdfs:label "Criminal attacks " . 
+answer:q100a2 a core:answer; 
+rdfs:label "Strategic attacks " . 
+answer:q100a3 a core:answer; 
+rdfs:label "User-specific attacks " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q101 . 
+question:q101 
+rdfs:label "Which type of cyberattacks are often intended to elevate awareness of a topic?"; 
+core:hasAnswers answer:q101a0 , 
+answer:q101a1 , 
+answer:q101a2 , 
+answer:q101a3 ; 
+core:hasCorrectAnswer answer:q101a3 . 
+
+answer:q101a0 a core:answer; 
+rdfs:label "Cyberwarfare" . 
+answer:q101a1 a core:answer; 
+rdfs:label "Tactical attacks" . 
+answer:q101a2 a core:answer; 
+rdfs:label "User-specific attacks" . 
+answer:q101a3 a core:answer; 
+rdfs:label "Sociopolitical attacks" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q102 . 
+question:q102 
+rdfs:label "What type of attack locks a user’s desktop and then requires a payment to unlock it?"; 
+core:hasAnswers answer:q102a0 , 
+answer:q102a1 , 
+answer:q102a2 , 
+answer:q102a3 ; 
+core:hasCorrectAnswer answer:q102a2 . 
+
+answer:q102a0 a core:answer; 
+rdfs:label "Phishing" . 
+answer:q102a1 a core:answer; 
+rdfs:label "Keylogger" . 
+answer:q102a2 a core:answer; 
+rdfs:label "Ransomware" . 
+answer:q102a3 a core:answer; 
+rdfs:label "Denial-of-service" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q103 . 
+question:q103 
+rdfs:label "What is a countermeasure against various forms of XML and XML path injection attacks?"; 
+core:hasAnswers answer:q103a0 , 
+answer:q103a1 , 
+answer:q103a2 , 
+answer:q103a3 ; 
+core:hasCorrectAnswer answer:q103a2 . 
+
+answer:q103a0 a core:answer; 
+rdfs:label "XML name wrapping " . 
+answer:q103a1 a core:answer; 
+rdfs:label "XML unicode encoding " . 
+answer:q103a2 a core:answer; 
+rdfs:label "XML attribute escaping " . 
+answer:q103a3 a core:answer; 
+rdfs:label "XML distinguished name escaping" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q104 . 
+question:q104 
+rdfs:label "Which countermeasure is used to mitigate SQL injection attacks?"; 
+core:hasAnswers answer:q104a0 , 
+answer:q104a1 , 
+answer:q104a2 , 
+answer:q104a3 ; 
+core:hasCorrectAnswer answer:q104a2 . 
+
+answer:q104a0 a core:answer; 
+rdfs:label "SQL Firewall " . 
+answer:q104a1 a core:answer; 
+rdfs:label "Projected bijection " . 
+answer:q104a2 a core:answer; 
+rdfs:label "Query parameterization " . 
+answer:q104a3 a core:answer; 
+rdfs:label "Progressive ColdFusion " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q105 . 
+question:q105 
+rdfs:label "What is an appropriate countermeasure to an escalation of privilege attack?"; 
+core:hasAnswers answer:q105a0 , 
+answer:q105a1 , 
+answer:q105a2 , 
+answer:q105a3 ; 
+core:hasCorrectAnswer answer:q105a3 . 
+
+answer:q105a0 a core:answer; 
+rdfs:label "Enforcing strong password policies" . 
+answer:q105a1 a core:answer; 
+rdfs:label "Using standard encryption algorithms and correct key sizes" . 
+answer:q105a2 a core:answer; 
+rdfs:label "Enabling the auditing and logging of all administration activities" . 
+answer:q105a3 a core:answer; 
+rdfs:label "Restricting access to specific operations through role-based access controls" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q106 . 
+question:q106 
+rdfs:label "Which configuration management security countermeasure implements least privilege access control?"; 
+core:hasAnswers answer:q106a0 , 
+answer:q106a1 , 
+answer:q106a2 , 
+answer:q106a3 ; 
+core:hasCorrectAnswer answer:q106a1 . 
+
+answer:q106a0 a core:answer; 
+rdfs:label "Following strong password policies to restrict access" . 
+answer:q106a1 a core:answer; 
+rdfs:label "Restricting file access to users based on authorization " . 
+answer:q106a2 a core:answer; 
+rdfs:label "Avoiding clear text format for credentials and sensitive data " . 
+answer:q106a3 a core:answer; 
+rdfs:label "Using AES 256 encryption for communications of a sensitive nature " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q107 . 
+question:q107 
+rdfs:label "Which phase of the software development life cycle (SDL/SDLC) would be used to determine the minimum set of privileges required to perform the targeted task and restrict the user to a domain with those privileges?"; 
+core:hasAnswers answer:q107a0 , 
+answer:q107a1 , 
+answer:q107a2 , 
+answer:q107a3 ; 
+core:hasCorrectAnswer answer:q107a0 . 
+
+answer:q107a0 a core:answer; 
+rdfs:label "Design" . 
+answer:q107a1 a core:answer; 
+rdfs:label "Deploy" . 
+answer:q107a2 a core:answer; 
+rdfs:label "Development" . 
+answer:q107a3 a core:answer; 
+rdfs:label "Implementation" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q108 . 
+question:q108 
+rdfs:label "Which least privilege method is more granular in scope and grants specific processes only the privileges necessary to perform certain required functions, instead of granting them unrestricted access to the system?"; 
+core:hasAnswers answer:q108a0 , 
+answer:q108a1 , 
+answer:q108a2 , 
+answer:q108a3 ; 
+core:hasCorrectAnswer answer:q108a1 . 
+
+answer:q108a0 a core:answer; 
+rdfs:label "Entitlement privilege" . 
+answer:q108a1 a core:answer; 
+rdfs:label "Separation of privilege" . 
+answer:q108a2 a core:answer; 
+rdfs:label "Aggregation of privileges" . 
+answer:q108a3 a core:answer; 
+rdfs:label "Segregation of responsibilities" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q109 . 
+question:q109 
+rdfs:label "Why does privilege creep pose a potential security risk?"; 
+core:hasAnswers answer:q109a0 , 
+answer:q109a1 , 
+answer:q109a2 , 
+answer:q109a3 ; 
+core:hasCorrectAnswer answer:q109a3 . 
+
+answer:q109a0 a core:answer; 
+rdfs:label "User privileges do not match their job role." . 
+answer:q109a1 a core:answer; 
+rdfs:label "With more privileges, there are more responsibilities." . 
+answer:q109a2 a core:answer; 
+rdfs:label "Auditing will show a mismatch between individual responsibilities and their access rights." . 
+answer:q109a3 a core:answer; 
+rdfs:label "Users have more privileges than they need and may perform actions outside their job description." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q110 . 
+question:q110 
+rdfs:label "A system developer is implementing a new sales system. The system developer is concerned that unauthorized individuals may be able to view sensitive customer financial data. Which family of nonfunctional requirements should be considered as part of the acceptance criteria?"; 
+core:hasAnswers answer:q110a0 , 
+answer:q110a1 , 
+answer:q110a2 , 
+answer:q110a3 ; 
+core:hasCorrectAnswer answer:q110a3 . 
+
+answer:q110a0 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q110a1 a core:answer; 
+rdfs:label "Availability" . 
+answer:q110a2 a core:answer; 
+rdfs:label "Nonrepudition" . 
+answer:q110a3 a core:answer; 
+rdfs:label "Confidentiality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q111 . 
+question:q111 
+rdfs:label "A project manager is given the task to come up with nonfunctional acceptance criteria requirements for business owners as part of a project delivery. Which nonfunctional requirement should be applied to the acceptance criteria?"; 
+core:hasAnswers answer:q111a0 , 
+answer:q111a1 , 
+answer:q111a2 , 
+answer:q111a3 ; 
+core:hasCorrectAnswer answer:q111a1 . 
+
+answer:q111a0 a core:answer; 
+rdfs:label "Give search options to users " . 
+answer:q111a1 a core:answer; 
+rdfs:label "Evaluate test execution results" . 
+answer:q111a2 a core:answer; 
+rdfs:label "Divide users into groups and give them separate rights" . 
+answer:q111a3 a core:answer; 
+rdfs:label "Develop software that keeps downward compatibility intact" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q112 . 
+question:q112 
+rdfs:label "A user was given a task to identify a nonfunctional acceptance criteria. Which nonfunctional requirement should be applied to the acceptance criteria?"; 
+core:hasAnswers answer:q112a0 , 
+answer:q112a1 , 
+answer:q112a2 , 
+answer:q112a3 ; 
+core:hasCorrectAnswer answer:q112a1 . 
+
+answer:q112a0 a core:answer; 
+rdfs:label "Encryption used during data transfer " . 
+answer:q112a1 a core:answer; 
+rdfs:label "Review of the most recent test results " . 
+answer:q112a2 a core:answer; 
+rdfs:label "Software developed keeping downward compatibility intact" . 
+answer:q112a3 a core:answer; 
+rdfs:label "Users divided into groups and the groups given separate rights" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q113 . 
+question:q113 
+rdfs:label "Which technique can be used by an attacker to compromise password security when a password such as '123456' is used by an organization?"; 
+core:hasAnswers answer:q113a0 , 
+answer:q113a1 , 
+answer:q113a2 , 
+answer:q113a3 ; 
+core:hasCorrectAnswer answer:q113a1 . 
+
+answer:q113a0 a core:answer; 
+rdfs:label "Denial-of-service attack" . 
+answer:q113a1 a core:answer; 
+rdfs:label "Brute-force attack" . 
+answer:q113a2 a core:answer; 
+rdfs:label "Blind SQL injection" . 
+answer:q113a3 a core:answer; 
+rdfs:label "Blind XPath injection" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q114 . 
+question:q114 
+rdfs:label "Which type of password attack tests for every possible value of a parameter?"; 
+core:hasAnswers answer:q114a0 , 
+answer:q114a1 , 
+answer:q114a2 , 
+answer:q114a3 ; 
+core:hasCorrectAnswer answer:q114a1 . 
+
+answer:q114a0 a core:answer; 
+rdfs:label "Phishing" . 
+answer:q114a1 a core:answer; 
+rdfs:label "Brute force" . 
+answer:q114a2 a core:answer; 
+rdfs:label "DNS poisoning" . 
+answer:q114a3 a core:answer; 
+rdfs:label "Cache poisoning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q115 . 
+question:q115 
+rdfs:label "Which type of attack allows the complete disclosure or destruction of all data on a system and allows attackers to spoof identity, tamper with existing data, and cause repudiation issues such as voiding transactions or changing balances?"; 
+core:hasAnswers answer:q115a0 , 
+answer:q115a1 , 
+answer:q115a2 , 
+answer:q115a3 ; 
+core:hasCorrectAnswer answer:q115a0 . 
+
+answer:q115a0 a core:answer; 
+rdfs:label "SQL injection" . 
+answer:q115a1 a core:answer; 
+rdfs:label "Code injection" . 
+answer:q115a2 a core:answer; 
+rdfs:label "Command injection" . 
+answer:q115a3 a core:answer; 
+rdfs:label "Special element injection" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q116 . 
+question:q116 
+rdfs:label "Which threat uses malware that tricks users into believing that there is no way out for them except to pay to get rid of a nuisance?"; 
+core:hasAnswers answer:q116a0 , 
+answer:q116a1 , 
+answer:q116a2 , 
+answer:q116a3 ; 
+core:hasCorrectAnswer answer:q116a2 . 
+
+answer:q116a0 a core:answer; 
+rdfs:label "Script kiddies" . 
+answer:q116a1 a core:answer; 
+rdfs:label "Insider threats" . 
+answer:q116a2 a core:answer; 
+rdfs:label "Ransomware" . 
+answer:q116a3 a core:answer; 
+rdfs:label "Bitcoin malware" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q117 . 
+question:q117 
+rdfs:label "Which type of application attack is used to harvest and steal sensitive information?"; 
+core:hasAnswers answer:q117a0 , 
+answer:q117a1 , 
+answer:q117a2 , 
+answer:q117a3 ; 
+core:hasCorrectAnswer answer:q117a1 . 
+
+answer:q117a0 a core:answer; 
+rdfs:label "Whaling" . 
+answer:q117a1 a core:answer; 
+rdfs:label "Remote access tool" . 
+answer:q117a2 a core:answer; 
+rdfs:label "Malicious file execution" . 
+answer:q117a3 a core:answer; 
+rdfs:label "Advanced persistent threat" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q118 . 
+question:q118 
+rdfs:label "Which type of application attack is commonly waged through the use of rootkits?"; 
+core:hasAnswers answer:q118a0 , 
+answer:q118a1 , 
+answer:q118a2 , 
+answer:q118a3 ; 
+core:hasCorrectAnswer answer:q118a3 . 
+
+answer:q118a0 a core:answer; 
+rdfs:label "Backdoor" . 
+answer:q118a1 a core:answer; 
+rdfs:label "Time of check" . 
+answer:q118a2 a core:answer; 
+rdfs:label "Rainbow table" . 
+answer:q118a3 a core:answer; 
+rdfs:label "Escalation of privilege" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q119 . 
+question:q119 
+rdfs:label "Which attack aims to make web service unavailable or unusable?"; 
+core:hasAnswers answer:q119a0 , 
+answer:q119a1 , 
+answer:q119a2 , 
+answer:q119a3 ; 
+core:hasCorrectAnswer answer:q119a3 . 
+
+answer:q119a0 a core:answer; 
+rdfs:label "Spoofing" . 
+answer:q119a1 a core:answer; 
+rdfs:label "Tampering" . 
+answer:q119a2 a core:answer; 
+rdfs:label "Repudiation" . 
+answer:q119a3 a core:answer; 
+rdfs:label "Denial-of-service" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q120 . 
+question:q120 
+rdfs:label "A company is developing a new software application that requires users to log in using a username and password. The company needs to implement a security control that is effective at preventing spoofing during the log-in process. Which security control is effective at preventing this threat action?"; 
+core:hasAnswers answer:q120a0 , 
+answer:q120a1 , 
+answer:q120a2 , 
+answer:q120a3 ; 
+core:hasCorrectAnswer answer:q120a2 . 
+
+answer:q120a0 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q120a1 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q120a2 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q120a3 a core:answer; 
+rdfs:label "Confidentiality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q121 . 
+question:q121 
+rdfs:label "A company is developing a new database application. The company needs to implement a security control that is effective at preventing tampering. Which security control is effective at preventing this threat action?"; 
+core:hasAnswers answer:q121a0 , 
+answer:q121a1 , 
+answer:q121a2 , 
+answer:q121a3 ; 
+core:hasCorrectAnswer answer:q121a0 . 
+
+answer:q121a0 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q121a1 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q121a2 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q121a3 a core:answer; 
+rdfs:label "Confidentiality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q122 . 
+question:q122 
+rdfs:label "A bank is developing a new checking account application for customers and needs to implement a security control that is effective at preventing an elevation of privilege attack. Which security control is effective at preventing this threat action?"; 
+core:hasAnswers answer:q122a0 , 
+answer:q122a1 , 
+answer:q122a2 , 
+answer:q122a3 ; 
+core:hasCorrectAnswer answer:q122a1 . 
+
+answer:q122a0 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q122a1 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q122a2 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q122a3 a core:answer; 
+rdfs:label "Confidentiality" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q123 . 
+question:q123 
+rdfs:label "A database has a table called “orders_table” which has columns: order_no, last_name, first_name, ship_city, credit_card. A hacker wants to perform the following SQL injection code to attack this table. SELECT * FROM orders_table WHERE order_no= ' ' OR '1'='1';   Which software testing technique is the most effective approach to identify this attack?"; 
+core:hasAnswers answer:q123a0 , 
+answer:q123a1 , 
+answer:q123a2 , 
+answer:q123a3 ; 
+core:hasCorrectAnswer answer:q123a1 . 
+
+answer:q123a0 a core:answer; 
+rdfs:label "Fuzz testing" . 
+answer:q123a1 a core:answer; 
+rdfs:label "Input validation" . 
+answer:q123a2 a core:answer; 
+rdfs:label "Dynamic code analysis" . 
+answer:q123a3 a core:answer; 
+rdfs:label "Vulnerablilty scanning probe" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q124 . 
+question:q124 
+rdfs:label "Which software security testing technique can be categorized as white box?"; 
+core:hasAnswers answer:q124a0 , 
+answer:q124a1 , 
+answer:q124a2 , 
+answer:q124a3 ; 
+core:hasCorrectAnswer answer:q124a2 . 
+
+answer:q124a0 a core:answer; 
+rdfs:label "Byte code analysis" . 
+answer:q124a1 a core:answer; 
+rdfs:label "Binary code analysis" . 
+answer:q124a2 a core:answer; 
+rdfs:label "Source code analysis" . 
+answer:q124a3 a core:answer; 
+rdfs:label "Dynamic code analysis" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q125 . 
+question:q125 
+rdfs:label "Which software testing approach can be used against an attacker who manipulates input strings in banking software to gain access to another individual's overdrawn account in order to withdraw funds?"; 
+core:hasAnswers answer:q125a0 , 
+answer:q125a1 , 
+answer:q125a2 , 
+answer:q125a3 ; 
+core:hasCorrectAnswer answer:q125a2 . 
+
+answer:q125a0 a core:answer; 
+rdfs:label "Fuzz testing" . 
+answer:q125a1 a core:answer; 
+rdfs:label "Dynamic testing" . 
+answer:q125a2 a core:answer; 
+rdfs:label "Misuse case testing" . 
+answer:q125a3 a core:answer; 
+rdfs:label "Application interface testing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q126 . 
+question:q126 
+rdfs:label "Which security testing technique allows the evaluators to circumvent the security features of a system?"; 
+core:hasAnswers answer:q126a0 , 
+answer:q126a1 , 
+answer:q126a2 , 
+answer:q126a3 ; 
+core:hasCorrectAnswer answer:q126a1 . 
+
+answer:q126a0 a core:answer; 
+rdfs:label "Fuzz testing" . 
+answer:q126a1 a core:answer; 
+rdfs:label "Penetration testing" . 
+answer:q126a2 a core:answer; 
+rdfs:label "Black box debugging" . 
+answer:q126a3 a core:answer; 
+rdfs:label "Vulnerability scanning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q127 . 
+question:q127 
+rdfs:label "Which software control test executes an application and then uses data that is designed to evaluate whether the values returned by the application match a specified range of criteria?"; 
+core:hasAnswers answer:q127a0 , 
+answer:q127a1 , 
+answer:q127a2 , 
+answer:q127a3 ; 
+core:hasCorrectAnswer answer:q127a3 . 
+
+answer:q127a0 a core:answer; 
+rdfs:label "Static test" . 
+answer:q127a1 a core:answer; 
+rdfs:label "White box test" . 
+answer:q127a2 a core:answer; 
+rdfs:label "Manual code review" . 
+answer:q127a3 a core:answer; 
+rdfs:label "Reasonableness check" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q128 . 
+question:q128 
+rdfs:label "Which item is a phase of the change management process?"; 
+core:hasAnswers answer:q128a0 , 
+answer:q128a1 , 
+answer:q128a2 , 
+answer:q128a3 ; 
+core:hasCorrectAnswer answer:q128a1 . 
+
+answer:q128a0 a core:answer; 
+rdfs:label "Budget planning" . 
+answer:q128a1 a core:answer; 
+rdfs:label "Communication planning" . 
+answer:q128a2 a core:answer; 
+rdfs:label "Assessment management" . 
+answer:q128a3 a core:answer; 
+rdfs:label "Project time management" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q129 . 
+question:q129 
+rdfs:label "Which part of the change management process addresses the needs to identify, understand, and help leaders manage opposition throughout the organization?"; 
+core:hasAnswers answer:q129a0 , 
+answer:q129a1 , 
+answer:q129a2 , 
+answer:q129a3 ; 
+core:hasCorrectAnswer answer:q129a1 . 
+
+answer:q129a0 a core:answer; 
+rdfs:label "Training development" . 
+answer:q129a1 a core:answer; 
+rdfs:label "Resistance management" . 
+answer:q129a2 a core:answer; 
+rdfs:label "Communication planning" . 
+answer:q129a3 a core:answer; 
+rdfs:label "Employee corrective action" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q130 . 
+question:q130 
+rdfs:label "Which component of the change management process allows developers to prioritize tasks?"; 
+core:hasAnswers answer:q130a0 , 
+answer:q130a1 , 
+answer:q130a2 , 
+answer:q130a3 ; 
+core:hasCorrectAnswer answer:q130a2 . 
+
+answer:q130a0 a core:answer; 
+rdfs:label "Change control" . 
+answer:q130a1 a core:answer; 
+rdfs:label "Release control" . 
+answer:q130a2 a core:answer; 
+rdfs:label "Request control" . 
+answer:q130a3 a core:answer; 
+rdfs:label "Configuration control" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q131 . 
+question:q131 
+rdfs:label "Which component of the change management process involves new system deployment testing where the new system and the old system are operating at the same time?"; 
+core:hasAnswers answer:q131a0 , 
+answer:q131a1 , 
+answer:q131a2 , 
+answer:q131a3 ; 
+core:hasCorrectAnswer answer:q131a0 . 
+
+answer:q131a0 a core:answer; 
+rdfs:label "Parallel run" . 
+answer:q131a1 a core:answer; 
+rdfs:label "Direct cutover" . 
+answer:q131a2 a core:answer; 
+rdfs:label "Phased approach" . 
+answer:q131a3 a core:answer; 
+rdfs:label "Backout procedure" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q132 . 
+question:q132 
+rdfs:label "Which technique documents incident response times agreed upon by both a provider and a customer?"; 
+core:hasAnswers answer:q132a0 , 
+answer:q132a1 , 
+answer:q132a2 , 
+answer:q132a3 ; 
+core:hasCorrectAnswer answer:q132a1 . 
+
+answer:q132a0 a core:answer; 
+rdfs:label "Capacity plan" . 
+answer:q132a1 a core:answer; 
+rdfs:label "Service-level agreement" . 
+answer:q132a2 a core:answer; 
+rdfs:label "Change management plan" . 
+answer:q132a3 a core:answer; 
+rdfs:label "Configuration management system" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q133 . 
+question:q133 
+rdfs:label "Which element is commonly addressed in a service-level agreement (SLA)?"; 
+core:hasAnswers answer:q133a0 , 
+answer:q133a1 , 
+answer:q133a2 , 
+answer:q133a3 ; 
+core:hasCorrectAnswer answer:q133a1 . 
+
+answer:q133a0 a core:answer; 
+rdfs:label "Virus protection" . 
+answer:q133a1 a core:answer; 
+rdfs:label "Service availability" . 
+answer:q133a2 a core:answer; 
+rdfs:label "Patch management" . 
+answer:q133a3 a core:answer; 
+rdfs:label "Equipment and media disposal" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q134 . 
+question:q134 
+rdfs:label "The ASF threat list describes a risk that may occur when a software developer forgets to set an expiration for a cookie. Which countermeasure addresses this vulnerability?"; 
+core:hasAnswers answer:q134a0 , 
+answer:q134a1 , 
+answer:q134a2 , 
+answer:q134a3 ; 
+core:hasCorrectAnswer answer:q134a0 . 
+
+answer:q134a0 a core:answer; 
+rdfs:label "User and session management" . 
+answer:q134a1 a core:answer; 
+rdfs:label "Authentication and authorization" . 
+answer:q134a2 a core:answer; 
+rdfs:label "Data protection in storage and transit" . 
+answer:q134a3 a core:answer; 
+rdfs:label "Error handling and exception management" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q135 . 
+question:q135 
+rdfs:label "An undocumented command sequence is allowing unauthorized access to a software system. What type of software defect allows this vulnerability?"; 
+core:hasAnswers answer:q135a0 , 
+answer:q135a1 , 
+answer:q135a2 , 
+answer:q135a3 ; 
+core:hasCorrectAnswer answer:q135a0 . 
+
+answer:q135a0 a core:answer; 
+rdfs:label "Backdoor" . 
+answer:q135a1 a core:answer; 
+rdfs:label "Rootkit attack" . 
+answer:q135a2 a core:answer; 
+rdfs:label "Buffer overflow" . 
+answer:q135a3 a core:answer; 
+rdfs:label "Cross-site scripting" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q136 . 
+question:q136 
+rdfs:label "A small organization experiences an XSS attack on their web application. What type of vulnerability has occurred?"; 
+core:hasAnswers answer:q136a0 , 
+answer:q136a1 , 
+answer:q136a2 , 
+answer:q136a3 ; 
+core:hasCorrectAnswer answer:q136a2 . 
+
+answer:q136a0 a core:answer; 
+rdfs:label "SQL injection" . 
+answer:q136a1 a core:answer; 
+rdfs:label "SQL intrusion" . 
+answer:q136a2 a core:answer; 
+rdfs:label "Cross-site scripting" . 
+answer:q136a3 a core:answer; 
+rdfs:label "Cross-site request forgery" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q137 . 
+question:q137 
+rdfs:label "What type of software threat occurs when password resets reveal password hints and valid usernames, according to the Application Security Frame (ASF)?"; 
+core:hasAnswers answer:q137a0 , 
+answer:q137a1 , 
+answer:q137a2 , 
+answer:q137a3 ; 
+core:hasCorrectAnswer answer:q137a1 . 
+
+answer:q137a0 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q137a1 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q137a2 a core:answer; 
+rdfs:label "User and session management" . 
+answer:q137a3 a core:answer; 
+rdfs:label "Data protection in storage and transit" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q138 . 
+question:q138 
+rdfs:label "What type of software threat occurs when output encoding is skipped, according to the Application Security Frame (ASF)?"; 
+core:hasAnswers answer:q138a0 , 
+answer:q138a1 , 
+answer:q138a2 , 
+answer:q138a3 ; 
+core:hasCorrectAnswer answer:q138a3 . 
+
+answer:q138a0 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q138a1 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q138a2 a core:answer; 
+rdfs:label "User and session management" . 
+answer:q138a3 a core:answer; 
+rdfs:label "Data and parameter validation" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q139 . 
+question:q139 
+rdfs:label "Which form of malicious software hides in the lower levels of an operating system with privileged access permissions and opens a backdoor on the system?"; 
+core:hasAnswers answer:q139a0 , 
+answer:q139a1 , 
+answer:q139a2 , 
+answer:q139a3 ; 
+core:hasCorrectAnswer answer:q139a1 . 
+
+answer:q139a0 a core:answer; 
+rdfs:label "Trojan" . 
+answer:q139a1 a core:answer; 
+rdfs:label "Rootkit" . 
+answer:q139a2 a core:answer; 
+rdfs:label "Keylogger" . 
+answer:q139a3 a core:answer; 
+rdfs:label "Ransomware" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q140 . 
+question:q140 
+rdfs:label "A security administrator wants to prevent web-based code that has full access to a Windows operating system when executing on user systems. Which technique should remediate this vulnerability?"; 
+core:hasAnswers answer:q140a0 , 
+answer:q140a1 , 
+answer:q140a2 , 
+answer:q140a3 ; 
+core:hasCorrectAnswer answer:q140a1 . 
+
+answer:q140a0 a core:answer; 
+rdfs:label "Prohibiting downloads of Java applets" . 
+answer:q140a1 a core:answer; 
+rdfs:label "Prohibiting downloads of ActiveX content" . 
+answer:q140a2 a core:answer; 
+rdfs:label "Clearing the Domain Name System (DNS) cache" . 
+answer:q140a3 a core:answer; 
+rdfs:label "Clearing the Address Resolution Protocol (ARP) cache" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q141 . 
+question:q141 
+rdfs:label "A system administrator wants to use physical controls to prevent unauthorized access to information that belongs to users at a different security level. Which strategy would prevent this problem?"; 
+core:hasAnswers answer:q141a0 , 
+answer:q141a1 , 
+answer:q141a2 , 
+answer:q141a3 ; 
+core:hasCorrectAnswer answer:q141a3 . 
+
+answer:q141a0 a core:answer; 
+rdfs:label "Layering" . 
+answer:q141a1 a core:answer; 
+rdfs:label "Abstraction" . 
+answer:q141a2 a core:answer; 
+rdfs:label "Process isolation" . 
+answer:q141a3 a core:answer; 
+rdfs:label "Hardware segmentation" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q142 . 
+question:q142 
+rdfs:label "A video company has installed new software. The developers need to establish a defense against zero-day attacks. What is the best way to manage this vulnerability?"; 
+core:hasAnswers answer:q142a0 , 
+answer:q142a1 , 
+answer:q142a2 , 
+answer:q142a3 ; 
+core:hasCorrectAnswer answer:q142a2 . 
+
+answer:q142a0 a core:answer; 
+rdfs:label "Apply threat modeling" . 
+answer:q142a1 a core:answer; 
+rdfs:label "Use a strong password" . 
+answer:q142a2 a core:answer; 
+rdfs:label "Install the latest patches" . 
+answer:q142a3 a core:answer; 
+rdfs:label "Create another user log-in" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q143 . 
+question:q143 
+rdfs:label "Which type of attack would a hacker use to exploit a vulnerability that allows access to be increased to the administrator level?"; 
+core:hasAnswers answer:q143a0 , 
+answer:q143a1 , 
+answer:q143a2 , 
+answer:q143a3 ; 
+core:hasCorrectAnswer answer:q143a0 . 
+
+answer:q143a0 a core:answer; 
+rdfs:label "Rootkit" . 
+answer:q143a1 a core:answer; 
+rdfs:label "Whaling" . 
+answer:q143a2 a core:answer; 
+rdfs:label "Waterhole" . 
+answer:q143a3 a core:answer; 
+rdfs:label "Dictionary" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q144 . 
+question:q144 
+rdfs:label "Which type of attack involves exploiting a social engineering vulnerability over voice communications?"; 
+core:hasAnswers answer:q144a0 , 
+answer:q144a1 , 
+answer:q144a2 , 
+answer:q144a3 ; 
+core:hasCorrectAnswer answer:q144a1 . 
+
+answer:q144a0 a core:answer; 
+rdfs:label "Rootkit" . 
+answer:q144a1 a core:answer; 
+rdfs:label "Vishing" . 
+answer:q144a2 a core:answer; 
+rdfs:label "Waterhole" . 
+answer:q144a3 a core:answer; 
+rdfs:label "Dictionary" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q145 . 
+question:q145 
+rdfs:label "Which method provides line-of-code-level detection that enables development teams to remediate vulnerabilities quickly?"; 
+core:hasAnswers answer:q145a0 , 
+answer:q145a1 , 
+answer:q145a2 , 
+answer:q145a3 ; 
+core:hasCorrectAnswer answer:q145a1 . 
+
+answer:q145a0 a core:answer; 
+rdfs:label "Dynamic Cone Pen Testing (DCPT)" . 
+answer:q145a1 a core:answer; 
+rdfs:label "Static Application Security Testing (SAST)" . 
+answer:q145a2 a core:answer; 
+rdfs:label "Common Weaknesses Enumeration (CWE)" . 
+answer:q145a3 a core:answer; 
+rdfs:label "Common Vulnerabilities and Exposures (CVE)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q146 . 
+question:q146 
+rdfs:label "Which technique should be used to detect a software vulnerability that causes extra characters to appear in data fields of a front-facing web application?"; 
+core:hasAnswers answer:q146a0 , 
+answer:q146a1 , 
+answer:q146a2 , 
+answer:q146a3 ; 
+core:hasCorrectAnswer answer:q146a0 . 
+
+answer:q146a0 a core:answer; 
+rdfs:label "Static analysis" . 
+answer:q146a1 a core:answer; 
+rdfs:label "Dynamic analysis" . 
+answer:q146a2 a core:answer; 
+rdfs:label "Binary code analysis" . 
+answer:q146a3 a core:answer; 
+rdfs:label "Property-based testing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q147 . 
+question:q147 
+rdfs:label "What is a known SDL metric used to measure protection against vulnerabilities?"; 
+core:hasAnswers answer:q147a0 , 
+answer:q147a1 , 
+answer:q147a2 , 
+answer:q147a3 ; 
+core:hasCorrectAnswer answer:q147a2 . 
+
+answer:q147a0 a core:answer; 
+rdfs:label "The number of files or objects" . 
+answer:q147a1 a core:answer; 
+rdfs:label "A findings summary report" . 
+answer:q147a2 a core:answer; 
+rdfs:label "The number of security defects found through static analysis tools" . 
+answer:q147a3 a core:answer; 
+rdfs:label "The progress against privacy requirements provided in earlier phases" . 
+ 
+ 

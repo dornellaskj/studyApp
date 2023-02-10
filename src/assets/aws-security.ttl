@@ -1,0 +1,379 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix core: <http://www.kevindornellas.me/core#> . 
+@prefix question: <http://www.kevindornellas.me/question#> . 
+@prefix answer: <http://www.kevindornellas.me/answer#> . 
+core:ccsp a rdfs:list; 
+        rdfs:label "CCSP Quiz Questions" . 
+
+ 
+core:ccsp core:hasQuestion question:q1 . 
+question:q1 
+rdfs:label "You launched an EC2 instance in the default VPC. The instance state shows it is running, but you are unable to access the instance. What is most likely the starting point to fix the problem?"; 
+core:hasAnswers answer:q1a0 , 
+answer:q1a1 , 
+answer:q1a2 , 
+answer:q1a3 ; 
+core:hasCorrectAnswer answer:q1a1 . 
+
+answer:q1a0 a core:answer; 
+rdfs:label "Outbound rules for instance security group" . 
+answer:q1a1 a core:answer; 
+rdfs:label "Inbound rules for instance security group" . 
+answer:q1a2 a core:answer; 
+rdfs:label "Network access control list for subnet of instance" . 
+answer:q1a3 a core:answer; 
+rdfs:label "Route table for VPC" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q2 . 
+question:q2 
+rdfs:label "What are the elements of a security group rule?"; 
+core:hasAnswers answer:q2a0 , 
+answer:q2a1 , 
+answer:q2a2 , 
+answer:q2a3 ; 
+core:hasCorrectAnswer answer:q2a2 . 
+
+answer:q2a0 a core:answer; 
+rdfs:label "Destination and target" . 
+answer:q2a1 a core:answer; 
+rdfs:label "Type, port range, and time of day enforced" . 
+answer:q2a2 a core:answer; 
+rdfs:label "Protocol, port range, and source or destination" . 
+answer:q2a3 a core:answer; 
+rdfs:label "Allow or deny, rule number, and source or destination" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q3 . 
+question:q3 
+rdfs:label "Why might you specify individual IP addresses as a source for an inbound rule of a security group?"; 
+core:hasAnswers answer:q3a0 , 
+answer:q3a1 , 
+answer:q3a2 ; 
+core:hasCorrectAnswer answer:q3a0 . 
+
+answer:q3a0 a core:answer; 
+rdfs:label "To allow remote access to an instance via SSH or RDP" . 
+answer:q3a1 a core:answer; 
+rdfs:label "When running a public HTTP web server" . 
+answer:q3a2 a core:answer; 
+rdfs:label "For demo purposes only" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q4 . 
+question:q4 
+rdfs:label "An application is running on port 8080 of your EC2 instance, but you are unable to access it from machines outside of the VPC. What is the solution to allow access outside of the VPC?"; 
+core:hasAnswers answer:q4a0 , 
+answer:q4a1 , 
+answer:q4a2 , 
+answer:q4a3 ; 
+core:hasCorrectAnswer answer:q4a3 . 
+
+answer:q4a0 a core:answer; 
+rdfs:label "Create an outbound security group rule for port 8080." . 
+answer:q4a1 a core:answer; 
+rdfs:label "Remove any security group rules blocking port 8080." . 
+answer:q4a2 a core:answer; 
+rdfs:label "Create both inbound and outbound security group rules for port 8080." . 
+answer:q4a3 a core:answer; 
+rdfs:label "Create an inbound security group rule for port 8080." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q5 . 
+question:q5 
+rdfs:label "You have zero (0) outbound rules in your security group. What effect does this have on EC2 instances that belong to this security group?"; 
+core:hasAnswers answer:q5a0 , 
+answer:q5a1 , 
+answer:q5a2 , 
+answer:q5a3 ; 
+core:hasCorrectAnswer answer:q5a2 . 
+
+answer:q5a0 a core:answer; 
+rdfs:label "The instance can access any outside destination" . 
+answer:q5a1 a core:answer; 
+rdfs:label "Other machines will not get a response from applications running on the instance" . 
+answer:q5a2 a core:answer; 
+rdfs:label "The instance is unable to access any outside destination" . 
+answer:q5a3 a core:answer; 
+rdfs:label "You will not be able to SSH or RDP into the instance" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q6 . 
+question:q6 
+rdfs:label "How can you ensure that the external IP of an EC2 instance will not change when you stop and start it?"; 
+core:hasAnswers answer:q6a0 , 
+answer:q6a1 , 
+answer:q6a2 , 
+answer:q6a3 ; 
+core:hasCorrectAnswer answer:q6a1 . 
+
+answer:q6a0 a core:answer; 
+rdfs:label "Start the instance within one hour of stopping it" . 
+answer:q6a1 a core:answer; 
+rdfs:label "Allocate and associate an Elastic IP to the instance" . 
+answer:q6a2 a core:answer; 
+rdfs:label "Select the appropriate option to assign an external IP when the instance is launched" . 
+answer:q6a3 a core:answer; 
+rdfs:label "Make sure you have at least one extra Elastic IP allocated to your account" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q7 . 
+question:q7 
+rdfs:label "When can you allow an EC2 instance to have an external IP?"; 
+core:hasAnswers answer:q7a0 , 
+answer:q7a1 , 
+answer:q7a2 ; 
+core:hasCorrectAnswer answer:q7a1 . 
+
+answer:q7a0 a core:answer; 
+rdfs:label "Any time the instance is running" . 
+answer:q7a1 a core:answer; 
+rdfs:label "On instance launch" . 
+answer:q7a2 a core:answer; 
+rdfs:label "Any time the instance is stopped" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q8 . 
+question:q8 
+rdfs:label "You have two different subnets, A and B, in the same VPC. You want to ensure that all machines launched in subnet B can access machines in subnet A. What should you specify as an allowed source in the security group for machines in subnet A?"; 
+core:hasAnswers answer:q8a0 , 
+answer:q8a1 , 
+answer:q8a2 ; 
+core:hasCorrectAnswer answer:q8a2 . 
+
+answer:q8a0 a core:answer; 
+rdfs:label "The security group of subnet B" . 
+answer:q8a1 a core:answer; 
+rdfs:label "Each individual IP address in subnet B" . 
+answer:q8a2 a core:answer; 
+rdfs:label "The CIDR block of subnet B" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q9 . 
+question:q9 
+rdfs:label "You tested an EC2 instance in your own AWS account yesterday and stopped it. You started it again this morning. It shows as running but you cannot access it. What is the most likely explanation?"; 
+core:hasAnswers answer:q9a0 , 
+answer:q9a1 , 
+answer:q9a2 , 
+answer:q9a3 ; 
+core:hasCorrectAnswer answer:q9a1 . 
+
+answer:q9a0 a core:answer; 
+rdfs:label "The IP on the machine you use to access the instance changed" . 
+answer:q9a1 a core:answer; 
+rdfs:label "The external IP address of the instance changed when it started up today" . 
+answer:q9a2 a core:answer; 
+rdfs:label "A deny rule was created, excluding your IP from accessing the instance" . 
+answer:q9a3 a core:answer; 
+rdfs:label "The inbound rules of the security group for the instance changed" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q10 . 
+question:q10 
+rdfs:label "When does the internal IP address of an EC2 instance change?"; 
+core:hasAnswers answer:q10a0 , 
+answer:q10a1 , 
+answer:q10a2 , 
+answer:q10a3 ; 
+core:hasCorrectAnswer answer:q10a2 . 
+
+answer:q10a0 a core:answer; 
+rdfs:label "Whenever the instance is stopped" . 
+answer:q10a1 a core:answer; 
+rdfs:label "Whenever the instance is stopped or restarted" . 
+answer:q10a2 a core:answer; 
+rdfs:label "It does not change for the life of the instance" . 
+answer:q10a3 a core:answer; 
+rdfs:label "Only if the subnet runs out of addresses" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q11 . 
+question:q11 
+rdfs:label "For which of the following scenarios does AWS Cognito best fit?"; 
+core:hasAnswers answer:q11a0 , 
+answer:q11a1 , 
+answer:q11a2 , 
+answer:q11a3 ; 
+core:hasCorrectAnswer answer:q11a0 . 
+
+answer:q11a0 a core:answer; 
+rdfs:label "External users accessing AWS services by means of web application" . 
+answer:q11a1 a core:answer; 
+rdfs:label "SAML Federated Identity" . 
+answer:q11a2 a core:answer; 
+rdfs:label "Multiple AWS accounts that need to share resources" . 
+answer:q11a3 a core:answer; 
+rdfs:label "AWS account integrated with on-premises Active Directory" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q12 . 
+question:q12 
+rdfs:label "As IT administrator of your company's AWS account, you are asked to ensure that all actions performed by people accessing AWS resources are tracked and the resulting logs are securely stored. Which combination of services would you use to satisfy the requirement?"; 
+core:hasAnswers answer:q12a0 , 
+answer:q12a1 , 
+answer:q12a2 , 
+answer:q12a3 ; 
+core:hasCorrectAnswer answer:q12a2 . 
+
+answer:q12a0 a core:answer; 
+rdfs:label "CloudTrail and EC2" . 
+answer:q12a1 a core:answer; 
+rdfs:label "CloudTrail and S3 Glacier" . 
+answer:q12a2 a core:answer; 
+rdfs:label "CloudTrail and S3" . 
+answer:q12a3 a core:answer; 
+rdfs:label "CloudTrail and CloudWatch" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q13 . 
+question:q13 
+rdfs:label "Which of the following statements is true about IAM credential report?"; 
+core:hasAnswers answer:q13a0 , 
+answer:q13a1 , 
+answer:q13a2 , 
+answer:q13a3 ; 
+core:hasCorrectAnswer answer:q13a0 . 
+
+answer:q13a0 a core:answer; 
+rdfs:label "A credential report lists all users in your account and the status of their credentials." . 
+answer:q13a1 a core:answer; 
+rdfs:label "A credential report is a tool that automatically provides remediation in case of a compromised password." . 
+answer:q13a2 a core:answer; 
+rdfs:label "A credential report only contains information related to AWS access keys and AWS secure access keys." . 
+answer:q13a3 a core:answer; 
+rdfs:label "A credential report is a tool to apply password policy to IAM users credentials." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q14 . 
+question:q14 
+rdfs:label "Whats is true about AWS IAM policy evaluation?"; 
+core:hasAnswers answer:q14a0 , 
+answer:q14a1 , 
+answer:q14a2 , 
+answer:q14a3 ; 
+core:hasCorrectAnswer answer:q14a1 . 
+
+answer:q14a0 a core:answer; 
+rdfs:label "Implicit deny overrides explicit allow" . 
+answer:q14a1 a core:answer; 
+rdfs:label "Explicit deny overrides explicit allow" . 
+answer:q14a2 a core:answer; 
+rdfs:label "Explicit allow is the default behavior" . 
+answer:q14a3 a core:answer; 
+rdfs:label "Implicit allow is the default behavior" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q15 . 
+question:q15 
+rdfs:label "What statement is true about CloudTrail?"; 
+core:hasAnswers answer:q15a0 , 
+answer:q15a1 , 
+answer:q15a2 , 
+answer:q15a3 ; 
+core:hasCorrectAnswer answer:q15a0 . 
+
+answer:q15a0 a core:answer; 
+rdfs:label "Monitored events include actions taken in the AWS Management Console, AWS Command Line Interface, and AWS SDKs and APIs." . 
+answer:q15a1 a core:answer; 
+rdfs:label "Cloudtrail data events include datap-plane events that take place within DynamoDB, lambda, and S3." . 
+answer:q15a2 a core:answer; 
+rdfs:label "CloudTrail store logs as HTML files in EFS storage." . 
+answer:q15a3 a core:answer; 
+rdfs:label "CloudTrail is not able to track actions performed by means of the AWS dashboard." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q16 . 
+question:q16 
+rdfs:label "Which of the following statements is true about IAM?"; 
+core:hasAnswers answer:q16a0 , 
+answer:q16a1 , 
+answer:q16a2 , 
+answer:q16a3 ; 
+core:hasCorrectAnswer answer:q16a0 . 
+
+answer:q16a0 a core:answer; 
+rdfs:label "It enables you to manage access to AWS services and resources" . 
+answer:q16a1 a core:answer; 
+rdfs:label "It enables authorization only" . 
+answer:q16a2 a core:answer; 
+rdfs:label "It enables authorization and authentication for local users" . 
+answer:q16a3 a core:answer; 
+rdfs:label "It enables authentication only" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q17 . 
+question:q17 
+rdfs:label "Which of the following statements is true about IAM users and groups?"; 
+core:hasAnswers answer:q17a0 , 
+answer:q17a1 , 
+answer:q17a2 , 
+answer:q17a3 ; 
+core:hasCorrectAnswer answer:q17a0 . 
+
+answer:q17a0 a core:answer; 
+rdfs:label "Users and groups are global objects" . 
+answer:q17a1 a core:answer; 
+rdfs:label "Users and groups are local to a current AWS region" . 
+answer:q17a2 a core:answer; 
+rdfs:label "Users and groups are local to a current AWS availability zone" . 
+answer:q17a3 a core:answer; 
+rdfs:label "Users are local IAM objects, while groups are IAM global objects" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q18 . 
+question:q18 
+rdfs:label "You are the Administrator of an AWS account. The CEO asks that everyone sign in to their AWS account with a strong authentication method. Which of the following would you implement?"; 
+core:hasAnswers answer:q18a0 , 
+answer:q18a1 , 
+answer:q18a2 , 
+answer:q18a3 ; 
+core:hasCorrectAnswer answer:q18a2 . 
+
+answer:q18a0 a core:answer; 
+rdfs:label "Enable MFA for all users that need access via the dashboard." . 
+answer:q18a1 a core:answer; 
+rdfs:label "Roll out a custom solution. Enable MFA for the root user only." . 
+answer:q18a2 a core:answer; 
+rdfs:label "Enable MFA for all users." . 
+answer:q18a3 a core:answer; 
+rdfs:label "Enable MFA for all users that need access via programmatic access." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q19 . 
+question:q19 
+rdfs:label "Which statement is true about IAM policy documents?"; 
+core:hasAnswers answer:q19a0 , 
+answer:q19a1 , 
+answer:q19a2 , 
+answer:q19a3 ; 
+core:hasCorrectAnswer answer:q19a2 . 
+
+answer:q19a0 a core:answer; 
+rdfs:label "Effect, action and resource are mandatory parameters" . 
+answer:q19a1 a core:answer; 
+rdfs:label "An IAM policy document must contain a single statement" . 
+answer:q19a2 a core:answer; 
+rdfs:label "Effect, condition and resource are mandatory parameters" . 
+answer:q19a3 a core:answer; 
+rdfs:label "An IAM policy document is written in XML format" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q20 . 
+question:q20 
+rdfs:label "Which of the following statements is correct about AWS Cognito?"; 
+core:hasAnswers answer:q20a0 , 
+answer:q20a1 , 
+answer:q20a2 , 
+answer:q20a3 ; 
+core:hasCorrectAnswer answer:q20a3 . 
+
+answer:q20a0 a core:answer; 
+rdfs:label "Identity pools are user directories, while user pools enable you to grant your users access to other AWS services" . 
+answer:q20a1 a core:answer; 
+rdfs:label "Identity pools are populated with users authenticated by external Identity Providers." . 
+answer:q20a2 a core:answer; 
+rdfs:label "A fully working AWSCognito instance consists of a user pool and an identity pool." . 
+answer:q20a3 a core:answer; 
+rdfs:label "User pools are user directories, while identity pools enable you to grant your users access to other AWS services." . 
+ 
+ 

@@ -1,0 +1,1338 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix core: <http://www.kevindornellas.me/core#> . 
+@prefix question: <http://www.kevindornellas.me/question#> . 
+@prefix answer: <http://www.kevindornellas.me/answer#> . 
+core:ccsp a rdfs:list; 
+        rdfs:label "CCSP Quiz Questions" . 
+
+ 
+core:ccsp core:hasQuestion question:q1 . 
+question:q1 
+rdfs:label "Which security principle uses countermeasures such as encryption and data classification?"; 
+core:hasAnswers answer:q1a0 , 
+answer:q1a1 , 
+answer:q1a2 , 
+answer:q1a3 ; 
+core:hasCorrectAnswer answer:q1a0 . 
+
+answer:q1a0 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q1a1 a core:answer; 
+rdfs:label "Integrity" . 
+answer:q1a2 a core:answer; 
+rdfs:label "Availability" . 
+answer:q1a3 a core:answer; 
+rdfs:label "Accountability" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q2 . 
+question:q2 
+rdfs:label "A company is concerned about unauthorized alteration of data in a customer database. Which security principle is implicated? "; 
+core:hasAnswers answer:q2a0 , 
+answer:q2a1 , 
+answer:q2a2 , 
+answer:q2a3 ; 
+core:hasCorrectAnswer answer:q2a3 . 
+
+answer:q2a0 a core:answer; 
+rdfs:label "Accountability" . 
+answer:q2a1 a core:answer; 
+rdfs:label "Confidentiality" . 
+answer:q2a2 a core:answer; 
+rdfs:label "Availability" . 
+answer:q2a3 a core:answer; 
+rdfs:label "Integrity" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q3 . 
+question:q3 
+rdfs:label "Which integrity measure should be applied to enforce nonrepudiation of emails sent from internal users? "; 
+core:hasAnswers answer:q3a0 , 
+answer:q3a1 , 
+answer:q3a2 , 
+answer:q3a3 ; 
+core:hasCorrectAnswer answer:q3a0 . 
+
+answer:q3a0 a core:answer; 
+rdfs:label "Use digital signatures on emails" . 
+answer:q3a1 a core:answer; 
+rdfs:label "Ensure emails contain accurate data" . 
+answer:q3a2 a core:answer; 
+rdfs:label "Hold users accountable for emails" . 
+answer:q3a3 a core:answer; 
+rdfs:label "Scan attachments for viruses" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q4 . 
+question:q4 
+rdfs:label "A company is headquartered in a region that has frequent internet connectivity issues due to inclement weather. The company’s primary reporting servers are located in this office and are critical to the sales team in the field for accurate product pricing. Employees require 24/7 access to the most up-to-date information, as the data frequently changes. Which solution will ensure a higher availability of these servers outside this company? "; 
+core:hasAnswers answer:q4a0 , 
+answer:q4a1 , 
+answer:q4a2 , 
+answer:q4a3 ; 
+core:hasCorrectAnswer answer:q4a2 . 
+
+answer:q4a0 a core:answer; 
+rdfs:label "Develop a mechanism to publish the necessary pricing information to a cloud location for sales teams to access anytime" . 
+answer:q4a1 a core:answer; 
+rdfs:label "Open a direct virtual private network (VPN) access connection between the servers and the sales team’s computers" . 
+answer:q4a2 a core:answer; 
+rdfs:label "Implement a secondary internet connectivity solution at headquarters, which fails over when the primary connection is unavailable" . 
+answer:q4a3 a core:answer; 
+rdfs:label "Create a cloud-based web service that queries a cloud database and replicates the product pricing data periodically" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q5 . 
+question:q5 
+rdfs:label "Research department members encrypt their Office 365 files by using keys residing in an on-premises key store. Due to a failure of on-premises network connectivity, the files cannot be decrypted. What should be done to maintain the availability of these files without compromising their confidentiality and integrity? "; 
+core:hasAnswers answer:q5a0 , 
+answer:q5a1 , 
+answer:q5a2 , 
+answer:q5a3 ; 
+core:hasCorrectAnswer answer:q5a0 . 
+
+answer:q5a0 a core:answer; 
+rdfs:label "Set up redundant internet connectivity" . 
+answer:q5a1 a core:answer; 
+rdfs:label "Copy files to an on-premises file server" . 
+answer:q5a2 a core:answer; 
+rdfs:label "Maintain files in an unencrypted format" . 
+answer:q5a3 a core:answer; 
+rdfs:label "Maintain keys with Office 365 files" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q6 . 
+question:q6 
+rdfs:label "The management team of an organization creates a document stating employees who access the company’s enterprise resource planning (ERP) system must use a certain browser and are required to have antivirus installed on their machines. Which type of document is this? "; 
+core:hasAnswers answer:q6a0 , 
+answer:q6a1 , 
+answer:q6a2 , 
+answer:q6a3 ; 
+core:hasCorrectAnswer answer:q6a2 . 
+
+answer:q6a0 a core:answer; 
+rdfs:label "Policy" . 
+answer:q6a1 a core:answer; 
+rdfs:label "Procedure" . 
+answer:q6a2 a core:answer; 
+rdfs:label "Standard" . 
+answer:q6a3 a core:answer; 
+rdfs:label "Guideline" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q7 . 
+question:q7 
+rdfs:label "Which type of security documentation offers recommendations and suggestions on creating a strong password? "; 
+core:hasAnswers answer:q7a0 , 
+answer:q7a1 , 
+answer:q7a2 , 
+answer:q7a3 ; 
+core:hasCorrectAnswer answer:q7a0 . 
+
+answer:q7a0 a core:answer; 
+rdfs:label "Guidelines" . 
+answer:q7a1 a core:answer; 
+rdfs:label "Standards" . 
+answer:q7a2 a core:answer; 
+rdfs:label "Procedures" . 
+answer:q7a3 a core:answer; 
+rdfs:label "Policies" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q8 . 
+question:q8 
+rdfs:label "Which security concept includes the process of reviewing the activities of an identity? "; 
+core:hasAnswers answer:q8a0 , 
+answer:q8a1 , 
+answer:q8a2 , 
+answer:q8a3 ; 
+core:hasCorrectAnswer answer:q8a3 . 
+
+answer:q8a0 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q8a1 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q8a2 a core:answer; 
+rdfs:label "Identification" . 
+answer:q8a3 a core:answer; 
+rdfs:label "Accountability" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q9 . 
+question:q9 
+rdfs:label "Which security concept includes comparing a user’s fingerprint against authorized fingerprints stored in a database? "; 
+core:hasAnswers answer:q9a0 , 
+answer:q9a1 , 
+answer:q9a2 , 
+answer:q9a3 ; 
+core:hasCorrectAnswer answer:q9a2 . 
+
+answer:q9a0 a core:answer; 
+rdfs:label "Accountability" . 
+answer:q9a1 a core:answer; 
+rdfs:label "Identification" . 
+answer:q9a2 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q9a3 a core:answer; 
+rdfs:label "Authorization" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q10 . 
+question:q10 
+rdfs:label "An information security manager has been asked to develop security policies and to deploy security solutions for an organization. Which security principles must be considered in addition to CIA triad principles? "; 
+core:hasAnswers answer:q10a0 , 
+answer:q10a1 , 
+answer:q10a2 , 
+answer:q10a3 ; 
+core:hasCorrectAnswer answer:q10a1 . 
+
+answer:q10a0 a core:answer; 
+rdfs:label "Encryption" . 
+answer:q10a1 a core:answer; 
+rdfs:label "AAA" . 
+answer:q10a2 a core:answer; 
+rdfs:label "Abstraction" . 
+answer:q10a3 a core:answer; 
+rdfs:label "Layering" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q11 . 
+question:q11 
+rdfs:label "A company plans to implement a new authentication system for customers accessing the company website. When customers log on, the website indicates that it sent a text message that includes a code to the customer’s mobile phone. To complete the log-on process, the customer is required to enter the appropriate code within five minutes. Which authentication mechanism is this system based on? "; 
+core:hasAnswers answer:q11a0 , 
+answer:q11a1 , 
+answer:q11a2 , 
+answer:q11a3 ; 
+core:hasCorrectAnswer answer:q11a0 . 
+
+answer:q11a0 a core:answer; 
+rdfs:label "Time-based one-time password" . 
+answer:q11a1 a core:answer; 
+rdfs:label "Hash-based one-time password" . 
+answer:q11a2 a core:answer; 
+rdfs:label "Synchronous dynamic password tokens" . 
+answer:q11a3 a core:answer; 
+rdfs:label "Asynchronous dynamic password tokens" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q12 . 
+question:q12 
+rdfs:label "Which security concept controls access to the network? "; 
+core:hasAnswers answer:q12a0 , 
+answer:q12a1 , 
+answer:q12a2 , 
+answer:q12a3 ; 
+core:hasCorrectAnswer answer:q12a0 . 
+
+answer:q12a0 a core:answer; 
+rdfs:label "Provide individuals access after they supply a username and password" . 
+answer:q12a1 a core:answer; 
+rdfs:label "Create audit logs that will monitor successful and failed log-in attempts" . 
+answer:q12a2 a core:answer; 
+rdfs:label "Allow individuals to perform tasks based on assigned rights and permissions" . 
+answer:q12a3 a core:answer; 
+rdfs:label "Create audit trails to manage and track user access to network resources" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q13 . 
+question:q13 
+rdfs:label "On an employee’s first day of work, she notices a large number of file shares available, most of which do not pertain to her position. The employee went to her manager about the level of access. The employee’s manager said she has the same level of access as her predecessor. Which principle does this level of access violate? "; 
+core:hasAnswers answer:q13a0 , 
+answer:q13a1 , 
+answer:q13a2 , 
+answer:q13a3 ; 
+core:hasCorrectAnswer answer:q13a3 . 
+
+answer:q13a0 a core:answer; 
+rdfs:label "Role-based access" . 
+answer:q13a1 a core:answer; 
+rdfs:label "Job rotation" . 
+answer:q13a2 a core:answer; 
+rdfs:label "Rule-based access" . 
+answer:q13a3 a core:answer; 
+rdfs:label "Least privilege" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q14 . 
+question:q14 
+rdfs:label "A company wants to enforce strict penalties on a former employee who uploaded sensitive company technical schematics onto a personal website. Which type of document will this company use to enforce penalties? "; 
+core:hasAnswers answer:q14a0 , 
+answer:q14a1 , 
+answer:q14a2 , 
+answer:q14a3 ; 
+core:hasCorrectAnswer answer:q14a0 . 
+
+answer:q14a0 a core:answer; 
+rdfs:label "Nondisclosure agreement" . 
+answer:q14a1 a core:answer; 
+rdfs:label "Employment agreement" . 
+answer:q14a2 a core:answer; 
+rdfs:label "Noncompete agreement" . 
+answer:q14a3 a core:answer; 
+rdfs:label "Personnel security agreement" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q15 . 
+question:q15 
+rdfs:label "A company has a data center estimated to be worth $10 million located in an area known for earthquakes. Based on the design of the building, if an earthquake strikes the data center it will cause a 50% loss. What is the single loss expectancy (SLE) of an earthquake striking the data center? "; 
+core:hasAnswers answer:q15a0 , 
+answer:q15a1 , 
+answer:q15a2 , 
+answer:q15a3 ; 
+core:hasCorrectAnswer answer:q15a1 . 
+
+answer:q15a0 a core:answer; 
+rdfs:label "$1.25 million" . 
+answer:q15a1 a core:answer; 
+rdfs:label "$5 million" . 
+answer:q15a2 a core:answer; 
+rdfs:label "$7.5 million" . 
+answer:q15a3 a core:answer; 
+rdfs:label "$50 million" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q16 . 
+question:q16 
+rdfs:label "A company conducts a quantitative risk analysis. The exposure factor (EF) is 25% and the single loss expectancy (SLE) is $100,000. What is the asset value? "; 
+core:hasAnswers answer:q16a0 , 
+answer:q16a1 , 
+answer:q16a2 , 
+answer:q16a3 ; 
+core:hasCorrectAnswer answer:q16a3 . 
+
+answer:q16a0 a core:answer; 
+rdfs:label "$25,000" . 
+answer:q16a1 a core:answer; 
+rdfs:label "$75,000" . 
+answer:q16a2 a core:answer; 
+rdfs:label "$125,000" . 
+answer:q16a3 a core:answer; 
+rdfs:label "$400,000" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q17 . 
+question:q17 
+rdfs:label "A server with critical data is valued at $8,000 and the exposure factor to a hack is 10%. What is the single loss expectancy (SLE)? "; 
+core:hasAnswers answer:q17a0 , 
+answer:q17a1 , 
+answer:q17a2 , 
+answer:q17a3 ; 
+core:hasCorrectAnswer answer:q17a1 . 
+
+answer:q17a0 a core:answer; 
+rdfs:label "$720" . 
+answer:q17a1 a core:answer; 
+rdfs:label "$800" . 
+answer:q17a2 a core:answer; 
+rdfs:label "$7,200" . 
+answer:q17a3 a core:answer; 
+rdfs:label "$80,000" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q18 . 
+question:q18 
+rdfs:label "A company discovers that employees are accessing restricted areas. To discourage employees, the security manager posts restricted access signs. What is this security manager’s risk response? "; 
+core:hasAnswers answer:q18a0 , 
+answer:q18a1 , 
+answer:q18a2 , 
+answer:q18a3 ; 
+core:hasCorrectAnswer answer:q18a3 . 
+
+answer:q18a0 a core:answer; 
+rdfs:label "Acceptance" . 
+answer:q18a1 a core:answer; 
+rdfs:label "Assignment" . 
+answer:q18a2 a core:answer; 
+rdfs:label "Avoidance" . 
+answer:q18a3 a core:answer; 
+rdfs:label "Deterrence" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q19 . 
+question:q19 
+rdfs:label "A company hires a consulting group to perform a security audit on its network. The audit finds that the email servers are vulnerable to SMTP relay attacks. The company decides to migrate email services to a cloud-based provider and decommission the email servers. Which strategic risk response is applied? "; 
+core:hasAnswers answer:q19a0 , 
+answer:q19a1 , 
+answer:q19a2 , 
+answer:q19a3 ; 
+core:hasCorrectAnswer answer:q19a0 . 
+
+answer:q19a0 a core:answer; 
+rdfs:label "Avoidance" . 
+answer:q19a1 a core:answer; 
+rdfs:label "Mitigation" . 
+answer:q19a2 a core:answer; 
+rdfs:label "Acceptance" . 
+answer:q19a3 a core:answer; 
+rdfs:label "Rejection" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q20 . 
+question:q20 
+rdfs:label "A private company identifies a risk with a high-value asset. A threat has been reported to be attacking only government entities. The company’s board of directors has concluded that the threat will likely never materialize for private companies, and that nothing should be done about it. What is the risk response? "; 
+core:hasAnswers answer:q20a0 , 
+answer:q20a1 , 
+answer:q20a2 , 
+answer:q20a3 ; 
+core:hasCorrectAnswer answer:q20a2 . 
+
+answer:q20a0 a core:answer; 
+rdfs:label "Avoidance" . 
+answer:q20a1 a core:answer; 
+rdfs:label "Deterrence" . 
+answer:q20a2 a core:answer; 
+rdfs:label "Rejection" . 
+answer:q20a3 a core:answer; 
+rdfs:label "Assignment" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q21 . 
+question:q21 
+rdfs:label "An employee manages a perimeter network in a retail company that sells health supplements. The company wants to establish an online presence. Which preventive control should this employee recommend for the perimeter network? "; 
+core:hasAnswers answer:q21a0 , 
+answer:q21a1 , 
+answer:q21a2 , 
+answer:q21a3 ; 
+core:hasCorrectAnswer answer:q21a3 . 
+
+answer:q21a0 a core:answer; 
+rdfs:label "A logging server" . 
+answer:q21a1 a core:answer; 
+rdfs:label "Desktop antivirus software" . 
+answer:q21a2 a core:answer; 
+rdfs:label "An intrusion detection system" . 
+answer:q21a3 a core:answer; 
+rdfs:label "A firewall device" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q22 . 
+question:q22 
+rdfs:label "Which type of controls involves the use of software or hardware mechanisms and may include authentication methods, the use of encryption, firewalls, or intrusion detection systems? "; 
+core:hasAnswers answer:q22a0 , 
+answer:q22a1 , 
+answer:q22a2 , 
+answer:q22a3 ; 
+core:hasCorrectAnswer answer:q22a0 . 
+
+answer:q22a0 a core:answer; 
+rdfs:label "Technical" . 
+answer:q22a1 a core:answer; 
+rdfs:label "Administrative" . 
+answer:q22a2 a core:answer; 
+rdfs:label "Physical" . 
+answer:q22a3 a core:answer; 
+rdfs:label "Directive" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q23 . 
+question:q23 
+rdfs:label "Which host-based control should be implemented to ensure that infected web file downloads are isolated? "; 
+core:hasAnswers answer:q23a0 , 
+answer:q23a1 , 
+answer:q23a2 , 
+answer:q23a3 ; 
+core:hasCorrectAnswer answer:q23a1 . 
+
+answer:q23a0 a core:answer; 
+rdfs:label "A firewall" . 
+answer:q23a1 a core:answer; 
+rdfs:label "Anti-malware" . 
+answer:q23a2 a core:answer; 
+rdfs:label "Intrusion detection" . 
+answer:q23a3 a core:answer; 
+rdfs:label "A web-filtering client" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q24 . 
+question:q24 
+rdfs:label "What is the correct order of the steps in the risk assessment life cycle? "; 
+core:hasAnswers answer:q24a0 , 
+answer:q24a1 , 
+answer:q24a2 , 
+answer:q24a3 ; 
+core:hasCorrectAnswer answer:q24a1 . 
+
+answer:q24a0 a core:answer; 
+rdfs:label "Security control selection Security control monitoring Security control implementation Information system authorization Security categorization Security control assessment " . 
+answer:q24a1 a core:answer; 
+rdfs:label "Security categorization Security control selection Security control implementation Security control assessment Information system authorization Security control monitoring " . 
+answer:q24a2 a core:answer; 
+rdfs:label "Security categorization Security control selection Security control implementation Security control monitoring Security control assessment Information system authorization " . 
+answer:q24a3 a core:answer; 
+rdfs:label "Security control selection Security control monitoring Security control implementation Security categorization Security control assessment Information system authorization " . 
+ 
+ 
+core:ccsp core:hasQuestion question:q25 . 
+question:q25 
+rdfs:label "What is a risk management framework? "; 
+core:hasAnswers answer:q25a0 , 
+answer:q25a1 , 
+answer:q25a2 , 
+answer:q25a3 ; 
+core:hasCorrectAnswer answer:q25a1 . 
+
+answer:q25a0 a core:answer; 
+rdfs:label "A document listing all assessed risks" . 
+answer:q25a1 a core:answer; 
+rdfs:label "A guideline or recipe for how risk is to be assessed, resolved, and monitored" . 
+answer:q25a2 a core:answer; 
+rdfs:label "An architectural document showing all security controls in an organization" . 
+answer:q25a3 a core:answer; 
+rdfs:label "Physical borders protecting business-critical systems" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q26 . 
+question:q26 
+rdfs:label "Which data classification would cause serious damage to the mission of an organization, is less damaging than its highest classification, and is the label used by most organizations for the classification of PII and PHI data? "; 
+core:hasAnswers answer:q26a0 , 
+answer:q26a1 , 
+answer:q26a2 , 
+answer:q26a3 ; 
+core:hasCorrectAnswer answer:q26a3 . 
+
+answer:q26a0 a core:answer; 
+rdfs:label "Public" . 
+answer:q26a1 a core:answer; 
+rdfs:label "Sensitive" . 
+answer:q26a2 a core:answer; 
+rdfs:label "Confidential" . 
+answer:q26a3 a core:answer; 
+rdfs:label "Private" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q27 . 
+question:q27 
+rdfs:label "The document policy of an organization is that there is no negative impact if documents are released outside the organization. What is the data classification of the documents? "; 
+core:hasAnswers answer:q27a0 , 
+answer:q27a1 , 
+answer:q27a2 , 
+answer:q27a3 ; 
+core:hasCorrectAnswer answer:q27a2 . 
+
+answer:q27a0 a core:answer; 
+rdfs:label "Confidential" . 
+answer:q27a1 a core:answer; 
+rdfs:label "Sensitive" . 
+answer:q27a2 a core:answer; 
+rdfs:label "Public" . 
+answer:q27a3 a core:answer; 
+rdfs:label "Private" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q28 . 
+question:q28 
+rdfs:label "State law requires that offices retain medical records for six years. What should the personnel in a medical office do with unneeded patient records before those six years have passed? "; 
+core:hasAnswers answer:q28a0 , 
+answer:q28a1 , 
+answer:q28a2 , 
+answer:q28a3 ; 
+core:hasCorrectAnswer answer:q28a0 . 
+
+answer:q28a0 a core:answer; 
+rdfs:label "Archive" . 
+answer:q28a1 a core:answer; 
+rdfs:label "Degauss" . 
+answer:q28a2 a core:answer; 
+rdfs:label "Encrypt" . 
+answer:q28a3 a core:answer; 
+rdfs:label "Transfer" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q29 . 
+question:q29 
+rdfs:label "A company stores sensitive data on backup tapes. The data must be secured from unauthorized access. How should the backup tapes be secured to minimize unauthorized access? "; 
+core:hasAnswers answer:q29a0 , 
+answer:q29a1 , 
+answer:q29a2 , 
+answer:q29a3 ; 
+core:hasCorrectAnswer answer:q29a0 . 
+
+answer:q29a0 a core:answer; 
+rdfs:label "Encrypt data, and then store it in a safe location" . 
+answer:q29a1 a core:answer; 
+rdfs:label "Digitally sign data, and then store it in a data center" . 
+answer:q29a2 a core:answer; 
+rdfs:label "Encode the data, and then store it in an office" . 
+answer:q29a3 a core:answer; 
+rdfs:label "Mask the data, and then store it in a vault" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q30 . 
+question:q30 
+rdfs:label "A firm supplies workers’ compensation claims (which include supporting personal data) to an outsourced claims investigator. The claims investigator is responsible for packaging the claim data supplied by the firm into a claim file, validating the supplied data, obtaining additional data where warranted, and then recommending a final claim disposition to the firm. Which role is this claims provider fulfilling under the General Data Protection Regulation (GDPR)? "; 
+core:hasAnswers answer:q30a0 , 
+answer:q30a1 , 
+answer:q30a2 , 
+answer:q30a3 ; 
+core:hasCorrectAnswer answer:q30a3 . 
+
+answer:q30a0 a core:answer; 
+rdfs:label "Asset owner" . 
+answer:q30a1 a core:answer; 
+rdfs:label "Business owner" . 
+answer:q30a2 a core:answer; 
+rdfs:label "Data owner" . 
+answer:q30a3 a core:answer; 
+rdfs:label "Data processor" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q31 . 
+question:q31 
+rdfs:label "A company uses a document management system to classify documents created by employees. Ownership of the document management system belongs to the chief information officer (CIO). The department managers classify documents that were created by employees in their department as business-critical and sensitive. The information security officer (ISO) maintains the system security plan for the documents created and used by the corresponding department, and the system administrator (SA) ensures that the system is deployed based on the security requirements. Who is the owner of the data in this company? "; 
+core:hasAnswers answer:q31a0 , 
+answer:q31a1 , 
+answer:q31a2 , 
+answer:q31a3 ; 
+core:hasCorrectAnswer answer:q31a1 . 
+
+answer:q31a0 a core:answer; 
+rdfs:label "The employee" . 
+answer:q31a1 a core:answer; 
+rdfs:label "The department managers" . 
+answer:q31a2 a core:answer; 
+rdfs:label "The information security officer" . 
+answer:q31a3 a core:answer; 
+rdfs:label "The system administrator" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q32 . 
+question:q32 
+rdfs:label "In an organization, the information security management department (ISMD) standardized data classification levels, identifying safeguards and controls for every level. The ISMD started to ask business units (BUs) to classify data. Why is the ISMD asking BUs to classify data before implementing the controls and safeguards? "; 
+core:hasAnswers answer:q32a0 , 
+answer:q32a1 , 
+answer:q32a2 , 
+answer:q32a3 ; 
+core:hasCorrectAnswer answer:q32a1 . 
+
+answer:q32a0 a core:answer; 
+rdfs:label "Because the ISMD is the data owner" . 
+answer:q32a1 a core:answer; 
+rdfs:label "Because BUs are data owners" . 
+answer:q32a2 a core:answer; 
+rdfs:label "Because BUs own the budget" . 
+answer:q32a3 a core:answer; 
+rdfs:label "Because the ISMD owns the budget" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q33 . 
+question:q33 
+rdfs:label "An employee using a public key infrastructure (PKI) receives an unsigned email from a coworker. Which category of the STRIDE threat model is applicable to this scenario?  "; 
+core:hasAnswers answer:q33a0 , 
+answer:q33a1 , 
+answer:q33a2 , 
+answer:q33a3 ; 
+core:hasCorrectAnswer answer:q33a2 . 
+
+answer:q33a0 a core:answer; 
+rdfs:label "Spoofing" . 
+answer:q33a1 a core:answer; 
+rdfs:label "Tampering" . 
+answer:q33a2 a core:answer; 
+rdfs:label "Repudiation" . 
+answer:q33a3 a core:answer; 
+rdfs:label "Elevation of privilege" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q34 . 
+question:q34 
+rdfs:label "Which process identifies factors that could damage or disclose data, evaluates those factors considering data value and countermeasure cost, and implements cost-effective solutions? "; 
+core:hasAnswers answer:q34a0 , 
+answer:q34a1 , 
+answer:q34a2 , 
+answer:q34a3 ; 
+core:hasCorrectAnswer answer:q34a0 . 
+
+answer:q34a0 a core:answer; 
+rdfs:label "Risk management" . 
+answer:q34a1 a core:answer; 
+rdfs:label "Asset valuation" . 
+answer:q34a2 a core:answer; 
+rdfs:label "Vulnerability identification" . 
+answer:q34a3 a core:answer; 
+rdfs:label "Impact assessment" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q35 . 
+question:q35 
+rdfs:label "What is the purpose of threat modeling tools? "; 
+core:hasAnswers answer:q35a0 , 
+answer:q35a1 , 
+answer:q35a2 , 
+answer:q35a3 ; 
+core:hasCorrectAnswer answer:q35a1 . 
+
+answer:q35a0 a core:answer; 
+rdfs:label "To identify employees who could be potential insider threats" . 
+answer:q35a1 a core:answer; 
+rdfs:label "To consider the range of compromise concerns and focus on the end result of an attack" . 
+answer:q35a2 a core:answer; 
+rdfs:label "To identify all the technologies involved in a threat" . 
+answer:q35a3 a core:answer; 
+rdfs:label "To consider hardware and software tools that provide strong resilience to attackers" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q36 . 
+question:q36 
+rdfs:label "Which type of access control do smart cards for employees represent? "; 
+core:hasAnswers answer:q36a0 , 
+answer:q36a1 , 
+answer:q36a2 , 
+answer:q36a3 ; 
+core:hasCorrectAnswer answer:q36a0 . 
+
+answer:q36a0 a core:answer; 
+rdfs:label "Logical" . 
+answer:q36a1 a core:answer; 
+rdfs:label "Administrative" . 
+answer:q36a2 a core:answer; 
+rdfs:label "Directive" . 
+answer:q36a3 a core:answer; 
+rdfs:label "Recovery" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q37 . 
+question:q37 
+rdfs:label "A company has created a honeypot on the network with fake data. Which type of access control is this honeypot? "; 
+core:hasAnswers answer:q37a0 , 
+answer:q37a1 , 
+answer:q37a2 , 
+answer:q37a3 ; 
+core:hasCorrectAnswer answer:q37a0 . 
+
+answer:q37a0 a core:answer; 
+rdfs:label "Detective" . 
+answer:q37a1 a core:answer; 
+rdfs:label "Corrective" . 
+answer:q37a2 a core:answer; 
+rdfs:label "Recovery" . 
+answer:q37a3 a core:answer; 
+rdfs:label "Directive" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q38 . 
+question:q38 
+rdfs:label "All of an organization’s offices have cable laptop locks to secure a laptop when the user walks away. Which access control type are these locks? "; 
+core:hasAnswers answer:q38a0 , 
+answer:q38a1 , 
+answer:q38a2 , 
+answer:q38a3 ; 
+core:hasCorrectAnswer answer:q38a0 . 
+
+answer:q38a0 a core:answer; 
+rdfs:label "Physical" . 
+answer:q38a1 a core:answer; 
+rdfs:label "Logical" . 
+answer:q38a2 a core:answer; 
+rdfs:label "Directive" . 
+answer:q38a3 a core:answer; 
+rdfs:label "Corrective" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q39 . 
+question:q39 
+rdfs:label "What is an example of an administrative access control? "; 
+core:hasAnswers answer:q39a0 , 
+answer:q39a1 , 
+answer:q39a2 , 
+answer:q39a3 ; 
+core:hasCorrectAnswer answer:q39a1 . 
+
+answer:q39a0 a core:answer; 
+rdfs:label "Security badges" . 
+answer:q39a1 a core:answer; 
+rdfs:label "Background checks" . 
+answer:q39a2 a core:answer; 
+rdfs:label "Access control lists" . 
+answer:q39a3 a core:answer; 
+rdfs:label "Encryption" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q40 . 
+question:q40 
+rdfs:label "Which identity technology is an open request for comments (RFC) standard that provides access delegation of online websites? "; 
+core:hasAnswers answer:q40a0 , 
+answer:q40a1 , 
+answer:q40a2 , 
+answer:q40a3 ; 
+core:hasCorrectAnswer answer:q40a3 . 
+
+answer:q40a0 a core:answer; 
+rdfs:label "Extensible authentication protocol (EAP) " . 
+answer:q40a1 a core:answer; 
+rdfs:label "Service provisioning markup language (SPML)" . 
+answer:q40a2 a core:answer; 
+rdfs:label "OpenID identity provider" . 
+answer:q40a3 a core:answer; 
+rdfs:label "Open Authentication (OAuth) 2.0" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q41 . 
+question:q41 
+rdfs:label "Which identity management solution allows multiple organizations to share identities based on a common method? "; 
+core:hasAnswers answer:q41a0 , 
+answer:q41a1 , 
+answer:q41a2 , 
+answer:q41a3 ; 
+core:hasCorrectAnswer answer:q41a3 . 
+
+answer:q41a0 a core:answer; 
+rdfs:label "Lightweight directory access protocol (LDAP)" . 
+answer:q41a1 a core:answer; 
+rdfs:label "Kerberos authentication protocol" . 
+answer:q41a2 a core:answer; 
+rdfs:label "Public key infrastructure (PKI)" . 
+answer:q41a3 a core:answer; 
+rdfs:label "Federated identity management (FIM)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q42 . 
+question:q42 
+rdfs:label "An organization deploys multifactored authentication. One of the required factors is a username and password. What is the purpose of this username? "; 
+core:hasAnswers answer:q42a0 , 
+answer:q42a1 , 
+answer:q42a2 , 
+answer:q42a3 ; 
+core:hasCorrectAnswer answer:q42a0 . 
+
+answer:q42a0 a core:answer; 
+rdfs:label "Identification" . 
+answer:q42a1 a core:answer; 
+rdfs:label "Authentication" . 
+answer:q42a2 a core:answer; 
+rdfs:label "Authorization" . 
+answer:q42a3 a core:answer; 
+rdfs:label "Accountability" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q43 . 
+question:q43 
+rdfs:label "A company receives numerous complaints from employees about the high number of usernames and passwords each employee must maintain. Which solution would allow employees to store usernames and passwords? "; 
+core:hasAnswers answer:q43a0 , 
+answer:q43a1 , 
+answer:q43a2 , 
+answer:q43a3 ; 
+core:hasCorrectAnswer answer:q43a0 . 
+
+answer:q43a0 a core:answer; 
+rdfs:label "A credential management system" . 
+answer:q43a1 a core:answer; 
+rdfs:label "A centralized access control system" . 
+answer:q43a2 a core:answer; 
+rdfs:label "A key distribution center" . 
+answer:q43a3 a core:answer; 
+rdfs:label "A public key infrastructure" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q44 . 
+question:q44 
+rdfs:label "A company needs to improve the security of systems on the corporate network using multiple layers of access control to achieve the strongest level of security possible. Which access control methods should be implemented? "; 
+core:hasAnswers answer:q44a0 , 
+answer:q44a1 , 
+answer:q44a2 , 
+answer:q44a3 ; 
+core:hasCorrectAnswer answer:q44a0 . 
+
+answer:q44a0 a core:answer; 
+rdfs:label "Administrative, technical, and physical" . 
+answer:q44a1 a core:answer; 
+rdfs:label "Physical, attribute, and mandatory" . 
+answer:q44a2 a core:answer; 
+rdfs:label "Role-based, administrative , and rule-based" . 
+answer:q44a3 a core:answer; 
+rdfs:label "Administrative, rule-based, and discretionary" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q45 . 
+question:q45 
+rdfs:label "The vice president of a company distributes corporate policies by emailing employees links to the files. An IT professional needs to implement a solution that allows only the vice president to manage who can edit corporate policies. Which access control model should this professional implement? "; 
+core:hasAnswers answer:q45a0 , 
+answer:q45a1 , 
+answer:q45a2 , 
+answer:q45a3 ; 
+core:hasCorrectAnswer answer:q45a1 . 
+
+answer:q45a0 a core:answer; 
+rdfs:label "Attribute-based" . 
+answer:q45a1 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q45a2 a core:answer; 
+rdfs:label "Mandatory" . 
+answer:q45a3 a core:answer; 
+rdfs:label "Role-based" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q46 . 
+question:q46 
+rdfs:label "A company wants only members of its database administrator team to have administrative access to all SQL server databases. Which access control model should this company apply? "; 
+core:hasAnswers answer:q46a0 , 
+answer:q46a1 , 
+answer:q46a2 , 
+answer:q46a3 ; 
+core:hasCorrectAnswer answer:q46a3 . 
+
+answer:q46a0 a core:answer; 
+rdfs:label "Attribute-based" . 
+answer:q46a1 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q46a2 a core:answer; 
+rdfs:label "Mandatory" . 
+answer:q46a3 a core:answer; 
+rdfs:label "Role-based" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q47 . 
+question:q47 
+rdfs:label "A company develops project management software. The design requires the project manager to control access to the project files. Which access control model should this project manager use? "; 
+core:hasAnswers answer:q47a0 , 
+answer:q47a1 , 
+answer:q47a2 , 
+answer:q47a3 ; 
+core:hasCorrectAnswer answer:q47a1 . 
+
+answer:q47a0 a core:answer; 
+rdfs:label "Attribute-based" . 
+answer:q47a1 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q47a2 a core:answer; 
+rdfs:label "Role-based" . 
+answer:q47a3 a core:answer; 
+rdfs:label "Mandatory" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q48 . 
+question:q48 
+rdfs:label "A word-processing program uses document labels to determine which users can access files. For example, only members of the legal department can access files labeled legal. Which access control model is applied? "; 
+core:hasAnswers answer:q48a0 , 
+answer:q48a1 , 
+answer:q48a2 , 
+answer:q48a3 ; 
+core:hasCorrectAnswer answer:q48a0 . 
+
+answer:q48a0 a core:answer; 
+rdfs:label "Mandatory" . 
+answer:q48a1 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q48a2 a core:answer; 
+rdfs:label "Rule-based" . 
+answer:q48a3 a core:answer; 
+rdfs:label "Attribute-based" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q49 . 
+question:q49 
+rdfs:label "An attacker uses multiple websites to collect public information and pieces together a profile to be used for identity impersonation. Which type of attack is this? "; 
+core:hasAnswers answer:q49a0 , 
+answer:q49a1 , 
+answer:q49a2 , 
+answer:q49a3 ; 
+core:hasCorrectAnswer answer:q49a2 . 
+
+answer:q49a0 a core:answer; 
+rdfs:label "Database aggregation" . 
+answer:q49a1 a core:answer; 
+rdfs:label "Information theft" . 
+answer:q49a2 a core:answer; 
+rdfs:label "Access aggregation" . 
+answer:q49a3 a core:answer; 
+rdfs:label "Access theft" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q50 . 
+question:q50 
+rdfs:label "Which type of an attack involves an attacker looking at a victim’s computer screen to capture sensitive information? "; 
+core:hasAnswers answer:q50a0 , 
+answer:q50a1 , 
+answer:q50a2 , 
+answer:q50a3 ; 
+core:hasCorrectAnswer answer:q50a0 . 
+
+answer:q50a0 a core:answer; 
+rdfs:label "Shoulder surfing" . 
+answer:q50a1 a core:answer; 
+rdfs:label "Tailgating" . 
+answer:q50a2 a core:answer; 
+rdfs:label "Piggybacking" . 
+answer:q50a3 a core:answer; 
+rdfs:label "Screen scraping" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q51 . 
+question:q51 
+rdfs:label "Which type of attack exclusively uses the telephone system or VoIP to perform the attack? "; 
+core:hasAnswers answer:q51a0 , 
+answer:q51a1 , 
+answer:q51a2 , 
+answer:q51a3 ; 
+core:hasCorrectAnswer answer:q51a4 . 
+
+answer:q51a0 a core:answer; 
+rdfs:label "Birthday" . 
+answer:q51a1 a core:answer; 
+rdfs:label "Rainbow table" . 
+answer:q51a2 a core:answer; 
+rdfs:label "Dictionary" . 
+answer:q51a3 a core:answer; 
+rdfs:label "Vishing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q52 . 
+question:q52 
+rdfs:label "Which type of attack is passive and noninvasive and intended to observe the operation of a device? "; 
+core:hasAnswers answer:q52a0 , 
+answer:q52a1 , 
+answer:q52a2 , 
+answer:q52a3 ; 
+core:hasCorrectAnswer answer:q52a1 . 
+
+answer:q52a0 a core:answer; 
+rdfs:label "Social engineering" . 
+answer:q52a1 a core:answer; 
+rdfs:label "Side channel" . 
+answer:q52a2 a core:answer; 
+rdfs:label "Rainbow table" . 
+answer:q52a3 a core:answer; 
+rdfs:label "Spear phishing" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q53 . 
+question:q53 
+rdfs:label "A company secures its network by closing specific ports on its firewalls. Which access control method is being applied? "; 
+core:hasAnswers answer:q53a0 , 
+answer:q53a1 , 
+answer:q53a2 , 
+answer:q53a3 ; 
+core:hasCorrectAnswer answer:q53a3 . 
+
+answer:q53a0 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q53a1 a core:answer; 
+rdfs:label "Mandatory" . 
+answer:q53a2 a core:answer; 
+rdfs:label "Role-based" . 
+answer:q53a3 a core:answer; 
+rdfs:label "Rule-based" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q54 . 
+question:q54 
+rdfs:label "An organization plans to design and implement a new IT architecture. The architecture should be flexible, and the access-control management system should use several different characteristics of users, the network, and devices on the network. Which access-control model can be used to implement the new architecture? "; 
+core:hasAnswers answer:q54a0 , 
+answer:q54a1 , 
+answer:q54a2 , 
+answer:q54a3 ; 
+core:hasCorrectAnswer answer:q54a1 . 
+
+answer:q54a0 a core:answer; 
+rdfs:label "Rule-based" . 
+answer:q54a1 a core:answer; 
+rdfs:label "Attribute-based" . 
+answer:q54a2 a core:answer; 
+rdfs:label "Discretionary" . 
+answer:q54a3 a core:answer; 
+rdfs:label "Mandatory" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q55 . 
+question:q55 
+rdfs:label "Which environment type allows a user to gain access to objects using classification labels in a compartmentalized environment? "; 
+core:hasAnswers answer:q55a0 , 
+answer:q55a1 , 
+answer:q55a2 , 
+answer:q55a3 ; 
+core:hasCorrectAnswer answer:q55a1 . 
+
+answer:q55a0 a core:answer; 
+rdfs:label "Role-based access control" . 
+answer:q55a1 a core:answer; 
+rdfs:label "Mandatory access control" . 
+answer:q55a2 a core:answer; 
+rdfs:label "Discretionary access control" . 
+answer:q55a3 a core:answer; 
+rdfs:label "Attribute-based access control" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q56 . 
+question:q56 
+rdfs:label "What is a characteristic of discretionary access controls? "; 
+core:hasAnswers answer:q56a0 , 
+answer:q56a1 , 
+answer:q56a2 , 
+answer:q56a3 ; 
+core:hasCorrectAnswer answer:q56a1 . 
+
+answer:q56a0 a core:answer; 
+rdfs:label "Rules are based on attributes." . 
+answer:q56a1 a core:answer; 
+rdfs:label "Every object has an owner." . 
+answer:q56a2 a core:answer; 
+rdfs:label "They are centrally administered." . 
+answer:q56a3 a core:answer; 
+rdfs:label "Changes are global." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q57 . 
+question:q57 
+rdfs:label "Which security control is appropriate to protect database applications and associated data from creeping privileges? "; 
+core:hasAnswers answer:q57a0 , 
+answer:q57a1 , 
+answer:q57a2 , 
+answer:q57a3 ; 
+core:hasCorrectAnswer answer:q57a0 . 
+
+answer:q57a0 a core:answer; 
+rdfs:label "Account review" . 
+answer:q57a1 a core:answer; 
+rdfs:label "Account revocation" . 
+answer:q57a2 a core:answer; 
+rdfs:label "Provisioning" . 
+answer:q57a3 a core:answer; 
+rdfs:label "Deprovisioning" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q58 . 
+question:q58 
+rdfs:label "Which group of security controls is necessary to protect accounts against stolen credentials? "; 
+core:hasAnswers answer:q58a0 , 
+answer:q58a1 , 
+answer:q58a2 , 
+answer:q58a3 ; 
+core:hasCorrectAnswer answer:q58a1 . 
+
+answer:q58a0 a core:answer; 
+rdfs:label "Password phrases" . 
+answer:q58a1 a core:answer; 
+rdfs:label "Two-factor authentication" . 
+answer:q58a2 a core:answer; 
+rdfs:label "Personal identification numbers" . 
+answer:q58a3 a core:answer; 
+rdfs:label "Employee awareness training" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q59 . 
+question:q59 
+rdfs:label "Which group of security controls provides storage space for users to keep usernames and passwords stored when a single sign-on is not available? "; 
+core:hasAnswers answer:q59a0 , 
+answer:q59a1 , 
+answer:q59a2 , 
+answer:q59a3 ; 
+core:hasCorrectAnswer answer:q59a3 . 
+
+answer:q59a0 a core:answer; 
+rdfs:label "OpenID" . 
+answer:q59a1 a core:answer; 
+rdfs:label "Federated identity management (FIM)" . 
+answer:q59a2 a core:answer; 
+rdfs:label "OAuth 2.0" . 
+answer:q59a3 a core:answer; 
+rdfs:label "Credential management system" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q60 . 
+question:q60 
+rdfs:label "A company wants to provide authentication, authorization, and accounting (AAA) protocols for employees who use virtual private networks (VPNs). Which protocol provides this company with AAA? "; 
+core:hasAnswers answer:q60a0 , 
+answer:q60a1 , 
+answer:q60a2 , 
+answer:q60a3 ; 
+core:hasCorrectAnswer answer:q60a2 . 
+
+answer:q60a0 a core:answer; 
+rdfs:label "Integrating identity services" . 
+answer:q60a1 a core:answer; 
+rdfs:label "Federated identity management" . 
+answer:q60a2 a core:answer; 
+rdfs:label "RADIUS" . 
+answer:q60a3 a core:answer; 
+rdfs:label "OpenID" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q61 . 
+question:q61 
+rdfs:label "A company has an online log-on page for employees to access limited data while working remotely. The log-on is a username and password. Which access control would help prevent an attack on the log-on page given an attacker has unlimited time? "; 
+core:hasAnswers answer:q61a0 , 
+answer:q61a1 , 
+answer:q61a2 , 
+answer:q61a3 ; 
+core:hasCorrectAnswer answer:q61a1 . 
+
+answer:q61a0 a core:answer; 
+rdfs:label "Strong password policy" . 
+answer:q61a1 a core:answer; 
+rdfs:label "Account lockout" . 
+answer:q61a2 a core:answer; 
+rdfs:label "Last log-on notification" . 
+answer:q61a3 a core:answer; 
+rdfs:label "Password masking" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q62 . 
+question:q62 
+rdfs:label "Which security control should prevent unauthorized access from spoofing attacks? "; 
+core:hasAnswers answer:q62a0 , 
+answer:q62a1 , 
+answer:q62a2 , 
+answer:q62a3 ; 
+core:hasCorrectAnswer answer:q62a2 . 
+
+answer:q62a0 a core:answer; 
+rdfs:label "Hash and salt passwords" . 
+answer:q62a1 a core:answer; 
+rdfs:label "Use account lockout" . 
+answer:q62a2 a core:answer; 
+rdfs:label "Implement multifactor authentication" . 
+answer:q62a3 a core:answer; 
+rdfs:label "Enforce password complexity" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q63 . 
+question:q63 
+rdfs:label "Which security control should be employed to remedy access aggregation attacks? "; 
+core:hasAnswers answer:q63a0 , 
+answer:q63a1 , 
+answer:q63a2 , 
+answer:q63a3 ; 
+core:hasCorrectAnswer answer:q63a2 . 
+
+answer:q63a0 a core:answer; 
+rdfs:label "Limiting physical access to systems" . 
+answer:q63a1 a core:answer; 
+rdfs:label "Implementing account lockout" . 
+answer:q63a2 a core:answer; 
+rdfs:label "Applying need-to-know principle" . 
+answer:q63a3 a core:answer; 
+rdfs:label "Enforcing password hash and salt" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q64 . 
+question:q64 
+rdfs:label "Which security control can be applied to prevent eavesdropping attacks? "; 
+core:hasAnswers answer:q64a0 , 
+answer:q64a1 , 
+answer:q64a2 , 
+answer:q64a3 ; 
+core:hasCorrectAnswer answer:q64a1 . 
+
+answer:q64a0 a core:answer; 
+rdfs:label "Firewall" . 
+answer:q64a1 a core:answer; 
+rdfs:label "Encryption" . 
+answer:q64a2 a core:answer; 
+rdfs:label "Antivirus" . 
+answer:q64a3 a core:answer; 
+rdfs:label "Patching" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q65 . 
+question:q65 
+rdfs:label "Which security control should be employed as part of a comprehensive process to address the physical theft of virtual servers? "; 
+core:hasAnswers answer:q65a0 , 
+answer:q65a1 , 
+answer:q65a2 , 
+answer:q65a3 ; 
+core:hasCorrectAnswer answer:q65a0 . 
+
+answer:q65a0 a core:answer; 
+rdfs:label "Limiting physical access to the hosting servers" . 
+answer:q65a1 a core:answer; 
+rdfs:label "Enforcing account lockout on the virtual servers" . 
+answer:q65a2 a core:answer; 
+rdfs:label "Implementing need-to-know principles with authentication to physical servers" . 
+answer:q65a3 a core:answer; 
+rdfs:label "Enforcing hashing and salting of passwords to hosting servers" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q66 . 
+question:q66 
+rdfs:label "An organization stores hashed passwords using Secure Hash Algorithm 256 (SHA-256). The organization has concerns about data breaches that result from rainbow table attacks. Which security control should this organization implement? "; 
+core:hasAnswers answer:q66a0 , 
+answer:q66a1 , 
+answer:q66a2 , 
+answer:q66a3 ; 
+core:hasCorrectAnswer answer:q66a3 . 
+
+answer:q66a0 a core:answer; 
+rdfs:label "Limiting physical access to company computers" . 
+answer:q66a1 a core:answer; 
+rdfs:label "Enforcing account lockout" . 
+answer:q66a2 a core:answer; 
+rdfs:label "Implementing need-to-know principles" . 
+answer:q66a3 a core:answer; 
+rdfs:label "Enforcing salting before storing the data" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q67 . 
+question:q67 
+rdfs:label "Which framework achieves the needs of stakeholders and the goals of an enterprise? "; 
+core:hasAnswers answer:q67a0 , 
+answer:q67a1 , 
+answer:q67a2 , 
+answer:q67a3 ; 
+core:hasCorrectAnswer answer:q67a1 . 
+
+answer:q67a0 a core:answer; 
+rdfs:label "The Open Group Architecture Framework (TOGAF)" . 
+answer:q67a1 a core:answer; 
+rdfs:label "Control objectives for information and related technology (CoBIT)" . 
+answer:q67a2 a core:answer; 
+rdfs:label "Capability Maturity Model Integration (CMMI)" . 
+answer:q67a3 a core:answer; 
+rdfs:label "Information Technology Infrastructure Library (ITIL)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q68 . 
+question:q68 
+rdfs:label "A company implements an information security management system (ISMS). The company uses the system to implement security controls and publish security policies. After an assessment, the company discovers that ISMS processes are unpredictable and changing in reaction to events. Which framework should this company implement to improve ISMS processes? "; 
+core:hasAnswers answer:q68a0 , 
+answer:q68a1 , 
+answer:q68a2 , 
+answer:q68a3 ; 
+core:hasCorrectAnswer answer:q68a1 . 
+
+answer:q68a0 a core:answer; 
+rdfs:label "The Open Group Architecture Framework (TOGAF)" . 
+answer:q68a1 a core:answer; 
+rdfs:label "Capability Maturity Model Integration (CMMI)" . 
+answer:q68a2 a core:answer; 
+rdfs:label "Payment card industry data security standard (PCI-DSS)" . 
+answer:q68a3 a core:answer; 
+rdfs:label "Committee of Sponsoring Organizations of the Treadway Commission (COSO)" . 
+ 
+ 
+core:ccsp core:hasQuestion question:q69 . 
+question:q69 
+rdfs:label "Which description suggests that a process has reached the highest level of maturity possible under capability maturity model integration? "; 
+core:hasAnswers answer:q69a0 , 
+answer:q69a1 , 
+answer:q69a2 , 
+answer:q69a3 ; 
+core:hasCorrectAnswer answer:q69a2 . 
+
+answer:q69a0 a core:answer; 
+rdfs:label "The process is managed using reliable metrics." . 
+answer:q69a1 a core:answer; 
+rdfs:label "The process is defined, documented, reviewed, and subject to improvement." . 
+answer:q69a2 a core:answer; 
+rdfs:label "The process is optimized, with a focus on continuous improvement." . 
+answer:q69a3 a core:answer; 
+rdfs:label "The process is repeatable, with repeatable results." . 
+ 
+ 
+core:ccsp core:hasQuestion question:q70 . 
+question:q70 
+rdfs:label "Which framework is focused solely on process and process maturity and has five levels of maturity? "; 
+core:hasAnswers answer:q70a0 , 
+answer:q70a1 , 
+answer:q70a2 , 
+answer:q70a3 ; 
+core:hasCorrectAnswer answer:q70a1 . 
+
+answer:q70a0 a core:answer; 
+rdfs:label "COBIT" . 
+answer:q70a1 a core:answer; 
+rdfs:label "CMMI" . 
+answer:q70a2 a core:answer; 
+rdfs:label "COSO" . 
+answer:q70a3 a core:answer; 
+rdfs:label "ITIL" . 
+ 
+ 
