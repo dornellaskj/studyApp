@@ -459,6 +459,156 @@ export class CcspServiceService {
         ],
         correct: 0
       },
+      {
+        "answers": [
+            "  Create, Store, Use, Archive, Share, Destroy",
+            "  Create, Store, Use, Share, Archive, Destroy",
+            "  Create, Use, Store, Share, Archive, Destroy",
+            "  Create, Archive, Store, Share, Use, Destroy"
+        ],
+        "question": "What is the correct order of the phases of the data lifecycle? ",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "  location",
+            "  procedure",
+            "  format",
+            "  technology immediacy&nbsp;"
+        ],
+        "question": "When crafting plans and policies for data archiving, we should consider all of the following except ___________________.",
+        "correct": 3
+      },
+      {
+        question:"What are the US State Department controls on technology exports known as?",
+        answers: [
+          "ITAR",
+          "EAR", 
+          "EAL", 
+          "IRM"
+        ],
+        correct: 0
+      },
+      {
+        "answers": [
+            "Object-based storage",
+            "File-based storage",
+            "Database",
+            "CDN"
+        ],
+        "question": "What is a cloud storage architecture that manages the data in caches of copied content close to locations of high demand?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "Object-based storage",
+            "File-based storage",
+            "Database",
+            "CDN"
+        ],
+        "question": "What is a cloud storage architecture that manages the data in an arrangement of fields according to characteristics of each data element?",
+        "correct": 2
+      },
+      {
+        "answers": [
+            "DLP",
+            "CASB",
+            "SIEM",
+            "AES"
+        ],
+        "question": "What is the third-party provider of IAM functions for the cloud environment?",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "Have key recovery processes.",
+            "Maintain key security.",
+            "Pass keys out of band.",
+            "Ensure multifactor authentication."
+        ],
+        "question": "Which of the following is not included in the best practices for key management?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "be at least 128 bits long",
+            "not be stored with the cloud provider",
+            "split into groups",
+            "be generated with dependency"
+        ],
+        "question": "Cryptographic keys for encrypted data stored in the cloud should ___________________.",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "IRMand this is correct answer",
+            "SIEM",
+            "Kerberos",
+            "Hypervisors"
+        ],
+        "question": "DLP can be combined with which of the following security tools to enhance data controls?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Multiple authentication factors",
+            "Two distinct databases",
+            "Single encryption key",
+            "Personnel"
+        ],
+        "question": "Which of the following will you use in order to implement tokenization?",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "Accurate data categorization",
+            "Physical access limitations",
+            "USB connectivity",
+            "Physical presence"
+        ],
+        "question": "Proper implementation of DLP solutions for successful function requires which of the following?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Malicious disclosure",
+            "Performance issues",
+            "Bad policy",
+            "Power failure"
+        ],
+        "question": "DLP solutions can help deter loss because of which of the following?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Randomization",
+            "Inadvertent disclosure",
+            "Natural disaster",
+            "Device failure"
+        ],
+        "question": "DLP solutions can aid in deterring loss due to which of the following?",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "Centralize collection of log data",
+            "Enhanced analysis capabilities",
+            "Dashboarding",
+            "Performance enhancement"
+        ],
+        "question": "Which of the following are not the goals of SIEM solution implementation?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "Tokenization",
+            "Data discovery",
+            "Obfuscation",
+            "Masking"
+        ],
+        "question": "Which of the following refers to hiding the data with useless characters?",
+        "correct": 3
+      },
       // {
       //   question:"AAAA",
       //   answers: [
