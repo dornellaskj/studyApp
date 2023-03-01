@@ -1,12 +1,27 @@
 import { Injectable } from '@angular/core';
+// import { Store, parse, literal, isLiteral, sym } from 'rdflib';
+// import { readFileSync } from 'fs';
 
+// const store = new Store();
 @Injectable({
   providedIn: 'root'
 })
 export class CcspServiceService {
 
-  constructor() { }
+  constructor() {
+    // this.loadFilesToStore(['../assets/ccsp.ttl'], store);
+  }
+  
+  // private loadFilesToStore(filepaths, store) {
+  //   for (const path of filepaths) {
+  //       const ttl = readFileSync(path, {encoding: 'utf8'});
+  //       parse(ttl, store, 'http://kevindornellas.me', 'text/turle')
+  //   }
+  // }
 
+  // getSkillsRDF() {
+  //   return store;
+  // }
   getQuestions() {
     return [
       {
