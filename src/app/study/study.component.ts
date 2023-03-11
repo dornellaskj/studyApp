@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SecureSoftwareDesignService } from '../services/secure-software-design.service';
 import { DataService } from '../services/data.service';
-import {CyberSecurityManagementService} from '../services/cyber-security-management.service';
+import { CyberSecurityManagementService } from '../services/cyber-security-management.service';
 import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
 
@@ -12,6 +12,7 @@ import { CcspServiceService} from '../services/ccsp-service.service';
   styleUrls: ['./study.component.scss']
 })
 export class StudyComponent implements OnInit {
+  questionLabel: string;
   isCorrect: boolean;
   wasAnswered: boolean = false;
   dun: boolean;
@@ -25,6 +26,7 @@ export class StudyComponent implements OnInit {
   wrongCount: number = 1;
   questions:any;
   wrongQuestions = [];
+  progress: any;
   
   constructor(
     private dataService: SecureSoftwareDesignService,
@@ -42,22 +44,27 @@ export class StudyComponent implements OnInit {
     switch(input) {
       case 0:
         this.questions = this.ogDataService.getQuestions();
+        this.questionLabel = 'Information Security';
         this.setQuestion(this.index);
         break;
       case 1:
         this.questions = this.dataService.getQuestions();
+        this.questionLabel = 'Secure Software Design';
         this.setQuestion(this.index);
         break;
       case 2:
         this.questions = this.cyberMgmtService.getQuestions();
+        this.questionLabel = 'Cyber Security Management';
         this.setQuestion(this.index);
         break;
       case 3:
         this.questions = this.awsSecurityService.getQuestions();
+        this.questionLabel = 'AWS Security';
         this.setQuestion(this.index);
         break;
       case 4:
         this.questions = this.randomizeQuestions(this.ccspService.getQuestions());
+        this.questionLabel = 'CCSP';
         this.setQuestion(this.index);
         break;
     }
@@ -70,6 +77,9 @@ export class StudyComponent implements OnInit {
       this.wasAnswered = false;
       this.index = this.index + 1;
       this.calcPercent();
+      if(this.index == this.questions.length) {
+        this.recordProgress();
+      }
       if(this.index < this.questions.length) {
         this.setQuestion(this.index);
       } else if(this.wrongQuestions.length > 0) {
@@ -128,6 +138,26 @@ export class StudyComponent implements OnInit {
         this.wrongCount = this.wrongCount + 1;
       }
     }
+  }
+
+  getProgressFromLocalStorage() {
+     this.progress = JSON.parse(localStorage.getItem('progress'));
+    if(this.progress == null) {
+      localStorage.setItem('progress', JSON.stringify([]));
+      this.progress = [];
+    }
+  }
+
+  recordProgress() {
+    this.getProgressFromLocalStorage();
+    const progressObject = {
+      questionCount: this.questions?.length,
+      correctAnswers: this.correctCount,
+      quiz: this.questionLabel,
+      date: new Date()
+    }
+    this.progress.push(progressObject);
+    localStorage.setItem('progress', JSON.stringify(this.progress));
   }
 
 }
