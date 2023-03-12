@@ -1,10 +1,14 @@
 import { Injectable } from '@angular/core';
+import { UtilitiesService } from './utilities.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SecureSoftwareDesignService {
 
+  constructor(
+    private utilitiesService: UtilitiesService
+  ) { }
   // {
   //   question:"aaa",
   //   answers: [
@@ -16,7 +20,7 @@ export class SecureSoftwareDesignService {
   //   correct: 0
   // },
   getQuestions() {
-    return [
+    return this.utilitiesService.randomizeQuestions([
       {
         question:"A disadvantage of using third-party software is inflexibility.",
         answers: [
@@ -1446,6 +1450,6 @@ export class SecureSoftwareDesignService {
         ],
         correct: 2
       }
-    ]
+    ]);
   }
 }

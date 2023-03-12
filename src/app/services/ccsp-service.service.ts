@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 // import { Store, parse, literal, isLiteral, sym } from 'rdflib';
 // import { readFileSync } from 'fs';
+import { UtilitiesService } from './utilities.service';
 
 // const store = new Store();
 @Injectable({
@@ -8,9 +9,9 @@ import { Injectable } from '@angular/core';
 })
 export class CcspServiceService {
 
-  constructor() {
-    // this.loadFilesToStore(['../assets/ccsp.ttl'], store);
-  }
+  constructor(
+    private utilitiesService: UtilitiesService
+  ) { }
   
   // private loadFilesToStore(filepaths, store) {
   //   for (const path of filepaths) {
@@ -23,7 +24,7 @@ export class CcspServiceService {
   //   return store;
   // }
   getQuestions() {
-    return [
+    return this.utilitiesService.randomizeQuestions([
       {
         question:"Which of the following is used to determine the critical paths, process, and assets of an organization",
         answers: [
@@ -635,6 +636,6 @@ export class CcspServiceService {
       //   correct: 0
       // },
       
-    ]
+    ]);
   }
 }

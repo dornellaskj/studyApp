@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
+import { UtilitiesService } from './utilities.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  constructor() { }
+  constructor(
+    private utilitiesService: UtilitiesService
+  ) { }
   // {
   //   question:"aaa",
   //   answers: [
@@ -16,8 +19,8 @@ export class DataService {
   //   ],
   //   correct: 0
   // },
-  getQuestions() {
-    return [
+  getQuestions(): any {
+    return this.utilitiesService.randomizeQuestions([
       {
         question:"A companion document to the CC. It focuses on the actions evaluators must take to determine that CC requirements for a TOE are present.",
         answers: [
@@ -957,6 +960,6 @@ export class DataService {
         ],
         correct: 5
       }
-    ]
+    ]);
   }
 }

@@ -23,17 +23,17 @@ export class StudyComponent implements OnInit {
   answers: any;
   correct: number;
   correctCount: number = 0;
-  wrongCount: number = 1;
+  wrongCount: number = 0;
   questions:any;
   wrongQuestions = [];
   progress: any;
-  
+  regularQuestionsComplete:boolean = false;
   constructor(
-    private dataService: SecureSoftwareDesignService,
-    private ogDataService: DataService,
-    private cyberMgmtService: CyberSecurityManagementService,
-    private awsSecurityService: AwsSecurityService,
-    private ccspService: CcspServiceService
+    public dataService: SecureSoftwareDesignService,
+    public ogDataService: DataService,
+    public cyberMgmtService: CyberSecurityManagementService,
+    public awsSecurityService: AwsSecurityService,
+    public ccspService: CcspServiceService
   ) {}
 
   ngOnInit() {
@@ -63,12 +63,11 @@ export class StudyComponent implements OnInit {
         this.setQuestion(this.index);
         break;
       case 4:
-        this.questions = this.randomizeQuestions(this.ccspService.getQuestions());
+        this.questions = this.ccspService.getQuestions();
         this.questionLabel = 'CCSP';
         this.setQuestion(this.index);
         break;
-    }
-    
+    }    
   }
 
   next() {
@@ -77,11 +76,12 @@ export class StudyComponent implements OnInit {
       this.wasAnswered = false;
       this.index = this.index + 1;
       this.calcPercent();
-      if(this.index == this.questions.length) {
+      if(this.index == this.questions.length && !this.regularQuestionsComplete) {
         this.recordProgress();
       }
       if(this.index < this.questions.length) {
         this.setQuestion(this.index);
+        this.regularQuestionsComplete = true;
       } else if(this.wrongQuestions.length > 0) {
         this.questions = this.wrongQuestions;
         this.wrongQuestions = [];
@@ -92,28 +92,6 @@ export class StudyComponent implements OnInit {
       }
     }
     
-  }
-
-  randomizeQuestions(questions) {
-    const numbersUsed = [];
-    const randomQuestions = [];
-    for(let i = 0; i < questions.length; i++){
-      let randomNumber = this.getRandomInt(questions.length);
-      if(!numbersUsed.includes(randomNumber)) {
-        randomQuestions.push(questions[randomNumber]);
-      } else {
-        randomNumber = 0;
-        while (numbersUsed.includes(randomNumber)) {          
-          randomNumber = randomNumber + 1;
-        }
-        randomQuestions.push(questions[randomNumber]);        
-      }
-    }
-    return randomQuestions;
-  }
-
-  getRandomInt(max) {
-    return Math.floor(Math.random() * max);
   }
 
   setQuestion(int:number) {

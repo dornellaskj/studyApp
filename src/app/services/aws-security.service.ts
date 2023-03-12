@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
+import { UtilitiesService } from './utilities.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AwsSecurityService {
 
-  constructor() { }
+  constructor(
+    private utilitiesService: UtilitiesService
+  ) { }
   // {
   //   question:"aaa",
   //   answers: [
@@ -17,7 +20,7 @@ export class AwsSecurityService {
   //   correct: 0
   // },
   getQuestions() {
-    return [
+    return this.utilitiesService.randomizeQuestions([
       {
         question:"You launched an EC2 instance in the default VPC. The instance state shows it is running, but you are unable to access the instance. What is most likely the starting point to fix the problem?",
         answers: [
@@ -215,6 +218,6 @@ export class AwsSecurityService {
           ],
           correct: 3
         },
-    ];
+    ]);
   }
 }

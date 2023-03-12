@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core';
+import { UtilitiesService } from './utilities.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CyberSecurityManagementService {
 
-  constructor() { }
+  constructor(
+    private utilitiesService: UtilitiesService
+  ) { }
 
   getQuestions() {
-    return [
+    return this.utilitiesService.randomizeQuestions([
       {
         question:"Which security principle uses countermeasures such as encryption and data classification?",
         answers: [
@@ -811,6 +814,6 @@ export class CyberSecurityManagementService {
       
 
 
-    ]
+    ]);
   }
 }
