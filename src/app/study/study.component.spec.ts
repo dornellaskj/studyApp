@@ -28,7 +28,6 @@ let servicesArray;
 describe('StudyComponent', () => {
   let component: StudyComponent;
   let fixture: ComponentFixture<StudyComponent>;
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ StudyComponent ]
@@ -112,6 +111,7 @@ describe('StudyComponent', () => {
 
     beforeEach(()=> {
       component.setQuestions(0);
+      fixture.detectChanges();
     });
 
     it('should setup the first question automatically', () => {      
@@ -189,6 +189,10 @@ describe('StudyComponent', () => {
       component.answerSelected(1);
       component.next();
       expect(component.percentCorrect).toEqual(50);
+    });
+
+    it ('should have rendered the question on the page', () => {
+      expect(document.getElementById('question').textContent).toEqual('1. Q1');
     });
   });
   

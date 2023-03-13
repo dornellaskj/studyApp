@@ -98,6 +98,7 @@ export class StudyComponent implements OnInit {
     this.question = this.questions[int];
     this.answers = this.question.answers;
     this.correct = this.question.correct;
+    console.log('question', this.question);
   }
 
   calcPercent() {
