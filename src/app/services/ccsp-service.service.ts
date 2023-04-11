@@ -625,6 +625,156 @@ export class CcspServiceService {
         "question": "Which of the following refers to hiding the data with useless characters?",
         "correct": 3
       },
+      {
+        "answers": [
+            "Vendor lock-out",
+            "Vendor lock-in",
+            "Masking",
+            "Closing"
+        ],
+        "question": "What is the term used to describe the loss of access to data because the cloud provider has ceased operation?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Include proprietary data formats.",
+            "Use IRM and DLP solutions widely throughout the cloud operation.",
+            "Ensure there are physical limitations to moving.",
+            "Ensure favorable contract terms to support portability."
+        ],
+        "question": "What is the technique to enhance the portability of cloud data in order to minimize the potential of vendor lock-in?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "Mobility",
+            "Elasticity",
+            "Obfuscation",
+            "Portability"
+        ],
+        "question": "What is the term we use to describe the general ease and efficiency of moving data from one cloud provider either to another cloud provider or down from the cloud?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "Malware",
+            "Loss/theft of portable devices",
+            "Backdoors",
+            "DoS/DDoS"
+        ],
+        "question": "Because PaaS implementations are so often used for software development, what is one of the vulnerabilities that should always be kept in mind?",
+        "correct": 2
+      },
+      {
+        "answers": [
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "Community cloud"
+        ],
+        "question": "In which cloud computing arrangement, the cloud customer will have the most control of their data and systems, and the cloud provider will have the least amount of responsibility?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Type 1",
+            "Type 2",
+            "Type 3",
+            "Type 4"
+        ],
+        "question": "What would the hypervisor malicious attackers prefer to attack?",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "Extensive access control and authentication tools and techniques",
+            "Analysis and review of all log data by trained, skilled personnel on a frequent basis",
+            "Periodic and effective use of cryptographic sanitization tools",
+            "The use of automated analysis tools such as SIM, SIEM, and SEM solutions"
+        ],
+        "question": "Which of the following methods can not be used to attenuate the harm caused by escalation of privilege?",
+        "correct": 2
+      },
+      {
+        "answers": [
+            "Masking and obfuscation of data for all personnel who need to work directly with raw data",
+            "Hardened perimeter devices",
+            "Redundant ISPs",
+            "Extensive and comprehensive training programs, including initial, recurring, and refresher sessions"
+        ],
+        "question": "Which of the following countermeasures is included for protecting cloud operations against internal threats?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "Remote kill switch",
+            "Dual control",
+            "Muddling",
+            "Safe harbor"
+        ],
+        "question": "Which of the following is a technique used to attenuate risks to the cloud environment, resulting in loss or theft of a device used for remote access?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Continual monitoring for anomalous activity",
+            "Detailed and extensive background checks",
+            "Hardened devices and systems, including servers, hosts, hypervisors, and virtual machines",
+            "Regular and detailed configuration/change management activities"
+        ],
+        "question": "Which of the following is not included in the countermeasures for protecting cloud operations against external attackers?",
+        "correct": 1
+      },
+      {
+        "answers": [
+            "Vendor lock-out",
+            "Malware",
+            "Favorable terms",
+            "Lack of necessary services"
+        ],
+        "question": "A poorly negotiated cloud service contract could result in which of the following detrimental effects?",
+        "correct": 3
+      },
+      {
+        "answers": [
+            "One-time pads",
+            "Distributed, remote processing of, and storage of data",
+            "Fast replication",
+            "Regular backups offered by cloud providers"
+        ],
+        "question": "Benefits for addressing BC/DR offered by cloud operations include all of the following except ___________________.",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "NIST",
+            "The cloud provider",
+            "The cost-benefit analysis the organization conducted when deciding on cloud migration",
+            "Open-source providers"
+        ],
+        "question": "After a cloud migration, the BIA should be updated to include a review of the new risks and impacts associated with cloud operations; this review should include an analysis of the possibility of vendor lock-in/lock-out. Analysis of this risk may not have to be performed as a new effort because a lot of the material that would be included is already available from which of the following?",
+        "correct": 2
+      },
+      {
+        "answers": [
+            "Legal liability can't be transferred to the cloud provider.",
+            "Many states have data breach notification laws.",
+            "Breaches can cause the loss of proprietary data.",
+            "Breaches can cause the loss of intellectual property."
+        ],
+        "question": "When reviewing BIA after a cloud migration, which of the following new factors should an organization take into account related to data breach impacts?",
+        "correct": 0
+      },
+      {
+        "answers": [
+            "Public architecture, cloud backup",
+            "Cloud architecture, backup from a public provider",
+            "Cloud provider, backup from another cloud provider",
+            "Cloud provider, backup from a private provider"
+        ],
+        "question": "What is the basic way of using cloud backups for BC/DR?",
+        "correct": 2
+      },
       // {
       //   question:"AAAA",
       //   answers: [
