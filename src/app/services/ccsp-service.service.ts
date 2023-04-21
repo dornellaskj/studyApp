@@ -286,7 +286,7 @@ export class CcspServiceService {
         correct: 1
       },
       {
-        question:"Which of the following is the best example of a physical control?",
+        question:"Which of the following is the bestexample of a physical control?",
         answers: [
           "Carpets",
           "Ceilings", 
@@ -356,7 +356,7 @@ export class CcspServiceService {
         correct: 3
       },
       {
-        question:"Which of the following does not have a personal privacy law that limits the way all citizens and entities can share personal data?",
+        question:"Which of the following does nothave a personal privacy law that limits the way all citizens and entities can share personal data?",
         answers: [
           "Japan",
           "Belguim", 
@@ -436,7 +436,7 @@ export class CcspServiceService {
         correct: 2
       },
       {
-        question:"IRM tools use a variety of methods for enforcement of intellectual property rights and do not include which of the following options?",
+        question:"IRM tools use a variety of methods for enforcement of intellectual property rights and do notinclude which of the following options?",
         answers: [
           "Media-present checks",
           "Dip switch validity", 
@@ -456,7 +456,7 @@ export class CcspServiceService {
         correct: 1
       },
       {
-        question:"Which of the following is not a method of data discovery?",
+        question:"Which of the following is nota method of data discovery?",
         answers: [
           "Label-based",
           "User-based", 
@@ -637,7 +637,7 @@ export class CcspServiceService {
       },
       {
         "answers": [
-            "Include proprietary data formats.",
+            "Includeproprietary data formats.",
             "Use IRM and DLP solutions widely throughout the cloud operation.",
             "Ensure there are physical limitations to moving.",
             "Ensure favorable contract terms to support portability."
@@ -692,7 +692,7 @@ export class CcspServiceService {
             "Periodic and effective use of cryptographic sanitization tools",
             "The use of automated analysis tools such as SIM, SIEM, and SEM solutions"
         ],
-        "question": "Which of the following methods can not be used to attenuate the harm caused by escalation of privilege?",
+        "question": "Which of the following methods can notbe used to attenuate the harm caused by escalation of privilege?",
         "correct": 2
       },
       {
@@ -722,7 +722,7 @@ export class CcspServiceService {
             "Hardened devices and systems, including servers, hosts, hypervisors, and virtual machines",
             "Regular and detailed configuration/change management activities"
         ],
-        "question": "Which of the following is not included in the countermeasures for protecting cloud operations against external attackers?",
+        "question": "Which of the following is notincluded in the countermeasures for protecting cloud operations against external attackers?",
         "correct": 1
       },
       {
@@ -768,14 +768,978 @@ export class CcspServiceService {
       {
         "answers": [
             "Public architecture, cloud backup",
-            "Cloud architecture, backup from a public provider",
+            "Cloud architecture, backup from a public provider",
             "Cloud provider, backup from another cloud provider",
             "Cloud provider, backup from a private provider"
         ],
         "question": "What is the basic way of using cloud backups for BC/DR?",
         "correct": 2
       },
-      // {
+      {
+          "answers": [
+              "Database management software",
+              "Proprietary software",
+              "Secure software",
+              "Open-source software"
+          ],
+          "question": "Which type of software is mostlikely to be reviewed by most personnel, with the most varied perspectives?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "SOC 3",
+              "SOC 4",
+              "SOC 2  ",
+              "SOC 1"
+          ],
+          "question": "Which kind of SSAE report provides only an attestation by a certified auditor?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "DLP solution results",
+              "SIM, SIEM, and SEM logs",
+              "access to audit logs and performance data",
+              "security control administration"
+          ],
+          "question": "To address shared monitoring and testing responsibilities in a cloud configuration, the provider might offer all these to the cloud customer except _____________________.",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "The contract",
+              "HIPAA",
+              "Security control matrix",
+              "Statutes"
+          ],
+          "question": "In addition to whatever audit results in the provider shares with the customer, what other mechanism does the customer have to ensure trust in the providers performance and duties?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "SOC 1",
+              "SOC 3",
+              "SOC 4",
+              "SOC 2"
+          ],
+          "question": "Which kind of SSAE audit reviews the organizations controls for assuring the confidentiality, integrity, and availability of data?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "PaaS",
+              "IaaS",
+              "QaaS",
+              "SaaS"
+          ],
+          "question": "What is the cloud service model in which the customer is responsible for the administration of the OS?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Backend administrative access",
+              "Site visit access",
+              "Financial reports to shareholders",
+              "Audit and performance log data"
+          ],
+          "question": "Which of the following is a cloud provider likely to provide to its customers in order to enhance the customers trust in the provider?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Virtualization engine",
+              "Business requirements",
+              "SLAs",
+              "Hypervisor"
+          ],
+          "question": "In all cloud models, security controls are driven by which of the following?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "physically visit the business location",
+              "perform system scans",
+              "deliver consulting services",
+              "review documents"
+          ],
+          "question": "The auditor should not __________________.",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "randomization",
+              "content filtering",
+              "behavior analysis",
+              "rule sets"
+          ],
+          "question": "A firewall can use all of the following techniques for controlling traffic except ____________ .",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "They want to enhance exclusivity for their customers, so only an elite tier of higher-paying clientele will be allowed physical access.",
+              "They want to enhance security by keeping information about physical layout and controls confidential.",
+              "Most data centers are inhospitable to human life, so minimizing physical access also minimizes safety concerns.",
+              "They want to minimize traffic in those areas to maximize the efficiency of operational personnel."
+          ],
+          "question": "Why will cloud providers be unlikely to allow physical access to their data centers?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Security controls",
+              "Data",
+              "OS",
+              "User permissions"
+          ],
+          "question": "In all cloud models, the customer will be given access and ability to modify which of the following?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "SOC 3",
+              "SOC 1 Type 2",
+              "SOC 1 Type 1",
+              "SOC 2 Type 2"
+          ],
+          "question": "Which kind of SSAE audit report is mostbeneficial for a cloud customer, even though its unlikely the cloud provider will share it without additional protections?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "SOC 3",
+              "SOC 1 Type 1",
+              "SOC 2 Type 2",
+              "SOC 1 Type 2"
+          ],
+          "question": "Which kind of SSAE audit report is a cloud customer mostlikely to receive from a cloud provider?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "raw",
+              "useless",
+              "sensitive",
+              "production"
+          ],
+          "question": "A honeypot should contain _______________ data.",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "raw",
+              "useless",
+              "sensitive",
+              "production"
+          ],
+          "question": "A honeypot should contain _______________ data.",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Identification",
+              "Authentication",
+              "Inflammation",
+              "Authorization"
+          ],
+          "question": "Which of the following confirms that the identity assertion belongs to the entity presenting it?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "A standard used for directory synchronization",
+              "A standard for developing secure application management logistics",
+              "A standard for exchanging authentication and authorization data between security domains",
+              "A standard for exchanging usernames and passwords across devices"
+          ],
+          "question": "Which of the following best describes SAML?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Complex passwords and an HSM",
+              "A hardware token and a magnetic strip card",
+              "Something you know and something you have",
+              "A complex password and a secret code"
+          ],
+          "question": "Multifactor authentication consists of at least two items. Which of the following best represents this concept?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "the right individual gets access to the right resources at the right time for the right reasons",
+              "all unauthorized users are properly authorized",
+              "unauthorized users will get access to the right resources at the right time for the right reasons",
+              "all unauthorized users are properly authenticated"
+          ],
+          "question": "Identity and access management (IAM) is a security discipline intended to ensure that _______________.",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "A test environment of isolated devices and cabling, completely distinct from the production environment",
+              "Virtualization",
+              "Emulation",
+              "A nonproduction environment"
+          ],
+          "question": "Physical sandboxing provides which of the following?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "money",
+              "recurring inflation",
+              "a runtime environment",
+              "compartmentalization"
+          ],
+          "question": "DAST requires ________________ .",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Relies heavily on XML",
+              "Built on protocol standards  ",
+              "Lightweight and scalable",
+              "Only supports XML output"
+          ],
+          "question": "Which of the following best represents the REST approach to APIs?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "The complete ONF",
+              "A superset of the ONF  ",
+              "A stand-alone framework for storing security practices for the ONF",
+              "A subset of the ONF"
+          ],
+          "question": "The ANF is best described as which of the following?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Each member organization/each member third-party",
+              "Each member organization/a trusted third party",
+              "The users of the various organizations within the federation/a CASB  ",
+              "A contracted third-party/the various member organizations of the federation"
+          ],
+          "question": "In a federated identity arrangement using a trusted third-party model, who is the identity provider, and who is the relying party?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Rendering",
+              "Galloping",
+              "Agile",
+              "Threat modeling"
+          ],
+          "question": "Which of the following terms means “to perceive software from the perspective of the attacker in order to locate/detect potential vulnerabilities”?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Define",
+              "Design",
+              "Test",
+              "Reject"
+          ],
+          "question": "Which of the following is not commonly included in the phases of SDLC?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "5",
+              "7",
+              "1",
+              "3"
+          ],
+          "question": "At which of the following OSI layers do WAFs operate?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Serves as a newer replacement for NIST 800-53 r4",
+              "Provides an overview of network and infrastructure security designed to secure cloud applications",
+              "Describes international privacy standards for cloud computing",
+              "Provides an overview of application security that introduces definitive concepts, principles, and processes involved in application security"
+          ],
+          "question": "Which of the following best describes the purpose and scope of ISO/IEC 27034-1?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "XML",
+              "SOAP",
+              "TEMPEST",
+              "SSL"
+          ],
+          "question": "APIs typically are built with REST or ____________________.",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "agent-based or network-based",
+              "used in place of data masking",
+              "used in the place of encryption",
+              "reactive or imperative"
+          ],
+          "question": "Database activity monitoring (DAM) can be _____________________.",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "agent-based or network-based",
+              "used in place of data masking",
+              "used in the place of encryption",
+              "reactive or imperative"
+          ],
+          "question": "Database activity monitoring (DAM) can be _____________________.",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Location of many data centers",
+              "Personnel deployment",
+              "Carrying medium",
+              "Expense"
+          ],
+          "question": "What is often a major challenge to getting both redundant power and communications utility connections?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "3 ",
+              "2 ",
+              "4",
+              "1"
+          ],
+          "question": "What is the lowest tier of data center redundancy, according to the Uptime Institute?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "RAID",
+              "SAN",
+              "Data dispersion",
+              "Cloud-bursting"
+          ],
+          "question": "Which of the following techniques for ensuring cloud data center storage resiliency uses parity bits and disk striping?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Converged",
+              "Type II",
+              "Cat IV",
+              "Bare-metal"
+          ],
+          "question": "Which kind of hypervisor would malicious actors prefer to attack, ostensibly because it offers a greater attack surface?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Sealed exterior case",
+              "Keystroke logging",
+              "Push-button selectors",
+              "Soldered chipsets"
+          ],
+          "question": "Which of the following is not a feature of a secure KVM component?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "As much as needed to ensure all systems may be gracefully shut down and data securely stored  ",
+              "1,000 gallons",
+              "1 litre",
+              "Enough to last 12 hours"
+          ],
+          "question": "What is the amount of fuel that should be on hand to power generators for backup data center power, in all tiers, according to the Uptime Institute?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "2",
+              "4",
+              "6",
+              "8"
+          ],
+          "question": "If a hospital is considering using a cloud data center, which Uptime Institute Tier should it require?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Developers of the application",
+              "User community representatives",
+              "Testing contractors",
+              "Quality Assurance team members"
+          ],
+          "question": "Who should not be involved in application security testing?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Data dispersion",
+              "Cloud-bursting",
+              "RAID",
+              "SAN"
+          ],
+          "question": "Which of the following techniques for ensuring cloud data center storage resiliency uses encrypted chunks of data?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Changing regulatory motif",
+              "Squirrels",
+              "Construction equipment",
+              "Hackers"
+          ],
+          "question": "Which of the following has not been attributed as the cause of lost capabilities due to DoS?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Emergency egress",
+              "Communications",
+              "Spare components",
+              "Generators"
+          ],
+          "question": "Which of the following data center redundancy efforts probably poses the greatest threat to human safety?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Fire suppression",
+              "Vehicular approach/traffic",
+              "Perimeter",
+              "Elevation of dropped ceilings"
+          ],
+          "question": "Which of the following is generally not a high-priority aspect of physical security in the planning and design of a cloud data center facility?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Power and HVAC",
+              "Infrastructure supporting the production environment",
+              "Critical path/operations  ",
+              "Health and human safety"
+          ],
+          "question": "What should be the primary focus of data center redundancy and contingency planning?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "MAC",
+              "Preventive measures",
+              "RBAC",
+              "The Chinese Wall model"
+          ],
+          "question": "The Brewer-Nash security model is also known as which of the following?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Redundancy",
+              "Resiliency  ",
+              "Rijndael",
+              "Repudiation"
+          ],
+          "question": "Which of the following is part of the STRIDE model?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Redundancy",
+              "Resiliency  ",
+              "Rijndael",
+              "Repudiation"
+          ],
+          "question": "Which of the following is part of the STRIDE model?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Disk space",
+              "Disk I/O usage",
+              "CPU usage",
+              "Print spooling"
+          ],
+          "question": "For performance purposes, OS monitoring should include all of the following except _____________.",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "breach",
+              "theft",
+              "inversion",
+              "static discharge"
+          ],
+          "question": "Adhering to ASHRAE standards for humidity can reduce the possibility of _________________________.",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Numerous change requests",
+              "Power fluctuation  ",
+              "To reduce redundancy",
+              "Natural disaster"
+          ],
+          "question": "What is one of the reasons a baseline might be changed?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "12 hours",
+              "Indefinitely",
+              "Three days",
+              "10 minutes"
+          ],
+          "question": "Generator fuel storage for a cloud data center should last for how long, at a minimum?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Line conditioning",
+              "Confidentiality",
+              "Breach alert",
+              "Communication redundancy"
+          ],
+          "question": "In addition to battery backup, a UPS can offer which capability?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Call tree",
+              "Controls matrix",
+              "Flashlight",
+              "Checklist"
+          ],
+          "question": "Which tool can reduce confusion and misunderstanding during a BC/DR response?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "A process for version control",
+              "All regulatory compliance requirements",
+              "As many systems throughout the organization as possible",
+              "Data breach alerting and reporting"
+          ],
+          "question": "The baseline should cover which of the following?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "IT department",
+              "security office",
+              "management",
+              "regulators"
+          ],
+          "question": "The CMB should include representations from all of the following offices except _____________________.",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Every week",
+              "Whenever regulations dictate",
+              "Often enough to address organizational needs and reduce frustration with the delay",
+              "Annually"
+          ],
+          "question": "How often should the CMB meet?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Structured test",
+              "Dry run",
+              "Full test",
+              "Tabletop"
+          ],
+          "question": "Which form of BC/DR testing has the least impact on operations?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Before the UPS duration is exceeded",
+              "Three days",
+              "Before the recovery point objective is reached",
+              "10 seconds"
+          ],
+          "question": "A generator transfer switch should bring backup power online within what timeframe?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Vendor guidance",
+              "Regulations",
+              "Internal policy  ",
+              "Competitors actions"
+          ],
+          "question": "When deciding whether to apply specific updates, which of the following is best to follow in order to demonstrate due care?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Flavor",
+              "Price",
+              "Burn rate",
+              "Does not spoil"
+          ],
+          "question": "Which characteristic of liquid propane increases its desirability as fuel for backup generators?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Cost",
+              "Noise reduction",
+              "Faster problems recognition ",
+              "Speed"
+          ],
+          "question": "Which characteristic of automated patching makes it attractive?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Joint operating agreements",
+              "UPS",
+              "Generators",
+              "Regulations"
+          ],
+          "question": "A localized incident or disaster can be addressed in a cost-effective manner by using which of the following?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Joint operating agreements",
+              "UPS",
+              "Generators",
+              "Regulations"
+          ],
+          "question": "A localized incident or disaster can be addressed in a cost-effective manner by using which of the following?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "PCI Council",
+              "AICPA",
+              "ISO",
+              "ISO/IEC"
+          ],
+          "question": "Generally Accepted Accounting Principles are created and maintained by which organization?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Type I",
+              "SOC 3",
+              "Type II",
+              "SOC 2"
+          ],
+          "question": "Which of the following SOC report subtypes represents a point in time?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Items that should be implemented",
+              "Audit rights of subcontractors",
+              "PCI DSS contracts  ",
+              "Mandatory breach reporting"
+          ],
+          "question": "Which of the following is a primary component of regulated PII?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "SOX",
+              "ISO 27064",
+              "GLBA  ",
+              "HIPAA"
+          ],
+          "question": "Which of the following laws resulted from a lack of independence in audit practices?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "FERPA  ",
+              "SOX",
+              "HIPAA",
+              "GLBA"
+          ],
+          "question": "Which statute addresses security and privacy matters in the US financial industry?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "All of these",
+              "Poor board oversight",
+              "Lack of independent audits",
+              "Poor financial controls"
+          ],
+          "question": "SOX was enacted because of which of the following?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "The right to be forgotten",
+              "EU Data Directives",
+              "The right to audit",
+              "The information security program"
+          ],
+          "question": "What is a primary component of the Graham-Leach-Bliley Act?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Financial services",
+              "Public companies",
+              "Wholesale or distribution",
+              "Healthcare"
+          ],
+          "question": "Which of the following is not an example of a highly regulated environment?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "All documentation created during a specific time period",
+              "All emails",
+              "Anything pertinent to the request",
+              "Anything that can provide forensic benefit"
+          ],
+          "question": "What must be collected during the eDiscovery process?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Physical control",
+              "Financial control",
+              "Administrative control",
+              "Technical control"
+          ],
+          "question": "Which of the following is not associated with HIPAA controls?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Independence",
+              "Better results",
+              "Cheaper",
+              "Oversight  "
+          ],
+          "question": "Which of the following is the best advantage of external audits?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Absolute assurances",
+              "Seal of approval",
+              "HIPAA compliance",
+              "Compliance with PCI/DSS"
+          ],
+          "question": "Which of the following is the primary purpose of the SOC 3 report?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "SOC 3",
+              "SSAE 18",
+              "SOC 1",
+              "SOC 2"
+          ],
+          "question": "Which of the following report is most aligned with financial control audits?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "NIST 800-53r4 controls",
+              "A security program standard, ISO 27001",
+              "Payment Card Industry Data Security Standards (PCI DSS) contracts",
+              "Controls designed to comply with laws and regulations related to the cloud environment"
+          ],
+          "question": "Legal controls refer to which of the following?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Value of data",
+              "Scope of processing",
+              "Use of subcontractors  ",
+              "Location of data"
+          ],
+          "question": "Which of the following is not a component of contractual PII?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Value of data",
+              "Scope of processing",
+              "Use of subcontractors  ",
+              "Location of data"
+          ],
+          "question": "Which of the following is not a component of contractual PII?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "SOC  ",
+              "SLA",
+              "CSA",
+              "KRI"
+          ],
+          "question": "Which of the following is a valid risk management metric?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "ISO 31000:2018",
+              "HIPAA",
+              "ISO 27017",
+              "NIST 800-92  "
+          ],
+          "question": "Which of the following frameworks focuses specifically on design implementation and oversight of risk management?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Self-assessment certification",
+              "SOC 2 audit certification",
+              "Continuous monitoring-based certification  ",
+              "Third-party assessment-based certification"
+          ],
+          "question": "The CSA STAR program consists of three levels. Which of the following is not one of the CSA STAR levels?",
+          "correct": 1
+      },
+      {
+          "answers": [
+              "Mitigation",
+              "Acceptance",
+              "Avoidance",
+              "Transference"
+          ],
+          "question": "Which of the following methods of addressing risk is most associated with insurance?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "Isolation failure",
+              "Insecure data deletion  ",
+              "Availability",
+              "Vendor lock-in"
+          ],
+          "question": "Which of the following is not a part of ENISAs top eight security risks of cloud computing?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "ISO 9000",
+              "ISO 31000:2018  ",
+              "ISO/IEC 28000:2007",
+              "ISO 27001"
+          ],
+          "question": "Which ISO standard refers to addressing security risks in a supply chain?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "The availability requirements for a given period",
+              "The amount of data allowed to be transmitted and received between the cloud provider and customer",
+              "The number of user accounts allowed during a specified period",
+              "Which personnel are responsible and authorized among both the provider and the customer to declare an emergency and transition the service to the contingency operation status"
+          ],
+          "question": "Which of the following is not appropriate to include in an SLA?",
+          "correct": 3
+      },
+      {
+          "answers": [
+              "An inventory of cloud service security controls that are arranged into separate security domains",
+              "An inventory of cloud services security controls that are arranged into a hierarchy of security domains",
+              "A set of regulatory requirements for cloud service providers",
+              "A set of software development lifecycle requirements for cloud service providers"
+          ],
+          "question": "What is the CSA STAR Cloud Controls Matrix (CCM)?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Maximum",
+              "Condition alpha",
+              "Zero",
+              "Reduced"
+          ],
+          "question": "What is an impossible level of risk?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "KRIs no longer exist, having been replaced by KPIs.",
+              "KPIs no longer exist, having been replaced by KRIs.",
+              "KRIs are forward looking, while KPIs are backward looking.",
+              "There is no difference between KPIs and KRIs."
+          ],
+          "question": "The difference between KPIs and KRIs is which of the following?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Avoidance",
+              "Transference",
+              "Acceptance  ",
+              "Mitigation"
+          ],
+          "question": "Which of the following is a risk management option that halts a business function?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "The person or entity responsible for keeping cloud services running for customers",
+              "The person or entity responsible for transporting data across the Internet",
+              "An intermediary who provides connectivity and transport of cloud services between cloud providers and cloud consumers",
+              "A person or entity responsible for making a cloud service available to consumers"
+          ],
+          "question": "Which of the following best describes a cloud carrier?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "ENISA",
+              "NIST 800-53",
+              "ISO 27000",
+              "COBIT  "
+          ],
+          "question": "Which of the following identifies the top eight security risks based on likelihood and impact?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Key risk indicators (KRIs)",
+              "NIST SP 800-37",
+              "ENISA Cloud Computing: Benefits, Risks, and Recommendations for Information Security",
+              "ISO 31000:2018"
+          ],
+          "question": "Which of the following is not a risk management framework?",
+          "correct": 0
+      },
+      {
+          "answers": [
+              "Background checks for the providers personnel  ",
+              "The physical layout of the data center",
+              "Use of subcontractors",
+              "Redundant uplink grafts"
+          ],
+          "question": "Which of the following components is part of what a CCSP should review when looking at contracting with a cloud service provider?",
+          "correct": 2
+      },
+      {
+          "answers": [
+              "Background checks for the providers personnel  ",
+              "The physical layout of the data center",
+              "Use of subcontractors",
+              "Redundant uplink grafts"
+          ],
+          "question": "Which of the following components is part of what a CCSP should review when looking at contracting with a cloud service provider?",
+          "correct": 2
+      },
+      
+    ]);
+  }
+}
+// {
       //   question:"AAAA",
       //   answers: [
       //     "AAA",
@@ -785,7 +1749,3 @@ export class CcspServiceService {
       //   ],
       //   correct: 0
       // },
-      
-    ]);
-  }
-}

@@ -14,12 +14,14 @@ export class UtilitiesService {
       let randomNumber = this.getRandomInt(questions.length);
       if(!numbersUsed.includes(randomNumber)) {
         randomQuestions.push(questions[randomNumber]);
+        numbersUsed.push(randomNumber);
       } else {
         randomNumber = 0;
         while (numbersUsed.includes(randomNumber)) {          
           randomNumber = randomNumber + 1;
         }
-        randomQuestions.push(questions[randomNumber]);        
+        randomQuestions.push(questions[randomNumber]);
+        numbersUsed.push(randomNumber);      
       }
     }
     return randomQuestions;
