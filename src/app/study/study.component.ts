@@ -4,6 +4,7 @@ import { DataService } from '../services/data.service';
 import { CyberSecurityManagementService } from '../services/cyber-security-management.service';
 import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
+import { CcspAssService} from '../services/ccsp-ass.service';
 
 
 @Component({
@@ -33,7 +34,8 @@ export class StudyComponent implements OnInit {
     public ogDataService: DataService,
     public cyberMgmtService: CyberSecurityManagementService,
     public awsSecurityService: AwsSecurityService,
-    public ccspService: CcspServiceService
+    public ccspService: CcspServiceService,
+    public ccspAssService: CcspAssService
   ) {}
 
   ngOnInit() {
@@ -67,6 +69,11 @@ export class StudyComponent implements OnInit {
         this.questionLabel = 'CCSP';
         this.setQuestion(this.index);
         break;
+      case 5:
+        this.questions = this.ccspAssService.getQuestions();
+        this.questionLabel = 'CCSP Assessment';
+        this.setQuestion(this.index);
+        break;
     }    
   }
 
@@ -77,12 +84,13 @@ export class StudyComponent implements OnInit {
       this.index = this.index + 1;
       this.calcPercent();
       if(this.index == this.questions.length && !this.regularQuestionsComplete) {
+        alert('you scored: ' + this.calcPercent() + '%');
         this.recordProgress();
       }
       if(this.index < this.questions.length) {
         this.setQuestion(this.index);
         this.regularQuestionsComplete = true;
-      } else if(this.wrongQuestions.length > 0) {
+      } else if(this.wrongQuestions.length > 0) {        
         this.questions = this.wrongQuestions;
         this.wrongQuestions = [];
         this.index = 0;

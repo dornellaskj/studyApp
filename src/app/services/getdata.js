@@ -24,7 +24,7 @@ function next() {
         nextBtn.click();
         console.log('clicked');
         console.log('question function', getQuestion);
-        setTimeout(getQuestion, 5000);
+        setTimeout(getQuestion, 2000);
         console.log('after timeout');
     }
     console.log('questions');
