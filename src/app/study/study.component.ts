@@ -84,12 +84,13 @@ export class StudyComponent implements OnInit {
       this.index = this.index + 1;
       this.calcPercent();
       if(this.index == this.questions.length && !this.regularQuestionsComplete) {
-        alert('you scored: ' + this.calcPercent() + '%');
         this.recordProgress();
       }
       if(this.index < this.questions.length) {
         this.setQuestion(this.index);
         this.regularQuestionsComplete = true;
+      } else if (this.index == this.questions.length){
+        alert('you scored: ' + this.calcPercent() + '%');
       } else if(this.wrongQuestions.length > 0) {        
         this.questions = this.wrongQuestions;
         this.wrongQuestions = [];

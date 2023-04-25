@@ -28,7 +28,7 @@ export class CcspAssService {
               "OAuth",
               "WS-Federation",
               "OpenID Connect",
-              "SAML and this is marked as incorrect"
+              "SAML"
           ],
           "question": "Which federation standard allows developers to authenticate their users across websites and applications without having to manage usernames and passwords?",
           "correct": 2
@@ -46,7 +46,7 @@ export class CcspAssService {
       {
           "answers": [
               "General Data Protection Regulation (GDPR)",
-              "ISO 27001 and this is marked as incorrect",
+              "ISO 27001",
               "Cloud Security Alliance Cloud Controls Matrix (CSA CCM)",
               "Federal Information Processing Standard (FIPS) 140-2"
           ],
@@ -76,7 +76,7 @@ export class CcspAssService {
       {
           "answers": [
               "Cloud access security broker",
-              "Sandbox and this is marked as incorrect",
+              "Sandbox",
               "Data sovereignty",
               "Single tenancy "
           ],
@@ -125,7 +125,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Cryptoshredding and this is marked as incorrect",
+              "Cryptoshredding",
               "Degaussing",
               "Physical destruction of resources that store the data-shredding",
               "Legal order issued by the prevailing jurisdiction where the data is geographically situated"
@@ -168,7 +168,7 @@ export class CcspAssService {
               "Remote access",
               "Multitenancy",
               "Pooled resources",
-              "Virtualization and this is marked as incorrect"
+              "Virtualization"
           ],
           "question": "Which of the following aspects of cloud computing can enhance the customer's business continuity and disaster recovery (BC/DR) efforts?",
           "correct": 0
@@ -176,7 +176,7 @@ export class CcspAssService {
       {
           "answers": [
               "Automated patching is slow and inefficient.",
-              "Patches can come loaded with malware, in a Trojan horse attack. and this is marked as incorrect",
+              "Patches can come loaded with malware, in a Trojan horse attack.",
               "Users can be leveraged by intruders.",
               "A patch may not be applicable to a given environment."
           ],
@@ -217,7 +217,7 @@ export class CcspAssService {
           "answers": [
               "Underwriters Laboratories (UL)",
               "Federal Information Processing Standard (FIPS) 140-2",
-              "Payment Card Industry (PCI) Data Security Standard (DSS) and this is marked as incorrect",
+              "Payment Card Industry (PCI) Data Security Standard (DSS)",
               "Common Criteria"
           ],
           "question": "Which IT product review framework is intended to determine the accuracy of vendor claims regarding the security functions of the product?",
@@ -228,7 +228,7 @@ export class CcspAssService {
               "Data-driven workflows",
               "Customer satisfaction",
               "Capital expenditures for IT",
-              "Operational expenditures for IT and this is marked as incorrect"
+              "Operational expenditures for IT"
           ],
           "question": "Migrating to a cloud environment will reduce an organization's dependence on which of the following?",
           "correct": 2
@@ -278,7 +278,7 @@ export class CcspAssService {
               "COBIT",
               "NIST 800-37",
               "GDPR",
-              "ITIL and this is marked as incorrect"
+              "ITIL"
           ],
           "question": "ISO 31000 is most similar to which of the following regulations, standards, guidelines, and frameworks?",
           "correct": 1
@@ -295,7 +295,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Administrative and technical and this is marked as incorrect",
+              "Administrative and technical",
               "Provider and customer",
               "Internal and managed",
               "Physical and logical"
@@ -305,7 +305,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Black-box and this is marked as incorrect",
+              "Black-box",
               "Red-box",
               "Blue-box",
               "White-box"
@@ -365,7 +365,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Append each object with sufficient metadata to properly categorize and classify based on asset value and sensitivity. and this is marked as incorrect",
+              "Append each object with sufficient metadata to properly categorize and classify based on asset value and sensitivity.",
               "Check access each time a direct object reference is called by an untrusted source.",
               "Perform user security training.",
               "Install high-luminosity interior lighting throughout the facility."
@@ -427,7 +427,7 @@ export class CcspAssService {
           "answers": [
               "Only data extracted from the hardware",
               "Hardware",
-              "Electronic data and this is marked as incorrect",
+              "Electronic data",
               "Electronic data and the hardware on which it resides"
           ],
           "question": "When you are targeting a cloud customer, a court grants an order allowing a law enforcement entity to seize which of the following?",
@@ -436,7 +436,7 @@ export class CcspAssService {
       {
           "answers": [
               "Broken authentication",
-              "Sensitive data exposure and this is marked as incorrect",
+              "Sensitive data exposure",
               "Cross-site scripting",
               "Injection"
           ],
@@ -456,7 +456,7 @@ export class CcspAssService {
       {
           "answers": [
               "Moderator",
-              "Tester and this is marked as incorrect",
+              "Tester",
               "Programmer",
               "Secretary "
           ],
@@ -557,7 +557,7 @@ export class CcspAssService {
           "answers": [
               "amount of usage demanded",
               "total number of nodes in the cluster",
-              "physical backplane connecting it and this is marked as incorrect",
+              "physical backplane connecting it",
               "performance and capacity in each node"
           ],
           "question": "A loosely coupled storage cluster will have performance and capacity limitations based on the ____________________.",
@@ -567,7 +567,7 @@ export class CcspAssService {
           "answers": [
               "U.S. State Department",
               "Federal Trade Commission (FTC)",
-              "Federal Communication Commission (FCC) and this is marked as incorrect",
+              "Federal Communication Commission (FCC)",
               "Fish and Wildlife Service"
           ],
           "question": "In order for American companies to process personal data belonging to the European Union (EU) citizens, they must comply with the Privacy Shield program. The program is administered by the U.S. Department of Transportation and the _______________.",
@@ -655,7 +655,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Web application firewall (WAF) and this is marked as incorrect",
+              "Web application firewall (WAF)",
               "Database activity monitor (DAM)",
               "Single sign-on (SSO)",
               "Extensible Markup Language (XML) gateway"
@@ -706,7 +706,7 @@ export class CcspAssService {
       {
           "answers": [
               "Employ regular performance monitoring in the cloud environment to ensure that the cloud provider is meeting the service level agreement (SLA) targets.",
-              "Implement strong multifactor authentication on all user-owned devices. and this is marked as incorrect",
+              "Implement strong multifactor authentication on all user-owned devices.",
               "Encrypt all routers between mobile users and the cloud.",
               "Use additional anti-malware detection capabilities on both user devices and the environment to which they connect."
           ],
@@ -717,7 +717,7 @@ export class CcspAssService {
           "answers": [
               "Capturing and storing an image of the baseline",
               "Using a baseline from another industry member so as not to engage in repetitious efforts",
-              "Having the baseline vetted by an objective third party and this is marked as incorrect",
+              "Having the baseline vetted by an objective third party",
               "Keeping a copy of upcoming suggested modifications to the baseline"
           ],
           "question": "Which of the following is essential for getting full security value from your system baseline?",
@@ -727,7 +727,7 @@ export class CcspAssService {
           "answers": [
               "Confidentiality",
               "Integrity",
-              "Availability and this is marked as incorrect",
+              "Availability",
               "None of these"
           ],
           "question": "The cloud computing characteristic of elasticity promotes which aspect of the CIA triad?",
@@ -737,7 +737,7 @@ export class CcspAssService {
           "answers": [
               "General Data Protection Regulation (GDPR)",
               "American Institute of Certified Public Accountants (AICPA)",
-              "National Institute of Standards and Technology (NIST) and this is marked as incorrect",
+              "National Institute of Standards and Technology (NIST)",
               "European Network and Information Security Agency (ENISA)"
           ],
           "question": "What is the entity that created the Statement on Standards for Attestation Engagements (SSAE) auditing standard and certifies auditors for that standard?",
@@ -787,7 +787,7 @@ export class CcspAssService {
           "answers": [
               "Log collection",
               "Responding to alerts",
-              "Detecting and alerts and this is marked as incorrect",
+              "Detecting and alerts",
               "Mathematical normalization of different logs"
           ],
           "question": "A security information and event management (SIEM) system does not eliminate the need for human participation in which of the following?",
@@ -806,7 +806,7 @@ export class CcspAssService {
       {
           "answers": [
               "Any patches suggested or required by vendors to maintain compliance with service contracts must be made immediately, regardless of internal process restrictions.",
-              "Patching doesn't need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications. and this is marked as incorrect",
+              "Patching doesn't need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications.",
               "The configuration or change management committee or board may grant blanket approval for patches (at a certain impact level) without the need to go through the formal change process.",
               "Any patches suggested by third parties should not be considered as they may invalidate service contracts or warranties and negatively affect the organization's security posture."
           ],
@@ -856,7 +856,7 @@ export class CcspAssService {
       {
           "answers": [
               "Content filters",
-              "Attack signatures and this is marked as incorrect",
+              "Attack signatures",
               "Behavioral outliers",
               "Biometric templates"
           ],
@@ -897,7 +897,7 @@ export class CcspAssService {
           "answers": [
               "1",
               "2",
-              "4 and this is marked as incorrect",
+              "4",
               "3"
           ],
           "question": "What is the highest level of the Cloud Security Alliance Security, Trust, and Assurance Registry (CSA STAR) certification program for cloud service providers?",
@@ -938,7 +938,7 @@ export class CcspAssService {
               "National Institute of Standards and Technology (NIST) 800-37",
               "ISO 27002",
               "ISO 27001",
-              "Statement on Standards for Attestation Engagements (SSAE) 18 and this is marked as incorrect"
+              "Statement on Standards for Attestation Engagements (SSAE) 18"
           ],
           "question": "Which of the following standards addresses a company's entire security program, involving all aspects of various security disciplines?",
           "correct": 2
@@ -968,7 +968,7 @@ export class CcspAssService {
               "Using a thumbprint and voice recognition software for access control",
               "Having a login that requires both a password and a personal identification number (PIN)",
               "Signing a personal check",
-              "Presenting a credit card along with a Social Security card and this is marked as incorrect"
+              "Presenting a credit card along with a Social Security card"
           ],
           "question": "Which of the following is an example of true multifactor authentication?",
           "correct": 2
@@ -977,7 +977,7 @@ export class CcspAssService {
           "answers": [
               "SOC 1",
               "SOC 3",
-              "SOC 2 and this is marked as incorrect",
+              "SOC 2",
               "SAS-70"
           ],
           "question": "A cloud provider is looking to provide a higher level of assurance to current and potential cloud customers about the design and effectiveness of their security controls. Which of the following audit reports would the cloud provider choose as the most appropriate to accomplish this goal?",
@@ -996,7 +996,7 @@ export class CcspAssService {
       {
           "answers": [
               "It is difficult to find and contract with multiple utility providers of the same type (electric, water, etc.).",
-              "Cloud data centers can become a single point of failure. and this is marked as incorrect",
+              "Cloud data centers can become a single point of failure.",
               "Live virtual machines in the production environment are moved from one host to another in the clear.",
               "Modern service level-agreement (SLA) demands are stringent and very hard to meet."
           ],
@@ -1007,7 +1007,7 @@ export class CcspAssService {
           "answers": [
               "FTP",
               "ANF",
-              "ONF and this is marked as incorrect",
+              "ONF",
               "TTF"
           ],
           "question": "Under ISO 27034, every application within a given organization will have an attendant set of controls assigned to it; the controls for a given application are listed in the _____________.",
@@ -1026,7 +1026,7 @@ export class CcspAssService {
       {
           "answers": [
               "ISO 27001",
-              "Federal Risk and Authorization Management Program (FedRAMP) and this is marked as incorrect",
+              "Federal Risk and Authorization Management Program (FedRAMP)",
               "European Union Agency for Network and Information Security (ENISA)",
               "Cloud Security Alliance (CSA) Cloud Controls Matrix (CCM)"
           ],
@@ -1056,7 +1056,7 @@ export class CcspAssService {
       {
           "answers": [
               "Community cloud",
-              "Public cloud and this is marked as incorrect",
+              "Public cloud",
               "Hybrid cloud",
               "Private cloud"
           ],
@@ -1065,7 +1065,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Certification laboratories and this is marked as incorrect",
+              "Certification laboratories",
               "Module users",
               "Module vendors",
               "The U.S. government"
@@ -1116,7 +1116,7 @@ export class CcspAssService {
       {
           "answers": [
               "Religious court",
-              "Criminal court and this is marked as incorrect",
+              "Criminal court",
               "Civil court",
               "Tribal court"
           ],
@@ -1136,7 +1136,7 @@ export class CcspAssService {
       {
           "answers": [
               "Egress monitoring solutions",
-              "Digital rights management (DRM) and this is marked as incorrect",
+              "Digital rights management (DRM)",
               "Internet Small Computer System Interface (iSCSI)",
               "Fibre Channel over Ethernet (FCoE)"
           ],
@@ -1156,7 +1156,7 @@ export class CcspAssService {
       {
           "answers": [
               "Case of infringing on the rights of the provider",
-              "Risk and this is marked as incorrect",
+              "Risk",
               "Threat",
               "Hybrid cloud deployment model"
           ],
@@ -1166,7 +1166,7 @@ export class CcspAssService {
       {
           "answers": [
               "The jurisdiction where the attack takes place",
-              "The target of the attack and this is marked as incorrect",
+              "The target of the attack",
               "The source location of the attack",
               "The type of threat vector"
           ],
@@ -1185,7 +1185,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "The cost/benefit measure of closing the organization's relocation site (hot site/warm site) and using the cloud for disaster recovery instead and this is marked as incorrect",
+              "The cost/benefit measure of closing the organization's relocation site (hot site/warm site) and using the cloud for disaster recovery instead",
               "Cloud provider offers to provide engineering assistance during the migration",
               "Rate sheets comparing a cloud provider to other cloud providers",
               "SLA satisfaction surveys from other (current and past) cloud customers"
@@ -1198,7 +1198,7 @@ export class CcspAssService {
               "The BC/DR provider becomes the new normal production environment.",
               "All data is lost irretrievably.",
               "Regulators will find the organization in violation of compliance guidance.",
-              "Both providers are affected by the emergency, extending the time before return to normal can occur. and this is marked as incorrect"
+              "Both providers are affected by the emergency, extending the time before return to normal can occur."
           ],
           "question": "Returning to normal operations is a phase in BC/DR activity when the emergency is over, and regular production can resume. Which of the following can sometimes be the result when the organization uses two different cloud providers for the production and BC/DR environments?",
           "correct": 0
@@ -1235,7 +1235,7 @@ export class CcspAssService {
       },
       {
           "answers": [
-              "Destroying and this is marked as incorrect",
+              "Destroying",
               "Storing",
               "Viewing",
               "Printing"
