@@ -1,7 +1,6 @@
 let hasRun = 0;
 let questions = [];
 function getQuestion() {
-    console.log('getting questions!');
     let answers = document.getElementsByClassName("answer");
     let object = {};
     object.answers=[];
@@ -12,9 +11,8 @@ function getQuestion() {
         }
         object.answers[i] = answers[i].innerText.toString().replace('\nand this is correct answer', '');
         object.answers[i] = object.answers[i].replace('\nand this is marked as correct', '');
-        
+        object.answers[i] = object.answers[i].replace('\nand this is marked as incorrect', '');
     }
-    console.log('ran once');
     questions.push(object);
     next();
 }
@@ -22,10 +20,7 @@ function next() {
     let nextBtn = document.getElementById("next");    
     if(document.getElementById("btn-confirmed") == undefined) {
         nextBtn.click();
-        console.log('clicked');
-        console.log('question function', getQuestion);
         setTimeout(getQuestion, 2000);
-        console.log('after timeout');
     }
     console.log('questions');
     console.log( questions);

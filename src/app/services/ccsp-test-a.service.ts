@@ -1272,6 +1272,6 @@ export class CcspTestAService {
         "question": "Mark works as an IT security subject matter expert. If he creates a federated identity management structure for all the participants in the collective using a third-party certification model, who would be the federated service provider(s) in that structure?",
         "correct": 2
     }
-]);
+  ]);
   }
 }

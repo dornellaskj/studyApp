@@ -6,6 +6,7 @@ import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
 import { CcspAssService} from '../services/ccsp-ass.service';
 import { CcspTestAService} from '../services/ccsp-test-a.service';
+import { CcspTestBService} from '../services/ccsp-test-b.service';
 
 
 @Component({
@@ -37,7 +38,8 @@ export class StudyComponent implements OnInit {
     public awsSecurityService: AwsSecurityService,
     public ccspService: CcspServiceService,
     public ccspAssService: CcspAssService,
-    public ccspTestAService: CcspTestAService
+    public ccspTestAService: CcspTestAService,
+    public ccspTestBService: CcspTestBService
   ) {}
 
   ngOnInit() {
@@ -79,6 +81,11 @@ export class StudyComponent implements OnInit {
       case 6:
         this.questions = this.ccspTestAService.getQuestions();
         this.questionLabel = 'CCSP Test A';
+        this.setQuestion(this.index);
+        break;
+      case 7:
+        this.questions = this.ccspTestBService.getQuestions();
+        this.questionLabel = 'CCSP Test B';
         this.setQuestion(this.index);
         break;
     }    
