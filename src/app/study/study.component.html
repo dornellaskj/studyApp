@@ -1,5 +1,6 @@
 <div class="study-wrapper">
   <div *ngIf="questions">
+    <p>{{questions.length}}</p>
     <div class="question-wrapper">
       <p id="question">{{this.index + 1}}. {{question.question}}</p>
       <p *ngFor="let answer of answers; let i = index" (click)="answerSelected(i)" class="answers">{{answer}}</p>
@@ -12,7 +13,7 @@
   </div>
     
   <div *ngIf="!questions">
-    <p>Version 0.0.4</p>
+    <p>Version 0.0.5</p>
     <h1>Whatcha studying?</h1>
     <p class="pointer" (click)="setQuestions(0)">Info Sec</p>
     <p class="pointer" (click)="setQuestions(1)">Secure Software Design</p>
@@ -22,5 +23,8 @@
     <p class="pointer" (click)="setQuestions(5)">CCSP Practice Assessment</p>
     <p class="pointer" (click)="setQuestions(6)">CCSP Test A</p>
     <p class="pointer" (click)="setQuestions(7)">CCSP Test B</p>
+    <p class="pointer" (click)="setQuestions(8)">CCSP Book Test 1</p>
+    <p class="pointer" (click)="setQuestions(9)">CCSP Book Test 2</p>
+    <p class="pointer" (click)="setQuestions(10)">CCSP Super Test</p>
   </div>
 </div>

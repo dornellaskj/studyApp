@@ -7,6 +7,8 @@ import { CcspServiceService} from '../services/ccsp-service.service';
 import { CcspAssService} from '../services/ccsp-ass.service';
 import { CcspTestAService} from '../services/ccsp-test-a.service';
 import { CcspTestBService} from '../services/ccsp-test-b.service';
+import { CcspBookTest2Service} from '../services/ccsp-book-test2.service';
+import { CcspBookTest1Service} from '../services/ccsp-book-test1.service';
 
 
 @Component({
@@ -39,7 +41,9 @@ export class StudyComponent implements OnInit {
     public ccspService: CcspServiceService,
     public ccspAssService: CcspAssService,
     public ccspTestAService: CcspTestAService,
-    public ccspTestBService: CcspTestBService
+    public ccspTestBService: CcspTestBService,
+    public book1Service: CcspBookTest1Service,
+    public book2Service: CcspBookTest2Service
   ) {}
 
   ngOnInit() {
@@ -88,6 +92,26 @@ export class StudyComponent implements OnInit {
         this.questionLabel = 'CCSP Test B';
         this.setQuestion(this.index);
         break;
+      case 8:
+          this.questions = this.book1Service.getQuestions();
+          this.questionLabel = 'CCSP Book Test 1';
+          this.setQuestion(this.index);
+          break;
+      case 9:
+        this.questions = this.book2Service.getQuestions();
+        this.questionLabel = 'CCSP Book Test 2';
+        this.setQuestion(this.index);
+        break;
+      case 10:
+        this.questions = this.book2Service.getQuestions();
+        this.questions.concat(this.book1Service.getQuestions());
+        this.questions.concat(this.ccspTestBService.getQuestions());
+        this.questions.concat(this.ccspTestAService.getQuestions());
+        this.questions.concat(this.ccspAssService.getQuestions());
+        this.questions.concat(this.ccspService.getQuestions());
+        this.questionLabel = 'CCSP Book Test 2';
+        this.setQuestion(this.index);
+        break;
     }    
   }
 
@@ -125,7 +149,7 @@ export class StudyComponent implements OnInit {
   }
 
   calcPercent() {
-    this.percentCorrect = (this.correctCount / this.index) * 100;
+    this.percentCorrect = (this.correct / this.index) * 100;
   }
 
   answerSelected(index:number) {
