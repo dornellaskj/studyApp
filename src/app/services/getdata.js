@@ -28,6 +28,10 @@ function next() {
 getQuestion();
 
 let questions1 = [];
+let incrementOffset = 0;
+let questionsArray = [
+1,2,3,4,5,6,8,9,16,18,19,21,33,35,41,42,49,50,51,56,73,83,84,85,94
+]
 for(let i=1; i<100; i++){
     let object = {};
     object.answers=[];
@@ -61,8 +65,13 @@ for(let i=1; i<100; i++){
                 object.answers.push(dataArray[j])
             }    
         }
-        questions1.push(object);
-        console.log(questions1);
+        if(questionsArray.includes(i - incrementOffset)) {
+            questions1.push(object);
+            console.log(questions1);
+        }
+        
+    } else {
+        incrementOffset = incrementOffset + 1;
     }
 }
 

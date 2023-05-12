@@ -94,7 +94,7 @@ export class StudyComponent implements OnInit {
         break;
       case 8:
           this.questions = this.book1Service.getQuestions();
-          this.questionLabel = 'CCSP Book Test 1';
+          this.questionLabel = 'CCSP Missed Questions';
           this.setQuestion(this.index);
           break;
       case 9:
@@ -109,7 +109,7 @@ export class StudyComponent implements OnInit {
         this.questions.concat(this.ccspTestAService.getQuestions());
         this.questions.concat(this.ccspAssService.getQuestions());
         this.questions.concat(this.ccspService.getQuestions());
-        this.questionLabel = 'CCSP Book Test 2';
+        this.questionLabel = 'CCSP super Test';
         this.setQuestion(this.index);
         break;
     }    
@@ -149,7 +149,7 @@ export class StudyComponent implements OnInit {
   }
 
   calcPercent() {
-    this.percentCorrect = (this.correct / this.index) * 100;
+    this.percentCorrect = (this.correctCount / this.index) * 100;
   }
 
   answerSelected(index:number) {
