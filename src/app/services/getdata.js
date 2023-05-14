@@ -30,12 +30,12 @@ getQuestion();
 let questions1 = [];
 let incrementOffset = 0;
 let questionsArray = [
-1,3,8,11,12,13,16,18,21,25,27,34,39,45,46,47,50,63,65,67,68,70,73,74,76,81,82,88,93,97,98,99,100
+1,12,13,16,21,28,32,34,35,39,51,53,54,55,56,57,59,60,63,66,71,74,86,98
 ]
 for(let i=1; i<101; i++){
     let object = {};
     object.answers=[];
-    let idString = "c02-ex-0";
+    let idString = "c03-ex-0";
     let iString = i +"";
     if(iString.toString().length == 2) {
         idString = idString + "0"+ i;

@@ -581,8 +581,247 @@ export class CcspBookTest1Service {
              "Classify data."
          ],
          "question": "Angelo is implementing a data discovery process. Which of the following steps should he begin with to help speed up the discovery process?"
-     }
+     },
+     {
+      "correct":3,
+       "answers": [
+           "Barry, as chief information officer",
+           "Chief information security officer",
+           "Disaster recovery team leader",
+           "External consultant"
+       ],
+       "question": "Barry is the CIO of an organization that recently suffered a serious operational issue that required activation of the disaster recovery plan. He would like to conduct a lessons learned session to review the incident. Who would be the best facilitator for this session?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Basement",
+            "First floor",
+            "Second floor",
+            "Third floor"
+        ],
+        "question": "Carlos is planning a design for a datacenter that will be constructed within a new four-story corporate headquarters. The building consists of a basement and three above-ground floors. What is the best location for the datacenter?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Due care",
+            "Due diligence",
+            "Separation of duties",
+            "Informed consent"
+        ],
+        "question": "Chris is an information security professional for a major corporation and, as he is walking into the building, he notices that the door to a secure area has been left ajar. Physical security does not fall under his responsibility, but he takes immediate action by closing the door and informing the physical security team of his action. What principle is Chris demonstrating?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "SIEM",
+            "Log repositories",
+            "IPS",
+            "SOAR"
+        ],
+        "question": "Alyssa's team recently implemented a new system that gathers information from a variety of log sources, analyzes that information, and then triggers automated playbooks in response to security events. What term best describes this technology?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Implement a CDN.",
+            "Increase the number of servers in the web application server cluster.",
+            "Contract for DDoS mitigation services via the company's ISP.",
+            "Increase the amount of bandwidth available from one or more ISPs."
+        ],
+        "question": "Cameron is worried about distributed denial-of-service (DDoS) attacks against his company's primary web application. Which of the following options will provide the most resilience against large-scale DDoS attacks?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Key management box (KMB)",
+            "Hardware security module (HSM)",
+            "Ticket-granting ticket (TGT)",
+            "Trusted computing base (TCB)"
+        ],
+        "question": "Which of the following is a device specially designed to handle the management of cryptographic keys?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Having one point of egress for personnel",
+            "Ensuring that redundant cabling/connectivity enters the facility from different sides of the building/property",
+            "Ensuring that all parking areas are near generators so that personnel in high-traffic areas are always illuminated by emergency lighting, even when utility power is not available",
+            "Ensuring that the foundation of the facility is rated to withstand earthquake tremors"
+        ],
+        "question": "Best practice for planning the physical resiliency for a cloud datacenter facility includes ___________________."
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Profit",
+            "Performance",
+            "Cost",
+            "Opportunity"
+        ],
+        "question": "Risk should always be considered from a business perspective. When a risk is accepted, it should be balanced by a corresponding ___________________."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "99.422%",
+            "99.671%",
+            "99.741%",
+            "99.995%"
+        ],
+        "question": "You are designing a cloud datacenter that is expected to meet Tier 2 status according to the Uptime Institute standards. What level of availability must you achieve to meet this standard?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "File stores are always kept in plaintext in the cloud.",
+            "There is no way to sanitize file storage space in the cloud.",
+            "Virtualization prevents the use of application-based security controls.",
+            "Virtual machines are stored as snapshotted files when not in use."
+        ],
+        "question": "Which one of the following statements about file storage security in the cloud is correct?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Uninterruptible power supplies",
+            "Dual-power supplies in systems",
+            "Backup generator",
+            "Cooling"
+        ],
+        "question": "Which one of the following components is not necessary in a Tier 1 datacenter?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Cloud customer; ISP",
+            "SDN controllers; SDN applications",
+            "Cloud provider; ISP",
+            "Router; host"
+        ],
+        "question": "In software-defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Single sign-on",
+            "Insecure direct identifiers",
+            "Identity federation",
+            "Cross-site scripting"
+        ],
+        "question": "A user signs on to a cloud-based social media platform. In another browser tab, the user finds an article worth posting to the social media platform. The user clicks on the platform's icon listed on the article's website, and the article is automatically posted to the user's account on the social media platform. This is an example of what?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Key management box (KMB)",
+            "Hardware security module (HSM)",
+            "Ticket-granting ticket (TGT)",
+            "Trusted computing base (TCB)"
+        ],
+        "question": "Which of the following is a device specially purposed to handle the issuance, distribution, and storage of cryptographic keys?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Technical",
+            "External",
+            "Management",
+            "Logical"
+        ],
+        "question": "Sprawl is mainly a(n) ___________________ problem."
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Have all participants conduct their individual activities via remote meeting technology.",
+            "Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.",
+            "Provide copies of the BC/DR policy to all participants.",
+            "Allow all users in your organization to participate."
+        ],
+        "question": "You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Enough personnel at the BC/DR recovery site to ensure proper operations",
+            "Good cryptographic key management",
+            "Access to the servers where the BC/DR backup is stored",
+            "Forensic analysis capabilities"
+        ],
+        "question": "You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Remote access for a customer to racked devices in the datacenter; electrical utilities; connectivity to an internet service provider (ISP)/the internet",
+            "Application suitability; availability; connectivity",
+            "Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS)",
+            "Antimalware tools; controls against distributed denial-of-service (DDoS) attacks; physical/environmental security controls, including fire suppression"
+        ],
+        "question": "The minimum essential characteristics of a cloud datacenter are often referred to as “ping, power, pipe.” What does this term mean?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Failover cluster",
+            "UPS",
+            "Tape backup",
+            "Cold site"
+        ],
+        "question": "Mary is reviewing the availability controls for the system architecture shown here. What technology is shown that provides fault tolerance for the database servers?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Virtual server instances",
+            "FaaS",
+            "Object storage",
+            "Containers"
+        ],
+        "question": "Which one of the following services would be least likely described as providing computing capability?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Dedicated disks",
+            "Block",
+            "Encrypted",
+            "Object"
+        ],
+        "question": "Melissa uses the snapshot capabilities of her cloud service provider to make backup copies of the disk volumes that support her virtual machines. What type of storage is most likely used to store these backups?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Application logs",
+            "Security logs",
+            "Netflow records",
+            "Packet capture"
+        ],
+        "question": "Which one of the following audit mechanisms would be able to provide the most accurate reconstruction of user activity?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Not having essential BC/DR personnel available during a contingency",
+            "Not including all BC/DR elements in the cloud contract",
+            "Returning to normal operations too soon",
+            "Telecommunications outages"
+        ],
+        "question": "Charles is the BC/DR program manager for a cloud service provider. He is assessing the risks facing his program. He believes that the organization has done adequate BC/DR planning but they have never actually activated the plan. Which of the following would most likely pose the most significant risk to the organization?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Network mapping",
+            "Vulnerability scanning",
+            "Reconnaissance",
+            "Social engineering"
+        ],
+        "question": "Cloud providers will probably not allow ___________________ as part of a customer's penetration test."
+    }
   ]);
   }
 }
-
