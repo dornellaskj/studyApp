@@ -99,7 +99,7 @@ export class StudyComponent implements OnInit {
           break;
       case 9:
         this.questions = this.book2Service.getQuestions();
-        this.questionLabel = 'CCSP Book Test 2';
+        this.questionLabel = 'CCSP Missed Questions 2';
         this.setQuestion(this.index);
         break;
       case 10:
