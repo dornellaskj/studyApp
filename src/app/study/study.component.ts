@@ -104,11 +104,12 @@ export class StudyComponent implements OnInit {
         break;
       case 10:
         this.questions = this.book2Service.getQuestions();
-        this.questions.concat(this.book1Service.getQuestions());
-        this.questions.concat(this.ccspTestBService.getQuestions());
-        this.questions.concat(this.ccspTestAService.getQuestions());
-        this.questions.concat(this.ccspAssService.getQuestions());
-        this.questions.concat(this.ccspService.getQuestions());
+        this.questions = this.questions.concat(this.book1Service.getQuestions());
+        this.questions = this.questions.concat(this.book2Service.getQuestions());
+        this.questions = this.questions.concat(this.ccspTestBService.getQuestions());
+        this.questions = this.questions.concat(this.ccspTestAService.getQuestions());
+        this.questions = this.questions.concat(this.ccspAssService.getQuestions());
+        this.questions = this.questions.concat(this.ccspService.getQuestions());
         this.questionLabel = 'CCSP super Test';
         this.setQuestion(this.index);
         break;
@@ -128,7 +129,8 @@ export class StudyComponent implements OnInit {
         this.setQuestion(this.index);
         this.regularQuestionsComplete = true;
       } else if (this.index == this.questions.length){
-        alert('you scored: ' + this.calcPercent() + '%');
+        alert('you scored: ' + this.correctCount/this.questions.length + '%');
+        this.correctCount = 0;
       } else if(this.wrongQuestions.length > 0) {        
         this.questions = this.wrongQuestions;
         this.wrongQuestions = [];
@@ -145,7 +147,6 @@ export class StudyComponent implements OnInit {
     this.question = this.questions[int];
     this.answers = this.question.answers;
     this.correct = this.question.correct;
-    console.log('question', this.question);
   }
 
   calcPercent() {
