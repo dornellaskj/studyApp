@@ -105,10 +105,6 @@ export class StudyComponent implements OnInit {
       case 10:
         this.questions = this.book2Service.getQuestions();
         this.questions = this.questions.concat(this.book1Service.getQuestions());
-        this.questions = this.questions.concat(this.ccspTestBService.getQuestions());
-        this.questions = this.questions.concat(this.ccspTestAService.getQuestions());
-        this.questions = this.questions.concat(this.ccspAssService.getQuestions());
-        this.questions = this.questions.concat(this.ccspService.getQuestions());
         this.questionLabel = 'CCSP super Test';
         this.setQuestion(this.index);
         break;
