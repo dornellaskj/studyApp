@@ -731,7 +731,713 @@ export class CcspBookTest2Service {
             "Physical access to the datacenter"
         ],
         "question": "When designing a cloud datacenter, which of the following aspects is not necessary to ensure continuity of operations during contingency operations?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "ISO 27001",
+            "ISO 27002",
+            "ISO 27050",
+            "ISO 27701"
+        ],
+        "question": "Cathy is developing an eDiscovery program to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Internal assessment",
+            "External audit",
+            "Internal audit",
+            "External assessment"
+        ],
+        "question": "Nora is an employee of Acme Widgets and works on a team of auditors who examine the organization's financial controls. She is currently working on a project to evaluate whether payments to cloud providers are proper and will be reporting her results to management. What term best describes Nora's role in this project?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Notice",
+            "Management",
+            "Access",
+            "Choice and Consent"
+        ],
+        "question": "Carla is assigned to manage her organization's privacy program and is working to communicate to customers about a change in the organization's privacy practices. She plans to send an email notifying customers of the change and allowing them to opt out of the use of their data. Which GAPP principle is not described in this scenario?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Be located in a country with a nationwide law that complies with the EU laws.",
+            "Appeal to the EU High Court for permission.",
+            "Create binding contractual language that complies with the EU laws.",
+            "Join the Privacy Shield program in its own country."
+        ],
+        "question": "Which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Statement on Auditing Standards (SAS) 70 standard",
+            "Statement on Standards for Attestation Engagements (SSAE) 18 standard",
+            "Service Organization Control (SOC) 2, Type 2 report matrix",
+            "ISO 27001 certification requirements"
+        ],
+        "question": "An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls."
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Student identification number",
+            "Social Security number",
+            "Driver's license number",
+            "Credit card number"
+        ],
+        "question": "Which one of the following elements of information is not considered a direct identifier that would trigger most United States (U.S.) state data breach laws?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "ISO 27001",
+            "ISO 27018",
+            "ISO 27002",
+            "GDPR"
+        ],
+        "question": "Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "PHI",
+            "Proprietary data",
+            "PII",
+            "EDI"
+        ],
+        "question": "Gwen is a cybersecurity professional for a financial services firm that maintains records of their customers. These records include personal information about each customer, including the customer's name, Social Security number, date and place of birth, and mother's maiden name. What category best describes these records?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Vendor lock-in",
+            "Vendor viability",
+            "Vendor lockout",
+            "Vendor diversity"
+        ],
+        "question": "Aaron is concerned about the possibility that a cloud vendor that his organization relies on may go out of business. What term best describes this risk?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Confidentiality of customer information",
+            "Failover time",
+            "Uptime",
+            "Maximum consecutive downtime"
+        ],
+        "question": "Which one of the following issues is not normally addressed in a service-level agreement (SLA)?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Security team",
+            "External auditor",
+            "Government regulator",
+            "IT leadership"
+        ],
+        "question": "Who would normally conduct a review of security controls under SSAE 18?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "It mandates a specific control set.",
+            "It is an attestation standard.",
+            "It is used for external audits.",
+            "It uses a framework, including SOC 1, SOC 2, and SOC 3 reports."
+        ],
+        "question": "Which of the following statements about SSAE-18 is not correct?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "ECPA",
+            "CALEA",
+            "Privacy Act",
+            "HITECH Act"
+        ],
+        "question": "Matt works for a telecommunications firm and was approached by a federal agent seeking assistance with wiretapping one of Matt's clients pursuant to a search warrant. Which one of the following laws requires that communications service providers cooperate with law enforcement requests?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "FISMA",
+            "PCI DSS",
+            "HIPAA",
+            "GISRA"
+        ],
+        "question": "Tim's organization recently received a contract to conduct sponsored research as a government contractor. What law now likely applies to the information systems involved in this contract?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "BIA",
+            "BPA",
+            "PPA",
+            "PIA"
+        ],
+        "question": "Katie is conducting a thorough review of all of the personally identifiable information (PII) used by her organization. What term best describes this assessment?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Uses of customer data",
+            "Accuracy of financial statements",
+            "Network firewall protections",
+            "Endpoint security"
+        ],
+        "question": "Colin is conducting an audit of the internal information security management system (ISMS) of a cloud service provider. Which one of the following items would normally be outside the scope of this audit?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "ISAE 3402",
+            "ISAE 3410",
+            "SSAE 16",
+            "SSAE 18"
+        ],
+        "question": "Nitesh is conducting a global audit of a multinational cloud service provider and has a question about appropriate testing procedures. Which one of the following documents would be most applicable to his situation?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Binding corporate rules",
+            "Privacy Shield",
+            "Standard contractual clauses",
+            "Safe harbor"
+        ],
+        "question": "Wanda is working with one of her organization's European Union business partners to facilitate the exchange of customer information. Wanda's organization is located in the United States. What would be the best method for Wanda to use to ensure GDPR compliance?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Accounting",
+            "Privacy",
+            "Cybersecurity",
+            "eDiscovery"
+        ],
+        "question": "James has been asked to lead a review of his organization's compliance with GAPP principles. What area will most directly fall into the scope of his assessment?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Healthcare provider",
+            "Health and fitness application developer",
+            "Health information clearinghouse",
+            "Health insurance plan"
+        ],
+        "question": "Which one of the following organizations would not be automatically subject to the privacy and security requirements of HIPAA if they engage in electronic transactions?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Due care",
+            "Due diligence",
+            "Liability",
+            "Reciprocity"
+        ],
+        "question": "_________________ is the legal concept whereby a cloud customer is held to a reasonable expectation for providing security of its users' and clients' privacy data."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "HIPAA",
+            "HITECH",
+            "NERC/CIP",
+            "PCI DSS"
+        ],
+        "question": "You are conducting a risk assessment for a cloud service provider that will be operating infrastructure for an electric utility. What regulatory framework is most relevant to this organization?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "You (the compliance officer)",
+            "The cloud provider's network security team",
+            "Your company",
+            "The database administrator"
+        ],
+        "question": "You are the compliance officer for a medical device manufacturing firm. Your company maintains a cloud-based list of patients currently fitted with your devices for long-term care and quality assurance purposes. The list is maintained in a database that cross-references details about the hardware and some billing data. In this situation, who is likely to be considered the data custodian, under many privacy regulations and laws?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Tort law",
+            "Doctrine of Proper Law",
+            "Common law",
+            "Criminal law"
+        ],
+        "question": "When a conflict of laws occurs, ________________determines the jurisdiction in which the dispute will be heard."
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Tampering by an unauthorized third party at the vendor's site",
+            "Interception of devices in transit",
+            "Misconfiguration by an administrator after installation",
+            "Tampering by an unauthorized third party at Greg's site"
+        ],
+        "question": "Greg is evaluating a new vendor that will be supplying networking gear to his organization. Due to the nature of his organization's work, Greg is concerned that an attacker might attempt a supply chain exploit. Assuming that both Greg's organization and the vendor operate under reasonable security procedures, which one of the following activities likely poses the greatest supply chain risk to the equipment?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "SOC 1",
+            "SSAE 16",
+            "GAAP",
+            "SOC 2"
+        ],
+        "question": "What is an accounting report on controls at a service organization that replaces older SAS 70 type reports?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Confirming accuracy of financial statements",
+            "Certifying against an international standard",
+            "Investigating employee malfeasance",
+            "Complying with PCI DSS requirements"
+        ],
+        "question": "In which of the following cases would it be most appropriate to engage an internal auditor?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "SOC 1",
+            "SOC 2",
+            "SOC 3",
+            "SOC 4"
+        ],
+        "question": "You operate a cloud service and would like to provide potential customers with a report that confirms the effectiveness of your security controls and is appropriate for use by the general public. What type of audit should you conduct?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Depreciated value",
+            "Original cost",
+            "Estimation",
+            "Replacement cost"
+        ],
+        "question": "You would like to ensure that your organization's insurance policy covers the damage resulting from a security incident sufficiently to allow you to resume operations. What asset valuation technique should you use?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Contractual terms",
+            "Escrow",
+            "SLA",
+            "Litigation"
+        ],
+        "question": "You are concerned that you may no longer have access to necessary source code if a cloud vendor ceases operations. What security control would best protect against this risk?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "ITIL",
+            "ISO 27002",
+            "CMM",
+            "PMBOK Guide"
+        ],
+        "question": "Ben is seeking a control objective framework that is widely accepted around the world and focuses specifically on information security controls. Which one of the following frameworks would best meet his needs?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Data owner",
+            "Data custodian",
+            "Data processor",
+            "Data steward"
+        ],
+        "question": "What term is used to describe an individual within an organization who has been delegated day-to-day responsibility for decision-making about a category of information?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "0.0025",
+            "0.005",
+            "0.01",
+            "0.015"
+        ],
+        "question": "Based on the information in this scenario, what is the annualized rate of occurrence for a tornado at Atwood Landing's datacenter?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Jim must comply with the information in this document.",
+            "The document contains information about forensic examinations.",
+            "Jim should read the document thoroughly.",
+            "The document is likely based on industry best practices."
+        ],
+        "question": "Jim starts a new job as a system engineer, and he is reviewing a team document titled “Forensic Response Guidelines for Cloud Services.” Which one of the following statements is not true?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "GLBA",
+            "HIPAA/HITECH",
+            "FERPA",
+            "GDPR"
+        ],
+        "question": "Which one of the following laws does not contain breach notification requirements?"
     }
   ]);
   }
 }
+
+
+
+
+let thing = [
+    {
+        "correct":2,
+        "answers": [
+            "ISO 27001",
+            "ISO 27002",
+            "ISO 27050",
+            "ISO 27701"
+        ],
+        "question": "Cathy is developing an eDiscovery program to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Internal assessment",
+            "External audit",
+            "Internal audit",
+            "External assessment"
+        ],
+        "question": "Nora is an employee of Acme Widgets and works on a team of auditors who examine the organization's financial controls. She is currently working on a project to evaluate whether payments to cloud providers are proper and will be reporting her results to management. What term best describes Nora's role in this project?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Notice",
+            "Management",
+            "Access",
+            "Choice and Consent"
+        ],
+        "question": "Carla is assigned to manage her organization's privacy program and is working to communicate to customers about a change in the organization's privacy practices. She plans to send an email notifying customers of the change and allowing them to opt out of the use of their data. Which GAPP principle is not described in this scenario?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Be located in a country with a nationwide law that complies with the EU laws.",
+            "Appeal to the EU High Court for permission.",
+            "Create binding contractual language that complies with the EU laws.",
+            "Join the Privacy Shield program in its own country."
+        ],
+        "question": "Which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Statement on Auditing Standards (SAS) 70 standard",
+            "Statement on Standards for Attestation Engagements (SSAE) 18 standard",
+            "Service Organization Control (SOC) 2, Type 2 report matrix",
+            "ISO 27001 certification requirements"
+        ],
+        "question": "An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls."
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Student identification number",
+            "Social Security number",
+            "Driver's license number",
+            "Credit card number"
+        ],
+        "question": "Which one of the following elements of information is not considered a direct identifier that would trigger most United States (U.S.) state data breach laws?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "ISO 27001",
+            "ISO 27018",
+            "ISO 27002",
+            "GDPR"
+        ],
+        "question": "Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "PHI",
+            "Proprietary data",
+            "PII",
+            "EDI"
+        ],
+        "question": "Gwen is a cybersecurity professional for a financial services firm that maintains records of their customers. These records include personal information about each customer, including the customer's name, Social Security number, date and place of birth, and mother's maiden name. What category best describes these records?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Vendor lock-in",
+            "Vendor viability",
+            "Vendor lockout",
+            "Vendor diversity"
+        ],
+        "question": "Aaron is concerned about the possibility that a cloud vendor that his organization relies on may go out of business. What term best describes this risk?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Confidentiality of customer information",
+            "Failover time",
+            "Uptime",
+            "Maximum consecutive downtime"
+        ],
+        "question": "Which one of the following issues is not normally addressed in a service-level agreement (SLA)?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Security team",
+            "External auditor",
+            "Government regulator",
+            "IT leadership"
+        ],
+        "question": "Who would normally conduct a review of security controls under SSAE 18?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "It mandates a specific control set.",
+            "It is an attestation standard.",
+            "It is used for external audits.",
+            "It uses a framework, including SOC 1, SOC 2, and SOC 3 reports."
+        ],
+        "question": "Which of the following statements about SSAE-18 is not correct?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "ECPA",
+            "CALEA",
+            "Privacy Act",
+            "HITECH Act"
+        ],
+        "question": "Matt works for a telecommunications firm and was approached by a federal agent seeking assistance with wiretapping one of Matt's clients pursuant to a search warrant. Which one of the following laws requires that communications service providers cooperate with law enforcement requests?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "FISMA",
+            "PCI DSS",
+            "HIPAA",
+            "GISRA"
+        ],
+        "question": "Tim's organization recently received a contract to conduct sponsored research as a government contractor. What law now likely applies to the information systems involved in this contract?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "BIA",
+            "BPA",
+            "PPA",
+            "PIA"
+        ],
+        "question": "Katie is conducting a thorough review of all of the personally identifiable information (PII) used by her organization. What term best describes this assessment?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Uses of customer data",
+            "Accuracy of financial statements",
+            "Network firewall protections",
+            "Endpoint security"
+        ],
+        "question": "Colin is conducting an audit of the internal information security management system (ISMS) of a cloud service provider. Which one of the following items would normally be outside the scope of this audit?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "ISAE 3402",
+            "ISAE 3410",
+            "SSAE 16",
+            "SSAE 18"
+        ],
+        "question": "Nitesh is conducting a global audit of a multinational cloud service provider and has a question about appropriate testing procedures. Which one of the following documents would be most applicable to his situation?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Binding corporate rules",
+            "Privacy Shield",
+            "Standard contractual clauses",
+            "Safe harbor"
+        ],
+        "question": "Wanda is working with one of her organization's European Union business partners to facilitate the exchange of customer information. Wanda's organization is located in the United States. What would be the best method for Wanda to use to ensure GDPR compliance?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Accounting",
+            "Privacy",
+            "Cybersecurity",
+            "eDiscovery"
+        ],
+        "question": "James has been asked to lead a review of his organization's compliance with GAPP principles. What area will most directly fall into the scope of his assessment?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Healthcare provider",
+            "Health and fitness application developer",
+            "Health information clearinghouse",
+            "Health insurance plan"
+        ],
+        "question": "Which one of the following organizations would not be automatically subject to the privacy and security requirements of HIPAA if they engage in electronic transactions?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Due care",
+            "Due diligence",
+            "Liability",
+            "Reciprocity"
+        ],
+        "question": "_________________ is the legal concept whereby a cloud customer is held to a reasonable expectation for providing security of its users' and clients' privacy data."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "HIPAA",
+            "HITECH",
+            "NERC/CIP",
+            "PCI DSS"
+        ],
+        "question": "You are conducting a risk assessment for a cloud service provider that will be operating infrastructure for an electric utility. What regulatory framework is most relevant to this organization?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "You (the compliance officer)",
+            "The cloud provider's network security team",
+            "Your company",
+            "The database administrator"
+        ],
+        "question": "You are the compliance officer for a medical device manufacturing firm. Your company maintains a cloud-based list of patients currently fitted with your devices for long-term care and quality assurance purposes. The list is maintained in a database that cross-references details about the hardware and some billing data. In this situation, who is likely to be considered the data custodian, under many privacy regulations and laws?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Tort law",
+            "Doctrine of Proper Law",
+            "Common law",
+            "Criminal law"
+        ],
+        "question": "When a conflict of laws occurs, ________________determines the jurisdiction in which the dispute will be heard."
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Tampering by an unauthorized third party at the vendor's site",
+            "Interception of devices in transit",
+            "Misconfiguration by an administrator after installation",
+            "Tampering by an unauthorized third party at Greg's site"
+        ],
+        "question": "Greg is evaluating a new vendor that will be supplying networking gear to his organization. Due to the nature of his organization's work, Greg is concerned that an attacker might attempt a supply chain exploit. Assuming that both Greg's organization and the vendor operate under reasonable security procedures, which one of the following activities likely poses the greatest supply chain risk to the equipment?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "SOC 1",
+            "SSAE 16",
+            "GAAP",
+            "SOC 2"
+        ],
+        "question": "What is an accounting report on controls at a service organization that replaces older SAS 70 type reports?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Confirming accuracy of financial statements",
+            "Certifying against an international standard",
+            "Investigating employee malfeasance",
+            "Complying with PCI DSS requirements"
+        ],
+        "question": "In which of the following cases would it be most appropriate to engage an internal auditor?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "SOC 1",
+            "SOC 2",
+            "SOC 3",
+            "SOC 4"
+        ],
+        "question": "You operate a cloud service and would like to provide potential customers with a report that confirms the effectiveness of your security controls and is appropriate for use by the general public. What type of audit should you conduct?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Depreciated value",
+            "Original cost",
+            "Estimation",
+            "Replacement cost"
+        ],
+        "question": "You would like to ensure that your organization's insurance policy covers the damage resulting from a security incident sufficiently to allow you to resume operations. What asset valuation technique should you use?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Contractual terms",
+            "Escrow",
+            "SLA",
+            "Litigation"
+        ],
+        "question": "You are concerned that you may no longer have access to necessary source code if a cloud vendor ceases operations. What security control would best protect against this risk?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "ITIL",
+            "ISO 27002",
+            "CMM",
+            "PMBOK Guide"
+        ],
+        "question": "Ben is seeking a control objective framework that is widely accepted around the world and focuses specifically on information security controls. Which one of the following frameworks would best meet his needs?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Data owner",
+            "Data custodian",
+            "Data processor",
+            "Data steward"
+        ],
+        "question": "What term is used to describe an individual within an organization who has been delegated day-to-day responsibility for decision-making about a category of information?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "0.0025",
+            "0.005",
+            "0.01",
+            "0.015"
+        ],
+        "question": "Based on the information in this scenario, what is the annualized rate of occurrence for a tornado at Atwood Landing's datacenter?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Jim must comply with the information in this document.",
+            "The document contains information about forensic examinations.",
+            "Jim should read the document thoroughly.",
+            "The document is likely based on industry best practices."
+        ],
+        "question": "Jim starts a new job as a system engineer, and he is reviewing a team document titled “Forensic Response Guidelines for Cloud Services.” Which one of the following statements is not true?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "GLBA",
+            "HIPAA/HITECH",
+            "FERPA",
+            "GDPR"
+        ],
+        "question": "Which one of the following laws does not contain breach notification requirements?"
+    }
+]

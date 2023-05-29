@@ -105,7 +105,6 @@ export class StudyComponent implements OnInit {
       case 10:
         this.questions = this.book2Service.getQuestions();
         this.questions = this.questions.concat(this.book1Service.getQuestions());
-        this.questions = this.questions.concat(this.book2Service.getQuestions());
         this.questions = this.questions.concat(this.ccspTestBService.getQuestions());
         this.questions = this.questions.concat(this.ccspTestAService.getQuestions());
         this.questions = this.questions.concat(this.ccspAssService.getQuestions());
@@ -129,7 +128,7 @@ export class StudyComponent implements OnInit {
         this.setQuestion(this.index);
         this.regularQuestionsComplete = true;
       } else if (this.index == this.questions.length){
-        alert('you scored: ' + this.correctCount/this.questions.length + '%');
+        alert('you scored: ' + (this.correctCount/this.questions.length) * 100 + '%');
         this.correctCount = 0;
       } else if(this.wrongQuestions.length > 0) {        
         this.questions = this.wrongQuestions;
