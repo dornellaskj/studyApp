@@ -783,7 +783,7 @@ export class CcspBookTest2Service {
         "question": "An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls."
     },
     {
-        "correct":1,
+        "correct":0,
         "answers": [
             "Student identification number",
             "Social Security number",
@@ -803,7 +803,7 @@ export class CcspBookTest2Service {
         "question": "Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?"
     },
     {
-        "correct":1,
+        "correct":2,
         "answers": [
             "PHI",
             "Proprietary data",
@@ -1063,7 +1063,7 @@ export class CcspBookTest2Service {
         "question": "Based on the information in this scenario, what is the annualized rate of occurrence for a tornado at Atwood Landing's datacenter?"
     },
     {
-        "correct":0,
+        "correct":3,
         "answers": [
             "Jim must comply with the information in this document.",
             "The document contains information about forensic examinations.",
