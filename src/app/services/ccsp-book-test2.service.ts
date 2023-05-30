@@ -1081,7 +1081,300 @@ export class CcspBookTest2Service {
             "GDPR"
         ],
         "question": "Which one of the following laws does not contain breach notification requirements?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "ISO 27001",
+            "ISO 27002",
+            "ISO 27017",
+            "ISO 27701"
+        ],
+        "question": "Tonya is employed by a cloud service provider and is responsible for evaluating the provider's security program. What ISO standard can best help her ensure that her organization has a robust set of security controls in place?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "The data is safe only if data from the tokenization process was secure.",
+            "The data is safe only if the cryptographic keys were not exposed.",
+            "The data is safe only if a strong hash function was used in the tokenization process.",
+            "The data is not safe and should be considered breached."
+        ],
+        "question": "Katie's organization recently suffered a data breach and exposed a database containing student records. The records contained no identifying information other than tokenized student ID numbers. Which of the following statements most accurately represents how Katie should feel about the exposure of these records?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "EAL1",
+            "EAL2",
+            "EAL3",
+            "EAL4"
+        ],
+        "question": "Under the Common Criteria, which one of the following EAL levels indicates that a system has been methodically designed, tested, and reviewed?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Rate limiting",
+            "Access control",
+            "Content filtering",
+            "Logging"
+        ],
+        "question": "An application programming interface (API) gateway can typically offer all of the following capabilities except _________________."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "0.002",
+            "0.005",
+            "0.02",
+            "0.05"
+        ],
+        "question": "Based on the information in this scenario, what is the annualized rate of occurrence for a fire at the Roscommon Cloud Solutions datacenter?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Static electricity damaging equipment",
+            "Fires in power supplies",
+            "Corrosion of equipment",
+            "Moisture buildup"
+        ],
+        "question": "Gary is concerned that the environmental controls in his organization's datacenter may not be effectively controlling humidity. Which of the following circumstances would not commonly result from humidity issues? (Choose all that apply.)"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Pattern matching",
+            "Metadata",
+            "Content strings",
+            "Tokenization"
+        ],
+        "question": "Which of the following mechanisms cannot be used by a data loss prevention (DLP) solution to detect the presence of data?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "",
+            "Change the control set so that you use only security products not offered by the cloud provider.",
+            "Change the control set so that you use only security products offered by the cloud provider.",
+            "Wait three weeks for additional data before making a final decision.",
+            "Move back to an on-premises environment as soon as possible to avoid additional wasted funds and effort."
+        ],
+        "question": "You are the security manager for an online marketing company. Your company has recently migrated to a cloud production environment and has deployed a number of new cloud-based protection mechanisms offered by both third parties and the cloud provider, including data loss prevention (DLP) and security information and event management (SIEM) solutions.After one week of operation, your security team reports an inordinate amount of time responding to potential incidents that have turned out to only be false-positive reports. Management is concerned that the cloud migration was a bad idea and that it is too costly in terms of misspent security efforts. What do you recommend?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "ITIL",
+            "ISO",
+            "HIPAA",
+            "GLBA"
+        ],
+        "question": "Which of the following best describes a set of practices that focus on aligning IT services with business needs?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Distributed denial of service (DDoS)",
+            "Unencrypted packets",
+            "Multitenancy",
+            "Insider threat"
+        ],
+        "question": "Full isolation of user activity, processes, and virtual network segments in a cloud environment is incredibly important because of risks due to _________________."
+    },
+    {
+        "correct":0,
+        "answers": [
+            "The relying party is the service provider and they would consume the tokens generated by the identity provider.",
+            "The relying party is the service provider and they would consume the tokens generated by the customer.",
+            "The relying party is the customer and they would consume the tokens generated by the identity provider.",
+            "The relying party is the identity provider and they would consume the tokens generated by the service provider."
+        ],
+        "question": "In a federated environment, who is the relying party, and what do they do?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "TLS",
+            "IPsec",
+            "Volume encryption",
+            "VPN"
+        ],
+        "question": "Christine is concerned about the risk that another customer will be able to access sensitive data elements stored in her organization's database in a multitenant public cloud environment. What control would best mitigate this risk?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "",
+            "Portability",
+            "Interoperability",
+            "Resiliency",
+            "Governance"
+        ],
+        "question": "You are the security manager for a data analysis company. Your senior management is considering a cloud migration in order to use the greater capabilities of a cloud provider to perform calculations and computations. Your company wants to ensure that neither the contractual nor the technical setup of the cloud service will affect your data sets in any way so that you are not locked into a single provider.Which of the following criteria will probably be most crucial for your choice of cloud providers?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Regulatory compliance",
+            "Enhanced user experience",
+            "Determination of service quality",
+            "Security assurance"
+        ],
+        "question": "Which of the following is not a reason for conducting audits?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Payload encryption",
+            "Origin authority",
+            "Data integrity",
+            "Authenticated denial of existence"
+        ],
+        "question": "Domain Name System Security Extensions (DNSSEC) provides all of the following except _________________."
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Bob's public key",
+            "Bob's private key",
+            "Alice's private key",
+            "Alice's public key"
+        ],
+        "question": "Alice received an encrypted message from Bob. Bob encrypted the message for confidentiality using an asymmetric encryption algorithm. What key should Alice use to decrypt the message?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Multifactor authentication",
+            "Strong encryption",
+            "Cryptographic hash",
+            "Digital signature"
+        ],
+        "question": "Carla is completing an IT audit that involves very sensitive log records that may later be disputed. She would like to collect a copy of the log records now and then protect them with a technology that will provide nonrepudiation. Which one of the following technologies would best meet her needs?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "Virtualization",
+            "Emulation",
+            "ASLR",
+            "Sandboxing"
+        ],
+        "question": "Which term refers to a system's ability to cordon off or protect certain aspects of the compute environment such as processing, memory, and other resources needed in the compute transaction?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "NIST 800-37",
+            "COBIT",
+            "ITIL",
+            "GDPR"
+        ],
+        "question": "ISO 31000 is most similar to which of the following regulations, standards, guidelines, and frameworks?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "HSM",
+            "PKI",
+            "TPM",
+            "IPS"
+        ],
+        "question": "Which one of the following technologies is typically contained within a computer and manages the encryption keys used for full-disk encryption?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Incident management",
+            "Change management",
+            "Availability management",
+            "Service level management"
+        ],
+        "question": "Andy is concerned that his organization is not meeting uptime requirements to their cloud service customers. Which one of the following ITIL control categories is least directly impacted?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Consolidation of security functions",
+            "Integration of security tools",
+            "Protection of intellectual property",
+            "Documentation of security policies"
+        ],
+        "question": "Brenda's organization recently completed the acquisition of a competitor firm. Which one of the following tasks would be least likely to be part of the organizational processes addressed during the acquisition?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "Virtualization sandbox.",
+            "Virtualization bridge.",
+            "Virtualization tools.",
+            "It is not advised to create a connection between the virtual guests and the hypervisor in order to preserve tenant isolation."
+        ],
+        "question": "What technology can serve as a connection between the virtual guest operating system and the hypervisor, improving the services provided to the guest?"
+    },
+    {
+        "correct":0,
+        "answers": [
+            "Update the certificate's OCSP record.",
+            "Add the certificate to the CRL.",
+            "Change the public key.",
+            "Change the private key."
+        ],
+        "question": "Matt needs to revoke a digital certificate that is used as part of his organization's information rights management (IRM) program. Which one of the following options would best meet this need?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Restoring from backup tapes",
+            "Implementing RAID",
+            "Relocating to a cold site",
+            "Restarting business operations"
+        ],
+        "question": "Which one of the following actions might be taken as part of a business continuity plan?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "Cold site",
+            "Warm site",
+            "Mutual assistance agreement",
+            "Hot site"
+        ],
+        "question": "Linda is selecting a disaster recovery facility for her organization, and she wants to retain independence from other organizations as much as possible. She would like to choose a facility that balances cost and recovery time, allowing activation in about one week after a disaster is declared. What type of facility should she choose?"
+    },
+    {
+        "correct":2,
+        "answers": [
+            "SQL injection",
+            "Brute-force",
+            "Cross-site scripting (XSS)",
+            "Man-in-the-middle/on-path"
+        ],
+        "question": "Which type of attack occurs when an application receives untrusted data and then sends it to a web browser without proper validation?"
+    },
+    {
+        "correct":3,
+        "answers": [
+            "ATASM",
+            "PASTA",
+            "DREAD",
+            "SAFEcode"
+        ],
+        "question": "Which one of the following entities is dedicated to helping application developers improve software security?"
+    },
+    {
+        "correct":1,
+        "answers": [
+            "SOAP provides a much more lightweight solution.",
+            "SOAP provides for stronger interoperability.",
+            "SOAP is much more secure.",
+            "SOAP is newer."
+        ],
+        "question": "Why is Simple Object Access Protocol (SOAP) used for accessing web services instead of the Distributed Component Object Model (DCOM) and the Common Object Request Broker Architecture (CORBA)?"
     }
   ]);
   }
 }
+
