@@ -4,11 +4,6 @@ import { DataService } from '../services/data.service';
 import { CyberSecurityManagementService } from '../services/cyber-security-management.service';
 import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
-import { CcspAssService} from '../services/ccsp-ass.service';
-import { CcspTestAService} from '../services/ccsp-test-a.service';
-import { CcspTestBService} from '../services/ccsp-test-b.service';
-import { CcspBookTest2Service} from '../services/ccsp-book-test2.service';
-import { CcspBookTest1Service} from '../services/ccsp-book-test1.service';
 
 
 @Component({
@@ -39,11 +34,7 @@ export class StudyComponent implements OnInit {
     public cyberMgmtService: CyberSecurityManagementService,
     public awsSecurityService: AwsSecurityService,
     public ccspService: CcspServiceService,
-    public ccspAssService: CcspAssService,
-    public ccspTestAService: CcspTestAService,
-    public ccspTestBService: CcspTestBService,
-    public book1Service: CcspBookTest1Service,
-    public book2Service: CcspBookTest2Service
+    public cyberSecurityManagementService: CyberSecurityManagementService,
   ) {}
 
   ngOnInit() {
@@ -78,34 +69,8 @@ export class StudyComponent implements OnInit {
         this.setQuestion(this.index);
         break;
       case 5:
-        this.questions = this.ccspAssService.getQuestions();
-        this.questionLabel = 'CCSP Assessment';
-        this.setQuestion(this.index);
-        break;
-      case 6:
-        this.questions = this.ccspTestAService.getQuestions();
-        this.questionLabel = 'CCSP Test A';
-        this.setQuestion(this.index);
-        break;
-      case 7:
-        this.questions = this.ccspTestBService.getQuestions();
-        this.questionLabel = 'CCSP Test B';
-        this.setQuestion(this.index);
-        break;
-      case 8:
-          this.questions = this.book1Service.getQuestions();
-          this.questionLabel = 'CCSP Missed Questions';
-          this.setQuestion(this.index);
-          break;
-      case 9:
-        this.questions = this.book2Service.getQuestions();
-        this.questionLabel = 'CCSP Missed Questions 2';
-        this.setQuestion(this.index);
-        break;
-      case 10:
-        this.questions = this.book2Service.getQuestions();
-        this.questions = this.questions.concat(this.book1Service.getQuestions());
-        this.questionLabel = 'CCSP super Test';
+        this.questions = this.cyberSecurityManagementService.getQuestions();
+        this.questionLabel = 'AWS Architect';
         this.setQuestion(this.index);
         break;
     }    

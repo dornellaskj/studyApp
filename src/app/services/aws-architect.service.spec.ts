@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CcspTestBService } from './ccsp-test-b.service';
+import { AwsArchitectService } from './aws-architect.service';
 
-describe('CcspTestBService', () => {
-  let service: CcspTestBService;
+describe('CcspAssService', () => {
+  let service: AwsArchitectService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(CcspTestBService);
+    service = TestBed.inject(AwsArchitectService);
   });
 
   it('should be created', () => {
