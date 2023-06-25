@@ -282,6 +282,86 @@ export class AwsArchitectService {
         ],
         correct: 2
       },
+      {
+        question:"Your company provides an online image recognition service and uses SQS to decouple system components. Your EC2 instances poll the image queue as often as possible to keep end-to-end throughput as high as possible, but you realize that all this polling is resulting in both a large number of CPU cycles and skyrocketing costs. How can you reduce cost without compromising service?",
+        answers: [
+          "Enable short polling by setting the ReceiveMessageWaitTimeSeconds to a number > 0.",
+          "Enable long polling by setting the ReceiveMessageWaitTimeSeconds to a number > 0.", 
+          "Enable long polling by setting the ReceiveMessageWaitTimeMinutes to a number > 0.", 
+          "Enable short polling by setting the ReceiveMessageWaitTimeMinutes to a number > 0."
+        ],
+        correct: 1
+      },
+      {
+        question:"You run a meme creation website that stores the original images in S3 and each meme's metadata in DynamoDB. You need to decide upon a low-cost storage option for the memes, which won't be accessed on a regular basis, but require rapid access when needed. If a meme object is unavailable or lost, a Lambda function will automatically recreate it but at a $10 licensing cost per creation. There is a very large number of files. Which storage solution should you use to store the memes in the most cost-effective way?",
+        answers: [
+          "S3 - RRS",
+          "S3", 
+          "S3 - OneZone-IA", 
+          "S3 - IA"
+        ],
+        correct: 3
+      },
+      {
+        question:"What is the maximum VisibilityTimeout of an SQS message in a FIFO queue?",
+        answers: [
+          "14 days",
+          "1 hour", 
+          "1 day", 
+          "12 hours"
+        ],
+        correct: 3
+      },
+      {
+        question:"Which of the following Amazon S3 Storage Classes offer 99.999999999% (11 x 9s) durability?",
+        answers: [
+          "Standard, Glacier, Reduced Redundancy Storage",
+          "Reduced Redundancy Storage, Standard, One Zone-Infrequent Access", 
+          "Standard, Standard-Infrequent Access, One Zone-Infrequent Access", 
+          "Standard-Infrequent Access, One Zone-Infrequent Access, Reduced Redundancy Storage"
+        ],
+        correct: 2
+      },
+      {
+        question:"You are reviewing Change Control requests and you note that there is a proposed change designed to reduce errors due to SQS Eventual Consistency by updating the 'DelaySeconds' attribute. What does this mean?",
+        answers: [
+          "When the consumer instance polls for new work, the consumer instance will wait a certain time until it has a full workload before closing the connection.",
+          "When a new message is added to the SQS queue, it will be hidden from consumer instances for a fixed period.", 
+          "While processing a message, a consumer instance can amend the message visibility counter by a fixed amount.", 
+          "When the consumer instance polls for new work, the SQS service will allow it to wait a certain time for a message to be available before closing the connection."
+        ],
+        correct: 1
+      },
+      {
+        question:"Your company likes the idea of storing files on AWS. Your company would like to store common/recently used files locally, while storing long-term colder data in AWS. Which Storage Gateway configuration would you use to achieve both of these ends?",
+        answers: [
+          "File Gateway, Volume Gateway - Stored volumes",
+          "File Gateway, Volume Gateway - Snapshot volumes", 
+          "File Gateway, Volume Gateway - Cached volumes", 
+          "File Gateway, Tape Gateway"
+        ],
+        correct: 2
+      },
+      {
+        question:"Amazon ElastiCache can fulfill a number of roles. Choose the operations from the following list which can NOT be implemented using ElastiCache for Redis.",
+        answers: [
+          "Multithreaded architecture",
+          "Pub/Sub", 
+          "Sorted Sets", 
+          "In-Memory Data Store"
+        ],
+        correct: 0
+      },
+      {
+        question:"You are reviewing Change Control requests, and you note that there is a change designed to reduce costs by updating the Amazon SQS 'WaitTimeSeconds' attribute. What does this mean?",
+        answers: [
+          "While processing a message, a consumer instance can amend the message visibility counter by a fixed amount.",
+          "When a consumer instance retrieves a message, that message will be hidden in the queue for a fixed period.", 
+          "When the consumer instance polls for new work, the SQS service will allow it to wait a certain time for one or more messages to be available before closing the connection.", 
+          "When the consumer instance polls for new work, the consumer instance will wait a certain time until it has a full workload before closing the connection."
+        ],
+        correct: 2
+      },
       // {
       //   question:"",
       //   answers: [
