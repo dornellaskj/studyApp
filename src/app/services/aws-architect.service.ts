@@ -282,26 +282,26 @@ export class AwsArchitectService {
         ],
         correct: 2
       },
-      {
-        question:"",
-        answers: [
-          "",
-          "", 
-          "", 
-          ""
-        ],
-        correct: 
-      },
-      {
-        question:"",
-        answers: [
-          "",
-          "", 
-          "", 
-          ""
-        ],
-        correct: 
-      },
+      // {
+      //   question:"",
+      //   answers: [
+      //     "",
+      //     "", 
+      //     "", 
+      //     ""
+      //   ],
+      //   correct: 
+      // },
+      // {
+      //   question:"",
+      //   answers: [
+      //     "",
+      //     "", 
+      //     "", 
+      //     ""
+      //   ],
+      //   correct: 
+      // },
 
   ]);
   }
