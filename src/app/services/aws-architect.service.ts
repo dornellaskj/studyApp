@@ -362,26 +362,145 @@ export class AwsArchitectService {
         ],
         correct: 2
       },
-      // {
-      //   question:"",
-      //   answers: [
-      //     "",
-      //     "", 
-      //     "", 
-      //     ""
-      //   ],
-      //   correct: 
-      // },
-      // {
-      //   question:"",
-      //   answers: [
-      //     "",
-      //     "", 
-      //     "", 
-      //     ""
-      //   ],
-      //   correct: 
-      // },
+      {
+        question:"The AWS team in a large company is spending a lot of time monitoring EC2 instances and maintenance when the instances report health check failures. How can you most efficiently automate this monitoring and repair?",
+        answers: [
+          "Create a cron job which monitors the instances periodically and starts a new instance if a health check has failed.",
+          "Create an Amazon CloudWatch alarm that monitors an Amazon EC2 instance and automatically reboots the instance if a health check fails.", 
+          "Create a Lambda function which can be triggered by a failed instance health check. Have the Lambda function destroy the instance and spin up a new instance.", 
+          "Create a Lambda function which can be triggered by a failed instance health check. Have the Lambda function deploy a CloudFormation template which can perform the creation of a new instance."
+        ],
+        correct: 1
+      },
+      {
+        question:"You are working for a large financial institution and preparing for disaster recovery and upcoming DR drills. A key component in the DR plan will be the database instances and their data. An aggressive Recovery Time Objective (RTO) dictates that the database needs to be synchronously replicated. Which configuration can meet this requirement?",
+        answers: [
+          "Amazon RDS Multi-Region Deployments (Aurora)",
+          "Amazon RDS Multi-AZ Deployments (Non-Aurora)", 
+          "AWS Lambda to trigger a CloudFormation template launch in another Region", 
+          "Amazon RDS read replicas"
+        ],
+        correct: 1
+      },
+      {
+        question:"You have just been hired by a large organization which uses many different AWS services in their environment. Some of the services which handle data include: RDS, Redshift, ElastiCache, DynamoDB, S3, and Glacier. You have been instructed to configure a web application using stateless web servers. Which service can you NOT use to handle session state data?",
+        answers: [
+          "Amazon ElastiCache",
+          "Amazon DynamoDB", 
+          "Amazon RDS", 
+          "Amazon Redshift"
+        ],
+        correct: 3
+      },
+      {
+        question:"Your organization uses AWS CodeDeploy for deployments. Now you are starting a project on the AWS Lambda platform. For your deployments, you’ve been given a requirement of performing blue-green deployments. When you perform deployments, you want to split traffic, sending a small percentage of the traffic to the new version of your application. Which deployment configuration will allow this splitting of traffic?",
+        answers: [
+          "Canary",
+          "Linear", 
+          "All at Once", 
+          "Weighted routing"
+        ],
+        correct: 0
+      },
+      {
+        question:"Your company security team has planned to do penetration testing on EC2 instances. Which policy will provide information on performing penetration testing on your EC2 instances?",
+        answers: [
+          "JSON Policy",
+          "Customer Service Policy for Penetration Testing", 
+          "AWS Terms and Conditions Policy", 
+          "IAM Policy"
+        ],
+        correct: 1
+      },
+      {
+        question:"An online media company has created an application which provides analytical data to its clients. The application is hosted on EC2 instances in an Auto Scaling Group. You have been brought on as a consultant and add an Application Load Balancer to front the Auto Scaling Group and distribute the load between the instances. The VPC which houses this architecture is running IPv4 and IPv6. The last thing you need to do to complete the configuration is point the domain name to the Application Load Balancer. Using Route 53, which record type at the zone apex can you use to point the DNS name of the Application Load Balancer? ",
+        answers: [
+          "Alias with an AAAA type record set",
+          "Alias with a CNAME record set.", 
+          "Alias with an MX type record set."
+        ],
+        correct: 0
+      },
+      {
+        question:"Your team has provisioned Auto Scaling groups in a single Region. The Auto Scaling groups, at max capacity, would total 40 EC2 On-Demand Instances between them. However, you notice that the Auto Scaling groups will only scale out to a portion of that number of instances at any one time. What could be the problem?",
+        answers: [
+          "The associated load balancer can serve only 20 instances at one time.",
+          "There is a vCPU-based On-Demand Instance limit per Region.", 
+          "You can have only 20 instances per Region. This is a hard limit.", 
+          "You can have only 20 instances per Availability Zone."
+        ],
+        correct: 1
+      },
+      {
+        question:"A small startup company has begun using AWS for all of its IT infrastructure. The company has one AWS Solutions Architect and the demands for their time are overwhelming. The software team has been given permission to deploy their Python and PHP applications on their own. They would like to deploy these applications without having to worry about the underlying infrastructure. Which AWS service would they use for deployments?",
+        answers: [
+          "Elastic Beanstalk",
+          "CloudFormation", 
+          "CodeDeploy", 
+          "CloudFront"
+        ],
+        correct: 0
+      },
+      {
+        question:"A professional baseball league has chosen to use a key-value and document database for storage, processing, and data delivery. Many of the data requirements involve high-speed processing of data such as a Doppler radar system which samples the position of the baseball 2000 times per second. Which AWS data storage can meet these requirements?",
+        answers: [
+          "DynamoDB",
+          "RDS", 
+          "Redshift", 
+          "S3"
+        ],
+        correct: 0
+      },
+      {
+        question:"You are managing S3 buckets in your organization. This management of S3 extends to Amazon Glacier. For auditing purposes you would like to be informed if an object is restored to S3 from Glacier. What is the most efficient way you can do this?",
+        answers: [
+          "Create an SNS notification for any upload to S3",
+          "Create a Lambda function which is triggered by restoration of object from Glacier to S3", 
+          "Configure S3 notifications for restore operations from Glacier", 
+          "Create a CloudWatch Event for uploads to S3"
+        ],
+        correct: 2
+      },
+      {
+        question:"You are consulting for a state agency focused on the state lottery. You have been given a task to have 2,000,000 bar codes created as quickly as possible. This will require EC2 instances and an average CPU utilization of 70% for each of them. So you plan to spin up 10 EC2 instances to create the bar codes. You estimate that the instances will complete the job from around 11pm to 1am. You don’t want the instances sitting idle for up to 9 hours until the next morning. What can you do to terminate these instances when they are done?",
+        answers: [
+          "Write a cron job which queries the instance status. If a certain status is met, have the cron job kick off CloudFormation to terminate the existing instance, and create a new instance from a template.",
+          "Write a cron job which queries the instance status. Also write a Lambda function which can be triggered upon a certain status and terminate the instance.", 
+          "You can create a CloudWatch alarm that is triggered when the average CPU utilization percentage has been lower than 10 percent for 4 hours, and terminates the instance.", 
+          "Write a Python script which queries the instance status. Also write a Lambda function which can be triggered upon a certain status and terminate the instance."
+        ],
+        correct: 2
+      },
+      {
+        question:"You have joined a newly formed software company as a Solutions Architect. It is a small company, and you are the only employee with AWS experience. The owner has asked for your recommendations to ensure that the AWS resources are deployed to proactively remain within budget. Which AWS service can you use to help ensure you don’t have cost overruns for your AWS resources?",
+        answers: [
+          "AWS Budgets",
+          "Inspector", 
+          "Billing and Cost Management", 
+          "Cost Explorer"
+        ],
+        correct: 0
+      },
+      {
+        question:"You are managing data storage for your company, and there are many EBS volumes. Your management team has given you some new requirements. Certain metrics on the EBS volumes need to be monitored, and the database team needs to be notified by email when certain metric thresholds are exceeded. Which AWS services can be configured to meet these requirements?",
+        answers: [
+          "CloudWatch, SNS",
+          "SWF, SNS", 
+          "SES, SNS", 
+          "SQS, SNS"
+        ],
+        correct: 0
+      },
+      {
+        question:"After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company’s compute resources. You weigh the pros and cons of various technologies based on the requirements you are given. The main requirements to drive this selection are overall cost considerations and the ability to reuse existing internet connections. Which technology best meets these requirements?",
+        answers: [
+          "AWS Direct Gateway",
+          "AWS Direct Connect", 
+          "AWS Managed VPN", 
+          "VPC Peering"
+        ],
+        correct: 2
+      },
 
   ]);
   }
