@@ -47,12 +47,12 @@
 
         <div *ngIf="showScoresView">
             <div class="score-wrapper">
-                <p class="section-label name-label">{{player1}} Games:</p>
-                <p class="score" *ngFor="let score of player1scores; let i = index;">Game {{i + 1}}: {{score}}</p>
+                <p class="section-label name-label">{{player1}}:</p>
+                <p class="score" *ngFor="let score of player1Games; let i = index;"><a (click)="seeGameScores(score.throws)">Game {{i + 1}}</a>: {{score.total}}</p>
             </div>
             <div class="score-wrapper">
-                <p class="section-label name-label">{{player2}} Games:</p>
-                <p class="score" *ngFor="let score of player2scores; let i = index;">Game {{i + 1}}: {{score}}</p>
+                <p class="section-label name-label">{{player2}}:</p>
+                <p class="score" *ngFor="let score of player2Games; let i = index;"><a (click)="seeGameScores(score.throws)">Game {{i + 1}}</a>: {{score.total}}</p>
             </div>
         </div>
     </div>

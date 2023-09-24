@@ -13,6 +13,8 @@ export class AxesComponent implements OnInit {
   player2Score: number;
   player1scores: number[] = [];
   player2scores: number[] = [];
+  player1Games: any[] = [];
+  player2Games: any[] = [];
   player1Total: number = 0;
   player2Total: number = 0;
   ThrowCount: number = 1;
@@ -35,12 +37,20 @@ export class AxesComponent implements OnInit {
     if(this.player1Score && this.player2Score) {
       this.player1Total += parseInt(this.player1Score.toString());
       this.player2Total += parseInt(this.player2Score.toString());
+      this.player1scores.push(this.player1Score);
+      this.player2scores.push(this.player2Score);
       this.player1Score = null;
       this.player2Score = null;
       
       if(this.ThrowCount == 10) {
-        this.player1scores.push(this.player1Total);
-        this.player2scores.push(this.player2Total);
+        let player1Game:any = {};
+        let player2Game:any = {};
+        player1Game.total =  this.player1Total;
+        player2Game.total =  this.player2Total;
+        this.player1Games.push(player1Game);
+        player1Game.throws = this.player1scores;
+        player2Game.throws = this.player2scores;
+        this.player2Games.push(player2Game);
         this.gameDone = true;
       } else {
         this.ThrowCount = this.ThrowCount + 1;
@@ -53,11 +63,19 @@ export class AxesComponent implements OnInit {
     this.gameDone = false;
     this.player1Total = 0;
     this.player2Total = 0;
-    this.ThrowCount = 0;
+    this.ThrowCount = 1;
   }
 
   seeScores() {
     this.showScoresView = true;
+  }
+
+  seeGameScores(scores:number[]) {
+    let throwsView:string = '';
+    scores.forEach(score => {
+      throwsView += score + ', ';
+    });
+    alert(throwsView);
   }
 
 }
