@@ -20,6 +20,7 @@ import { BattleComponent } from './battle/battle.component';
 import {MatListModule} from '@angular/material/list';
 import {HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
+import { AxesComponent } from './app/axes/axes.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {MatIconModule} from '@angular/material/icon';
     TsProblemComponent,
     CharsheetComponent,
     DndComponent,
-    BattleComponent
+    BattleComponent,
+    AxesComponent
   ],
   imports: [
     MatIconModule,

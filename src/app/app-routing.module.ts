@@ -6,6 +6,7 @@ import { TsProblemComponent } from './ts-problem/ts-problem.component';
 import { CharsheetComponent } from './charsheet/charsheet.component';
 import { DndComponent } from './dnd/dnd.component';
 import { BattleComponent } from './battle/battle.component';
+import { AxesComponent } from './app/axes/axes.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'battle',
     component: BattleComponent
+  },
+  {
+    path: 'axes',
+    component: AxesComponent
   },
   {
     path: '',

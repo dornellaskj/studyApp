@@ -1,0 +1,59 @@
+<h1 class="axe-header">Axe Throwing Scoreboard</h1>
+<div class="player-form" *ngIf="showPlayerForm">
+    <p>Please enter player's names below:</p>
+    <div class="input-wrapper">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>Player 1</mat-label>
+            <input name="player1" matInput [(ngModel)]="player1">
+        </mat-form-field>
+    </div>
+    <div class="input-wrapper">
+        <mat-form-field class="full-width"   appearance="fill">
+            <mat-label>Player 2</mat-label>
+            <input name="player2" matInput [(ngModel)]="player2">
+        </mat-form-field>
+    </div>
+    <div><button class="begin-button" (click)="begin()">Throw Stuff</button></div>
+</div>
+
+<div class="keep-score" *ngIf="!showPlayerForm">
+    <div class="condition-area">
+        <p class="throw-count axe-label">Round: {{ThrowCount}}</p>
+        <p class="section-label axe-label">{{player1}}: {{player1Total}}</p>
+        <mat-radio-group name="player1" class="radio" [(ngModel)]="player1Score">
+            <mat-radio-button value="0" class="width-1">0</mat-radio-button>
+            <mat-radio-button value="1" class="width-1">1</mat-radio-button>
+            <mat-radio-button value="2" class="width-1">2</mat-radio-button>
+            <mat-radio-button value="3" class="width-1">3</mat-radio-button>
+            <mat-radio-button value="4" class="width-1">4</mat-radio-button>
+            <mat-radio-button value="5" class="width-1">5</mat-radio-button>
+            <mat-radio-button value="6" class="width-1">6</mat-radio-button>
+            <mat-radio-button value="6" class="width-1">8</mat-radio-button>
+        </mat-radio-group>
+        <p class="section-label axe-label">{{player2}}: {{player2Total}}</p>
+        <mat-radio-group name="player2" class="radio" [(ngModel)]="player2Score">
+            <mat-radio-button value="0" class="width-1">0</mat-radio-button>
+            <mat-radio-button value="1" class="width-1">1</mat-radio-button>
+            <mat-radio-button value="2" class="width-1">2</mat-radio-button>
+            <mat-radio-button value="3" class="width-1">3</mat-radio-button>
+            <mat-radio-button value="4" class="width-1">4</mat-radio-button>
+            <mat-radio-button value="5" class="width-1">5</mat-radio-button>
+            <mat-radio-button value="6" class="width-1">6</mat-radio-button>
+            <mat-radio-button value="6" class="width-1">8</mat-radio-button>
+        </mat-radio-group>
+        <div><button class="begin-button" (click)="nextThrow()" *ngIf="!gameDone">Next Throw</button></div>
+        <div class="score-wrapper"><button class="begin-button" (click)="playNextGame()" *ngIf="gameDone">Play Another</button></div>
+        <div class="score-wrapper"><button class="begin-button" (click)="seeScores()" *ngIf="gameDone">See Scores</button></div>
+
+        <div *ngIf="showScoresView">
+            <div class="score-wrapper">
+                <p class="section-label name-label">{{player1}} Games:</p>
+                <p class="score" *ngFor="let score of player1scores; let i = index;">Game {{i + 1}}: {{score}}</p>
+            </div>
+            <div class="score-wrapper">
+                <p class="section-label name-label">{{player2}} Games:</p>
+                <p class="score" *ngFor="let score of player2scores; let i = index;">Game {{i + 1}}: {{score}}</p>
+            </div>
+        </div>
+    </div>
+</div>
