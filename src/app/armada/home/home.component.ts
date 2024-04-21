@@ -1,4 +1,4 @@
-import { SocialUser, SocialAuthService, GoogleLoginProvider } from '@abacritt/angularx-social-login';
+//import { SocialUser, SocialAuthService, GoogleLoginProvider } from '@abacritt/angularx-social-login';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,24 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  user: SocialUser | null; 
+  // user: SocialUser | null; 
 
-  constructor(private authService: SocialAuthService) 
-  { 
-	this.user = null;
-	this.authService.authState.subscribe((user: SocialUser) => {
-	  console.log(user);
-	  this.user = user;
-	});
-  }
+  // constructor(private authService: SocialAuthService) 
+  // { 
+	// this.user = null;
+	// this.authService.authState.subscribe((user: SocialUser) => {
+	//   console.log(user);
+	//   this.user = user;
+	// });
+  // }
 
-  signInWithGoogle(): void {
-    this.authService.signIn(GoogleLoginProvider.PROVIDER_ID).then((x: any) => console.log(x));
-  }
+  // signInWithGoogle(): void {
+  //   this.authService.signIn(GoogleLoginProvider.PROVIDER_ID).then((x: any) => console.log(x));
+  // }
 
-  signOut(): void {
-    this.authService.signOut();
-  }  
+  // signOut(): void {
+  //   this.authService.signOut();
+  // }  
 
   ngOnInit(): void {
   }
