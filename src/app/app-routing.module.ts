@@ -7,6 +7,7 @@ import { CharsheetComponent } from './charsheet/charsheet.component';
 import { DndComponent } from './dnd/dnd.component';
 import { BattleComponent } from './battle/battle.component';
 import { AxesComponent } from './app/axes/axes.component';
+import { ArmadaModule } from './armada/armada.module';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: '',
     component: ResumeComponent,
+  },
+  {
+    path: 'armada',
+    loadChildren: () =>  ArmadaModule,
   },
    
 ];
