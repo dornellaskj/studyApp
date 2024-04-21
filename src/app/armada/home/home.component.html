@@ -1,11 +1,15 @@
 <div>
-    <!-- <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="navbar-nav ml-auto" *ngIf="!user">
             <a class="button" (click)="signInWithGoogle()">Sign in with google</a>
         </div>
-        <div class="force-area" *ngIf="user">
+        <div class="force-area" *ngIf="isAlowedWrite()">
             <h1>Data Input Pages:</h1>
             <a class="button" href="./armada/ships">Ships</a>
-        </div>	  
-    </nav> -->
+        </div>
+        <div class="force-area" *ngIf="user">
+            <h1>other user Pages:</h1>
+            coming soon!
+        </div>	 	  
+    </nav>
 </div>
