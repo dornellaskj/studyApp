@@ -1,4 +1,11 @@
-<div class="force-area">
-    <h1>Data Input Pages:</h1>
-    <a href="./armada/ships">Ships</a>
+<div>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="navbar-nav ml-auto" *ngIf="!user">
+            <a class="button" (click)="signInWithGoogle()">Sign in with google</a>
+        </div>
+        <div class="force-area" *ngIf="user">
+            <h1>Data Input Pages:</h1>
+            <a class="button" href="./armada/ships">Ships</a>
+        </div>	  
+    </nav>
 </div>

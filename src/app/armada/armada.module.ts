@@ -14,6 +14,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import { ShipsComponent } from './ships/ships.component';
 import { HomeComponent } from './home/home.component';
+import { CommonModule } from '@angular/common';
+import { SocialLoginModule, GoogleLoginProvider, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
 
 
 @NgModule({
@@ -31,9 +33,26 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     MatFormFieldModule,
     MatInputModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    SocialLoginModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: 'SocialAuthServiceConfig',
+      useValue: {
+        autoLogin: false,
+        providers: [
+          {
+            id: GoogleLoginProvider.PROVIDER_ID,
+            provider: new GoogleLoginProvider(		
+              '1083144204379-cgsiojb1oc9jv3fbhhafp8mt79fc0m0u.apps.googleusercontent.com'
+            )
+          }
+        ]
+      } as SocialAuthServiceConfig,
+    },
+  ],
   bootstrap: [ArmadaComponent]
 })
 export class ArmadaModule { }
