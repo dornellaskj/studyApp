@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
   { 
     this.user = null;
     this.authService.authState.subscribe((user: SocialUser) => {
-      console.log(user);
       this.user = user;
       localStorage.setItem('username', user.name);
       localStorage.setItem('googleId', user.idToken);

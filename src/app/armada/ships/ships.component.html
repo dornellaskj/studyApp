@@ -1,1 +1,173 @@
-<p>ships works!</p>
+<div>
+    <label for="faction">Faction:</label>
+    <select id="faction" name="faction" [(ngModel)]="currentShip.faction" (change)="onFactionChange($event.target.value)">
+      <option *ngFor="let faction of factions" [value]="faction">{{ faction }}</option>
+    </select>
+</div>
+
+<div *ngIf="faction && factionShips.length > 0">
+    <label for="ships">Ships:</label>
+    <select id="ships" name="ships" multiple size="5">
+      <option *ngFor="let ship of factionShips" [value]="ship" (click)="selectShip(ship)">{{ ship.name }}</option>
+    </select>
+</div>
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)" *ngIf="faction">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="currentShip.name"  required="true" >
+    </div>
+    <div>
+        <label for="factionName">Faction:</label>
+        <input type="text" id="factionName" name="faction" disabled="true" [(ngModel)]="currentShip.faction"  required="true">
+      </div>
+    <div>
+      <label for="frontExtreme">Front Extreme:</label>
+      <input type="number" id="frontExtreme" name="frontExtreme" [(ngModel)]="currentShip.frontExtreme"  required="true">
+    </div>
+    <div>
+      <label for="frontLong">Front Long:</label>
+      <input type="number" id="frontLong" name="frontLong" [(ngModel)]="currentShip.frontLong"  required="true">
+    </div>
+    <div>
+      <label for="frontMed">Front Med:</label>
+      <input type="number" id="frontMed" name="frontMed" [(ngModel)]="currentShip.frontMed"  required="true">
+    </div>
+    <div>
+      <label for="frontShort">Front Short:</label>
+      <input type="number" id="frontShort" name="frontShort" [(ngModel)]="currentShip.frontShort"  required="true">
+    </div>
+    <div>
+      <label for="sideExtreme">Side Extreme:</label>
+      <input type="number" id="sideExtreme" name="sideExtreme" [(ngModel)]="currentShip.sideExtreme"  required="true">
+    </div>
+    <div>
+      <label for="sideLong">Side Long:</label>
+      <input type="number" id="sideLong" name="sideLong" [(ngModel)]="currentShip.sideLong"  required="true">
+    </div>
+    <div>
+      <label for="sideMed">Side Med:</label>
+      <input type="number" id="sideMed" name="sideMed" [(ngModel)]="currentShip.sideMed"  required="true">
+    </div>
+    <div>
+      <label for="sideShort">Side Short:</label>
+      <input type="number" id="sideShort" name="sideShort" [(ngModel)]="currentShip.sideShort"  required="true">
+    </div>
+    <div>
+      <label for="rearExtreme">Rear Extreme:</label>
+      <input type="number" id="rearExtreme" name="rearExtreme" [(ngModel)]="currentShip.rearExtreme"  required="true">
+    </div>
+    <div>
+      <label for="rearLong">Rear Long:</label>
+      <input type="number" id="rearLong" name="rearLong" [(ngModel)]="currentShip.rearLong"  required="true">
+    </div>
+    <div>
+      <label for="rearMed">Rear Med:</label>
+      <input type="number" id="rearMed" name="rearMed" [(ngModel)]="currentShip.rearMed"  required="true">
+    </div>
+    <div>
+      <label for="rearShort">Rear Short:</label>
+      <input type="number" id="rearShort" name="rearShort" [(ngModel)]="currentShip.rearShort"  required="true">
+    </div>
+    <div>
+      <label for="hullPoints">Hull Points:</label>
+      <input type="number" id="hullPoints" name="hullPoints" [(ngModel)]="currentShip.hullPoints"  required="true">
+    </div>
+    <div>
+      <label for="shieldFront">Shield Front:</label>
+      <input type="number" id="shieldFront" name="shieldFront" [(ngModel)]="currentShip.shieldFront"  required="true">
+    </div>
+    <div>
+      <label for="shieldSide">Shield Side:</label>
+      <input type="number" id="shieldSide" name="shieldSide" [(ngModel)]="currentShip.shieldSide"  required="true">
+    </div>
+    <div>
+      <label for="shieldRear">Shield Rear:</label>
+      <input type="number" id="shieldRear" name="shieldRear" [(ngModel)]="currentShip.shieldRear"  required="true">
+    </div>
+    <div>
+      <label for="defenseId1">Defense Token 1:</label>
+      <select type="number" id="defenseId1" name="defenseId1"  required="true" [(ngModel)]="currentShip.defenseId1">
+          <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+    </select>
+    </div>
+    <div>
+      <label for="defenseId2">Defense Token 2:</label>
+      <select type="number" id="defenseId2" name="defenseId2" [(ngModel)]="currentShip.defenseId2">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="defenseId3">Defense Token 3:</label>
+      <select type="number" id="defenseId3" name="defenseId3" [(ngModel)]="currentShip.defenseId3">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="defenseId4">Defense Token 4:</label>
+      <select type="number" id="defenseId4" name="defenseId4" [(ngModel)]="currentShip.defenseId4">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="defenseId5">Defense Token 5:</label>
+      <select type="number" id="defenseId5" name="defenseId5" [(ngModel)]="currentShip.defenseId5">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="defenseId6">Defense Token 6:</label>
+      <select type="number" id="defenseId6" name="defenseId6" [(ngModel)]="currentShip.defenseId6">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="defenseId7">Defense Token 7:</label>
+      <select type="number" id="defenseId7" name="defenseId7" [(ngModel)]="currentShip.defenseId7">
+        <option *ngFor="let defenseToken of defenseTokens; let i = index;" [name]="'dt' + i" [value]="defenseToken.id">{{ defenseToken.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="maxSpeed">Max Speed:</label>
+      <input type="number" id="maxSpeed" name="maxSpeed" [(ngModel)]="currentShip.maxSpeed"  required="true">
+    </div>
+    <div>
+      <label for="command">Command:</label>
+      <input type="number" id="command" name="command" [(ngModel)]="currentShip.command"  required="true">
+    </div>
+    <div>
+      <label for="squadron">Squadron:</label>
+      <input type="number" id="squadron" name="squadron" [(ngModel)]="currentShip.squadron"  required="true">
+    </div>
+    <div>
+      <label for="engineering">Engineering:</label>
+      <input type="number" id="engineering" name="engineering" [(ngModel)]="currentShip.engineering"  required="true">
+    </div>
+    <div>
+      <label for="maxTurn1">Max Turn 1:</label>
+      <input type="number" id="maxTurn1" name="maxTurn1" [(ngModel)]="currentShip.maxTurn1"  required="true">
+    </div>
+    <div>
+      <label for="maxTurn2">Max Turn 2:</label>
+      <input type="number" id="maxTurn2" name="maxTurn2" [(ngModel)]="currentShip.maxTurn2">
+    </div>
+    <div>
+      <label for="maxTurn3">Max Turn 3:</label>
+      <input type="number" id="maxTurn3" name="maxTurn3" [(ngModel)]="currentShip.maxTurn3">
+    </div>
+    <div>
+      <label for="maxTurn4">Max Turn 4:</label>
+      <input type="number" id="maxTurn4" name="maxTurn4" [(ngModel)]="currentShip.maxTurn4">
+    </div>
+    <div>
+      <label for="antiSquadron">Anti Squadron:</label>
+      <input type="number" id="antiSquadron" name="antiSquadron" [(ngModel)]="currentShip.antiSquadron" required="true">
+    </div>
+    <div>
+      <label for="cost">Cost:</label>
+      <input type="number" id="cost" name="cost" [(ngModel)]="currentShip.cost" required="true">
+    </div>
+    
+    <button type="submit">Submit</button>
+  </form>
+  
