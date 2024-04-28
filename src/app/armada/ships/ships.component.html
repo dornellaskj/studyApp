@@ -7,7 +7,7 @@
 
 <div *ngIf="faction && factionShips.length > 0">
     <label for="ships">Ships:</label>
-    <select id="ships" name="ships" multiple size="5">
+    <select id="ships" name="ships" size="5">
       <option *ngFor="let ship of factionShips" [value]="ship" (click)="selectShip(ship)">{{ ship.name }}</option>
     </select>
 </div>
