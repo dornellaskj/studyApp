@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
   }
 
   isAlowedWrite() {
-    if (this.user.email == 'dornellaskj@gmail.com') {
+    if (this.user.email == 'dornellaskj@gmail.com' || this.user.email == 'rainbow2932@gmail.com') {
       return true;
     }
   }
