@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DefenseTokenService {
 
-  private readonly apiUrl = 'https://armadabackend-prod.us-west-2.elasticbeanstalk.com/DefenseToken';
+  private readonly apiUrl = 'https://armada.kevindornellas.me/DefenseToken';
 
   constructor(private http: HttpClient) { }
 
