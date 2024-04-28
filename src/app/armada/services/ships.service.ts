@@ -7,7 +7,7 @@ import { Ship } from '../models/ship';
   providedIn: 'root'
 })
 export class ShipsService {
-  private readonly apiUrl = 'http://armadabackend-prod.us-west-2.elasticbeanstalk.com/Ship/';
+  private readonly apiUrl = 'https://armadabackend-prod.us-west-2.elasticbeanstalk.com/Ship/';
 
   constructor(private http: HttpClient) { }
 
