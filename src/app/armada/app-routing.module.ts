@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ArmadaComponent } from './armada.component';
 import { ShipsComponent } from './ships/ships.component';
 import { HomeComponent } from './home/home.component';
+import {KeywordComponent} from './keyword/keyword.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,11 @@ const routes: Routes = [
     path: 'ships',
     component: ShipsComponent,
   },
+  {
+    path: 'keywords',
+    component: KeywordComponent,
+  },
+
    
 ];
 

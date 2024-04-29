@@ -1,0 +1,18 @@
+<div *ngIf="keywordsList && keywordsList.length > 0">
+    <label for="keywordsSelect">Keywords:</label>
+    <select id="keywordsSelect" name="keywordsSelect" size="5">
+      <option *ngFor="let kw of keywordsList" [value]="kw.id" (click)="selectKeyword(kw)">{{ kw.name }}</option>
+    </select>
+</div>
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="currentKeyword.name"  required="true" >
+    </div>
+    <div>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" [(ngModel)]="currentKeyword.description"  required="true">
+      </div>
+    <button type="submit">Submit</button>
+</form>

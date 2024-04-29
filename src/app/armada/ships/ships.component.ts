@@ -54,6 +54,7 @@ export class ShipsComponent implements OnInit {
     }
     console.log(this.currentShip);
   }
+  
   onFactionChange(selectedFaction: string) {
     this.faction = selectedFaction;
     this.currentShip.faction = selectedFaction;

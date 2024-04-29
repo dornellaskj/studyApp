@@ -15,6 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { ShipsComponent } from './ships/ships.component';
 import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
+import { KeywordComponent } from './keyword/keyword.component';
 import { SocialLoginModule, GoogleLoginProvider, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
 
 
@@ -22,7 +23,8 @@ import { SocialLoginModule, GoogleLoginProvider, SocialAuthServiceConfig } from 
   declarations: [
     ArmadaComponent,
     ShipsComponent,
-    HomeComponent
+    HomeComponent,
+    KeywordComponent
   ],
   imports: [
     MatIconModule,
