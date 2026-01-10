@@ -254,16 +254,6 @@ export class AIService {
   "correct": 1
 },
 {
-  "question": "Which of the following is an example of Artificial Narrow Intelligence (ANI)?",
-  "answers": [
-    "A system that can perform any intellectual task a human can",
-    "A model that generates metal band names using transfer learning",
-    "A robot capable of human‑level reasoning",
-    "A fictional android like Data from Star Trek"
-  ],
-  "correct": 1
-},
-{
   "question": "Why is AGI fundamentally different from ANI?",
   "answers": [
     "AGI can reason broadly across domains, while ANI is limited to one task",
@@ -663,6 +653,108 @@ export class AIService {
   ],
   "correct": 1
 },
+
+  {
+    "question": "What is catastrophic forgetting?",
+    "answers": [
+      "When an AI forgets earlier tasks as it learns new ones",
+      "When an AI loses weights due to hardware failure",
+      "When an AI mixes labels from unrelated datasets",
+      "When an AI refuses to learn tasks outside its domain"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What defines an adversarial attack?",
+    "answers": [
+      "Training an AI with contradictory labels",
+      "Adding subtle noise to trick an AI into misclassifying",
+      "Overloading an AI with too many tasks",
+      "Using reinforcement learning to confuse the model"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the bag‑of‑features model suggest?",
+    "answers": [
+      "An AI ignores small details in images",
+      "An AI groups images into bags based on similarity",
+      "An AI can identify an object from scattered parts",
+      "An AI stores all features in a single vector"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a key trait of pseudo‑AI or hybrid AI?",
+    "answers": [
+      "It learns entirely without human involvement",
+      "It requires human supervision for edge cases",
+      "It uses only symbolic logic",
+      "It can generalize across any domain"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why does training‑data origin matter when evaluating AI?",
+    "answers": [
+      "It determines how many layers the model can have",
+      "It determines whether the AI needs human supervision",
+      "It determines the AI’s maximum memory capacity",
+      "It determines whether the AI will face data similar to its training environment"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Why do AIs struggle with memory‑heavy tasks?",
+    "answers": [
+      "They forget all tasks when memory is full",
+      "They perform best when they don’t need to remember much",
+      "They require symbolic logic for long‑term memory",
+      "They cannot store numerical information reliably"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What risk was demonstrated by Microsoft Tay?",
+    "answers": [
+      "It reverted to earlier training data",
+      "It became unable to update its internal weights",
+      "It quickly learned harmful behavior from user interactions",
+      "It stopped responding to new inputs"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is mode collapse?",
+    "answers": [
+      "An AI forgetting all but one training example",
+      "An AI producing repetitive or garbled outputs",
+      "An AI switching between tasks unpredictably",
+      "An AI refusing to generate images with certain features"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does latent space represent?",
+    "answers": [
+      "A conceptual space where features blend between categories",
+      "A hidden buffer for long‑term memory",
+      "A backup model used for safety",
+      "A region of training data the AI cannot access"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why ask how broad a problem is when evaluating AI claims?",
+    "answers": [
+      "Broad problems reduce the risk of bias",
+      "AI excels at narrow, well‑defined tasks",
+      "Broad problems require less training data",
+      "Narrow problems require symbolic reasoning"
+    ],
+    "correct": 1
+  },
+
 
   ]);
   }
