@@ -44,7 +44,7 @@ export class AwsArchitectService {
   "correct": 0
 },
 {
-  "question": "Which of the following is the primary benefit of cloud computing compared to on‑premises infrastructure?",
+  "question": "Which of the following is not a primary benefit of cloud computing compared to on-premises infrastructure?",
   "answers": [
     "Pay for racking, stacking, and powering servers",
     "Benefit from massive economies of scale",
@@ -52,7 +52,7 @@ export class AwsArchitectService {
     "Trade capital expense for variable expense",
     "Eliminate guessing on your infrastructure capacity needs"
   ],
-  "correct": 1
+  "correct": 0
 },
 {
   "question": "To receive the discounted rate associated with Reserved Instances, you must make a full upfront payment for the term.",
