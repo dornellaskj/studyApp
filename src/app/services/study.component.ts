@@ -5,6 +5,7 @@ import { CyberSecurityManagementService } from '../services/cyber-security-manag
 import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
 import { AwsArchitectService} from '../services/aws-architect.service';
+import { AIService} from '../services/ai.service';
 
 @Component({
   selector: 'app-study',
@@ -34,7 +35,8 @@ export class StudyComponent implements OnInit {
     public cyberMgmtService: CyberSecurityManagementService,
     public awsSecurityService: AwsSecurityService,
     public ccspService: CcspServiceService,
-    public awsArchService: AwsArchitectService
+    public awsArchService: AwsArchitectService,
+    public AIService: AIService
   ) {}
 
   ngOnInit() {

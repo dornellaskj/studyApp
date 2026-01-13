@@ -14,6 +14,102 @@ export class AwsArchitectService {
   getQuestions() {
     return this.utilitiesService.randomizeQuestions([
       {
+  "question": "Which AWS support plan offers a Technical Account Manager (TAM)?",
+  "answers": [
+    "Business",
+    "Developer",
+    "Enterprise",
+    "Basic"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following is NOT an advantage of cloud computing?",
+  "answers": [
+    "Go global in hours",
+    "Increase speed and agility",
+    "Trade capital expense for variable expense",
+    "Benefit from massive economies of scale"
+  ],
+  "correct": 3
+},
+{
+  "question": "One advantage of cloud computing is that we trade ______ expense for ______ expense.",
+  "answers": [
+    "Capital, Variable",
+    "Variable, Capital",
+    "Operational, Capital",
+    "Capital, Operational"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which of the following is the primary benefit of cloud computing compared to on‑premises infrastructure?",
+  "answers": [
+    "Pay for racking, stacking, and powering servers",
+    "Benefit from massive economies of scale",
+    "Increase speed and agility",
+    "Trade capital expense for variable expense",
+    "Eliminate guessing on your infrastructure capacity needs"
+  ],
+  "correct": 1
+},
+{
+  "question": "To receive the discounted rate associated with Reserved Instances, you must make a full upfront payment for the term.",
+  "answers": [
+    "True",
+    "False"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is the most significant benefit of using AWS Organizations?",
+  "answers": [
+    "Provides the ability to create groups of accounts and attach policies to a group",
+    "Simplifies automating account creation and management using APIs",
+    "Provides the ability to create an unlimited number of nested organizational units (OUs)",
+    "Replaces IAM policies with SCPs, which are simpler to manage",
+    "Prevents restrictions from being placed on the root user of the management account"
+  ],
+  "correct": 0
+},
+{
+  "question": "AWS offers some services at no charge, such as IAM, VPC, CloudFormation, Auto Scaling, and Elastic Beanstalk.",
+  "answers": [
+    "False",
+    "True"
+  ],
+  "correct": 1
+},
+{
+  "question": "Unlimited services are available with the AWS Free Tier for 12 months after account creation.",
+  "answers": [
+    "True",
+    "False"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does AWS CAF refer to in cloud computing?",
+  "answers": [
+    "A methodology for migrating on-premises applications to the cloud",
+    "A certification program for cloud architects and engineers",
+    "A framework for securing cloud-based applications against cyber threats",
+    "A set of best practices and guidelines for planning and executing cloud adoption strategies"
+  ],
+  "correct": 3
+},
+{
+  "question": "What distinguishes IaaS from PaaS?",
+  "answers": [
+    "IaaS provides ready-to-use software applications, while PaaS offers virtualized computing resources",
+    "IaaS abstracts hardware, while PaaS abstracts hardware and the operating system to provide a development platform",
+    "IaaS offers a fully managed environment for applications, while PaaS offers basic networking and storage",
+    "IaaS provides a platform for deploying applications, while PaaS provides virtualized compute resources"
+  ],
+  "correct": 1
+},
+      {
         question:"Which of the below are factors that have helped make public cloud so powerful?",
         answers: [
           "The ease of trying new solutions, Pay-as-you-go approach for pricing",
