@@ -109,6 +109,206 @@ export class AwsArchitectService {
   ],
   "correct": 1
 },
+{
+  "question": "What is an AWS Availability Zone composed of?",
+  "answers": [
+    "A global network of edge locations",
+    "Multiple data centers within a region",
+    "A single POP used for caching content",
+    "A single data center serving one region"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is the primary purpose of AWS Edge Locations?",
+  "answers": [
+    "To host full AWS regions in major cities",
+    "To store encryption keys for CloudFront",
+    "To cache web content closer to users",
+    "To provide compute resources close to mobile carriers"
+  ],
+  "correct": 2
+},
+{
+  "question": "What do AWS Local Zones provide?",
+  "answers": [
+    "Compute and storage resources closer to users",
+    "Centralized IAM policy enforcement",
+    "A global CDN for caching content",
+    "Ultra low latency for 5G devices"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is the purpose of AWS Wavelength Zones?",
+  "answers": [
+    "To provide compute resources in rural areas",
+    "To optimize mobile deployments over 5G networks",
+    "To manage IAM roles for mobile carriers",
+    "To store encryption keys for mobile devices"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does IAM primarily control?",
+  "answers": [
+    "The deployment of CloudFront distributions",
+    "Network routing between AWS regions",
+    "Who gets access to what in AWS",
+    "The encryption of all S3 buckets"
+  ],
+  "correct": 2
+},
+{
+  "question": "What is an IAM Role used for?",
+  "answers": [
+    "Managing CloudFront edge caches",
+    "Encrypting data in transit",
+    "Grouping users for billing purposes",
+    "Granting a set of permissions to users or services"
+  ],
+  "correct": 3
+},
+{
+  "question": "What does the CIA Triad represent?",
+  "answers": [
+    "Cloudfront, IAM, Artifact",
+    "Confidentiality, Integrity, Availability",
+    "Compliance, Identity, Access",
+    "Configuration, Inspection, Auditing"
+  ],
+  "correct": 1
+},
+{
+  "question": "What do Service Control Policies (SCPs) do?",
+  "answers": [
+    "Encrypt data across multiple regions",
+    "Manage CloudFront distributions",
+    "Grant permissions to IAM users",
+    "Set maximum permissions for accounts"
+  ],
+  "correct": 3
+},
+{
+  "question": "What does AWS KMS manage?",
+  "answers": [
+    "Encryption keys for data",
+    "IAM users and groups",
+    "CloudFront edge caches",
+    "S3 bucket lifecycle policies"
+  ],
+  "correct": 0
+},
+{
+  "question": "What does AWS Secrets Manager help with?",
+  "answers": [
+    "Managing IAM roles",
+    "Encrypting S3 buckets",
+    "Rotating and retrieving credentials and API keys",
+    "Scanning EC2 instances for vulnerabilities"
+  ],
+  "correct": 2
+},
+{
+  "question": "What does AWS Shield protect against?",
+  "answers": [
+    "Unauthorized IAM access",
+    "Misconfigured S3 buckets",
+    "DDoS attacks",
+    "Malware infections"
+  ],
+  "correct": 2
+},
+{
+  "question": "What does AWS WAF do?",
+  "answers": [
+    "Protects against common web exploits",
+    "Caches content at edge locations",
+    "Encrypts data at rest",
+    "Manages IAM policies"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is AWS Firewall Manager used for?",
+  "answers": [
+    "Managing WAF rules across multiple accounts",
+    "Scanning EC2 instances for vulnerabilities",
+    "Encrypting data across regions",
+    "Managing IAM roles and groups"
+  ],
+  "correct": 0
+},
+{
+  "question": "What does Amazon Macie do?",
+  "answers": [
+    "Audits AWS resource configurations",
+    "Detects DDoS attacks",
+    "Discovers and protects sensitive data in S3 using ML",
+    "Manages IAM permissions"
+  ],
+  "correct": 2
+},
+{
+  "question": "What is AWS Config used for?",
+  "answers": [
+    "Encrypting S3 buckets",
+    "Auditing and evaluating AWS resource configurations",
+    "Managing CloudFront distributions",
+    "Scanning EC2 instances for vulnerabilities"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does AWS Artifact provide?",
+  "answers": [
+    "A vulnerability scanner for EC2",
+    "A tool for managing encryption keys",
+    "A dashboard for IAM permissions",
+    "Access to AWS compliance and security documentation"
+  ],
+  "correct": 3
+},
+{
+  "question": "What does AWS Audit Manager do?",
+  "answers": [
+    "Caches content at edge locations",
+    "Encrypts data across multiple regions",
+    "Manages IAM roles and groups",
+    "Continuously audits AWS usage for compliance"
+  ],
+  "correct": 3
+},
+{
+  "question": "What does Amazon Inspector evaluate?",
+  "answers": [
+    "Compute resources for vulnerabilities and exposure",
+    "CloudFront distributions for performance",
+    "IAM policies for misconfigurations",
+    "S3 buckets for sensitive data"
+  ],
+  "correct": 0
+},
+{
+  "question": "What does Amazon GuardDuty monitor?",
+  "answers": [
+    "CloudFront cache invalidations",
+    "Compromised accounts and unusual behavior",
+    "IAM role usage",
+    "S3 bucket lifecycle policies"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does AWS Security Hub do?",
+  "answers": [
+    "Encrypts all data in transit",
+    "Caches content at edge locations",
+    "Performs security best practice checks and enables remediation",
+    "Manages IAM users and groups"
+  ],
+  "correct": 2
+},
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
       //   answers: [
