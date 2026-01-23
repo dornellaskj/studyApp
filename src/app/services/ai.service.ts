@@ -754,6 +754,306 @@ export class AIService {
     ],
     "correct": 1
   },
+  {
+  "question": "Which perspective of AI focuses on taking the most logical action to achieve goals?",
+  "answers": [
+    "Thinking Humanly",
+    "Acting Rationally",
+    "Acting Humanly",
+    "Thinking Rationally"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is an agent in the context of AI?",
+  "answers": [
+    "A system that acts or performs tasks in an environment",
+    "A model trained on labeled data",
+    "A neural network with multiple layers",
+    "A rule-based system that cannot adapt"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which example best represents the 'Thinking Rationally' approach?",
+  "answers": [
+    "Using introspection to understand human thought",
+    "Following formal logic such as 'All men are mortal; Socrates is a man; therefore Socrates is mortal'",
+    "Passing the Turing Test",
+    "Learning from large datasets"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is a major limitation of the 'Thinking Rationally' approach?",
+  "answers": [
+    "It cannot use neural networks",
+    "It requires oversimplifying complex real-world problems",
+    "It only works with reinforcement learning",
+    "It focuses too much on human behavior"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which method is associated with the 'Thinking Humanly' perspective?",
+  "answers": [
+    "Brain imaging and psychological experiments",
+    "Logical deduction",
+    "Outcome-based evaluation",
+    "Semantic triples"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which perspective is evaluated using the Turing Test?",
+  "answers": [
+    "Acting Humanly",
+    "Thinking Rationally",
+    "Acting Rationally",
+    "Thinking Humanly"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which description best fits Narrow (Weak) AI?",
+  "answers": [
+    "AI capable of performing across many domains",
+    "AI designed for a few specific tasks",
+    "AI that continuously retrains itself",
+    "AI that explains its reasoning transparently"
+  ],
+  "correct": 1
+},
+{
+  "question": "What distinguishes General (Strong) AI?",
+  "answers": [
+    "It is designed for a single task",
+    "It can perform well across a wide range of tasks",
+    "It requires no data to learn",
+    "It is always rule-based"
+  ],
+  "correct": 1
+},
+{
+  "question": "What defines Assistive AI?",
+  "answers": [
+    "It operates with no human involvement",
+    "It is designed to support humans and improve efficiency",
+    "It is capable of general intelligence",
+    "It is always explainable"
+  ],
+  "correct": 1
+},
+{
+  "question": "What defines Autonomous AI?",
+  "answers": [
+    "It requires human oversight",
+    "It follows explicit rules only",
+    "It operates without human involvement",
+    "It is always a black-box model"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which characteristic describes rule-based AI?",
+  "answers": [
+    "It learns from experience",
+    "It follows explicit instructions and struggles with unexpected cases",
+    "It requires large datasets",
+    "It uses neural networks"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which characteristic describes learning-based AI?",
+  "answers": [
+    "It cannot adapt to new data",
+    "It follows predefined rules",
+    "It learns from experience and data",
+    "It is always explainable"
+  ],
+  "correct": 2
+},
+{
+  "question": "Why are learning-based systems often considered 'black boxes'?",
+  "answers": [
+    "Their internal decision-making is difficult to interpret",
+    "They use only rule-based logic",
+    "They cannot handle large datasets",
+    "They require no training data"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is a key drawback of static learning systems?",
+  "answers": [
+    "They retrain themselves automatically",
+    "They require periodic manual updates and retraining",
+    "They always use reinforcement learning",
+    "They cannot be deployed in production"
+  ],
+  "correct": 1
+},
+{
+  "question": "What distinguishes continuous learning systems?",
+  "answers": [
+    "They never update their models",
+    "They use only rule-based logic",
+    "They update through feedback loops and evolve over time",
+    "They require no data"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which pair represents an AI identifying characteristic?",
+  "answers": [
+    "Neural vs Symbolic",
+    "Narrow vs General",
+    "Static vs Hardware-based",
+    "Cognitive vs Reactive"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is the definition of machine learning?",
+  "answers": [
+    "A system that follows explicit rules",
+    "Allowing a computer to learn from data",
+    "A subset of deep learning",
+    "A method for performing symbolic reasoning"
+  ],
+  "correct": 1
+},
+{
+  "question": "What are features in a dataset?",
+  "answers": [
+    "The values the model predicts",
+    "The variables or attributes used as inputs",
+    "The reward signals in reinforcement learning",
+    "The learned parameters of a model"
+  ],
+  "correct": 1
+},
+{
+  "question": "What are labels in supervised learning?",
+  "answers": [
+    "The input variables",
+    "The output values the model is trained to predict",
+    "The hidden layers of a neural network",
+    "The reward signals used in reinforcement learning"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which statement best describes a model in machine learning?",
+  "answers": [
+    "A learned system that maps inputs to outputs",
+    "A dataset used for training",
+    "A rule-based engine",
+    "A type of reinforcement signal"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which learning type uses labeled data?",
+  "answers": [
+    "Unsupervised learning",
+    "Reinforcement learning",
+    "Supervised learning",
+    "Continuous learning"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which learning type is best for grouping or clustering data?",
+  "answers": [
+    "Supervised learning",
+    "Unsupervised learning",
+    "Reinforcement learning",
+    "Rule-based learning"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which learning type relies on trial and error?",
+  "answers": [
+    "Supervised learning",
+    "Unsupervised learning",
+    "Reinforcement learning",
+    "Static learning"
+  ],
+  "correct": 2
+},
+{
+  "question": "How does machine learning relate to artificial intelligence?",
+  "answers": [
+    "ML is a subset of AI",
+    "AI is a subset of ML",
+    "They are unrelated fields",
+    "ML only applies to rule-based systems"
+  ],
+  "correct": 0
+},
+{
+  "question": "How does deep learning relate to machine learning?",
+  "answers": [
+    "Deep learning is a subset of ML that uses neural networks",
+    "Deep learning is broader than ML",
+    "Deep learning refers only to reinforcement learning",
+    "Deep learning is unrelated to AI"
+  ],
+  "correct": 0
+},
+{
+  "question": "What distinguishes Narrow AI from General AI?",
+  "answers": [
+    "Narrow AI is designed for specific tasks, while General AI can perform well across many domains",
+    "Narrow AI learns continuously, while General AI is static",
+    "Narrow AI is always rule-based, while General AI is always learning-based",
+    "Narrow AI is explainable, while General AI is a black box"
+  ],
+  "correct": 0
+},
+{
+  "question": "What does it mean for an AI system to be a 'black box'?",
+  "answers": [
+    "Its internal decision-making process is difficult to interpret",
+    "It cannot be deployed in production",
+    "It only uses rule-based logic",
+    "It requires no training data"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which statement best describes Assistive AI?",
+  "answers": [
+    "AI that operates with no human involvement",
+    "AI that supports humans and improves efficiency while still requiring human participation",
+    "AI that can perform across many domains",
+    "AI that explains its reasoning transparently"
+  ],
+  "correct": 1
+},
+{
+  "question": "What distinguishes rule-based AI from learning-based AI?",
+  "answers": [
+    "Rule-based AI follows explicit instructions and struggles with unexpected cases, while learning-based AI adapts from data",
+    "Rule-based AI uses neural networks, while learning-based AI uses symbolic logic",
+    "Rule-based AI requires large datasets, while learning-based AI does not",
+    "Rule-based AI is always autonomous, while learning-based AI is always assistive"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is the key difference between static and continuous learning systems?",
+  "answers": [
+    "Static systems retrain automatically, while continuous systems require manual updates",
+    "Static systems use reinforcement learning, while continuous systems use supervised learning",
+    "Static systems require periodic manual retraining, while continuous systems update through feedback loops",
+    "Static systems are always rule-based, while continuous systems are always learning-based"
+  ],
+  "correct": 2
+},
 
 
   ]);
