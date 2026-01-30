@@ -309,6 +309,207 @@ export class AwsArchitectService {
   ],
   "correct": 2
 },
+{
+  "question": "How many total IP addresses are provided by a /16 CIDR block in AWS?",
+  "answers": [
+    "256",
+    "4,096",
+    "65,536",
+    "16,384"
+  ],
+  "correct": 2
+},
+{
+  "question": "What is the smallest subnet size allowed in AWS?",
+  "answers": [
+    "/30",
+    "/28",
+    "/24",
+    "/32"
+  ],
+  "correct": 1
+},
+{
+  "question": "How many total IP addresses exist in a /28 subnet?",
+  "answers": [
+    "8",
+    "16",
+    "32",
+    "64"
+  ],
+  "correct": 1
+},
+{
+  "question": "How many IP addresses does AWS reserve in every subnet?",
+  "answers": [
+    "3",
+    "4",
+    "5",
+    "2"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which IPs does AWS reserve in each subnet?",
+  "answers": [
+    "First 2 and last 2",
+    "First 4 and last 1",
+    "Only the first and last",
+    "Only the broadcast address"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is a VPC in AWS?",
+  "answers": [
+    "A physical data center",
+    "A logically isolated virtual network",
+    "A DNS routing service",
+    "A global firewall"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does VPC peering allow?",
+  "answers": [
+    "Private communication between VPCs",
+    "Connecting VPCs to CloudFront",
+    "Encrypting all VPC traffic",
+    "Replacing Direct Connect"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is the purpose of a transit gateway?",
+  "answers": [
+    "To manage IAM roles",
+    "To act as a hub for connecting multiple VPCs",
+    "To store DNS records",
+    "To encrypt S3 traffic"
+  ],
+  "correct": 1
+},
+{
+  "question": "What do security groups protect?",
+  "answers": [
+    "Entire VPCs",
+    "Subnets",
+    "Individual EC2 instances",
+    "Transit gateways"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which statement describes security groups?",
+  "answers": [
+    "They are stateless",
+    "They require explicit return rules",
+    "They are stateful and allow return traffic automatically",
+    "They apply only to subnets"
+  ],
+  "correct": 2
+},
+{
+  "question": "What do NACLs protect?",
+  "answers": [
+    "Individual EC2 instances",
+    "Subnets",
+    "VPC endpoints",
+    "Transit gateways"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which statement describes NACL behavior?",
+  "answers": [
+    "They are stateful",
+    "They automatically allow return traffic",
+    "They only support inbound rules",
+    "They are stateless and require explicit return rules"
+  ],
+  "correct": 3
+},
+{
+  "question": "What is AWS Direct Connect used for?",
+  "answers": [
+    "Connecting privately to AWS without using the public internet",
+    "Caching content at edge locations",
+    "Encrypting IAM credentials",
+    "Connecting VPCs to each other"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which benefit does AWS Direct Connect provide?",
+  "answers": [
+    "Free data transfer",
+    "Lower latency and more consistent performance",
+    "Automatic VPC peering",
+    "Built-in firewalling"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does CloudFront primarily charge for?",
+  "answers": [
+    "Data transfer out and HTTP requests",
+    "Inbound data transfer",
+    "Number of EC2 instances",
+    "VPC peering connections"
+  ],
+  "correct": 0
+},
+{
+  "question": "What type of service is AWS CloudFront?",
+  "answers": [
+    "A private network link",
+    "A content delivery network",
+    "A subnet firewall",
+    "A VPC routing service"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does a CIDR block define in a VPC?",
+  "answers": [
+    "The VPC’s IP address range",
+    "The number of EC2 instances allowed",
+    "The IAM permissions for the VPC",
+    "The DNS routing rules"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which statement about VPC isolation is correct?",
+  "answers": [
+    "VPCs automatically peer with each other",
+    "VPCs are logically isolated from other customers",
+    "VPCs share routing tables by default",
+    "VPCs cannot contain multiple subnets"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which service enables hub-and-spoke network topologies?",
+  "answers": [
+    "CloudFront",
+    "Transit Gateway",
+    "Security Groups",
+    "NACLs"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service becomes part of the AWS network when connected?",
+  "answers": [
+    "VPC Peering",
+    "CloudFront",
+    "Direct Connect",
+    "Security Groups"
+  ],
+  "correct": 2
+},
+
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
       //   answers: [
