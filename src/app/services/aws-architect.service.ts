@@ -509,6 +509,47 @@ export class AwsArchitectService {
   ],
   "correct": 2
 },
+{
+  "question": "Which option correctly orders AWS instance billing types from most expensive (#1) to least expensive (#4)?",
+  "answers": [
+    "1: On‑Demand, 2: PURI, 3: NURI, 4: AURI",
+    "1: On‑Demand, 3: NURI, 2: PURI, 4: AURI",
+    "1: PURI, 2: On‑Demand, 3: NURI, 4: AURI",
+    "1: NURI, 2: PURI, 3: On‑Demand, 4: AURI"
+  ],
+  "correct": 1
+},
+{
+  "question": "In AWS billing terminology, what does AURI stand for?",
+  "answers": [
+    "All Upfront Reserved Instance",
+    "Advanced Usage Rate Integration",
+    "Allocated Upfront Resource Index",
+    "Annual Usage Reservation Instance"
+  ],
+  "correct": 0
+},
+{
+  "question": "Within AWS Reserved Instance payment models, what does NURI represent?",
+  "answers": [
+    "Network Usage Reservation Instance",
+    "No Upfront Reserved Instance",
+    "Nominal Usage Rate Integration",
+    "Non‑Uniform Resource Instance"
+  ],
+  "correct": 1
+},
+{
+  "question": "In AWS pricing options, what does PURI stand for?",
+  "answers": [
+    "Provisioned Usage Rate Instance",
+    "Partial Upfront Reserved Instance",
+    "Periodic Upfront Resource Integration",
+    "Pre-Unified Reservation Index"
+  ],
+  "correct": 1
+},
+
 
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
