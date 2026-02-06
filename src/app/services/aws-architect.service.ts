@@ -549,6 +549,47 @@ export class AwsArchitectService {
   ],
   "correct": 1
 },
+{
+    "question": "Which AWS service provides serverless compute for running containers without managing the underlying EC2 instances?",
+    "answers": [
+      "AWS Lambda",
+      "Amazon ECS on EC2",
+      "AWS Fargate",
+      "Amazon EKS"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which AWS service is designed to offer low-cost, preconfigured cloud resources for simple applications and small deployments?",
+    "answers": [
+      "Amazon EC2",
+      "Amazon Lightsail",
+      "AWS Elastic Beanstalk",
+      "AWS Outposts"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which AWS service is commonly used to orchestrate and chain multiple Lambda functions into a coordinated workflow?",
+    "answers": [
+      "Amazon EventBridge",
+      "AWS Step Functions",
+      "AWS Batch",
+      "Amazon SQS"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which AWS service allows you to efficiently process hundreds to thousands of computing tasks simultaneously, automatically managing resource provisioning and scaling?",
+    "answers": [
+      "AWS Lambda",
+      "AWS Batch",
+      "AWS Fargate",
+      "Amazon EMR"
+    ],
+    "correct": 1
+  },
+
 
 
       // {
