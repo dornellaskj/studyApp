@@ -589,6 +589,39 @@ export class AwsArchitectService {
     ],
     "correct": 1
   },
+  {
+  "question": "Which AWS Reserved Instance pricing model requires the full payment upfront?",
+  "answers": [
+    "AURI",
+    "PURI",
+    "NURI",
+    "FURI"
+  ],
+  "correct": 0
+},
+{
+  "question": "What is included in an Amazon Machine Image (AMI)?",
+  "answers": [
+    "A template for the root volume for the instance",
+    "Launch permissions that control which AWS accounts can use the AMI to launch instances",
+    "A block device mapping that specifies the volumes to attach to the instance when it's launched",
+    "All of the above"
+  ],
+  "correct": 3
+},
+{
+  "question": "If your project requires monthly reports that iterate through very large amounts of data, which Amazon EC2 purchasing option should you consider?",
+  "answers": [
+    "Spot Instances",
+    "Scheduled Reserved Instances",
+    "Dedicated Hosts",
+    "On-Demand Instances"
+  ],
+  "correct": 1
+},
+
+
+
 
 
 
