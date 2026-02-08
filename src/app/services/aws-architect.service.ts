@@ -909,9 +909,297 @@ export class AwsArchitectService {
   ],
   "correct": 1
 },
-
-
-
+{
+  "question": "Which AWS service is best suited for managing relational databases in the cloud with features such as automated backups, automatic scaling, and multi-AZ deployments?",
+  "answers": [
+    "Amazon S3",
+    "Amazon EC2",
+    "Amazon RDS",
+    "Amazon DynamoDB"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS service is best suited for applications requiring a highly scalable, fully managed NoSQL database solution with low-latency access and flexible data models?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon Aurora",
+    "Amazon DynamoDB",
+    "Amazon Redshift"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following best describes a Data Lake compared to a Data Warehouse?",
+  "answers": [
+    "Data Lake: A repository for structured data optimized for high-speed analytics. Data Warehouse: A storage system for unstructured data with real-time processing capabilities.",
+    "Data Lake: A centralized repository for storing all types of raw data at scale. Data Warehouse: A structured repository for processed and curated data optimized for querying and analysis.",
+    "Data Lake: A storage system for archived data with built-in machine learning capabilities. Data Warehouse: A real-time data processing engine for streaming analytics.",
+    "Data Lake: A cloud-based solution for managing data backups and disaster recovery. Data Warehouse: An on-premises solution for data storage and retrieval."
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service is best suited for an application requiring high-performance, scalable, and fully managed relational database capabilities, with compatibility for MySQL and PostgreSQL?",
+  "answers": [
+    "Amazon S3",
+    "Amazon DynamoDB",
+    "Amazon RDS",
+    "Amazon Aurora"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which AWS service is purpose-built for building and managing graph databases?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon Aurora",
+    "Amazon DynamoDB",
+    "Amazon Neptune"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which of the following is a fully-managed NoSQL database service?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Aurora",
+    "Amazon Redshift",
+    "Amazon Neptune"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which of the following best describes AWS DMS?",
+  "answers": [
+    "A service for analyzing and visualizing data stored in Amazon S3 buckets.",
+    "A service for migrating databases to AWS with minimal downtime.",
+    "A service for managing and optimizing DynamoDB databases.",
+    "A service for encrypting data stored in Amazon RDS instances."
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service is a fully managed relational database solution designed for complex queries, transactions, and high durability?",
+  "answers": [
+    "Amazon DynamoDB",
+    "Amazon RDS",
+    "Amazon Redshift",
+    "Amazon Neptune"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which workload is NOT a good fit for Amazon RDS?",
+  "answers": [
+    "Applications requiring complex SQL queries and transactions",
+    "Workloads needing high durability and automated backups",
+    "Massive read/write rates requiring sharding for high throughput",
+    "Medium to high query or write rate applications"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS service provides a fully managed NoSQL database capable of handling unstructured and semi‑structured data with virtually unlimited storage?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Aurora",
+    "Amazon Redshift"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which feature of DynamoDB makes it suitable for applications requiring extremely high request volumes?",
+  "answers": [
+    "Support for complex SQL joins",
+    "Ability to handle over 1 trillion requests per day",
+    "Automatic conversion of relational schemas",
+    "Native OLAP query optimization"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS database service is designed to be a high‑performance, cost‑effective alternative to commercial databases and is up to 3.5x faster than MySQL and PostgreSQL?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Aurora",
+    "Amazon Neptune"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS service is best suited for OLAP workloads such as trend analysis and BI reporting on large volumes of historical data?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Redshift",
+    "Amazon Aurora"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which statement best describes a Data Warehouse such as Amazon Redshift?",
+  "answers": [
+    "A repository for raw, unstructured data used for machine learning and advanced analytics",
+    "A structured system optimized for complex queries, joins, and periodic updates",
+    "A NoSQL database designed for low‑latency key‑value access",
+    "A graph database used for analyzing highly connected datasets"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which statement best describes a Data Lake?",
+  "answers": [
+    "A structured repository optimized for OLAP workloads and BI reporting",
+    "A vast storage system for diverse, unstructured data where transformation happens later",
+    "A relational database optimized for high‑speed transactions",
+    "A graph database for modeling social networks"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is a major risk of poorly managed Data Lakes?",
+  "answers": [
+    "Data silos",
+    "Data swamps",
+    "High IOPS consumption",
+    "Excessive schema enforcement"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service is purpose‑built for storing and querying highly connected datasets such as social graphs?",
+  "answers": [
+    "Amazon Redshift",
+    "Amazon Aurora",
+    "Amazon Neptune",
+    "Amazon DynamoDB"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS service helps migrate on‑premises databases to AWS with minimal downtime?",
+  "answers": [
+    "AWS SCT",
+    "AWS DMS",
+    "Amazon RDS",
+    "Amazon Redshift Spectrum"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS tool is used to convert database schemas during migrations, such as from Oracle to PostgreSQL?",
+  "answers": [
+    "AWS DMS",
+    "Amazon Aurora",
+    "AWS SCT",
+    "Amazon Neptune"
+  ],
+  "correct": 2
+},
+{
+  "question": "A financial analytics company needs a database that supports complex transactions, high durability, and medium-to-high write rates. They do NOT expect massive read/write spikes and do not want to manage sharding. Which service is the best fit?",
+  "answers": [
+    "Amazon DynamoDB",
+    "Amazon RDS",
+    "Amazon Redshift",
+    "Amazon Neptune"
+  ],
+  "correct": 1
+},
+{
+  "question": "A gaming platform needs a database that can handle unpredictable traffic spikes, low-latency reads, and over a trillion requests per day. The data is semi-structured and does not require SQL joins. Which service should they choose?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon Aurora",
+    "Amazon DynamoDB",
+    "Amazon Redshift"
+  ],
+  "correct": 2
+},
+{
+  "question": "A company wants a high-performance relational database engine that is compatible with MySQL and PostgreSQL, offers high availability, and is significantly faster than traditional open-source databases. Which service meets these requirements?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon Aurora",
+    "Amazon DynamoDB",
+    "Amazon Neptune"
+  ],
+  "correct": 1
+},
+{
+  "question": "A retail organization needs to run complex analytical queries on petabytes of historical sales data. They want to integrate data stored in S3 without loading it into the warehouse first. Which service should they use?",
+  "answers": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Redshift with Redshift Spectrum",
+    "Amazon Aurora"
+  ],
+  "correct": 2
+},
+{
+  "question": "A data science team wants to store massive volumes of raw, unstructured data from IoT devices. They plan to run machine learning and advanced analytics later, after transforming the data. Which solution is the best fit?",
+  "answers": [
+    "Data Warehouse",
+    "Amazon DynamoDB",
+    "Data Lake",
+    "Amazon RDS"
+  ],
+  "correct": 2
+},
+{
+  "question": "A company’s Data Lake has grown rapidly, and analysts report that data is inconsistent, poorly cataloged, and difficult to use. What problem is the company experiencing?",
+  "answers": [
+    "Data Silos",
+    "Data Swamps",
+    "OLTP bottlenecks",
+    "Sharding failures"
+  ],
+  "correct": 1
+},
+{
+  "question": "A social networking startup needs a database that can efficiently store and query highly connected datasets, such as user relationships, followers, and recommendations. Which AWS service is the best fit?",
+  "answers": [
+    "Amazon Redshift",
+    "Amazon Neptune",
+    "Amazon DynamoDB",
+    "Amazon Aurora"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company wants to migrate its on-premises Oracle database to Amazon Aurora PostgreSQL. They need to convert the schema and then replicate data with minimal downtime. Which combination of services should they use?",
+  "answers": [
+    "Amazon RDS and Amazon Redshift",
+    "AWS SCT and AWS DMS",
+    "Amazon DynamoDB and AWS Glue",
+    "Amazon Neptune and AWS DMS"
+  ],
+  "correct": 1
+},
+{
+  "question": "A business wants to consolidate multiple legacy databases into AWS with continuous replication during the migration. They need the source database to remain operational throughout the process. Which service should they use?",
+  "answers": [
+    "AWS SCT",
+    "Amazon Aurora",
+    "AWS DMS",
+    "Amazon Redshift Spectrum"
+  ],
+  "correct": 2
+},
+{
+  "question": "A BI team needs a system optimized for complex joins, trend analysis, and periodic batch updates. The workload involves large volumes of historical data and OLAP-style queries. Which AWS service is the best match?",
+  "answers": [
+    "Amazon DynamoDB",
+    "Amazon Redshift",
+    "Amazon RDS",
+    "Amazon Neptune"
+  ],
+  "correct": 1
+},
 
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
