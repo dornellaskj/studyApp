@@ -1200,6 +1200,16 @@ export class AwsArchitectService {
   ],
   "correct": 1
 },
+{
+  "question": "How does Amazon S3 replicate objects by default to achieve high durability?",
+  "answers": [
+    "On multiple S3 buckets",
+    "On multiple volumes within an Availability Zone",
+    "In multiple Availability Zones within the same Region",
+    "Across multiple Regions for higher durability"
+  ],
+  "correct": 2
+},
 
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
