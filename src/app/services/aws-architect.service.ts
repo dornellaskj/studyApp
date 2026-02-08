@@ -619,8 +619,296 @@ export class AwsArchitectService {
   ],
   "correct": 1
 },
-
-
+{
+  "question": "Which AWS service is best suited for storing large volumes of static files, such as website assets, backups, and logs, in a scalable, highly available, and durable object storage format?",
+  "answers": [
+    "Amazon EBS",
+    "Amazon EFS",
+    "Amazon S3",
+    "Amazon DynamoDB"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following statements accurately describes the concept of versioning in Amazon S3?",
+  "answers": [
+    "Versioning in Amazon S3 allows you to encrypt the contents of your S3 buckets using server-side encryption.",
+    "Enabling versioning in an S3 bucket ensures that each object stored in the bucket has a unique identifier, allowing for efficient indexing and retrieval.",
+    "With versioning enabled, Amazon S3 automatically creates a new version of an object whenever it is updated or overwritten, preserving all previous versions of the object.",
+    "Versioning in Amazon S3 allows you to control access to your S3 buckets by defining granular permissions for individual objects based on user roles and policies."
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following AWS S3 storage classes is optimized for frequently accessed data with low latency requirements?",
+  "answers": [
+    "Amazon S3 Standard",
+    "Amazon S3 Standard-IA",
+    "Amazon S3 One Zone-IA",
+    "Amazon S3 Glacier"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which of the following statements best describes the storage characteristics of Amazon S3 Glacier?",
+  "answers": [
+    "Optimized for frequently accessed data with low latency requirements.",
+    "Ideal for data that is accessed infrequently, but requires rapid access when needed.",
+    "Designed for long-term archive and backup data, with retrieval times ranging from minutes to hours.",
+    "Suitable for data that requires immediate access with high throughput and low cost."
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following statements best distinguishes between AWS Athena and AWS QuickSight?",
+  "answers": [
+    "Athena is a business intelligence tool used for creating visualizations and dashboards, while QuickSight is a serverless query service for analyzing data directly in Amazon S3 using standard SQL.",
+    "Athena is a fully managed, scalable, and cost-effective interactive query service that uses SQL to analyze data in Amazon S3, while QuickSight is a cloud-based business analytics service that enables users to build visualizations and perform ad-hoc analysis.",
+    "Athena is designed for real-time data processing and analysis, whereas QuickSight is optimized for batch processing and long-term data storage.",
+    "Athena is primarily used for data transformation and ETL tasks, while QuickSight is focused on real-time data visualization and reporting."
+  ],
+  "correct": 1
+},
+{
+  "question": "Which of the following statements best distinguishes between Amazon EBS and Instance Store?",
+  "answers": [
+    "EBS provides block-level storage that persists independently from the life of the instance, offering persistent storage that remains even if the instance is stopped or terminated, while Instance Store offers high-performance, low-latency storage directly attached to the EC2 instance but is ephemeral and will be lost if the instance is stopped or terminated.",
+    "EBS is designed for applications requiring low-latency access to data, while Instance Store is suitable for long-term storage of critical data and backups.",
+    "EBS volumes are physically attached to the host server, while Instance Store volumes are network-attached storage solutions.",
+    "EBS is a fully managed service with automated backups and snapshots, while Instance Store requires manual management and backup procedures."
+  ],
+  "correct": 0
+},
+{
+  "question": "Which of the following best describes a feature of AWS Elastic File System (EFS)?",
+  "answers": [
+    "AWS EFS is a scalable block storage service that allows you to create and manage virtual block storage volumes for EC2 instances.",
+    "AWS EFS is designed for infrequently accessed data and offers a cost-effective storage solution with long-term durability.",
+    "AWS EFS provides a fully managed, scalable file storage service that can be shared across multiple EC2 instances and on-premises servers using the NFSv4 protocol.",
+    "AWS EFS offers real-time data analytics and query capabilities directly on the storage layer, enabling organizations to gain insights from their data without the need for additional processing."
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following best describes Amazon S3?",
+  "answers": [
+    "A global, object-level storage service with virtually unlimited scalability and 11 nines of durability.",
+    "A block storage service that must be attached to an EC2 instance to function.",
+    "A shared file system that uses the NFS protocol to mount across multiple instances.",
+    "A hybrid storage service that provides low-latency access to on-premises applications."
+  ],
+  "correct": 0
+},
+{
+  "question": "Which S3 storage class is designed for objects that are accessed infrequently but still require rapid retrieval?",
+  "answers": [
+    "S3 Standard",
+    "S3 Standard-IA",
+    "S3 Glacier Deep Archive",
+    "S3 One Zone-IA"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is a key characteristic of S3 Glacier storage classes?",
+  "answers": [
+    "They provide instant retrieval for all stored objects.",
+    "They are optimized for frequently accessed data.",
+    "They are designed for cold storage with retrieval times ranging from minutes to hours.",
+    "They automatically replicate data across multiple AWS Regions."
+  ],
+  "correct": 2
+},
+{
+  "question": "What is the purpose of S3 Lifecycle Policies?",
+  "answers": [
+    "To automatically replicate objects across Regions for disaster recovery.",
+    "To move objects between storage classes based on defined rules.",
+    "To encrypt objects using AWS-managed keys.",
+    "To analyze S3 access logs for compliance reporting."
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service uses machine learning to identify sensitive data stored in S3?",
+  "answers": [
+    "AWS GuardDuty",
+    "AWS Backup",
+    "Amazon Macie",
+    "Amazon Athena"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS service would alert you if an unusually large amount of data is being moved from S3?",
+  "answers": [
+    "Amazon Macie",
+    "AWS GuardDuty",
+    "AWS Backup",
+    "Amazon QuickSight"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which service allows you to run SQL queries directly against data stored in S3?",
+  "answers": [
+    "Amazon Athena",
+    "Amazon QuickSight",
+    "AWS Backup",
+    "AWS Storage Gateway"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which EBS volume type is recommended for large database workloads requiring sustained IOPS performance?",
+  "answers": [
+    "General Purpose SSD (gp3)",
+    "Provisioned IOPS SSD (io1/io2)",
+    "Throughput Optimized HDD (st1)",
+    "Cold HDD (sc1)"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which EBS-backed storage option is ephemeral and loses data when the instance stops or terminates?",
+  "answers": [
+    "EBS General Purpose SSD",
+    "EBS Provisioned IOPS SSD",
+    "Instance Store",
+    "EBS Throughput Optimized HDD"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following best describes Amazon EFS?",
+  "answers": [
+    "A scalable block storage service for EC2 instances.",
+    "A shared file system that mounts using the NFS protocol and can be accessed by multiple instances.",
+    "A cold storage service designed for long-term archival.",
+    "A hybrid storage service that provides low-latency access to on-premises applications."
+  ],
+  "correct": 1
+},
+{
+  "question": "What is the primary purpose of AWS Storage Gateway?",
+  "answers": [
+    "To provide a fully managed shared file system for EC2 instances.",
+    "To enable on-premises applications to use cloud storage with low-latency access.",
+    "To automatically back up AWS resources across Regions.",
+    "To analyze S3 data using SQL queries."
+  ],
+  "correct": 1
+},
+{
+  "question": "What does AWS Backup provide?",
+  "answers": [
+    "A centralized service for configuring and monitoring backups across AWS resources.",
+    "A machine learning–powered tool for identifying sensitive data in S3.",
+    "A hybrid storage solution for on-premises workloads.",
+    "A BI tool for visualizing S3 data."
+  ],
+  "correct": 0
+},
+{
+  "question": "A company stores large volumes of log files in S3 that are accessed frequently for the first week, then rarely afterward. They want to reduce storage costs without sacrificing quick retrieval when needed. Which S3 feature should they use?",
+  "answers": [
+    "Enable S3 Versioning to reduce storage costs over time.",
+    "Use S3 Lifecycle Policies to transition objects to Standard-IA after one week.",
+    "Move all objects to S3 Glacier Deep Archive immediately.",
+    "Use S3 Intelligent-Tiering to automatically detect access patterns."
+  ],
+  "correct": 1
+},
+{
+  "question": "Your security team needs to automatically detect sensitive data such as PII inside S3 buckets. Which AWS service best fits this requirement?",
+  "answers": [
+    "Amazon Athena",
+    "Amazon Macie",
+    "AWS GuardDuty",
+    "AWS Backup"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company notices a sudden spike in data transfers out of an S3 bucket and suspects a potential security issue. Which service would alert them to this unusual activity?",
+  "answers": [
+    "Amazon Macie",
+    "AWS Backup",
+    "AWS GuardDuty",
+    "Amazon QuickSight"
+  ],
+  "correct": 2
+},
+{
+  "question": "A development team needs a shared file system that multiple EC2 instances can mount simultaneously for a web application. The solution must support the NFS protocol. Which service should they choose?",
+  "answers": [
+    "Amazon EBS",
+    "Amazon S3",
+    "Amazon EFS",
+    "AWS Storage Gateway"
+  ],
+  "correct": 2
+},
+{
+  "question": "A data analytics team wants to run SQL queries directly against CSV files stored in S3 without loading them into a database. Which service should they use?",
+  "answers": [
+    "Amazon Athena",
+    "Amazon QuickSight",
+    "AWS Backup",
+    "AWS Storage Gateway"
+  ],
+  "correct": 0
+},
+{
+  "question": "A company needs extremely fast temporary storage for a high-performance compute workload. The data does not need to persist when the instance stops. Which storage option is the best fit?",
+  "answers": [
+    "EBS General Purpose SSD",
+    "EBS Provisioned IOPS SSD",
+    "Instance Store",
+    "EBS Throughput Optimized HDD"
+  ],
+  "correct": 2
+},
+{
+  "question": "A business wants to centralize backup policies for EC2, EBS, and other AWS resources across multiple Regions. Which AWS service should they use?",
+  "answers": [
+    "AWS Backup",
+    "AWS Storage Gateway",
+    "Amazon Macie",
+    "Amazon QuickSight"
+  ],
+  "correct": 0
+},
+{
+  "question": "A media company needs to store large video files that are rarely accessed but must be retrievable within a few hours. Which S3 storage class is the best fit?",
+  "answers": [
+    "S3 Standard",
+    "S3 Standard-IA",
+    "S3 Glacier (Standard retrieval)",
+    "S3 Glacier Deep Archive"
+  ],
+  "correct": 2
+},
+{
+  "question": "A team needs a hybrid solution that allows their on-premises application to access cloud-backed storage using standard storage protocols with low latency. Which service should they deploy?",
+  "answers": [
+    "Amazon EFS",
+    "AWS Storage Gateway",
+    "Amazon S3",
+    "AWS Backup"
+  ],
+  "correct": 1
+},
+{
+  "question": "A database workload requires consistently high IOPS performance. Which EBS volume type should be selected?",
+  "answers": [
+    "General Purpose SSD",
+    "Provisioned IOPS SSD",
+    "Throughput Optimized HDD",
+    "Cold HDD"
+  ],
+  "correct": 1
+},
 
 
 
