@@ -1210,6 +1210,373 @@ export class AwsArchitectService {
   ],
   "correct": 2
 },
+{
+  "question": "Which of the following is NOT one of the six pillars of the AWS Well-Architected Framework?",
+  "answers": [
+    "Operational Excellence",
+    "Performance Efficiency",
+    "Security",
+    "Disaster Recovery",
+    "Sustainability"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which one is NOT part of the Operational Excellence Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Perform operations as code",
+    "Make infrequent and large changes",
+    "Refine operations procedures frequently",
+    "Anticipate failure",
+    "Use managed services"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which one is NOT part of the Security Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Perform operations as code",
+    "Maintain traceability",
+    "Apply security at all layers",
+    "Protect data in transit and at rest",
+    "Keep people away from data"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which one is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Perform operations as code",
+    "Test recovery procedures",
+    "Automatically recover from failure",
+    "Maintain traceability",
+    "Scale horizontally to increase aggregate workload availability",
+    "Stop guessing capacity"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which of the following is NOT a best practice under the Performance Efficiency Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Democratize advanced technologies",
+    "Go global in minutes",
+    "Use serverless architectures",
+    "Experiment more often",
+    "Failure management"
+  ],
+  "correct": 4
+},
+{
+  "question": "Which of the following is NOT a principle of the Cost Optimization Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Adopt a consumption model",
+    "Measure overall efficiency",
+    "Test recovery procedures",
+    "Stop spending money on undifferentiated heavy lifting",
+    "Analyze and attribute expenditure"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following best describes the purpose of a load balancer in a distributed computing environment?",
+  "answers": [
+    "To allocate network bandwidth to different applications.",
+    "To evenly distribute incoming network traffic across multiple servers or resources.",
+    "To monitor the health and performance of network devices.",
+    "To encrypt and decrypt data transmitted over the network."
+  ],
+  "correct": 1
+},
+{
+  "question": "Which of the following AWS services is primarily used for monitoring and logging of AWS resources and applications?",
+  "answers": [
+    "Amazon CloudFront",
+    "Amazon CloudWatch",
+    "AWS CloudTrail",
+    "Amazon CloudFormation"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service automatically adjusts the number of EC2 instances in a fleet based on demand?",
+  "answers": [
+    "Auto Scaling",
+    "EC2 Auto Scaling",
+    "Elastic Load Balancing",
+    "AWS Lambda"
+  ],
+  "correct": 1
+},
+{
+  "question": "What is the primary purpose of Elastic Load Balancing?",
+  "answers": [
+    "To store objects across multiple Availability Zones",
+    "To balance incoming traffic across multiple servers",
+    "To encrypt data in transit",
+    "To monitor application performance"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which type of load balancer operates at Layer 4 and is best suited for spikey, unpredictable traffic?",
+  "answers": [
+    "Application Load Balancer",
+    "Network Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which load balancer supports assigning a static IP address or Elastic IP?",
+  "answers": [
+    "Application Load Balancer",
+    "Network Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which load balancer is typically used for routing traffic to containerized applications and supports Layer 7 routing?",
+  "answers": [
+    "Network Load Balancer",
+    "Application Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service monitors resources and allows you to set alarms or trigger events such as Auto Scaling?",
+  "answers": [
+    "AWS CloudTrail",
+    "Amazon CloudWatch",
+    "AWS Config",
+    "Amazon Inspector"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS service provides auditing by recording who did what and when in your AWS account?",
+  "answers": [
+    "Amazon CloudWatch",
+    "AWS CloudTrail",
+    "AWS Config",
+    "AWS IAM"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which scaling type in EC2 Auto Scaling adjusts capacity based on real‑time metrics such as CPU utilization?",
+  "answers": [
+    "Scheduled scaling",
+    "Predictive scaling",
+    "Dynamic scaling",
+    "Horizontal scaling"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which EC2 Auto Scaling feature increases or decreases the number of instances at specific times based on a known schedule?",
+  "answers": [
+    "Dynamic scaling",
+    "Predictive scaling",
+    "Scheduled scaling",
+    "Horizontal scaling"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which EC2 Auto Scaling method uses machine learning to forecast future traffic and scale ahead of demand?",
+  "answers": [
+    "Scheduled scaling",
+    "Predictive scaling",
+    "Dynamic scaling",
+    "Manual scaling"
+  ],
+  "correct": 1
+},
+{
+  "question": "What does horizontal scaling refer to in EC2 Auto Scaling?",
+  "answers": [
+    "Increasing the size of an instance",
+    "Adding more instances to handle load",
+    "Migrating workloads across Regions",
+    "Using larger instance families"
+  ],
+  "correct": 1
+},
+{
+  "question": "Your company is experiencing sudden spikes in traffic during flash sales. You need a load balancer that can handle extremely high, unpredictable traffic patterns and also supports assigning a static IP address. Which load balancer should you choose?",
+  "answers": [
+    "Application Load Balancer",
+    "Network Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 1
+},
+{
+  "question": "A development team is deploying a microservices-based application using containers. They need a load balancer that can route traffic based on HTTP headers and paths. Which AWS service best fits this requirement?",
+  "answers": [
+    "Network Load Balancer",
+    "Application Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 1
+},
+{
+  "question": "Your security team needs to audit all API calls made in your AWS account to determine who performed specific actions and when. Which service should they use?",
+  "answers": [
+    "Amazon CloudWatch",
+    "AWS CloudTrail",
+    "AWS Config",
+    "Amazon Inspector"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company wants to automatically scale its EC2 instances based on CPU utilization and memory usage in real time. Which EC2 Auto Scaling feature should they rely on?",
+  "answers": [
+    "Scheduled scaling",
+    "Predictive scaling",
+    "Dynamic scaling",
+    "Horizontal scaling"
+  ],
+  "correct": 2
+},
+{
+  "question": "Your operations team wants to receive an alert whenever CPU usage on an EC2 instance exceeds 80% for more than 5 minutes. Which AWS service should they configure?",
+  "answers": [
+    "AWS CloudTrail",
+    "Amazon CloudWatch",
+    "AWS Config",
+    "Amazon SNS"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company knows that traffic to their application increases every weekday at 9 AM. They want EC2 instances to scale out automatically just before the spike. Which Auto Scaling method should they use?",
+  "answers": [
+    "Dynamic scaling",
+    "Predictive scaling",
+    "Scheduled scaling",
+    "Horizontal scaling"
+  ],
+  "correct": 2
+},
+{
+  "question": "Your application requires third‑party virtual appliances such as firewalls and intrusion detection systems to inspect traffic before it reaches your workloads. Which load balancer type is designed for this scenario?",
+  "answers": [
+    "Application Load Balancer",
+    "Network Load Balancer",
+    "Gateway Load Balancer",
+    "Classic Load Balancer"
+  ],
+  "correct": 2
+},
+{
+  "question": "A company wants to reduce operational overhead by avoiding the need to manage servers, patch operating systems, or handle scaling manually. Which Well-Architected principle best supports this goal?",
+  "answers": [
+    "Use managed services",
+    "Implement observability for actionable insights",
+    "Stop guessing capacity",
+    "Democratize advanced technologies"
+  ],
+  "correct": 0
+},
+{
+  "question": "Your security team needs to ensure that all API calls in the AWS account can be traced back to a specific user or role. Which Security pillar principle does this requirement align with?",
+  "answers": [
+    "Maintain traceability",
+    "Keep people away from data",
+    "Prepare for security events",
+    "Apply security at all layers"
+  ],
+  "correct": 0
+},
+{
+  "question": "A company wants to minimize the risk of data exposure by ensuring that engineers never directly access production databases. Which Security pillar principle does this support?",
+  "answers": [
+    "Protect data in transit and at rest",
+    "Automate security best practices",
+    "Keep people away from data",
+    "Implement a strong identity foundation"
+  ],
+  "correct": 2
+},
+{
+  "question": "Your application must remain available even if individual components fail. The team wants AWS to automatically detect and replace unhealthy instances. Which Reliability principle does this describe?",
+  "answers": [
+    "Test recovery procedures",
+    "Automatically recover from failure",
+    "Manage change in automation",
+    "Scale horizontally"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company is expanding globally and wants to deploy its application closer to users in multiple Regions with minimal effort. Which Performance Efficiency principle does this align with?",
+  "answers": [
+    "Go global in minutes",
+    "Experiment more often",
+    "Use serverless architectures",
+    "Consider mechanical sympathy"
+  ],
+  "correct": 0
+},
+{
+  "question": "Your finance team wants better visibility into cloud spending and needs a process for allocating costs to individual teams. Which Cost Optimization principle addresses this?",
+  "answers": [
+    "Adopt a consumption model",
+    "Analyze and attribute expenditure",
+    "Measure overall efficiency",
+    "Stop spending money on undifferentiated heavy lifting"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company wants to reduce its environmental impact by ensuring workloads run efficiently and avoid idle resources. Which Sustainability principle does this support?",
+  "answers": [
+    "Maximize utilization",
+    "Understand your impact",
+    "Use managed services",
+    "Establish sustainability goals"
+  ],
+  "correct": 0
+},
+{
+  "question": "Your organization wants to ensure that as more energy‑efficient AWS hardware becomes available, your workloads can automatically benefit without major redesign. Which Sustainability principle applies?",
+  "answers": [
+    "Anticipate and adopt new, more efficient hardware and software offerings",
+    "Reduce downstream impact",
+    "Maximize utilization",
+    "Use managed services"
+  ],
+  "correct": 0
+},
+{
+  "question": "A team wants to improve system reliability by reducing the risk of human error during deployments. They decide to automate configuration changes and rollouts. Which Reliability principle does this support?",
+  "answers": [
+    "Manage change in automation",
+    "Stop guessing capacity",
+    "Scale horizontally",
+    "Test recovery procedures"
+  ],
+  "correct": 0
+},
+{
+  "question": "Your engineering team wants to experiment with new architectures quickly without needing deep expertise in specialized technologies. Which Performance Efficiency principle supports this?",
+  "answers": [
+    "Democratize advanced technologies",
+    "Experiment more often",
+    "Use serverless architectures",
+    "Consider mechanical sympathy"
+  ],
+  "correct": 0
+},
 
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
