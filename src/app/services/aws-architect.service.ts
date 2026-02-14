@@ -1687,7 +1687,106 @@ export class AwsArchitectService {
   ],
   "correct": 3
 },
-
+{
+  "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
+  "answers": [
+    "Operational Excellence",
+    "Security",
+    "Cost Optimization",
+    "Sustainability"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS Well-Architected Pillar ensures workloads perform correctly and consistently when expected?",
+  "answers": [
+    "Reliability",
+    "Performance Efficiency",
+    "Security",
+    "Cost Optimization"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which AWS Well-Architected Pillar emphasizes using IT and computing resources efficiently as demand changes?",
+  "answers": [
+    "Sustainability",
+    "Operational Excellence",
+    "Performance Efficiency",
+    "Security"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs and ensuring you pay only for what you need?",
+  "answers": [
+    "Cost Optimization",
+    "Reliability",
+    "Performance Efficiency",
+    "Security"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
+  "answers": [
+    "Security",
+    "Operational Excellence",
+    "Sustainability",
+    "Performance Efficiency"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS Well-Architected Pillar addresses minimizing environmental impact and promoting long-term sustainability?",
+  "answers": [
+    "Cost Optimization",
+    "Sustainability",
+    "Operational Excellence",
+    "Reliability"
+  ],
+  "correct": 1
+},
+{
+  "question": "A company wants to reduce waste, improve energy efficiency, and minimize long-term environmental impact. Which pillar guides these efforts?",
+  "answers": [
+    "Performance Efficiency",
+    "Sustainability",
+    "Security",
+    "Cost Optimization"
+  ],
+  "correct": 1
+},
+{
+  "question": "A team wants to automate operations, improve monitoring, and continuously refine processes. Which pillar does this align with?",
+  "answers": [
+    "Operational Excellence",
+    "Reliability",
+    "Security",
+    "Sustainability"
+  ],
+  "correct": 0
+},
+{
+  "question": "A workload must withstand component failures and continue operating as expected. Which pillar is most relevant?",
+  "answers": [
+    "Security",
+    "Cost Optimization",
+    "Reliability",
+    "Performance Efficiency"
+  ],
+  "correct": 2
+},
+{
+  "question": "A business wants to adopt new hardware and software technologies quickly without needing deep expertise. Which pillar supports this?",
+  "answers": [
+    "Operational Excellence",
+    "Performance Efficiency",
+    "Sustainability",
+    "Security"
+  ],
+  "correct": 1
+}
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
       //   answers: [
