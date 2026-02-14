@@ -13,1193 +13,1193 @@ export class AwsArchitectService {
 
   getQuestions() {
     return this.utilitiesService.randomizeQuestions([
-      {
-  "question": "Which AWS support plan offers a Technical Account Manager (TAM)?",
-  "answers": [
-    "Business",
-    "Developer",
-    "Enterprise",
-    "Basic"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following is NOT an advantage of cloud computing?",
-  "answers": [
-    "Go global in hours",
-    "Increase speed and agility",
-    "Trade capital expense for variable expense",
-    "Benefit from massive economies of scale"
-  ],
-  "correct": 0
-},
-{
-  "question": "One advantage of cloud computing is that we trade ______ expense for ______ expense.",
-  "answers": [
-    "Capital, Variable",
-    "Variable, Capital",
-    "Operational, Capital",
-    "Capital, Operational"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which of the following is not a primary benefit of cloud computing compared to on-premises infrastructure?",
-  "answers": [
-    "Pay for racking, stacking, and powering servers",
-    "Benefit from massive economies of scale",
-    "Increase speed and agility",
-    "Trade capital expense for variable expense",
-    "Eliminate guessing on your infrastructure capacity needs"
-  ],
-  "correct": 0
-},
-{
-  "question": "To receive the discounted rate associated with Reserved Instances, you must make a full upfront payment for the term.",
-  "answers": [
-    "True",
-    "False"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is the most significant benefit of using AWS Organizations?",
-  "answers": [
-    "Provides the ability to create groups of accounts and attach policies to a group",
-    "Simplifies automating account creation and management using APIs",
-    "Provides the ability to create an unlimited number of nested organizational units (OUs)",
-    "Replaces IAM policies with SCPs, which are simpler to manage",
-    "Prevents restrictions from being placed on the root user of the management account"
-  ],
-  "correct": 0
-},
-{
-  "question": "AWS offers some services at no charge, such as IAM, VPC, CloudFormation, Auto Scaling, and Elastic Beanstalk.",
-  "answers": [
-    "False",
-    "True"
-  ],
-  "correct": 1
-},
-{
-  "question": "Unlimited services are available with the AWS Free Tier for 12 months after account creation.",
-  "answers": [
-    "True",
-    "False"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does AWS CAF refer to in cloud computing?",
-  "answers": [
-    "A methodology for migrating on-premises applications to the cloud",
-    "A certification program for cloud architects and engineers",
-    "A framework for securing cloud-based applications against cyber threats",
-    "A set of best practices and guidelines for planning and executing cloud adoption strategies"
-  ],
-  "correct": 3
-},
-{
-  "question": "What distinguishes IaaS from PaaS?",
-  "answers": [
-    "IaaS provides ready-to-use software applications, while PaaS offers virtualized computing resources",
-    "IaaS abstracts hardware, while PaaS abstracts hardware and the operating system to provide a development platform",
-    "IaaS offers a fully managed environment for applications, while PaaS offers basic networking and storage",
-    "IaaS provides a platform for deploying applications, while PaaS provides virtualized compute resources"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is an AWS Availability Zone composed of?",
-  "answers": [
-    "A global network of edge locations",
-    "Multiple data centers within a region",
-    "A single POP used for caching content",
-    "A single data center serving one region"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is the primary purpose of AWS Edge Locations?",
-  "answers": [
-    "To host full AWS regions in major cities",
-    "To store encryption keys for CloudFront",
-    "To cache web content closer to users",
-    "To provide compute resources close to mobile carriers"
-  ],
-  "correct": 2
-},
-{
-  "question": "What do AWS Local Zones provide?",
-  "answers": [
-    "Compute and storage resources closer to users",
-    "Centralized IAM policy enforcement",
-    "A global CDN for caching content",
-    "Ultra low latency for 5G devices"
-  ],
-  "correct": 0
-},
-{
-  "question": "What is the purpose of AWS Wavelength Zones?",
-  "answers": [
-    "To provide compute resources in rural areas",
-    "To optimize mobile deployments over 5G networks",
-    "To manage IAM roles for mobile carriers",
-    "To store encryption keys for mobile devices"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does IAM primarily control?",
-  "answers": [
-    "The deployment of CloudFront distributions",
-    "Network routing between AWS regions",
-    "Who gets access to what in AWS",
-    "The encryption of all S3 buckets"
-  ],
-  "correct": 2
-},
-{
-  "question": "What is an IAM Role used for?",
-  "answers": [
-    "Managing CloudFront edge caches",
-    "Encrypting data in transit",
-    "Grouping users for billing purposes",
-    "Granting a set of permissions to users or services"
-  ],
-  "correct": 3
-},
-{
-  "question": "What does the CIA Triad represent?",
-  "answers": [
-    "Cloudfront, IAM, Artifact",
-    "Confidentiality, Integrity, Availability",
-    "Compliance, Identity, Access",
-    "Configuration, Inspection, Auditing"
-  ],
-  "correct": 1
-},
-{
-  "question": "What do Service Control Policies (SCPs) do?",
-  "answers": [
-    "Encrypt data across multiple regions",
-    "Manage CloudFront distributions",
-    "Grant permissions to IAM users",
-    "Set maximum permissions for accounts"
-  ],
-  "correct": 3
-},
-{
-  "question": "What does AWS KMS manage?",
-  "answers": [
-    "Encryption keys for data",
-    "IAM users and groups",
-    "CloudFront edge caches",
-    "S3 bucket lifecycle policies"
-  ],
-  "correct": 0
-},
-{
-  "question": "What does AWS Secrets Manager help with?",
-  "answers": [
-    "Managing IAM roles",
-    "Encrypting S3 buckets",
-    "Rotating and retrieving credentials and API keys",
-    "Scanning EC2 instances for vulnerabilities"
-  ],
-  "correct": 2
-},
-{
-  "question": "What does AWS Shield protect against?",
-  "answers": [
-    "Unauthorized IAM access",
-    "Misconfigured S3 buckets",
-    "DDoS attacks",
-    "Malware infections"
-  ],
-  "correct": 2
-},
-{
-  "question": "What does AWS WAF do?",
-  "answers": [
-    "Protects against common web exploits",
-    "Caches content at edge locations",
-    "Encrypts data at rest",
-    "Manages IAM policies"
-  ],
-  "correct": 0
-},
-{
-  "question": "What is AWS Firewall Manager used for?",
-  "answers": [
-    "Managing WAF rules across multiple accounts",
-    "Scanning EC2 instances for vulnerabilities",
-    "Encrypting data across regions",
-    "Managing IAM roles and groups"
-  ],
-  "correct": 0
-},
-{
-  "question": "What does Amazon Macie do?",
-  "answers": [
-    "Audits AWS resource configurations",
-    "Detects DDoS attacks",
-    "Discovers and protects sensitive data in S3 using ML",
-    "Manages IAM permissions"
-  ],
-  "correct": 2
-},
-{
-  "question": "What is AWS Config used for?",
-  "answers": [
-    "Encrypting S3 buckets",
-    "Auditing and evaluating AWS resource configurations",
-    "Managing CloudFront distributions",
-    "Scanning EC2 instances for vulnerabilities"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does AWS Artifact provide?",
-  "answers": [
-    "A vulnerability scanner for EC2",
-    "A tool for managing encryption keys",
-    "A dashboard for IAM permissions",
-    "Access to AWS compliance and security documentation"
-  ],
-  "correct": 3
-},
-{
-  "question": "What does AWS Audit Manager do?",
-  "answers": [
-    "Caches content at edge locations",
-    "Encrypts data across multiple regions",
-    "Manages IAM roles and groups",
-    "Continuously audits AWS usage for compliance"
-  ],
-  "correct": 3
-},
-{
-  "question": "What does Amazon Inspector evaluate?",
-  "answers": [
-    "Compute resources for vulnerabilities and exposure",
-    "CloudFront distributions for performance",
-    "IAM policies for misconfigurations",
-    "S3 buckets for sensitive data"
-  ],
-  "correct": 0
-},
-{
-  "question": "What does Amazon GuardDuty monitor?",
-  "answers": [
-    "CloudFront cache invalidations",
-    "Compromised accounts and unusual behavior",
-    "IAM role usage",
-    "S3 bucket lifecycle policies"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does AWS Security Hub do?",
-  "answers": [
-    "Encrypts all data in transit",
-    "Caches content at edge locations",
-    "Performs security best practice checks and enables remediation",
-    "Manages IAM users and groups"
-  ],
-  "correct": 2
-},
-{
-  "question": "How many total IP addresses are provided by a /16 CIDR block in AWS?",
-  "answers": [
-    "256",
-    "4,096",
-    "65,536",
-    "16,384"
-  ],
-  "correct": 2
-},
-{
-  "question": "What is the smallest subnet size allowed in AWS?",
-  "answers": [
-    "/30",
-    "/28",
-    "/24",
-    "/32"
-  ],
-  "correct": 1
-},
-{
-  "question": "How many total IP addresses exist in a /28 subnet?",
-  "answers": [
-    "8",
-    "16",
-    "32",
-    "64"
-  ],
-  "correct": 1
-},
-{
-  "question": "How many IP addresses does AWS reserve in every subnet?",
-  "answers": [
-    "3",
-    "4",
-    "5",
-    "2"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which IPs does AWS reserve in each subnet?",
-  "answers": [
-    "First 2 and last 2",
-    "First 4 and last 1",
-    "Only the first and last",
-    "Only the broadcast address"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is a VPC in AWS?",
-  "answers": [
-    "A physical data center",
-    "A logically isolated virtual network",
-    "A DNS routing service",
-    "A global firewall"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does VPC peering allow?",
-  "answers": [
-    "Private communication between VPCs",
-    "Connecting VPCs to CloudFront",
-    "Encrypting all VPC traffic",
-    "Replacing Direct Connect"
-  ],
-  "correct": 0
-},
-{
-  "question": "What is the purpose of a transit gateway?",
-  "answers": [
-    "To manage IAM roles",
-    "To act as a hub for connecting multiple VPCs",
-    "To store DNS records",
-    "To encrypt S3 traffic"
-  ],
-  "correct": 1
-},
-{
-  "question": "What do security groups protect?",
-  "answers": [
-    "Entire VPCs",
-    "Subnets",
-    "Individual EC2 instances",
-    "Transit gateways"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which statement describes security groups?",
-  "answers": [
-    "They are stateless",
-    "They require explicit return rules",
-    "They are stateful and allow return traffic automatically",
-    "They apply only to subnets"
-  ],
-  "correct": 2
-},
-{
-  "question": "What do NACLs protect?",
-  "answers": [
-    "Individual EC2 instances",
-    "Subnets",
-    "VPC endpoints",
-    "Transit gateways"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which statement describes NACL behavior?",
-  "answers": [
-    "They are stateful",
-    "They automatically allow return traffic",
-    "They only support inbound rules",
-    "They are stateless and require explicit return rules"
-  ],
-  "correct": 3
-},
-{
-  "question": "What is AWS Direct Connect used for?",
-  "answers": [
-    "Connecting privately to AWS without using the public internet",
-    "Caching content at edge locations",
-    "Encrypting IAM credentials",
-    "Connecting VPCs to each other"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which benefit does AWS Direct Connect provide?",
-  "answers": [
-    "Free data transfer",
-    "Lower latency and more consistent performance",
-    "Automatic VPC peering",
-    "Built-in firewalling"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does CloudFront primarily charge for?",
-  "answers": [
-    "Data transfer out and HTTP requests",
-    "Inbound data transfer",
-    "Number of EC2 instances",
-    "VPC peering connections"
-  ],
-  "correct": 0
-},
-{
-  "question": "What type of service is AWS CloudFront?",
-  "answers": [
-    "A private network link",
-    "A content delivery network",
-    "A subnet firewall",
-    "A VPC routing service"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does a CIDR block define in a VPC?",
-  "answers": [
-    "The VPC’s IP address range",
-    "The number of EC2 instances allowed",
-    "The IAM permissions for the VPC",
-    "The DNS routing rules"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which statement about VPC isolation is correct?",
-  "answers": [
-    "VPCs automatically peer with each other",
-    "VPCs are logically isolated from other customers",
-    "VPCs share routing tables by default",
-    "VPCs cannot contain multiple subnets"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which service enables hub-and-spoke network topologies?",
-  "answers": [
-    "CloudFront",
-    "Transit Gateway",
-    "Security Groups",
-    "NACLs"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service becomes part of the AWS network when connected?",
-  "answers": [
-    "VPC Peering",
-    "CloudFront",
-    "Direct Connect",
-    "Security Groups"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which option correctly orders AWS instance billing types from most expensive (#1) to least expensive (#4)?",
-  "answers": [
-    "1: On‑Demand, 2: PURI, 3: NURI, 4: AURI",
-    "1: On‑Demand, 3: NURI, 2: PURI, 4: AURI",
-    "1: PURI, 2: On‑Demand, 3: NURI, 4: AURI",
-    "1: NURI, 2: PURI, 3: On‑Demand, 4: AURI"
-  ],
-  "correct": 1
-},
-{
-  "question": "In AWS billing terminology, what does AURI stand for?",
-  "answers": [
-    "All Upfront Reserved Instance",
-    "Advanced Usage Rate Integration",
-    "Allocated Upfront Resource Index",
-    "Annual Usage Reservation Instance"
-  ],
-  "correct": 0
-},
-{
-  "question": "Within AWS Reserved Instance payment models, what does NURI represent?",
-  "answers": [
-    "Network Usage Reservation Instance",
-    "No Upfront Reserved Instance",
-    "Nominal Usage Rate Integration",
-    "Non‑Uniform Resource Instance"
-  ],
-  "correct": 1
-},
-{
-  "question": "In AWS pricing options, what does PURI stand for?",
-  "answers": [
-    "Provisioned Usage Rate Instance",
-    "Partial Upfront Reserved Instance",
-    "Periodic Upfront Resource Integration",
-    "Pre-Unified Reservation Index"
-  ],
-  "correct": 1
-},
-{
-    "question": "Which AWS service provides serverless compute for running containers without managing the underlying EC2 instances?",
-    "answers": [
-      "AWS Lambda",
-      "Amazon ECS on EC2",
-      "AWS Fargate",
-      "Amazon EKS"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Which AWS service is designed to offer low-cost, preconfigured cloud resources for simple applications and small deployments?",
-    "answers": [
-      "Amazon EC2",
-      "Amazon Lightsail",
-      "AWS Elastic Beanstalk",
-      "AWS Outposts"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Which AWS service is commonly used to orchestrate and chain multiple Lambda functions into a coordinated workflow?",
-    "answers": [
-      "Amazon EventBridge",
-      "AWS Step Functions",
-      "AWS Batch",
-      "Amazon SQS"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Which AWS service allows you to efficiently process hundreds to thousands of computing tasks simultaneously, automatically managing resource provisioning and scaling?",
-    "answers": [
-      "AWS Lambda",
-      "AWS Batch",
-      "AWS Fargate",
-      "Amazon EMR"
-    ],
-    "correct": 1
-  },
-  {
-  "question": "Which AWS Reserved Instance pricing model requires the full payment upfront?",
-  "answers": [
-    "AURI",
-    "PURI",
-    "NURI",
-    "FURI"
-  ],
-  "correct": 0
-},
-{
-  "question": "What is included in an Amazon Machine Image (AMI)?",
-  "answers": [
-    "A template for the root volume for the instance",
-    "Launch permissions that control which AWS accounts can use the AMI to launch instances",
-    "A block device mapping that specifies the volumes to attach to the instance when it's launched",
-    "All of the above"
-  ],
-  "correct": 3
-},
-{
-  "question": "If your project requires monthly reports that iterate through very large amounts of data, which Amazon EC2 purchasing option should you consider?",
-  "answers": [
-    "Spot Instances",
-    "Scheduled Reserved Instances",
-    "Dedicated Hosts",
-    "On-Demand Instances"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service is best suited for storing large volumes of static files, such as website assets, backups, and logs, in a scalable, highly available, and durable object storage format?",
-  "answers": [
-    "Amazon EBS",
-    "Amazon EFS",
-    "Amazon S3",
-    "Amazon DynamoDB"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following statements accurately describes the concept of versioning in Amazon S3?",
-  "answers": [
-    "Versioning in Amazon S3 allows you to encrypt the contents of your S3 buckets using server-side encryption.",
-    "Enabling versioning in an S3 bucket ensures that each object stored in the bucket has a unique identifier, allowing for efficient indexing and retrieval.",
-    "With versioning enabled, Amazon S3 automatically creates a new version of an object whenever it is updated or overwritten, preserving all previous versions of the object.",
-    "Versioning in Amazon S3 allows you to control access to your S3 buckets by defining granular permissions for individual objects based on user roles and policies."
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following AWS S3 storage classes is optimized for frequently accessed data with low latency requirements?",
-  "answers": [
-    "Amazon S3 Standard",
-    "Amazon S3 Standard-IA",
-    "Amazon S3 One Zone-IA",
-    "Amazon S3 Glacier"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which of the following statements best describes the storage characteristics of Amazon S3 Glacier?",
-  "answers": [
-    "Optimized for frequently accessed data with low latency requirements.",
-    "Ideal for data that is accessed infrequently, but requires rapid access when needed.",
-    "Designed for long-term archive and backup data, with retrieval times ranging from minutes to hours.",
-    "Suitable for data that requires immediate access with high throughput and low cost."
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following statements best distinguishes between AWS Athena and AWS QuickSight?",
-  "answers": [
-    "Athena is a business intelligence tool used for creating visualizations and dashboards, while QuickSight is a serverless query service for analyzing data directly in Amazon S3 using standard SQL.",
-    "Athena is a fully managed, scalable, and cost-effective interactive query service that uses SQL to analyze data in Amazon S3, while QuickSight is a cloud-based business analytics service that enables users to build visualizations and perform ad-hoc analysis.",
-    "Athena is designed for real-time data processing and analysis, whereas QuickSight is optimized for batch processing and long-term data storage.",
-    "Athena is primarily used for data transformation and ETL tasks, while QuickSight is focused on real-time data visualization and reporting."
-  ],
-  "correct": 1
-},
-{
-  "question": "Which of the following statements best distinguishes between Amazon EBS and Instance Store?",
-  "answers": [
-    "EBS provides block-level storage that persists independently from the life of the instance, offering persistent storage that remains even if the instance is stopped or terminated, while Instance Store offers high-performance, low-latency storage directly attached to the EC2 instance but is ephemeral and will be lost if the instance is stopped or terminated.",
-    "EBS is designed for applications requiring low-latency access to data, while Instance Store is suitable for long-term storage of critical data and backups.",
-    "EBS volumes are physically attached to the host server, while Instance Store volumes are network-attached storage solutions.",
-    "EBS is a fully managed service with automated backups and snapshots, while Instance Store requires manual management and backup procedures."
-  ],
-  "correct": 0
-},
-{
-  "question": "Which of the following best describes a feature of AWS Elastic File System (EFS)?",
-  "answers": [
-    "AWS EFS is a scalable block storage service that allows you to create and manage virtual block storage volumes for EC2 instances.",
-    "AWS EFS is designed for infrequently accessed data and offers a cost-effective storage solution with long-term durability.",
-    "AWS EFS provides a fully managed, scalable file storage service that can be shared across multiple EC2 instances and on-premises servers using the NFSv4 protocol.",
-    "AWS EFS offers real-time data analytics and query capabilities directly on the storage layer, enabling organizations to gain insights from their data without the need for additional processing."
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following best describes Amazon S3?",
-  "answers": [
-    "A global, object-level storage service with virtually unlimited scalability and 11 nines of durability.",
-    "A block storage service that must be attached to an EC2 instance to function.",
-    "A shared file system that uses the NFS protocol to mount across multiple instances.",
-    "A hybrid storage service that provides low-latency access to on-premises applications."
-  ],
-  "correct": 0
-},
-{
-  "question": "Which S3 storage class is designed for objects that are accessed infrequently but still require rapid retrieval?",
-  "answers": [
-    "S3 Standard",
-    "S3 Standard-IA",
-    "S3 Glacier Deep Archive",
-    "S3 One Zone-IA"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is a key characteristic of S3 Glacier storage classes?",
-  "answers": [
-    "They provide instant retrieval for all stored objects.",
-    "They are optimized for frequently accessed data.",
-    "They are designed for cold storage with retrieval times ranging from minutes to hours.",
-    "They automatically replicate data across multiple AWS Regions."
-  ],
-  "correct": 2
-},
-{
-  "question": "What is the purpose of S3 Lifecycle Policies?",
-  "answers": [
-    "To automatically replicate objects across Regions for disaster recovery.",
-    "To move objects between storage classes based on defined rules.",
-    "To encrypt objects using AWS-managed keys.",
-    "To analyze S3 access logs for compliance reporting."
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service uses machine learning to identify sensitive data stored in S3?",
-  "answers": [
-    "AWS GuardDuty",
-    "AWS Backup",
-    "Amazon Macie",
-    "Amazon Athena"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which AWS service would alert you if an unusually large amount of data is being moved from S3?",
-  "answers": [
-    "Amazon Macie",
-    "AWS GuardDuty",
-    "AWS Backup",
-    "Amazon QuickSight"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which service allows you to run SQL queries directly against data stored in S3?",
-  "answers": [
-    "Amazon Athena",
-    "Amazon QuickSight",
-    "AWS Backup",
-    "AWS Storage Gateway"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which EBS volume type is recommended for large database workloads requiring sustained IOPS performance?",
-  "answers": [
-    "General Purpose SSD (gp3)",
-    "Provisioned IOPS SSD (io1/io2)",
-    "Throughput Optimized HDD (st1)",
-    "Cold HDD (sc1)"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which EBS-backed storage option is ephemeral and loses data when the instance stops or terminates?",
-  "answers": [
-    "EBS General Purpose SSD",
-    "EBS Provisioned IOPS SSD",
-    "Instance Store",
-    "EBS Throughput Optimized HDD"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following best describes Amazon EFS?",
-  "answers": [
-    "A scalable block storage service for EC2 instances.",
-    "A shared file system that mounts using the NFS protocol and can be accessed by multiple instances.",
-    "A cold storage service designed for long-term archival.",
-    "A hybrid storage service that provides low-latency access to on-premises applications."
-  ],
-  "correct": 1
-},
-{
-  "question": "What is the primary purpose of AWS Storage Gateway?",
-  "answers": [
-    "To provide a fully managed shared file system for EC2 instances.",
-    "To enable on-premises applications to use cloud storage with low-latency access.",
-    "To automatically back up AWS resources across Regions.",
-    "To analyze S3 data using SQL queries."
-  ],
-  "correct": 1
-},
-{
-  "question": "What does AWS Backup provide?",
-  "answers": [
-    "A centralized service for configuring and monitoring backups across AWS resources.",
-    "A machine learning–powered tool for identifying sensitive data in S3.",
-    "A hybrid storage solution for on-premises workloads.",
-    "A BI tool for visualizing S3 data."
-  ],
-  "correct": 0
-},
-{
-  "question": "A company stores large volumes of log files in S3 that are accessed frequently for the first week, then rarely afterward. They want to reduce storage costs without sacrificing quick retrieval when needed. Which S3 feature should they use?",
-  "answers": [
-    "Enable S3 Versioning to reduce storage costs over time.",
-    "Use S3 Lifecycle Policies to transition objects to Standard-IA after one week.",
-    "Move all objects to S3 Glacier Deep Archive immediately.",
-    "Use S3 Intelligent-Tiering to automatically detect access patterns."
-  ],
-  "correct": 1
-},
-{
-  "question": "Your security team needs to automatically detect sensitive data such as PII inside S3 buckets. Which AWS service best fits this requirement?",
-  "answers": [
-    "Amazon Athena",
-    "Amazon Macie",
-    "AWS GuardDuty",
-    "AWS Backup"
-  ],
-  "correct": 1
-},
-{
-  "question": "A company notices a sudden spike in data transfers out of an S3 bucket and suspects a potential security issue. Which service would alert them to this unusual activity?",
-  "answers": [
-    "Amazon Macie",
-    "AWS Backup",
-    "AWS GuardDuty",
-    "Amazon QuickSight"
-  ],
-  "correct": 2
-},
-{
-  "question": "A development team needs a shared file system that multiple EC2 instances can mount simultaneously for a web application. The solution must support the NFS protocol. Which service should they choose?",
-  "answers": [
-    "Amazon EBS",
-    "Amazon S3",
-    "Amazon EFS",
-    "AWS Storage Gateway"
-  ],
-  "correct": 2
-},
-{
-  "question": "A data analytics team wants to run SQL queries directly against CSV files stored in S3 without loading them into a database. Which service should they use?",
-  "answers": [
-    "Amazon Athena",
-    "Amazon QuickSight",
-    "AWS Backup",
-    "AWS Storage Gateway"
-  ],
-  "correct": 0
-},
-{
-  "question": "A company needs extremely fast temporary storage for a high-performance compute workload. The data does not need to persist when the instance stops. Which storage option is the best fit?",
-  "answers": [
-    "EBS General Purpose SSD",
-    "EBS Provisioned IOPS SSD",
-    "Instance Store",
-    "EBS Throughput Optimized HDD"
-  ],
-  "correct": 2
-},
-{
-  "question": "A business wants to centralize backup policies for EC2, EBS, and other AWS resources across multiple Regions. Which AWS service should they use?",
-  "answers": [
-    "AWS Backup",
-    "AWS Storage Gateway",
-    "Amazon Macie",
-    "Amazon QuickSight"
-  ],
-  "correct": 0
-},
-{
-  "question": "A media company needs to store large video files that are rarely accessed but must be retrievable within a few hours. Which S3 storage class is the best fit?",
-  "answers": [
-    "S3 Standard",
-    "S3 Standard-IA",
-    "S3 Glacier (Standard retrieval)",
-    "S3 Glacier Deep Archive"
-  ],
-  "correct": 2
-},
-{
-  "question": "A team needs a hybrid solution that allows their on-premises application to access cloud-backed storage using standard storage protocols with low latency. Which service should they deploy?",
-  "answers": [
-    "Amazon EFS",
-    "AWS Storage Gateway",
-    "Amazon S3",
-    "AWS Backup"
-  ],
-  "correct": 1
-},
-{
-  "question": "A database workload requires consistently high IOPS performance. Which EBS volume type should be selected?",
-  "answers": [
-    "General Purpose SSD",
-    "Provisioned IOPS SSD",
-    "Throughput Optimized HDD",
-    "Cold HDD"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service is best suited for managing relational databases in the cloud with features such as automated backups, automatic scaling, and multi-AZ deployments?",
-  "answers": [
-    "Amazon S3",
-    "Amazon EC2",
-    "Amazon RDS",
-    "Amazon DynamoDB"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which AWS service is best suited for applications requiring a highly scalable, fully managed NoSQL database solution with low-latency access and flexible data models?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon Aurora",
-    "Amazon DynamoDB",
-    "Amazon Redshift"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following best describes a Data Lake compared to a Data Warehouse?",
-  "answers": [
-    "Data Lake: A repository for structured data optimized for high-speed analytics. Data Warehouse: A storage system for unstructured data with real-time processing capabilities.",
-    "Data Lake: A centralized repository for storing all types of raw data at scale. Data Warehouse: A structured repository for processed and curated data optimized for querying and analysis.",
-    "Data Lake: A storage system for archived data with built-in machine learning capabilities. Data Warehouse: A real-time data processing engine for streaming analytics.",
-    "Data Lake: A cloud-based solution for managing data backups and disaster recovery. Data Warehouse: An on-premises solution for data storage and retrieval."
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service is best suited for an application requiring high-performance, scalable, and fully managed relational database capabilities, with compatibility for MySQL and PostgreSQL?",
-  "answers": [
-    "Amazon S3",
-    "Amazon DynamoDB",
-    "Amazon RDS",
-    "Amazon Aurora"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which AWS service is purpose-built for building and managing graph databases?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon Aurora",
-    "Amazon DynamoDB",
-    "Amazon Neptune"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which of the following is a fully-managed NoSQL database service?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon DynamoDB",
-    "Amazon Aurora",
-    "Amazon Redshift",
-    "Amazon Neptune"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which of the following best describes AWS DMS?",
-  "answers": [
-    "A service for analyzing and visualizing data stored in Amazon S3 buckets.",
-    "A service for migrating databases to AWS with minimal downtime.",
-    "A service for managing and optimizing DynamoDB databases.",
-    "A service for encrypting data stored in Amazon RDS instances."
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service is a fully managed relational database solution designed for complex queries, transactions, and high durability?",
-  "answers": [
-    "Amazon DynamoDB",
-    "Amazon RDS",
-    "Amazon Redshift",
-    "Amazon Neptune"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which workload is NOT a good fit for Amazon RDS?",
-  "answers": [
-    "Applications requiring complex SQL queries and transactions",
-    "Workloads needing high durability and automated backups",
-    "Massive read/write rates requiring sharding for high throughput",
-    "Medium to high query or write rate applications"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which AWS service provides a fully managed NoSQL database capable of handling unstructured and semi‑structured data with virtually unlimited storage?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon DynamoDB",
-    "Amazon Aurora",
-    "Amazon Redshift"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which feature of DynamoDB makes it suitable for applications requiring extremely high request volumes?",
-  "answers": [
-    "Support for complex SQL joins",
-    "Ability to handle over 1 trillion requests per day",
-    "Automatic conversion of relational schemas",
-    "Native OLAP query optimization"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS database service is designed to be a high‑performance, cost‑effective alternative to commercial databases and is up to 3.5x faster than MySQL and PostgreSQL?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon DynamoDB",
-    "Amazon Aurora",
-    "Amazon Neptune"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which AWS service is best suited for OLAP workloads such as trend analysis and BI reporting on large volumes of historical data?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon DynamoDB",
-    "Amazon Redshift",
-    "Amazon Aurora"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which statement best describes a Data Warehouse such as Amazon Redshift?",
-  "answers": [
-    "A repository for raw, unstructured data used for machine learning and advanced analytics",
-    "A structured system optimized for complex queries, joins, and periodic updates",
-    "A NoSQL database designed for low‑latency key‑value access",
-    "A graph database used for analyzing highly connected datasets"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which statement best describes a Data Lake?",
-  "answers": [
-    "A structured repository optimized for OLAP workloads and BI reporting",
-    "A vast storage system for diverse, unstructured data where transformation happens later",
-    "A relational database optimized for high‑speed transactions",
-    "A graph database for modeling social networks"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is a major risk of poorly managed Data Lakes?",
-  "answers": [
-    "Data silos",
-    "Data swamps",
-    "High IOPS consumption",
-    "Excessive schema enforcement"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service is purpose‑built for storing and querying highly connected datasets such as social graphs?",
-  "answers": [
-    "Amazon Redshift",
-    "Amazon Aurora",
-    "Amazon Neptune",
-    "Amazon DynamoDB"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which AWS service helps migrate on‑premises databases to AWS with minimal downtime?",
-  "answers": [
-    "AWS SCT",
-    "AWS DMS",
-    "Amazon RDS",
-    "Amazon Redshift Spectrum"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS tool is used to convert database schemas during migrations, such as from Oracle to PostgreSQL?",
-  "answers": [
-    "AWS DMS",
-    "Amazon Aurora",
-    "AWS SCT",
-    "Amazon Neptune"
-  ],
-  "correct": 2
-},
-{
-  "question": "A financial analytics company needs a database that supports complex transactions, high durability, and medium-to-high write rates. They do NOT expect massive read/write spikes and do not want to manage sharding. Which service is the best fit?",
-  "answers": [
-    "Amazon DynamoDB",
-    "Amazon RDS",
-    "Amazon Redshift",
-    "Amazon Neptune"
-  ],
-  "correct": 1
-},
-{
-  "question": "A gaming platform needs a database that can handle unpredictable traffic spikes, low-latency reads, and over a trillion requests per day. The data is semi-structured and does not require SQL joins. Which service should they choose?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon Aurora",
-    "Amazon DynamoDB",
-    "Amazon Redshift"
-  ],
-  "correct": 2
-},
-{
-  "question": "A company wants a high-performance relational database engine that is compatible with MySQL and PostgreSQL, offers high availability, and is significantly faster than traditional open-source databases. Which service meets these requirements?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon Aurora",
-    "Amazon DynamoDB",
-    "Amazon Neptune"
-  ],
-  "correct": 1
-},
-{
-  "question": "A retail organization needs to run complex analytical queries on petabytes of historical sales data. They want to integrate data stored in S3 without loading it into the warehouse first. Which service should they use?",
-  "answers": [
-    "Amazon RDS",
-    "Amazon DynamoDB",
-    "Amazon Redshift with Redshift Spectrum",
-    "Amazon Aurora"
-  ],
-  "correct": 2
-},
-{
-  "question": "A data science team wants to store massive volumes of raw, unstructured data from IoT devices. They plan to run machine learning and advanced analytics later, after transforming the data. Which solution is the best fit?",
-  "answers": [
-    "Data Warehouse",
-    "Amazon DynamoDB",
-    "Data Lake",
-    "Amazon RDS"
-  ],
-  "correct": 2
-},
-{
-  "question": "A company’s Data Lake has grown rapidly, and analysts report that data is inconsistent, poorly cataloged, and difficult to use. What problem is the company experiencing?",
-  "answers": [
-    "Data Silos",
-    "Data Swamps",
-    "OLTP bottlenecks",
-    "Sharding failures"
-  ],
-  "correct": 1
-},
-{
-  "question": "A social networking startup needs a database that can efficiently store and query highly connected datasets, such as user relationships, followers, and recommendations. Which AWS service is the best fit?",
-  "answers": [
-    "Amazon Redshift",
-    "Amazon Neptune",
-    "Amazon DynamoDB",
-    "Amazon Aurora"
-  ],
-  "correct": 1
-},
-{
-  "question": "A company wants to migrate its on-premises Oracle database to Amazon Aurora PostgreSQL. They need to convert the schema and then replicate data with minimal downtime. Which combination of services should they use?",
-  "answers": [
-    "Amazon RDS and Amazon Redshift",
-    "AWS SCT and AWS DMS",
-    "Amazon DynamoDB and AWS Glue",
-    "Amazon Neptune and AWS DMS"
-  ],
-  "correct": 1
-},
-{
-  "question": "A business wants to consolidate multiple legacy databases into AWS with continuous replication during the migration. They need the source database to remain operational throughout the process. Which service should they use?",
-  "answers": [
-    "AWS SCT",
-    "Amazon Aurora",
-    "AWS DMS",
-    "Amazon Redshift Spectrum"
-  ],
-  "correct": 2
-},
-{
-  "question": "A BI team needs a system optimized for complex joins, trend analysis, and periodic batch updates. The workload involves large volumes of historical data and OLAP-style queries. Which AWS service is the best match?",
-  "answers": [
-    "Amazon DynamoDB",
-    "Amazon Redshift",
-    "Amazon RDS",
-    "Amazon Neptune"
-  ],
-  "correct": 1
-},
+//       {
+//   "question": "Which AWS support plan offers a Technical Account Manager (TAM)?",
+//   "answers": [
+//     "Business",
+//     "Developer",
+//     "Enterprise",
+//     "Basic"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following is NOT an advantage of cloud computing?",
+//   "answers": [
+//     "Go global in hours",
+//     "Increase speed and agility",
+//     "Trade capital expense for variable expense",
+//     "Benefit from massive economies of scale"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "One advantage of cloud computing is that we trade ______ expense for ______ expense.",
+//   "answers": [
+//     "Capital, Variable",
+//     "Variable, Capital",
+//     "Operational, Capital",
+//     "Capital, Operational"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which of the following is not a primary benefit of cloud computing compared to on-premises infrastructure?",
+//   "answers": [
+//     "Pay for racking, stacking, and powering servers",
+//     "Benefit from massive economies of scale",
+//     "Increase speed and agility",
+//     "Trade capital expense for variable expense",
+//     "Eliminate guessing on your infrastructure capacity needs"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "To receive the discounted rate associated with Reserved Instances, you must make a full upfront payment for the term.",
+//   "answers": [
+//     "True",
+//     "False"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is the most significant benefit of using AWS Organizations?",
+//   "answers": [
+//     "Provides the ability to create groups of accounts and attach policies to a group",
+//     "Simplifies automating account creation and management using APIs",
+//     "Provides the ability to create an unlimited number of nested organizational units (OUs)",
+//     "Replaces IAM policies with SCPs, which are simpler to manage",
+//     "Prevents restrictions from being placed on the root user of the management account"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "AWS offers some services at no charge, such as IAM, VPC, CloudFormation, Auto Scaling, and Elastic Beanstalk.",
+//   "answers": [
+//     "False",
+//     "True"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Unlimited services are available with the AWS Free Tier for 12 months after account creation.",
+//   "answers": [
+//     "True",
+//     "False"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does AWS CAF refer to in cloud computing?",
+//   "answers": [
+//     "A methodology for migrating on-premises applications to the cloud",
+//     "A certification program for cloud architects and engineers",
+//     "A framework for securing cloud-based applications against cyber threats",
+//     "A set of best practices and guidelines for planning and executing cloud adoption strategies"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What distinguishes IaaS from PaaS?",
+//   "answers": [
+//     "IaaS provides ready-to-use software applications, while PaaS offers virtualized computing resources",
+//     "IaaS abstracts hardware, while PaaS abstracts hardware and the operating system to provide a development platform",
+//     "IaaS offers a fully managed environment for applications, while PaaS offers basic networking and storage",
+//     "IaaS provides a platform for deploying applications, while PaaS provides virtualized compute resources"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is an AWS Availability Zone composed of?",
+//   "answers": [
+//     "A global network of edge locations",
+//     "Multiple data centers within a region",
+//     "A single POP used for caching content",
+//     "A single data center serving one region"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is the primary purpose of AWS Edge Locations?",
+//   "answers": [
+//     "To host full AWS regions in major cities",
+//     "To store encryption keys for CloudFront",
+//     "To cache web content closer to users",
+//     "To provide compute resources close to mobile carriers"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What do AWS Local Zones provide?",
+//   "answers": [
+//     "Compute and storage resources closer to users",
+//     "Centralized IAM policy enforcement",
+//     "A global CDN for caching content",
+//     "Ultra low latency for 5G devices"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What is the purpose of AWS Wavelength Zones?",
+//   "answers": [
+//     "To provide compute resources in rural areas",
+//     "To optimize mobile deployments over 5G networks",
+//     "To manage IAM roles for mobile carriers",
+//     "To store encryption keys for mobile devices"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does IAM primarily control?",
+//   "answers": [
+//     "The deployment of CloudFront distributions",
+//     "Network routing between AWS regions",
+//     "Who gets access to what in AWS",
+//     "The encryption of all S3 buckets"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What is an IAM Role used for?",
+//   "answers": [
+//     "Managing CloudFront edge caches",
+//     "Encrypting data in transit",
+//     "Grouping users for billing purposes",
+//     "Granting a set of permissions to users or services"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What does the CIA Triad represent?",
+//   "answers": [
+//     "Cloudfront, IAM, Artifact",
+//     "Confidentiality, Integrity, Availability",
+//     "Compliance, Identity, Access",
+//     "Configuration, Inspection, Auditing"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What do Service Control Policies (SCPs) do?",
+//   "answers": [
+//     "Encrypt data across multiple regions",
+//     "Manage CloudFront distributions",
+//     "Grant permissions to IAM users",
+//     "Set maximum permissions for accounts"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What does AWS KMS manage?",
+//   "answers": [
+//     "Encryption keys for data",
+//     "IAM users and groups",
+//     "CloudFront edge caches",
+//     "S3 bucket lifecycle policies"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What does AWS Secrets Manager help with?",
+//   "answers": [
+//     "Managing IAM roles",
+//     "Encrypting S3 buckets",
+//     "Rotating and retrieving credentials and API keys",
+//     "Scanning EC2 instances for vulnerabilities"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What does AWS Shield protect against?",
+//   "answers": [
+//     "Unauthorized IAM access",
+//     "Misconfigured S3 buckets",
+//     "DDoS attacks",
+//     "Malware infections"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What does AWS WAF do?",
+//   "answers": [
+//     "Protects against common web exploits",
+//     "Caches content at edge locations",
+//     "Encrypts data at rest",
+//     "Manages IAM policies"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What is AWS Firewall Manager used for?",
+//   "answers": [
+//     "Managing WAF rules across multiple accounts",
+//     "Scanning EC2 instances for vulnerabilities",
+//     "Encrypting data across regions",
+//     "Managing IAM roles and groups"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What does Amazon Macie do?",
+//   "answers": [
+//     "Audits AWS resource configurations",
+//     "Detects DDoS attacks",
+//     "Discovers and protects sensitive data in S3 using ML",
+//     "Manages IAM permissions"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What is AWS Config used for?",
+//   "answers": [
+//     "Encrypting S3 buckets",
+//     "Auditing and evaluating AWS resource configurations",
+//     "Managing CloudFront distributions",
+//     "Scanning EC2 instances for vulnerabilities"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does AWS Artifact provide?",
+//   "answers": [
+//     "A vulnerability scanner for EC2",
+//     "A tool for managing encryption keys",
+//     "A dashboard for IAM permissions",
+//     "Access to AWS compliance and security documentation"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What does AWS Audit Manager do?",
+//   "answers": [
+//     "Caches content at edge locations",
+//     "Encrypts data across multiple regions",
+//     "Manages IAM roles and groups",
+//     "Continuously audits AWS usage for compliance"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What does Amazon Inspector evaluate?",
+//   "answers": [
+//     "Compute resources for vulnerabilities and exposure",
+//     "CloudFront distributions for performance",
+//     "IAM policies for misconfigurations",
+//     "S3 buckets for sensitive data"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What does Amazon GuardDuty monitor?",
+//   "answers": [
+//     "CloudFront cache invalidations",
+//     "Compromised accounts and unusual behavior",
+//     "IAM role usage",
+//     "S3 bucket lifecycle policies"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does AWS Security Hub do?",
+//   "answers": [
+//     "Encrypts all data in transit",
+//     "Caches content at edge locations",
+//     "Performs security best practice checks and enables remediation",
+//     "Manages IAM users and groups"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "How many total IP addresses are provided by a /16 CIDR block in AWS?",
+//   "answers": [
+//     "256",
+//     "4,096",
+//     "65,536",
+//     "16,384"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What is the smallest subnet size allowed in AWS?",
+//   "answers": [
+//     "/30",
+//     "/28",
+//     "/24",
+//     "/32"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "How many total IP addresses exist in a /28 subnet?",
+//   "answers": [
+//     "8",
+//     "16",
+//     "32",
+//     "64"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "How many IP addresses does AWS reserve in every subnet?",
+//   "answers": [
+//     "3",
+//     "4",
+//     "5",
+//     "2"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which IPs does AWS reserve in each subnet?",
+//   "answers": [
+//     "First 2 and last 2",
+//     "First 4 and last 1",
+//     "Only the first and last",
+//     "Only the broadcast address"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is a VPC in AWS?",
+//   "answers": [
+//     "A physical data center",
+//     "A logically isolated virtual network",
+//     "A DNS routing service",
+//     "A global firewall"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does VPC peering allow?",
+//   "answers": [
+//     "Private communication between VPCs",
+//     "Connecting VPCs to CloudFront",
+//     "Encrypting all VPC traffic",
+//     "Replacing Direct Connect"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What is the purpose of a transit gateway?",
+//   "answers": [
+//     "To manage IAM roles",
+//     "To act as a hub for connecting multiple VPCs",
+//     "To store DNS records",
+//     "To encrypt S3 traffic"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What do security groups protect?",
+//   "answers": [
+//     "Entire VPCs",
+//     "Subnets",
+//     "Individual EC2 instances",
+//     "Transit gateways"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which statement describes security groups?",
+//   "answers": [
+//     "They are stateless",
+//     "They require explicit return rules",
+//     "They are stateful and allow return traffic automatically",
+//     "They apply only to subnets"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What do NACLs protect?",
+//   "answers": [
+//     "Individual EC2 instances",
+//     "Subnets",
+//     "VPC endpoints",
+//     "Transit gateways"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which statement describes NACL behavior?",
+//   "answers": [
+//     "They are stateful",
+//     "They automatically allow return traffic",
+//     "They only support inbound rules",
+//     "They are stateless and require explicit return rules"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "What is AWS Direct Connect used for?",
+//   "answers": [
+//     "Connecting privately to AWS without using the public internet",
+//     "Caching content at edge locations",
+//     "Encrypting IAM credentials",
+//     "Connecting VPCs to each other"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which benefit does AWS Direct Connect provide?",
+//   "answers": [
+//     "Free data transfer",
+//     "Lower latency and more consistent performance",
+//     "Automatic VPC peering",
+//     "Built-in firewalling"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does CloudFront primarily charge for?",
+//   "answers": [
+//     "Data transfer out and HTTP requests",
+//     "Inbound data transfer",
+//     "Number of EC2 instances",
+//     "VPC peering connections"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What type of service is AWS CloudFront?",
+//   "answers": [
+//     "A private network link",
+//     "A content delivery network",
+//     "A subnet firewall",
+//     "A VPC routing service"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does a CIDR block define in a VPC?",
+//   "answers": [
+//     "The VPC’s IP address range",
+//     "The number of EC2 instances allowed",
+//     "The IAM permissions for the VPC",
+//     "The DNS routing rules"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which statement about VPC isolation is correct?",
+//   "answers": [
+//     "VPCs automatically peer with each other",
+//     "VPCs are logically isolated from other customers",
+//     "VPCs share routing tables by default",
+//     "VPCs cannot contain multiple subnets"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which service enables hub-and-spoke network topologies?",
+//   "answers": [
+//     "CloudFront",
+//     "Transit Gateway",
+//     "Security Groups",
+//     "NACLs"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service becomes part of the AWS network when connected?",
+//   "answers": [
+//     "VPC Peering",
+//     "CloudFront",
+//     "Direct Connect",
+//     "Security Groups"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which option correctly orders AWS instance billing types from most expensive (#1) to least expensive (#4)?",
+//   "answers": [
+//     "1: On‑Demand, 2: PURI, 3: NURI, 4: AURI",
+//     "1: On‑Demand, 3: NURI, 2: PURI, 4: AURI",
+//     "1: PURI, 2: On‑Demand, 3: NURI, 4: AURI",
+//     "1: NURI, 2: PURI, 3: On‑Demand, 4: AURI"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "In AWS billing terminology, what does AURI stand for?",
+//   "answers": [
+//     "All Upfront Reserved Instance",
+//     "Advanced Usage Rate Integration",
+//     "Allocated Upfront Resource Index",
+//     "Annual Usage Reservation Instance"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Within AWS Reserved Instance payment models, what does NURI represent?",
+//   "answers": [
+//     "Network Usage Reservation Instance",
+//     "No Upfront Reserved Instance",
+//     "Nominal Usage Rate Integration",
+//     "Non‑Uniform Resource Instance"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "In AWS pricing options, what does PURI stand for?",
+//   "answers": [
+//     "Provisioned Usage Rate Instance",
+//     "Partial Upfront Reserved Instance",
+//     "Periodic Upfront Resource Integration",
+//     "Pre-Unified Reservation Index"
+//   ],
+//   "correct": 1
+// },
+// {
+//     "question": "Which AWS service provides serverless compute for running containers without managing the underlying EC2 instances?",
+//     "answers": [
+//       "AWS Lambda",
+//       "Amazon ECS on EC2",
+//       "AWS Fargate",
+//       "Amazon EKS"
+//     ],
+//     "correct": 2
+//   },
+//   {
+//     "question": "Which AWS service is designed to offer low-cost, preconfigured cloud resources for simple applications and small deployments?",
+//     "answers": [
+//       "Amazon EC2",
+//       "Amazon Lightsail",
+//       "AWS Elastic Beanstalk",
+//       "AWS Outposts"
+//     ],
+//     "correct": 1
+//   },
+//   {
+//     "question": "Which AWS service is commonly used to orchestrate and chain multiple Lambda functions into a coordinated workflow?",
+//     "answers": [
+//       "Amazon EventBridge",
+//       "AWS Step Functions",
+//       "AWS Batch",
+//       "Amazon SQS"
+//     ],
+//     "correct": 1
+//   },
+//   {
+//     "question": "Which AWS service allows you to efficiently process hundreds to thousands of computing tasks simultaneously, automatically managing resource provisioning and scaling?",
+//     "answers": [
+//       "AWS Lambda",
+//       "AWS Batch",
+//       "AWS Fargate",
+//       "Amazon EMR"
+//     ],
+//     "correct": 1
+//   },
+//   {
+//   "question": "Which AWS Reserved Instance pricing model requires the full payment upfront?",
+//   "answers": [
+//     "AURI",
+//     "PURI",
+//     "NURI",
+//     "FURI"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "What is included in an Amazon Machine Image (AMI)?",
+//   "answers": [
+//     "A template for the root volume for the instance",
+//     "Launch permissions that control which AWS accounts can use the AMI to launch instances",
+//     "A block device mapping that specifies the volumes to attach to the instance when it's launched",
+//     "All of the above"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "If your project requires monthly reports that iterate through very large amounts of data, which Amazon EC2 purchasing option should you consider?",
+//   "answers": [
+//     "Spot Instances",
+//     "Scheduled Reserved Instances",
+//     "Dedicated Hosts",
+//     "On-Demand Instances"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service is best suited for storing large volumes of static files, such as website assets, backups, and logs, in a scalable, highly available, and durable object storage format?",
+//   "answers": [
+//     "Amazon EBS",
+//     "Amazon EFS",
+//     "Amazon S3",
+//     "Amazon DynamoDB"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following statements accurately describes the concept of versioning in Amazon S3?",
+//   "answers": [
+//     "Versioning in Amazon S3 allows you to encrypt the contents of your S3 buckets using server-side encryption.",
+//     "Enabling versioning in an S3 bucket ensures that each object stored in the bucket has a unique identifier, allowing for efficient indexing and retrieval.",
+//     "With versioning enabled, Amazon S3 automatically creates a new version of an object whenever it is updated or overwritten, preserving all previous versions of the object.",
+//     "Versioning in Amazon S3 allows you to control access to your S3 buckets by defining granular permissions for individual objects based on user roles and policies."
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following AWS S3 storage classes is optimized for frequently accessed data with low latency requirements?",
+//   "answers": [
+//     "Amazon S3 Standard",
+//     "Amazon S3 Standard-IA",
+//     "Amazon S3 One Zone-IA",
+//     "Amazon S3 Glacier"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which of the following statements best describes the storage characteristics of Amazon S3 Glacier?",
+//   "answers": [
+//     "Optimized for frequently accessed data with low latency requirements.",
+//     "Ideal for data that is accessed infrequently, but requires rapid access when needed.",
+//     "Designed for long-term archive and backup data, with retrieval times ranging from minutes to hours.",
+//     "Suitable for data that requires immediate access with high throughput and low cost."
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following statements best distinguishes between AWS Athena and AWS QuickSight?",
+//   "answers": [
+//     "Athena is a business intelligence tool used for creating visualizations and dashboards, while QuickSight is a serverless query service for analyzing data directly in Amazon S3 using standard SQL.",
+//     "Athena is a fully managed, scalable, and cost-effective interactive query service that uses SQL to analyze data in Amazon S3, while QuickSight is a cloud-based business analytics service that enables users to build visualizations and perform ad-hoc analysis.",
+//     "Athena is designed for real-time data processing and analysis, whereas QuickSight is optimized for batch processing and long-term data storage.",
+//     "Athena is primarily used for data transformation and ETL tasks, while QuickSight is focused on real-time data visualization and reporting."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which of the following statements best distinguishes between Amazon EBS and Instance Store?",
+//   "answers": [
+//     "EBS provides block-level storage that persists independently from the life of the instance, offering persistent storage that remains even if the instance is stopped or terminated, while Instance Store offers high-performance, low-latency storage directly attached to the EC2 instance but is ephemeral and will be lost if the instance is stopped or terminated.",
+//     "EBS is designed for applications requiring low-latency access to data, while Instance Store is suitable for long-term storage of critical data and backups.",
+//     "EBS volumes are physically attached to the host server, while Instance Store volumes are network-attached storage solutions.",
+//     "EBS is a fully managed service with automated backups and snapshots, while Instance Store requires manual management and backup procedures."
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which of the following best describes a feature of AWS Elastic File System (EFS)?",
+//   "answers": [
+//     "AWS EFS is a scalable block storage service that allows you to create and manage virtual block storage volumes for EC2 instances.",
+//     "AWS EFS is designed for infrequently accessed data and offers a cost-effective storage solution with long-term durability.",
+//     "AWS EFS provides a fully managed, scalable file storage service that can be shared across multiple EC2 instances and on-premises servers using the NFSv4 protocol.",
+//     "AWS EFS offers real-time data analytics and query capabilities directly on the storage layer, enabling organizations to gain insights from their data without the need for additional processing."
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following best describes Amazon S3?",
+//   "answers": [
+//     "A global, object-level storage service with virtually unlimited scalability and 11 nines of durability.",
+//     "A block storage service that must be attached to an EC2 instance to function.",
+//     "A shared file system that uses the NFS protocol to mount across multiple instances.",
+//     "A hybrid storage service that provides low-latency access to on-premises applications."
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which S3 storage class is designed for objects that are accessed infrequently but still require rapid retrieval?",
+//   "answers": [
+//     "S3 Standard",
+//     "S3 Standard-IA",
+//     "S3 Glacier Deep Archive",
+//     "S3 One Zone-IA"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is a key characteristic of S3 Glacier storage classes?",
+//   "answers": [
+//     "They provide instant retrieval for all stored objects.",
+//     "They are optimized for frequently accessed data.",
+//     "They are designed for cold storage with retrieval times ranging from minutes to hours.",
+//     "They automatically replicate data across multiple AWS Regions."
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "What is the purpose of S3 Lifecycle Policies?",
+//   "answers": [
+//     "To automatically replicate objects across Regions for disaster recovery.",
+//     "To move objects between storage classes based on defined rules.",
+//     "To encrypt objects using AWS-managed keys.",
+//     "To analyze S3 access logs for compliance reporting."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service uses machine learning to identify sensitive data stored in S3?",
+//   "answers": [
+//     "AWS GuardDuty",
+//     "AWS Backup",
+//     "Amazon Macie",
+//     "Amazon Athena"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS service would alert you if an unusually large amount of data is being moved from S3?",
+//   "answers": [
+//     "Amazon Macie",
+//     "AWS GuardDuty",
+//     "AWS Backup",
+//     "Amazon QuickSight"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which service allows you to run SQL queries directly against data stored in S3?",
+//   "answers": [
+//     "Amazon Athena",
+//     "Amazon QuickSight",
+//     "AWS Backup",
+//     "AWS Storage Gateway"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which EBS volume type is recommended for large database workloads requiring sustained IOPS performance?",
+//   "answers": [
+//     "General Purpose SSD (gp3)",
+//     "Provisioned IOPS SSD (io1/io2)",
+//     "Throughput Optimized HDD (st1)",
+//     "Cold HDD (sc1)"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which EBS-backed storage option is ephemeral and loses data when the instance stops or terminates?",
+//   "answers": [
+//     "EBS General Purpose SSD",
+//     "EBS Provisioned IOPS SSD",
+//     "Instance Store",
+//     "EBS Throughput Optimized HDD"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following best describes Amazon EFS?",
+//   "answers": [
+//     "A scalable block storage service for EC2 instances.",
+//     "A shared file system that mounts using the NFS protocol and can be accessed by multiple instances.",
+//     "A cold storage service designed for long-term archival.",
+//     "A hybrid storage service that provides low-latency access to on-premises applications."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is the primary purpose of AWS Storage Gateway?",
+//   "answers": [
+//     "To provide a fully managed shared file system for EC2 instances.",
+//     "To enable on-premises applications to use cloud storage with low-latency access.",
+//     "To automatically back up AWS resources across Regions.",
+//     "To analyze S3 data using SQL queries."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does AWS Backup provide?",
+//   "answers": [
+//     "A centralized service for configuring and monitoring backups across AWS resources.",
+//     "A machine learning–powered tool for identifying sensitive data in S3.",
+//     "A hybrid storage solution for on-premises workloads.",
+//     "A BI tool for visualizing S3 data."
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A company stores large volumes of log files in S3 that are accessed frequently for the first week, then rarely afterward. They want to reduce storage costs without sacrificing quick retrieval when needed. Which S3 feature should they use?",
+//   "answers": [
+//     "Enable S3 Versioning to reduce storage costs over time.",
+//     "Use S3 Lifecycle Policies to transition objects to Standard-IA after one week.",
+//     "Move all objects to S3 Glacier Deep Archive immediately.",
+//     "Use S3 Intelligent-Tiering to automatically detect access patterns."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Your security team needs to automatically detect sensitive data such as PII inside S3 buckets. Which AWS service best fits this requirement?",
+//   "answers": [
+//     "Amazon Athena",
+//     "Amazon Macie",
+//     "AWS GuardDuty",
+//     "AWS Backup"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company notices a sudden spike in data transfers out of an S3 bucket and suspects a potential security issue. Which service would alert them to this unusual activity?",
+//   "answers": [
+//     "Amazon Macie",
+//     "AWS Backup",
+//     "AWS GuardDuty",
+//     "Amazon QuickSight"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A development team needs a shared file system that multiple EC2 instances can mount simultaneously for a web application. The solution must support the NFS protocol. Which service should they choose?",
+//   "answers": [
+//     "Amazon EBS",
+//     "Amazon S3",
+//     "Amazon EFS",
+//     "AWS Storage Gateway"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A data analytics team wants to run SQL queries directly against CSV files stored in S3 without loading them into a database. Which service should they use?",
+//   "answers": [
+//     "Amazon Athena",
+//     "Amazon QuickSight",
+//     "AWS Backup",
+//     "AWS Storage Gateway"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A company needs extremely fast temporary storage for a high-performance compute workload. The data does not need to persist when the instance stops. Which storage option is the best fit?",
+//   "answers": [
+//     "EBS General Purpose SSD",
+//     "EBS Provisioned IOPS SSD",
+//     "Instance Store",
+//     "EBS Throughput Optimized HDD"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A business wants to centralize backup policies for EC2, EBS, and other AWS resources across multiple Regions. Which AWS service should they use?",
+//   "answers": [
+//     "AWS Backup",
+//     "AWS Storage Gateway",
+//     "Amazon Macie",
+//     "Amazon QuickSight"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A media company needs to store large video files that are rarely accessed but must be retrievable within a few hours. Which S3 storage class is the best fit?",
+//   "answers": [
+//     "S3 Standard",
+//     "S3 Standard-IA",
+//     "S3 Glacier (Standard retrieval)",
+//     "S3 Glacier Deep Archive"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A team needs a hybrid solution that allows their on-premises application to access cloud-backed storage using standard storage protocols with low latency. Which service should they deploy?",
+//   "answers": [
+//     "Amazon EFS",
+//     "AWS Storage Gateway",
+//     "Amazon S3",
+//     "AWS Backup"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A database workload requires consistently high IOPS performance. Which EBS volume type should be selected?",
+//   "answers": [
+//     "General Purpose SSD",
+//     "Provisioned IOPS SSD",
+//     "Throughput Optimized HDD",
+//     "Cold HDD"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service is best suited for managing relational databases in the cloud with features such as automated backups, automatic scaling, and multi-AZ deployments?",
+//   "answers": [
+//     "Amazon S3",
+//     "Amazon EC2",
+//     "Amazon RDS",
+//     "Amazon DynamoDB"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS service is best suited for applications requiring a highly scalable, fully managed NoSQL database solution with low-latency access and flexible data models?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon Aurora",
+//     "Amazon DynamoDB",
+//     "Amazon Redshift"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following best describes a Data Lake compared to a Data Warehouse?",
+//   "answers": [
+//     "Data Lake: A repository for structured data optimized for high-speed analytics. Data Warehouse: A storage system for unstructured data with real-time processing capabilities.",
+//     "Data Lake: A centralized repository for storing all types of raw data at scale. Data Warehouse: A structured repository for processed and curated data optimized for querying and analysis.",
+//     "Data Lake: A storage system for archived data with built-in machine learning capabilities. Data Warehouse: A real-time data processing engine for streaming analytics.",
+//     "Data Lake: A cloud-based solution for managing data backups and disaster recovery. Data Warehouse: An on-premises solution for data storage and retrieval."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service is best suited for an application requiring high-performance, scalable, and fully managed relational database capabilities, with compatibility for MySQL and PostgreSQL?",
+//   "answers": [
+//     "Amazon S3",
+//     "Amazon DynamoDB",
+//     "Amazon RDS",
+//     "Amazon Aurora"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which AWS service is purpose-built for building and managing graph databases?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon Aurora",
+//     "Amazon DynamoDB",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which of the following is a fully-managed NoSQL database service?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon DynamoDB",
+//     "Amazon Aurora",
+//     "Amazon Redshift",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which of the following best describes AWS DMS?",
+//   "answers": [
+//     "A service for analyzing and visualizing data stored in Amazon S3 buckets.",
+//     "A service for migrating databases to AWS with minimal downtime.",
+//     "A service for managing and optimizing DynamoDB databases.",
+//     "A service for encrypting data stored in Amazon RDS instances."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service is a fully managed relational database solution designed for complex queries, transactions, and high durability?",
+//   "answers": [
+//     "Amazon DynamoDB",
+//     "Amazon RDS",
+//     "Amazon Redshift",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which workload is NOT a good fit for Amazon RDS?",
+//   "answers": [
+//     "Applications requiring complex SQL queries and transactions",
+//     "Workloads needing high durability and automated backups",
+//     "Massive read/write rates requiring sharding for high throughput",
+//     "Medium to high query or write rate applications"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS service provides a fully managed NoSQL database capable of handling unstructured and semi‑structured data with virtually unlimited storage?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon DynamoDB",
+//     "Amazon Aurora",
+//     "Amazon Redshift"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which feature of DynamoDB makes it suitable for applications requiring extremely high request volumes?",
+//   "answers": [
+//     "Support for complex SQL joins",
+//     "Ability to handle over 1 trillion requests per day",
+//     "Automatic conversion of relational schemas",
+//     "Native OLAP query optimization"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS database service is designed to be a high‑performance, cost‑effective alternative to commercial databases and is up to 3.5x faster than MySQL and PostgreSQL?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon DynamoDB",
+//     "Amazon Aurora",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS service is best suited for OLAP workloads such as trend analysis and BI reporting on large volumes of historical data?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon DynamoDB",
+//     "Amazon Redshift",
+//     "Amazon Aurora"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which statement best describes a Data Warehouse such as Amazon Redshift?",
+//   "answers": [
+//     "A repository for raw, unstructured data used for machine learning and advanced analytics",
+//     "A structured system optimized for complex queries, joins, and periodic updates",
+//     "A NoSQL database designed for low‑latency key‑value access",
+//     "A graph database used for analyzing highly connected datasets"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which statement best describes a Data Lake?",
+//   "answers": [
+//     "A structured repository optimized for OLAP workloads and BI reporting",
+//     "A vast storage system for diverse, unstructured data where transformation happens later",
+//     "A relational database optimized for high‑speed transactions",
+//     "A graph database for modeling social networks"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is a major risk of poorly managed Data Lakes?",
+//   "answers": [
+//     "Data silos",
+//     "Data swamps",
+//     "High IOPS consumption",
+//     "Excessive schema enforcement"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service is purpose‑built for storing and querying highly connected datasets such as social graphs?",
+//   "answers": [
+//     "Amazon Redshift",
+//     "Amazon Aurora",
+//     "Amazon Neptune",
+//     "Amazon DynamoDB"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS service helps migrate on‑premises databases to AWS with minimal downtime?",
+//   "answers": [
+//     "AWS SCT",
+//     "AWS DMS",
+//     "Amazon RDS",
+//     "Amazon Redshift Spectrum"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS tool is used to convert database schemas during migrations, such as from Oracle to PostgreSQL?",
+//   "answers": [
+//     "AWS DMS",
+//     "Amazon Aurora",
+//     "AWS SCT",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A financial analytics company needs a database that supports complex transactions, high durability, and medium-to-high write rates. They do NOT expect massive read/write spikes and do not want to manage sharding. Which service is the best fit?",
+//   "answers": [
+//     "Amazon DynamoDB",
+//     "Amazon RDS",
+//     "Amazon Redshift",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A gaming platform needs a database that can handle unpredictable traffic spikes, low-latency reads, and over a trillion requests per day. The data is semi-structured and does not require SQL joins. Which service should they choose?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon Aurora",
+//     "Amazon DynamoDB",
+//     "Amazon Redshift"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A company wants a high-performance relational database engine that is compatible with MySQL and PostgreSQL, offers high availability, and is significantly faster than traditional open-source databases. Which service meets these requirements?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon Aurora",
+//     "Amazon DynamoDB",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A retail organization needs to run complex analytical queries on petabytes of historical sales data. They want to integrate data stored in S3 without loading it into the warehouse first. Which service should they use?",
+//   "answers": [
+//     "Amazon RDS",
+//     "Amazon DynamoDB",
+//     "Amazon Redshift with Redshift Spectrum",
+//     "Amazon Aurora"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A data science team wants to store massive volumes of raw, unstructured data from IoT devices. They plan to run machine learning and advanced analytics later, after transforming the data. Which solution is the best fit?",
+//   "answers": [
+//     "Data Warehouse",
+//     "Amazon DynamoDB",
+//     "Data Lake",
+//     "Amazon RDS"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A company’s Data Lake has grown rapidly, and analysts report that data is inconsistent, poorly cataloged, and difficult to use. What problem is the company experiencing?",
+//   "answers": [
+//     "Data Silos",
+//     "Data Swamps",
+//     "OLTP bottlenecks",
+//     "Sharding failures"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A social networking startup needs a database that can efficiently store and query highly connected datasets, such as user relationships, followers, and recommendations. Which AWS service is the best fit?",
+//   "answers": [
+//     "Amazon Redshift",
+//     "Amazon Neptune",
+//     "Amazon DynamoDB",
+//     "Amazon Aurora"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company wants to migrate its on-premises Oracle database to Amazon Aurora PostgreSQL. They need to convert the schema and then replicate data with minimal downtime. Which combination of services should they use?",
+//   "answers": [
+//     "Amazon RDS and Amazon Redshift",
+//     "AWS SCT and AWS DMS",
+//     "Amazon DynamoDB and AWS Glue",
+//     "Amazon Neptune and AWS DMS"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A business wants to consolidate multiple legacy databases into AWS with continuous replication during the migration. They need the source database to remain operational throughout the process. Which service should they use?",
+//   "answers": [
+//     "AWS SCT",
+//     "Amazon Aurora",
+//     "AWS DMS",
+//     "Amazon Redshift Spectrum"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A BI team needs a system optimized for complex joins, trend analysis, and periodic batch updates. The workload involves large volumes of historical data and OLAP-style queries. Which AWS service is the best match?",
+//   "answers": [
+//     "Amazon DynamoDB",
+//     "Amazon Redshift",
+//     "Amazon RDS",
+//     "Amazon Neptune"
+//   ],
+//   "correct": 1
+// },
 {
   "question": "How does Amazon S3 replicate objects by default to achieve high durability?",
   "answers": [
@@ -1576,6 +1576,116 @@ export class AwsArchitectService {
     "Consider mechanical sympathy"
   ],
   "correct": 0
+},
+{
+  "question": "Which design principle is recommended for achieving Performance Efficiency in the AWS Well-Architected Framework?",
+  "answers": [
+    "Enable traceability",
+    "Analyze and attribute expenditure",
+    "Democratize advanced technologies",
+    "Match supply with demand"
+  ],
+  "correct": 2
+},
+{
+  "question": "Which of the following is NOT one of the four areas of the Performance Efficiency pillar?",
+  "answers": [
+    "Monitoring",
+    "Tradeoffs",
+    "Selection",
+    "Traceability"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which set correctly represents the five categories evaluated by AWS Trusted Advisor?",
+  "answers": [
+    "Performance, cost optimization, access control, connectivity, security",
+    "Security, fault tolerance, high availability, connectivity, service limits",
+    "Security, access control, high availability, performance, service limits",
+    "Performance, cost optimization, security, fault tolerance, service limits"
+  ],
+  "correct": 3
+},
+{
+  "question": "Which of the following is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
+  "answers": [
+    "Stop guessing capacity",
+    "Maintain traceability",
+    "Test recovery procedures",
+    "Automatically recover from failure"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on ensuring a workload performs its intended function correctly and consistently?",
+  "answers": [
+    "Operational Excellence",
+    "Reliability",
+    "Performance Efficiency",
+    "Security"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
+  "answers": [
+    "Operational Excellence",
+    "Reliability",
+    "Security",
+    "Cost Optimization"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on using IT and computing resources efficiently as demand changes?",
+  "answers": [
+    "Performance Efficiency",
+    "Operational Excellence",
+    "Sustainability",
+    "Cost Optimization"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which AWS Well-Architected Pillar addresses long-term environmental, economic, and societal impact?",
+  "answers": [
+    "Security",
+    "Sustainability",
+    "Cost Optimization",
+    "Reliability"
+  ],
+  "correct": 1
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs?",
+  "answers": [
+    "Cost Optimization",
+    "Performance Efficiency",
+    "Operational Excellence",
+    "Security"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
+  "answers": [
+    "Security",
+    "Reliability",
+    "Operational Excellence",
+    "Sustainability"
+  ],
+  "correct": 0
+},
+{
+  "question": "Which of the following is required when creating an Amazon EC2 Auto Scaling launch configuration?",
+  "answers": [
+    "Load balancer",
+    "Amazon Elastic Block Store (EBS) volumes",
+    "Instance type",
+    "Amazon Machine Image (AMI)"
+  ],
+  "correct": 3
 },
 
       // {
