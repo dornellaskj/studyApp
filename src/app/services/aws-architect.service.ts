@@ -1200,593 +1200,1008 @@ export class AwsArchitectService {
 //   ],
 //   "correct": 1
 // },
+// {
+//   "question": "How does Amazon S3 replicate objects by default to achieve high durability?",
+//   "answers": [
+//     "On multiple S3 buckets",
+//     "On multiple volumes within an Availability Zone",
+//     "In multiple Availability Zones within the same Region",
+//     "Across multiple Regions for higher durability"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following is NOT one of the six pillars of the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Performance Efficiency",
+//     "Security",
+//     "Disaster Recovery",
+//     "Sustainability"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which one is NOT part of the Operational Excellence Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Perform operations as code",
+//     "Make infrequent and large changes",
+//     "Refine operations procedures frequently",
+//     "Anticipate failure",
+//     "Use managed services"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which one is NOT part of the Security Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Perform operations as code",
+//     "Maintain traceability",
+//     "Apply security at all layers",
+//     "Protect data in transit and at rest",
+//     "Keep people away from data"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which one is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Perform operations as code",
+//     "Test recovery procedures",
+//     "Automatically recover from failure",
+//     "Maintain traceability",
+//     "Scale horizontally to increase aggregate workload availability",
+//     "Stop guessing capacity"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which of the following is NOT a best practice under the Performance Efficiency Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Democratize advanced technologies",
+//     "Go global in minutes",
+//     "Use serverless architectures",
+//     "Experiment more often",
+//     "Failure management"
+//   ],
+//   "correct": 4
+// },
+// {
+//   "question": "Which of the following is NOT a principle of the Cost Optimization Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Adopt a consumption model",
+//     "Measure overall efficiency",
+//     "Test recovery procedures",
+//     "Stop spending money on undifferentiated heavy lifting",
+//     "Analyze and attribute expenditure"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following best describes the purpose of a load balancer in a distributed computing environment?",
+//   "answers": [
+//     "To allocate network bandwidth to different applications.",
+//     "To evenly distribute incoming network traffic across multiple servers or resources.",
+//     "To monitor the health and performance of network devices.",
+//     "To encrypt and decrypt data transmitted over the network."
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which of the following AWS services is primarily used for monitoring and logging of AWS resources and applications?",
+//   "answers": [
+//     "Amazon CloudFront",
+//     "Amazon CloudWatch",
+//     "AWS CloudTrail",
+//     "Amazon CloudFormation"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service automatically adjusts the number of EC2 instances in a fleet based on demand?",
+//   "answers": [
+//     "Auto Scaling",
+//     "EC2 Auto Scaling",
+//     "Elastic Load Balancing",
+//     "AWS Lambda"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What is the primary purpose of Elastic Load Balancing?",
+//   "answers": [
+//     "To store objects across multiple Availability Zones",
+//     "To balance incoming traffic across multiple servers",
+//     "To encrypt data in transit",
+//     "To monitor application performance"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which type of load balancer operates at Layer 4 and is best suited for spikey, unpredictable traffic?",
+//   "answers": [
+//     "Application Load Balancer",
+//     "Network Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which load balancer supports assigning a static IP address or Elastic IP?",
+//   "answers": [
+//     "Application Load Balancer",
+//     "Network Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which load balancer is typically used for routing traffic to containerized applications and supports Layer 7 routing?",
+//   "answers": [
+//     "Network Load Balancer",
+//     "Application Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service monitors resources and allows you to set alarms or trigger events such as Auto Scaling?",
+//   "answers": [
+//     "AWS CloudTrail",
+//     "Amazon CloudWatch",
+//     "AWS Config",
+//     "Amazon Inspector"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS service provides auditing by recording who did what and when in your AWS account?",
+//   "answers": [
+//     "Amazon CloudWatch",
+//     "AWS CloudTrail",
+//     "AWS Config",
+//     "AWS IAM"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which scaling type in EC2 Auto Scaling adjusts capacity based on real‑time metrics such as CPU utilization?",
+//   "answers": [
+//     "Scheduled scaling",
+//     "Predictive scaling",
+//     "Dynamic scaling",
+//     "Horizontal scaling"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which EC2 Auto Scaling feature increases or decreases the number of instances at specific times based on a known schedule?",
+//   "answers": [
+//     "Dynamic scaling",
+//     "Predictive scaling",
+//     "Scheduled scaling",
+//     "Horizontal scaling"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which EC2 Auto Scaling method uses machine learning to forecast future traffic and scale ahead of demand?",
+//   "answers": [
+//     "Scheduled scaling",
+//     "Predictive scaling",
+//     "Dynamic scaling",
+//     "Manual scaling"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "What does horizontal scaling refer to in EC2 Auto Scaling?",
+//   "answers": [
+//     "Increasing the size of an instance",
+//     "Adding more instances to handle load",
+//     "Migrating workloads across Regions",
+//     "Using larger instance families"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Your company is experiencing sudden spikes in traffic during flash sales. You need a load balancer that can handle extremely high, unpredictable traffic patterns and also supports assigning a static IP address. Which load balancer should you choose?",
+//   "answers": [
+//     "Application Load Balancer",
+//     "Network Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A development team is deploying a microservices-based application using containers. They need a load balancer that can route traffic based on HTTP headers and paths. Which AWS service best fits this requirement?",
+//   "answers": [
+//     "Network Load Balancer",
+//     "Application Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Your security team needs to audit all API calls made in your AWS account to determine who performed specific actions and when. Which service should they use?",
+//   "answers": [
+//     "Amazon CloudWatch",
+//     "AWS CloudTrail",
+//     "AWS Config",
+//     "Amazon Inspector"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company wants to automatically scale its EC2 instances based on CPU utilization and memory usage in real time. Which EC2 Auto Scaling feature should they rely on?",
+//   "answers": [
+//     "Scheduled scaling",
+//     "Predictive scaling",
+//     "Dynamic scaling",
+//     "Horizontal scaling"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Your operations team wants to receive an alert whenever CPU usage on an EC2 instance exceeds 80% for more than 5 minutes. Which AWS service should they configure?",
+//   "answers": [
+//     "AWS CloudTrail",
+//     "Amazon CloudWatch",
+//     "AWS Config",
+//     "Amazon SNS"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company knows that traffic to their application increases every weekday at 9 AM. They want EC2 instances to scale out automatically just before the spike. Which Auto Scaling method should they use?",
+//   "answers": [
+//     "Dynamic scaling",
+//     "Predictive scaling",
+//     "Scheduled scaling",
+//     "Horizontal scaling"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Your application requires third‑party virtual appliances such as firewalls and intrusion detection systems to inspect traffic before it reaches your workloads. Which load balancer type is designed for this scenario?",
+//   "answers": [
+//     "Application Load Balancer",
+//     "Network Load Balancer",
+//     "Gateway Load Balancer",
+//     "Classic Load Balancer"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A company wants to reduce operational overhead by avoiding the need to manage servers, patch operating systems, or handle scaling manually. Which Well-Architected principle best supports this goal?",
+//   "answers": [
+//     "Use managed services",
+//     "Implement observability for actionable insights",
+//     "Stop guessing capacity",
+//     "Democratize advanced technologies"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Your security team needs to ensure that all API calls in the AWS account can be traced back to a specific user or role. Which Security pillar principle does this requirement align with?",
+//   "answers": [
+//     "Maintain traceability",
+//     "Keep people away from data",
+//     "Prepare for security events",
+//     "Apply security at all layers"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A company wants to minimize the risk of data exposure by ensuring that engineers never directly access production databases. Which Security pillar principle does this support?",
+//   "answers": [
+//     "Protect data in transit and at rest",
+//     "Automate security best practices",
+//     "Keep people away from data",
+//     "Implement a strong identity foundation"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Your application must remain available even if individual components fail. The team wants AWS to automatically detect and replace unhealthy instances. Which Reliability principle does this describe?",
+//   "answers": [
+//     "Test recovery procedures",
+//     "Automatically recover from failure",
+//     "Manage change in automation",
+//     "Scale horizontally"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company is expanding globally and wants to deploy its application closer to users in multiple Regions with minimal effort. Which Performance Efficiency principle does this align with?",
+//   "answers": [
+//     "Go global in minutes",
+//     "Experiment more often",
+//     "Use serverless architectures",
+//     "Consider mechanical sympathy"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Your finance team wants better visibility into cloud spending and needs a process for allocating costs to individual teams. Which Cost Optimization principle addresses this?",
+//   "answers": [
+//     "Adopt a consumption model",
+//     "Analyze and attribute expenditure",
+//     "Measure overall efficiency",
+//     "Stop spending money on undifferentiated heavy lifting"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company wants to reduce its environmental impact by ensuring workloads run efficiently and avoid idle resources. Which Sustainability principle does this support?",
+//   "answers": [
+//     "Maximize utilization",
+//     "Understand your impact",
+//     "Use managed services",
+//     "Establish sustainability goals"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Your organization wants to ensure that as more energy‑efficient AWS hardware becomes available, your workloads can automatically benefit without major redesign. Which Sustainability principle applies?",
+//   "answers": [
+//     "Anticipate and adopt new, more efficient hardware and software offerings",
+//     "Reduce downstream impact",
+//     "Maximize utilization",
+//     "Use managed services"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A team wants to improve system reliability by reducing the risk of human error during deployments. They decide to automate configuration changes and rollouts. Which Reliability principle does this support?",
+//   "answers": [
+//     "Manage change in automation",
+//     "Stop guessing capacity",
+//     "Scale horizontally",
+//     "Test recovery procedures"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Your engineering team wants to experiment with new architectures quickly without needing deep expertise in specialized technologies. Which Performance Efficiency principle supports this?",
+//   "answers": [
+//     "Democratize advanced technologies",
+//     "Experiment more often",
+//     "Use serverless architectures",
+//     "Consider mechanical sympathy"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which design principle is recommended for achieving Performance Efficiency in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Enable traceability",
+//     "Analyze and attribute expenditure",
+//     "Democratize advanced technologies",
+//     "Match supply with demand"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which of the following is NOT one of the four areas of the Performance Efficiency pillar?",
+//   "answers": [
+//     "Monitoring",
+//     "Tradeoffs",
+//     "Selection",
+//     "Traceability"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which set correctly represents the five categories evaluated by AWS Trusted Advisor?",
+//   "answers": [
+//     "Performance, cost optimization, access control, connectivity, security",
+//     "Security, fault tolerance, high availability, connectivity, service limits",
+//     "Security, access control, high availability, performance, service limits",
+//     "Performance, cost optimization, security, fault tolerance, service limits"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which of the following is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
+//   "answers": [
+//     "Stop guessing capacity",
+//     "Maintain traceability",
+//     "Test recovery procedures",
+//     "Automatically recover from failure"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on ensuring a workload performs its intended function correctly and consistently?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Reliability",
+//     "Performance Efficiency",
+//     "Security"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Reliability",
+//     "Security",
+//     "Cost Optimization"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on using IT and computing resources efficiently as demand changes?",
+//   "answers": [
+//     "Performance Efficiency",
+//     "Operational Excellence",
+//     "Sustainability",
+//     "Cost Optimization"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar addresses long-term environmental, economic, and societal impact?",
+//   "answers": [
+//     "Security",
+//     "Sustainability",
+//     "Cost Optimization",
+//     "Reliability"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs?",
+//   "answers": [
+//     "Cost Optimization",
+//     "Performance Efficiency",
+//     "Operational Excellence",
+//     "Security"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
+//   "answers": [
+//     "Security",
+//     "Reliability",
+//     "Operational Excellence",
+//     "Sustainability"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which of the following is required when creating an Amazon EC2 Auto Scaling launch configuration?",
+//   "answers": [
+//     "Load balancer",
+//     "Amazon Elastic Block Store (EBS) volumes",
+//     "Instance type",
+//     "Amazon Machine Image (AMI)"
+//   ],
+//   "correct": 3
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Security",
+//     "Cost Optimization",
+//     "Sustainability"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar ensures workloads perform correctly and consistently when expected?",
+//   "answers": [
+//     "Reliability",
+//     "Performance Efficiency",
+//     "Security",
+//     "Cost Optimization"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar emphasizes using IT and computing resources efficiently as demand changes?",
+//   "answers": [
+//     "Sustainability",
+//     "Operational Excellence",
+//     "Performance Efficiency",
+//     "Security"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs and ensuring you pay only for what you need?",
+//   "answers": [
+//     "Cost Optimization",
+//     "Reliability",
+//     "Performance Efficiency",
+//     "Security"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
+//   "answers": [
+//     "Security",
+//     "Operational Excellence",
+//     "Sustainability",
+//     "Performance Efficiency"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "Which AWS Well-Architected Pillar addresses minimizing environmental impact and promoting long-term sustainability?",
+//   "answers": [
+//     "Cost Optimization",
+//     "Sustainability",
+//     "Operational Excellence",
+//     "Reliability"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A company wants to reduce waste, improve energy efficiency, and minimize long-term environmental impact. Which pillar guides these efforts?",
+//   "answers": [
+//     "Performance Efficiency",
+//     "Sustainability",
+//     "Security",
+//     "Cost Optimization"
+//   ],
+//   "correct": 1
+// },
+// {
+//   "question": "A team wants to automate operations, improve monitoring, and continuously refine processes. Which pillar does this align with?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Reliability",
+//     "Security",
+//     "Sustainability"
+//   ],
+//   "correct": 0
+// },
+// {
+//   "question": "A workload must withstand component failures and continue operating as expected. Which pillar is most relevant?",
+//   "answers": [
+//     "Security",
+//     "Cost Optimization",
+//     "Reliability",
+//     "Performance Efficiency"
+//   ],
+//   "correct": 2
+// },
+// {
+//   "question": "A business wants to adopt new hardware and software technologies quickly without needing deep expertise. Which pillar supports this?",
+//   "answers": [
+//     "Operational Excellence",
+//     "Performance Efficiency",
+//     "Sustainability",
+//     "Security"
+//   ],
+//   "correct": 1
+// },
 {
-  "question": "How does Amazon S3 replicate objects by default to achieve high durability?",
+  "question": "Which AWS service is primarily used for building cloud-based contact center solutions?",
   "answers": [
-    "On multiple S3 buckets",
-    "On multiple volumes within an Availability Zone",
-    "In multiple Availability Zones within the same Region",
-    "Across multiple Regions for higher durability"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following is NOT one of the six pillars of the AWS Well-Architected Framework?",
-  "answers": [
-    "Operational Excellence",
-    "Performance Efficiency",
-    "Security",
-    "Disaster Recovery",
-    "Sustainability"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which one is NOT part of the Operational Excellence Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Perform operations as code",
-    "Make infrequent and large changes",
-    "Refine operations procedures frequently",
-    "Anticipate failure",
-    "Use managed services"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which one is NOT part of the Security Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Perform operations as code",
-    "Maintain traceability",
-    "Apply security at all layers",
-    "Protect data in transit and at rest",
-    "Keep people away from data"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which one is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Perform operations as code",
-    "Test recovery procedures",
-    "Automatically recover from failure",
-    "Maintain traceability",
-    "Scale horizontally to increase aggregate workload availability",
-    "Stop guessing capacity"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which of the following is NOT a best practice under the Performance Efficiency Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Democratize advanced technologies",
-    "Go global in minutes",
-    "Use serverless architectures",
-    "Experiment more often",
-    "Failure management"
-  ],
-  "correct": 4
-},
-{
-  "question": "Which of the following is NOT a principle of the Cost Optimization Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Adopt a consumption model",
-    "Measure overall efficiency",
-    "Test recovery procedures",
-    "Stop spending money on undifferentiated heavy lifting",
-    "Analyze and attribute expenditure"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following best describes the purpose of a load balancer in a distributed computing environment?",
-  "answers": [
-    "To allocate network bandwidth to different applications.",
-    "To evenly distribute incoming network traffic across multiple servers or resources.",
-    "To monitor the health and performance of network devices.",
-    "To encrypt and decrypt data transmitted over the network."
-  ],
-  "correct": 1
-},
-{
-  "question": "Which of the following AWS services is primarily used for monitoring and logging of AWS resources and applications?",
-  "answers": [
-    "Amazon CloudFront",
-    "Amazon CloudWatch",
-    "AWS CloudTrail",
-    "Amazon CloudFormation"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service automatically adjusts the number of EC2 instances in a fleet based on demand?",
-  "answers": [
-    "Auto Scaling",
-    "EC2 Auto Scaling",
-    "Elastic Load Balancing",
-    "AWS Lambda"
-  ],
-  "correct": 1
-},
-{
-  "question": "What is the primary purpose of Elastic Load Balancing?",
-  "answers": [
-    "To store objects across multiple Availability Zones",
-    "To balance incoming traffic across multiple servers",
-    "To encrypt data in transit",
-    "To monitor application performance"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which type of load balancer operates at Layer 4 and is best suited for spikey, unpredictable traffic?",
-  "answers": [
-    "Application Load Balancer",
-    "Network Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which load balancer supports assigning a static IP address or Elastic IP?",
-  "answers": [
-    "Application Load Balancer",
-    "Network Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which load balancer is typically used for routing traffic to containerized applications and supports Layer 7 routing?",
-  "answers": [
-    "Network Load Balancer",
-    "Application Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service monitors resources and allows you to set alarms or trigger events such as Auto Scaling?",
-  "answers": [
-    "AWS CloudTrail",
-    "Amazon CloudWatch",
-    "AWS Config",
-    "Amazon Inspector"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS service provides auditing by recording who did what and when in your AWS account?",
-  "answers": [
-    "Amazon CloudWatch",
-    "AWS CloudTrail",
-    "AWS Config",
-    "AWS IAM"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which scaling type in EC2 Auto Scaling adjusts capacity based on real‑time metrics such as CPU utilization?",
-  "answers": [
-    "Scheduled scaling",
-    "Predictive scaling",
-    "Dynamic scaling",
-    "Horizontal scaling"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which EC2 Auto Scaling feature increases or decreases the number of instances at specific times based on a known schedule?",
-  "answers": [
-    "Dynamic scaling",
-    "Predictive scaling",
-    "Scheduled scaling",
-    "Horizontal scaling"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which EC2 Auto Scaling method uses machine learning to forecast future traffic and scale ahead of demand?",
-  "answers": [
-    "Scheduled scaling",
-    "Predictive scaling",
-    "Dynamic scaling",
-    "Manual scaling"
-  ],
-  "correct": 1
-},
-{
-  "question": "What does horizontal scaling refer to in EC2 Auto Scaling?",
-  "answers": [
-    "Increasing the size of an instance",
-    "Adding more instances to handle load",
-    "Migrating workloads across Regions",
-    "Using larger instance families"
-  ],
-  "correct": 1
-},
-{
-  "question": "Your company is experiencing sudden spikes in traffic during flash sales. You need a load balancer that can handle extremely high, unpredictable traffic patterns and also supports assigning a static IP address. Which load balancer should you choose?",
-  "answers": [
-    "Application Load Balancer",
-    "Network Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 1
-},
-{
-  "question": "A development team is deploying a microservices-based application using containers. They need a load balancer that can route traffic based on HTTP headers and paths. Which AWS service best fits this requirement?",
-  "answers": [
-    "Network Load Balancer",
-    "Application Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 1
-},
-{
-  "question": "Your security team needs to audit all API calls made in your AWS account to determine who performed specific actions and when. Which service should they use?",
-  "answers": [
-    "Amazon CloudWatch",
-    "AWS CloudTrail",
-    "AWS Config",
-    "Amazon Inspector"
-  ],
-  "correct": 1
-},
-{
-  "question": "A company wants to automatically scale its EC2 instances based on CPU utilization and memory usage in real time. Which EC2 Auto Scaling feature should they rely on?",
-  "answers": [
-    "Scheduled scaling",
-    "Predictive scaling",
-    "Dynamic scaling",
-    "Horizontal scaling"
-  ],
-  "correct": 2
-},
-{
-  "question": "Your operations team wants to receive an alert whenever CPU usage on an EC2 instance exceeds 80% for more than 5 minutes. Which AWS service should they configure?",
-  "answers": [
-    "AWS CloudTrail",
-    "Amazon CloudWatch",
-    "AWS Config",
+    "Amazon Connect",
+    "Amazon SES",
+    "Amazon ElastiCache",
     "Amazon SNS"
   ],
-  "correct": 1
-},
-{
-  "question": "A company knows that traffic to their application increases every weekday at 9 AM. They want EC2 instances to scale out automatically just before the spike. Which Auto Scaling method should they use?",
-  "answers": [
-    "Dynamic scaling",
-    "Predictive scaling",
-    "Scheduled scaling",
-    "Horizontal scaling"
-  ],
-  "correct": 2
-},
-{
-  "question": "Your application requires third‑party virtual appliances such as firewalls and intrusion detection systems to inspect traffic before it reaches your workloads. Which load balancer type is designed for this scenario?",
-  "answers": [
-    "Application Load Balancer",
-    "Network Load Balancer",
-    "Gateway Load Balancer",
-    "Classic Load Balancer"
-  ],
-  "correct": 2
-},
-{
-  "question": "A company wants to reduce operational overhead by avoiding the need to manage servers, patch operating systems, or handle scaling manually. Which Well-Architected principle best supports this goal?",
-  "answers": [
-    "Use managed services",
-    "Implement observability for actionable insights",
-    "Stop guessing capacity",
-    "Democratize advanced technologies"
-  ],
   "correct": 0
 },
 {
-  "question": "Your security team needs to ensure that all API calls in the AWS account can be traced back to a specific user or role. Which Security pillar principle does this requirement align with?",
+  "question": "Which AWS service provides a cloud-based integrated development environment for writing, running, and debugging code?",
   "answers": [
-    "Maintain traceability",
-    "Keep people away from data",
-    "Prepare for security events",
-    "Apply security at all layers"
-  ],
-  "correct": 0
-},
-{
-  "question": "A company wants to minimize the risk of data exposure by ensuring that engineers never directly access production databases. Which Security pillar principle does this support?",
-  "answers": [
-    "Protect data in transit and at rest",
-    "Automate security best practices",
-    "Keep people away from data",
-    "Implement a strong identity foundation"
-  ],
-  "correct": 2
-},
-{
-  "question": "Your application must remain available even if individual components fail. The team wants AWS to automatically detect and replace unhealthy instances. Which Reliability principle does this describe?",
-  "answers": [
-    "Test recovery procedures",
-    "Automatically recover from failure",
-    "Manage change in automation",
-    "Scale horizontally"
-  ],
-  "correct": 1
-},
-{
-  "question": "A company is expanding globally and wants to deploy its application closer to users in multiple Regions with minimal effort. Which Performance Efficiency principle does this align with?",
-  "answers": [
-    "Go global in minutes",
-    "Experiment more often",
-    "Use serverless architectures",
-    "Consider mechanical sympathy"
-  ],
-  "correct": 0
-},
-{
-  "question": "Your finance team wants better visibility into cloud spending and needs a process for allocating costs to individual teams. Which Cost Optimization principle addresses this?",
-  "answers": [
-    "Adopt a consumption model",
-    "Analyze and attribute expenditure",
-    "Measure overall efficiency",
-    "Stop spending money on undifferentiated heavy lifting"
-  ],
-  "correct": 1
-},
-{
-  "question": "A company wants to reduce its environmental impact by ensuring workloads run efficiently and avoid idle resources. Which Sustainability principle does this support?",
-  "answers": [
-    "Maximize utilization",
-    "Understand your impact",
-    "Use managed services",
-    "Establish sustainability goals"
-  ],
-  "correct": 0
-},
-{
-  "question": "Your organization wants to ensure that as more energy‑efficient AWS hardware becomes available, your workloads can automatically benefit without major redesign. Which Sustainability principle applies?",
-  "answers": [
-    "Anticipate and adopt new, more efficient hardware and software offerings",
-    "Reduce downstream impact",
-    "Maximize utilization",
-    "Use managed services"
-  ],
-  "correct": 0
-},
-{
-  "question": "A team wants to improve system reliability by reducing the risk of human error during deployments. They decide to automate configuration changes and rollouts. Which Reliability principle does this support?",
-  "answers": [
-    "Manage change in automation",
-    "Stop guessing capacity",
-    "Scale horizontally",
-    "Test recovery procedures"
-  ],
-  "correct": 0
-},
-{
-  "question": "Your engineering team wants to experiment with new architectures quickly without needing deep expertise in specialized technologies. Which Performance Efficiency principle supports this?",
-  "answers": [
-    "Democratize advanced technologies",
-    "Experiment more often",
-    "Use serverless architectures",
-    "Consider mechanical sympathy"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which design principle is recommended for achieving Performance Efficiency in the AWS Well-Architected Framework?",
-  "answers": [
-    "Enable traceability",
-    "Analyze and attribute expenditure",
-    "Democratize advanced technologies",
-    "Match supply with demand"
-  ],
-  "correct": 2
-},
-{
-  "question": "Which of the following is NOT one of the four areas of the Performance Efficiency pillar?",
-  "answers": [
-    "Monitoring",
-    "Tradeoffs",
-    "Selection",
-    "Traceability"
+    "X-Ray",
+    "CodeCommit",
+    "CloudShell",
+    "Cloud9"
   ],
   "correct": 3
 },
 {
-  "question": "Which set correctly represents the five categories evaluated by AWS Trusted Advisor?",
+  "question": "Which AWS service is primarily used for automating the test and deployment phases of the software release process?",
   "answers": [
-    "Performance, cost optimization, access control, connectivity, security",
-    "Security, fault tolerance, high availability, connectivity, service limits",
-    "Security, access control, high availability, performance, service limits",
-    "Performance, cost optimization, security, fault tolerance, service limits"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which of the following is NOT a principle of the Reliability Pillar in the AWS Well-Architected Framework?",
-  "answers": [
-    "Stop guessing capacity",
-    "Maintain traceability",
-    "Test recovery procedures",
-    "Automatically recover from failure"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on ensuring a workload performs its intended function correctly and consistently?",
-  "answers": [
-    "Operational Excellence",
-    "Reliability",
-    "Performance Efficiency",
-    "Security"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
-  "answers": [
-    "Operational Excellence",
-    "Reliability",
-    "Security",
-    "Cost Optimization"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on using IT and computing resources efficiently as demand changes?",
-  "answers": [
-    "Performance Efficiency",
-    "Operational Excellence",
-    "Sustainability",
-    "Cost Optimization"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which AWS Well-Architected Pillar addresses long-term environmental, economic, and societal impact?",
-  "answers": [
-    "Security",
-    "Sustainability",
-    "Cost Optimization",
-    "Reliability"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs?",
-  "answers": [
-    "Cost Optimization",
-    "Performance Efficiency",
-    "Operational Excellence",
-    "Security"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
-  "answers": [
-    "Security",
-    "Reliability",
-    "Operational Excellence",
-    "Sustainability"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which of the following is required when creating an Amazon EC2 Auto Scaling launch configuration?",
-  "answers": [
-    "Load balancer",
-    "Amazon Elastic Block Store (EBS) volumes",
-    "Instance type",
-    "Amazon Machine Image (AMI)"
-  ],
-  "correct": 3
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on protecting information, systems, and assets through risk assessments and mitigation strategies?",
-  "answers": [
-    "Operational Excellence",
-    "Security",
-    "Cost Optimization",
-    "Sustainability"
-  ],
-  "correct": 1
-},
-{
-  "question": "Which AWS Well-Architected Pillar ensures workloads perform correctly and consistently when expected?",
-  "answers": [
-    "Reliability",
-    "Performance Efficiency",
-    "Security",
-    "Cost Optimization"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which AWS Well-Architected Pillar emphasizes using IT and computing resources efficiently as demand changes?",
-  "answers": [
-    "Sustainability",
-    "Operational Excellence",
-    "Performance Efficiency",
-    "Security"
+    "AWS CodeBuild",
+    "AWS CodeDeploy",
+    "AWS CodePipeline",
+    "AWS CodeStar"
   ],
   "correct": 2
 },
 {
-  "question": "Which AWS Well-Architected Pillar focuses on avoiding unnecessary costs and ensuring you pay only for what you need?",
+  "question": "Which AWS service is primarily used for automating the phase of releasing software changes to production environments?",
   "answers": [
-    "Cost Optimization",
-    "Reliability",
-    "Performance Efficiency",
-    "Security"
-  ],
-  "correct": 0
-},
-{
-  "question": "Which AWS Well-Architected Pillar focuses on the ability to run and monitor systems to deliver business value and improve processes?",
-  "answers": [
-    "Security",
-    "Operational Excellence",
-    "Sustainability",
-    "Performance Efficiency"
+    "AWS CodeBuild",
+    "AWS CodeDeploy",
+    "AWS CodePipeline",
+    "AWS CodeStar"
   ],
   "correct": 1
 },
 {
-  "question": "Which AWS Well-Architected Pillar addresses minimizing environmental impact and promoting long-term sustainability?",
+  "question": "What sets Amazon AppStream 2.0 apart from Amazon WorkSpaces?",
   "answers": [
-    "Cost Optimization",
-    "Sustainability",
-    "Operational Excellence",
-    "Reliability"
+    "Amazon AppStream 2.0 provides virtual desktop infrastructure (VDI) solutions, while Amazon WorkSpaces facilitates the streaming of applications from the cloud.",
+    "Amazon AppStream 2.0 focuses on providing desktop environments in the cloud, while Amazon WorkSpaces is primarily used for streaming desktop applications.",
+    "Amazon AppStream 2.0 is designed for collaboration and productivity apps, while Amazon WorkSpaces is tailored for graphics-intensive applications.",
+    "Amazon AppStream 2.0 provides a fully managed, secure application streaming solution, while Amazon WorkSpaces offers managed, secure desktop-as-a-service."
   ],
-  "correct": 1
+  "correct": 3
 },
 {
-  "question": "A company wants to reduce waste, improve energy efficiency, and minimize long-term environmental impact. Which pillar guides these efforts?",
+  "question": "Which AWS service is primarily used for testing mobile apps on real devices in the cloud?",
   "answers": [
-    "Performance Efficiency",
-    "Sustainability",
-    "Security",
-    "Cost Optimization"
-  ],
-  "correct": 1
-},
-{
-  "question": "A team wants to automate operations, improve monitoring, and continuously refine processes. Which pillar does this align with?",
-  "answers": [
-    "Operational Excellence",
-    "Reliability",
-    "Security",
-    "Sustainability"
-  ],
-  "correct": 0
-},
-{
-  "question": "A workload must withstand component failures and continue operating as expected. Which pillar is most relevant?",
-  "answers": [
-    "Security",
-    "Cost Optimization",
-    "Reliability",
-    "Performance Efficiency"
+    "AWS Amplify",
+    "AWS AppSync",
+    "AWS Device Farm",
+    "AWS CodeStar"
   ],
   "correct": 2
 },
 {
-  "question": "A business wants to adopt new hardware and software technologies quickly without needing deep expertise. Which pillar supports this?",
+  "question": "Which AWS service is primarily used for large-scale data processing and analysis using Apache Hadoop, Spark, and other big data frameworks?",
   "answers": [
-    "Operational Excellence",
-    "Performance Efficiency",
-    "Sustainability",
-    "Security"
+    "Amazon Lex",
+    "Amazon Rekognition",
+    "Amazon SageMaker",
+    "Amazon EMR"
+  ],
+  "correct": 3
+},
+{
+  "question": "What distinguishes AWS Polly from AWS Textract?",
+  "answers": [
+    "AWS Polly is used for converting text into lifelike speech, while AWS Textract is used for extracting text and data from scanned documents.",
+    "AWS Polly is used for converting images into text, while AWS Textract is used for converting text into lifelike speech.",
+    "AWS Polly is used for converting speech into text, while AWS Textract is used for analyzing and extracting text from images and documents.",
+    "AWS Polly is used for analyzing text sentiment, while AWS Textract is used for recognizing and extracting text from images and documents."
+  ],
+  "correct": 0
+},
+  {
+    "question": "What is Amazon SNS primarily used for?",
+    "answers": [
+      "Routing events between applications and AWS services",
+      "Sending notifications to subscribers of a topic",
+      "Streaming video content to subscribers",
+      "Managing long-running workflows"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary purpose of Amazon EventBridge?",
+    "answers": [
+      "Routing events between applications and AWS services",
+      "Managing message queues for distributed systems",
+      "Executing serverless workflows",
+      "Sending push notifications to mobile devices"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which AWS service provides a fully managed message queue for decoupling applications?",
+    "answers": [
+      "Amazon SNS",
+      "Amazon SQS",
+      "AWS Step Functions",
+      "Amazon EventBridge"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which AWS service is used to coordinate serverless workflows and state machines?",
+    "answers": [
+      "Amazon SNS",
+      "AWS Step Functions",
+      "Amazon EventBridge",
+      "Amazon SQS"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Amazon SES primarily used for?",
+    "answers": [
+      "Managing chat-based collaboration",
+      "Sending and receiving email at scale",
+      "Streaming desktop applications",
+      "Caching frequently accessed data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Amazon Chime is best described as:",
+    "answers": [
+      "A cloud-based email delivery service",
+      "A communication and collaboration service similar to Slack",
+      "A workflow orchestration service",
+      "A managed Redis-compatible caching service"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Amazon ElastiCache is primarily used for:",
+    "answers": [
+      "Providing in-memory caching such as Redis",
+      "Sending email notifications",
+      "Managing desktop environments",
+      "Running chat applications"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does AWS Activate provide for startups?",
+    "answers": [
+      "Dedicated AWS engineers",
+      "Up to 100K in AWS business credits",
+      "Automatic scaling of applications",
+      "Free managed database hosting"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS IQ used for?",
+    "answers": [
+      "Hiring AWS-certified experts on demand",
+      "Automating infrastructure operations",
+      "Managing customer support tickets",
+      "Providing startup credits"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does AWS Managed Services provide?",
+    "answers": [
+      "A chatbot development platform",
+      "Operational management of your AWS infrastructure",
+      "A fully managed desktop environment",
+      "A marketplace for hiring AWS experts"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS Cloud9 primarily used for?",
+    "answers": [
+      "Monitoring distributed applications",
+      "Version control",
+      "A cloud-based IDE for writing and debugging code",
+      "Automating deployment pipelines"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "AWS CodeCommit is best described as:",
+    "answers": [
+      "A workflow orchestration service",
+      "A Git-based source control service",
+      "A deployment automation service",
+      "A build automation service"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS X-Ray used for?",
+    "answers": [
+      "Tracing and analyzing distributed applications",
+      "Streaming logs in real time",
+      "Managing source code",
+      "Building application artifacts"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does AWS CodeArtifact provide?",
+    "answers": [
+      "A Git-based code repository",
+      "A managed package repository like NPM",
+      "A deployment automation service",
+      "A build automation service"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS CodeBuild used for?",
+    "answers": [
+      "Managing package repositories",
+      "Building and testing source code",
+      "Deploying applications",
+      "Automating release pipelines"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS CodeDeploy used for?",
+    "answers": [
+      "Building application code",
+      "Automating deployments to compute services",
+      "Tracing distributed applications",
+      "Managing Git repositories"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS CodePipeline used for?",
+    "answers": [
+      "Providing a cloud IDE",
+      "Deploying applications to EC2",
+      "Managing package repositories",
+      "Automating the release process for applications"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is AWS CodeCatalyst designed to do?",
+    "answers": [
+      "Send email notifications",
+      "Streamline collaboration and automation pipelines",
+      "Provide a managed Redis cache",
+      "Manage IoT devices"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Amazon AppStream 2.0 primarily used for?",
+    "answers": [
+      "Running Redis-compatible caches",
+      "Streaming individual applications or virtual desktops",
+      "Providing managed email services",
+      "Building chatbots"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Amazon WorkSpaces provides:",
+    "answers": [
+      "A cloud-based IDE",
+      "A managed desktop-as-a-service environment",
+      "A virtual application streaming service",
+      "A managed Redis cache"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Amazon SageMaker primarily used for?",
+    "answers": [
+      "Extracting text from documents",
+      "Analyzing big data",
+      "Building and training machine learning models",
+      "Translating text between languages"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Amazon Lex used for?",
+    "answers": [
+      "Extracting text from scanned documents",
+      "Building conversational chatbots",
+      "Analyzing images and videos",
+      "Translating text"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Amazon Rekognition is primarily used for:",
+    "answers": [
+      "Chatbot development",
+      "Text translation",
+      "Computer vision and image/video analysis",
+      "Speech-to-text conversion"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Amazon EMR used for?",
+    "answers": [
+      "Extracting text from documents",
+      "Analyzing big data at petabyte scale",
+      "Building chatbots",
+      "Translating text"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does Amazon Comprehend do?",
+    "answers": [
+      "Recognizes objects in images",
+      "Analyzes text to uncover insights",
+      "Converts text into speech",
+      "Transcribes audio"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Amazon Kendra used for?",
+    "answers": [
+      "Speech-to-text conversion",
+      "Intelligent search across text documents",
+      "Building chatbots",
+      "Image recognition"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does Amazon Polly do?",
+    "answers": [
+      "Extracts text from scanned documents",
+      "Recognizes objects in images",
+      "Converts text into lifelike speech",
+      "Analyzes sentiment in text"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Amazon Textract used for?",
+    "answers": [
+      "Extracting text and data from scanned documents and forms",
+      "Analyzing big data",
+      "Converting text into speech",
+      "Building chatbots"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does Amazon Transcribe do?",
+    "answers": [
+      "Converts text to speech",
+      "Analyzes images",
+      "Converts speech to text",
+      "Translates text"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Amazon Translate used for?",
+    "answers": [
+      "Recognizing images",
+      "Translating text between languages",
+      "Transcribing audio",
+      "Analyzing text sentiment"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does AWS IoT Core enable?",
+    "answers": [
+      "Managing desktop environments",
+      "Connecting billions of devices and sending messages to AWS services",
+      "Analyzing big data",
+      "Building chatbots"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is AWS IoT Greengrass used for?",
+    "answers": [
+      "Providing edge runtime and managing device software",
+      "Analyzing images and videos",
+      "Connecting devices to the cloud",
+      "Building ML models"
+    ],
+    "correct": 0
+  },
+  {
+  "question": "In which scenario would you use AWS IoT Greengrass?",
+  "answers": [
+    "When you need to run virtual servers in the AWS cloud.",
+    "When you require edge computing capabilities for processing data locally on devices or edge locations.",
+    "When you need to deploy a fully managed data center infrastructure on-premises.",
+    "When you want to host web applications with scalable compute capacity."
   ],
   "correct": 1
-}
+},
+
+
+
+
+
       // {
       //   question:"Which of the below are factors that have helped make public cloud so powerful?",
       //   answers: [
