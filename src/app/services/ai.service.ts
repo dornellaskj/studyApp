@@ -1055,6 +1055,339 @@ export class AIService {
   "correct": 2
 },
 
+  {
+    "question": "What is the role of features in a machine learning model?",
+    "answers": [
+      "They represent the output the model predicts",
+      "They are the input variables used to make predictions",
+      "They are the errors the model tries to minimize",
+      "They are the labels assigned after training"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which best describes supervised learning?",
+    "answers": [
+      "Learning from unlabeled data by grouping similar items",
+      "Learning through trial, error, and rewards",
+      "Learning from labeled data to predict categories or numbers",
+      "Learning by manually coding rules into the system"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is most appropriate for predicting a continuous value?",
+    "answers": [
+      "Decision Trees",
+      "Random Forests",
+      "K-Nearest Neighbors",
+      "Linear Regression"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the main purpose of a decision tree?",
+    "answers": [
+      "To draw the best straight line through data",
+      "To break decisions into a series of yes/no questions",
+      "To cluster unlabeled data into groups",
+      "To simulate neuron-like structures for deep learning"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of a random forest over a single decision tree?",
+    "answers": [
+      "It always produces a linear model",
+      "It reduces overfitting by combining multiple trees",
+      "It requires no training data",
+      "It only works for regression tasks"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does k-NN primarily rely on to make predictions?",
+    "answers": [
+      "The distance to similar data points",
+      "A series of yes/no decision splits",
+      "A straight-line fit through the data",
+      "Reward and punishment signals"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which statement best describes neural networks?",
+    "answers": [
+      "They group unlabeled data into clusters",
+      "They pass data through layers of neurons specialized in different tasks",
+      "They rely on a single decision boundary",
+      "They always outperform simpler models"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary goal of statistics compared to machine learning?",
+    "answers": [
+      "Prediction accuracy",
+      "Inference and explanation",
+      "Continuous learning",
+      "Reward maximization"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does precision measure?",
+    "answers": [
+      "How many predicted positives were actually positive",
+      "How many true positives the model found",
+      "How many false negatives the model avoided",
+      "How many total predictions the model made"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which step of the ML lifecycle involves transforming raw data into useful inputs?",
+    "answers": [
+      "Model training",
+      "Feature engineering",
+      "Deployment",
+      "Monitoring"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are features in a machine learning dataset?",
+    "answers": [
+      "The values the model is trying to predict",
+      "The input variables used to make predictions",
+      "The errors produced during training",
+      "The categories assigned after classification"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are labels in machine learning?",
+    "answers": [
+      "The input variables used to train the model",
+      "The output values the model is trying to predict",
+      "The metadata describing each feature",
+      "The clusters formed during unsupervised learning"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens during the training phase of ML?",
+    "answers": [
+      "The model uses learned patterns to make predictions",
+      "The model learns patterns by analyzing features and labels",
+      "The model is deployed into production",
+      "The model is evaluated using unseen data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of testing in ML?",
+    "answers": [
+      "To adjust model weights during learning",
+      "To evaluate how well the learned pattern generalizes",
+      "To clean and prepare raw data",
+      "To transform features into new representations"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which best describes supervised learning?",
+    "answers": [
+      "Learning from unlabeled data by grouping similar items",
+      "Learning from labeled data to predict categories or numbers",
+      "Learning through trial and error using rewards",
+      "Learning by manually coded rules"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which task is an example of classification?",
+    "answers": [
+      "Predicting tomorrow's temperature",
+      "Predicting whether an email is spam or not",
+      "Estimating the price of a house",
+      "Grouping customers by similarity"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which task is an example of regression?",
+    "answers": [
+      "Predicting a product category",
+      "Predicting a continuous number",
+      "Grouping unlabeled data",
+      "Reward-based decision making"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What defines unsupervised learning?",
+    "answers": [
+      "Learning from labeled examples",
+      "Learning from unlabeled data by finding structure",
+      "Learning through rewards and penalties",
+      "Learning by fitting a straight line"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What characterizes reinforcement learning?",
+    "answers": [
+      "Learning from labeled examples",
+      "Learning by grouping similar data points",
+      "Learning through trial, error, rewards, and punishment",
+      "Learning by fitting a linear model"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does Linear Regression do?",
+    "answers": [
+      "Groups unlabeled data into clusters",
+      "Draws the best straight line through data to predict a number",
+      "Builds a tree of yes/no decisions",
+      "Combines multiple trees to improve accuracy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a decision tree used for?",
+    "answers": [
+      "Predicting continuous values",
+      "Breaking decisions into yes/no questions for classification",
+      "Grouping unlabeled data",
+      "Passing data through neuron layers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why are random forests effective?",
+    "answers": [
+      "They always produce linear models",
+      "They combine many slightly different trees to improve accuracy",
+      "They require no training data",
+      "They only work for regression tasks"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How does k-Nearest Neighbors make predictions?",
+    "answers": [
+      "By fitting a straight line",
+      "By passing data through neuron layers",
+      "By comparing a point to nearby similar data points",
+      "By building a series of yes/no splits"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a neural network?",
+    "answers": [
+      "A model that groups unlabeled data",
+      "A model that passes data through layers of specialized neurons",
+      "A model that always produces interpretable results",
+      "A model that uses only linear relationships"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary goal of statistics?",
+    "answers": [
+      "Prediction accuracy",
+      "Inference and explanation",
+      "Reward maximization",
+      "Continuous learning"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary goal of machine learning?",
+    "answers": [
+      "Inference and explanation",
+      "Finding causal relationships",
+      "Prediction and estimation",
+      "Grouping labeled data"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does a train/test split accomplish?",
+    "answers": [
+      "It ensures the model only trains on clean data",
+      "It separates data so the model can be evaluated on unseen examples",
+      "It increases the number of features",
+      "It reduces the number of labels"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does precision measure?",
+    "answers": [
+      "Of all predicted positives, how many were actually positive",
+      "Of all actual positives, how many the model found",
+      "How many total predictions the model made",
+      "How often the model predicts the majority class"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does recall measure?",
+    "answers": [
+      "Of all predicted positives, how many were correct",
+      "Of all actual positives, how many the model identified",
+      "How many false positives the model produced",
+      "How many features were used"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of feature engineering?",
+    "answers": [
+      "To deploy the model into production",
+      "To transform raw data into useful input features",
+      "To evaluate model accuracy",
+      "To monitor model drift"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens during model training?",
+    "answers": [
+      "The model learns patterns from the training data",
+      "The model is tested on unseen data",
+      "The model is deployed to users",
+      "The model is monitored for drift"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of deployment?",
+    "answers": [
+      "To clean and prepare data",
+      "To put the trained model into real-world use",
+      "To split data into training and testing sets",
+      "To adjust hyperparameters"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is model monitoring?",
+    "answers": [
+      "Checking if new trends make the model inaccurate",
+      "Training the model on new data",
+      "Splitting data into train and test sets",
+      "Transforming raw data into features"
+    ],
+    "correct": 0
+  }
+
+
+
 
   ]);
   }
