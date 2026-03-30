@@ -6,6 +6,7 @@ import { AwsSecurityService } from '../services/aws-security.service';
 import { CcspServiceService} from '../services/ccsp-service.service';
 import { AwsArchitectService} from '../services/aws-architect.service';
 import { AIService} from '../services/ai.service';
+import { MLService} from '../services/ml.service';
 
 @Component({
   selector: 'app-study',
@@ -36,7 +37,8 @@ export class StudyComponent implements OnInit {
     public awsSecurityService: AwsSecurityService,
     public ccspService: CcspServiceService,
     public awsArchService: AwsArchitectService,
-    public AIService: AIService
+    public AIService: AIService,
+    public mlService: MLService
   ) {}
 
   ngOnInit() {
@@ -75,7 +77,16 @@ export class StudyComponent implements OnInit {
         this.questionLabel = 'AWS Architect';
         this.setQuestion(this.index);
         break;
-        
+      case 6:
+        this.questions = this.AIService.getQuestions();
+        this.questionLabel = 'AI/ML';
+        this.setQuestion(this.index);
+        break;
+      case 7:
+        this.questions = this.mlService.getQuestions();
+        this.questionLabel = 'ML';
+        this.setQuestion(this.index);
+        break;
     }    
   }
 
